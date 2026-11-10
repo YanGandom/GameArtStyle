@@ -1,0 +1,4916 @@
+{
+  "meta": {
+    "title": "美国 App Store · 免费休闲游戏 TOP 100",
+    "country": "US",
+    "device": "iPhone",
+    "chart": "Top Free · Casual",
+    "date": "2026-11-05",
+    "snapshotUpdated": "2026-11-05 03:28（源站未注明时区）",
+    "retrievalDate": "2026-11-05",
+    "rankingSource": "https://m-s-y.com/en/app/ranking/top-free-casual/",
+    "appleChart": "https://apps.apple.com/us/iphone/charts/7003?chart=top-free",
+    "rankingNote": "采用 MSY Games 的 App Store 榜单快照前100名。Apple公开榜单页仅显示前25名，本次未直接核验完整实时100名；不混用不同来源的排名。",
+    "visualNote": "按公开商店展示图中的可见主体定位，非逐款实机体验。90款使用关联 Google Play 同款参考，10款使用 FoxData 的 iOS 商店图镜像（部分为其他地区）。跨平台与版本差异可能影响判断。",
+    "imageNote": "图片全部嵌入本文件，可离线查看；部分原图仅为商店预览尺寸，放大不会增加细节。宣传文字、手机外框与奖励展示不参与评分。",
+    "selectionNote": "保留来源列入休闲榜的全部100款，包括射击、博彩及合集；分类沿用榜单，不另作删选。",
+    "imageCount": 309,
+    "imageBytes": 9998802
+  },
+  "method": {
+    "x": "卡通 / 抽象 → 写实",
+    "y": "自然主义 → 风格化",
+    "xWeights": [
+      0.6,
+      0.4
+    ],
+    "yWeights": [
+      0.25,
+      0.4,
+      0.35
+    ],
+    "xLabels": [
+      "比例与轮廓自然度",
+      "结构具象度"
+    ],
+    "yLabels": [
+      "色彩的主观组织",
+      "明暗的图形化处理",
+      "表面的媒介化处理"
+    ],
+    "coordinateStep": 5,
+    "definition": "X只比较可见主体的形体、比例与结构；Y只比较色彩、明暗、材质或绘画表达。抽象界面的X=0表示缺乏自然形体参照，不能解读为卡通角色设计。",
+    "limits": "人工比较分档，不是客观测量；5分之差不代表确定差异。±范围是人工建议的比较弹性，不是统计置信区间。"
+  },
+  "colors": {
+    "角色": "#cb704d",
+    "物件": "#287b87",
+    "场景": "#4c6dba",
+    "抽象/界面": "#9065a6",
+    "合集/混合": "#847754"
+  },
+  "games": [
+    {
+      "rank": 1,
+      "name": "Meowdoku!",
+      "appId": "6761760135",
+      "redirectId": "307249",
+      "googlePackage": "com.oakever.meowdoku",
+      "appleUrl": "https://apps.apple.com/us/app/id6761760135",
+      "group": "抽象/界面",
+      "scope": "猫头像与逻辑棋盘",
+      "reason": "猫被压缩为圆头、尖耳和点状五官；棋盘采用平面色区与线框，几乎不描述材料光照。评棋盘与猫棋子，不计封面的三维猫。",
+      "xParts": [
+        0.5,
+        0.5
+      ],
+      "yParts": [
+        4,
+        5,
+        4.5
+      ],
+      "x": 10,
+      "y": 90,
+      "uncertainty": 10,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.oakever.meowdoku&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/bb8b79d9c1cac2ca61bb.webp",
+          "url": "https://play-lh.googleusercontent.com/qsGiOZrr0qmnA9hPmwRv79Qq_xnta6onx8aaf_RGat7b-8sQK269EyS4CIkFbisjEQpfIxmfBXnPYOm5t87uSA=w526-h296-rw",
+          "width": 526,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/62b290b6f4f3aee59454.webp",
+          "url": "https://play-lh.googleusercontent.com/YXx6a9mEaDZGBmzyJtpLIhjeMov2nf38c11z_DqAOWfGZBJcI3K8h0Wg9aZ_RjE-vcWsn4wT8UDLjlQ5T-mcHQ=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/2701d7ad866ea01508e6.webp",
+          "url": "https://play-lh.googleusercontent.com/Za1xf69AfQhjsFuW9iYfd49gq6YS9EKjzUXcmqEcCLcMMr1la2AroigZ8KkAI3Leg1qwpAavaobzrDhaFlAX8A=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/de1f0f27ad2cb40ddb5b.webp",
+          "url": "https://play-lh.googleusercontent.com/YXx6a9mEaDZGBmzyJtpLIhjeMov2nf38c11z_DqAOWfGZBJcI3K8h0Wg9aZ_RjE-vcWsn4wT8UDLjlQ5T-mcHQ=w2560-h1440-rw",
+          "width": 810,
+          "height": 1440,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "Block Out! – Color Sort Puzzle",
+      "appId": "6752672568",
+      "redirectId": "307251",
+      "googlePackage": null,
+      "appleUrl": "https://apps.apple.com/us/app/id6752672568",
+      "group": "物件",
+      "scope": "凸点积木与滑块",
+      "reason": "轮廓按拼合规则几何化，具象结构少；凸点、高光和阴影提供体积，但色块按解题功能强烈编码。",
+      "xParts": [
+        1,
+        1
+      ],
+      "yParts": [
+        4,
+        3,
+        3
+      ],
+      "x": 20,
+      "y": 65,
+      "uncertainty": 10,
+      "platform": "iOS 商店图 · FoxData 镜像（HK）",
+      "referenceSource": "https://foxdata.com/en/app-marketing-analytics/6752672568/as/HK/block-out-color-sort-puzzle/",
+      "images": [
+        {
+          "file": "assets/images/82d610da845dc15a79c2.webp",
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/70/38/e5/7038e5dc-5fcf-26ab-6b29-69547f7a46aa/CLEARTHEBOARD.jpg/460x0w.png",
+          "width": 460,
+          "height": 999,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/22f2385631b1eebf1bdb.webp",
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a1/cd/b4/a1cdb409-726b-09db-fb67-e9131c9e5c46/CHALLENGEYOURSELF.jpg/460x0w.png",
+          "width": 460,
+          "height": 999,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/acb1c53f17d3902848d5.webp",
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ac/fc/e7/acfce70d-5909-4a58-5f92-76493de32eb5/ACTIVATEBOOSTERS.jpg/460x0w.png",
+          "width": 460,
+          "height": 999,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/454211a602936f71460b.webp",
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b1/0f/17/b10f173c-189c-6537-af3a-9c046b5e18d5/UNIQUEOBSTACLES.jpg/460x0w.png",
+          "width": 460,
+          "height": 999,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "Magic Sort!",
+      "appId": "6499209744",
+      "redirectId": "307252",
+      "googlePackage": "com.grandgames.magicsort",
+      "appleUrl": "https://apps.apple.com/us/app/id6499209744",
+      "group": "物件",
+      "scope": "分层液体与玻璃瓶",
+      "reason": "瓶身仍有可辨的细颈和容器结构；液体被切成互不混合的纯色层，玻璃只保留简化高光。",
+      "xParts": [
+        3,
+        2.5
+      ],
+      "yParts": [
+        4,
+        3.5,
+        3
+      ],
+      "x": 55,
+      "y": 70,
+      "uncertainty": 10,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.grandgames.magicsort&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/fcb4967682c7a93ca0e7.webp",
+          "url": "https://play-lh.googleusercontent.com/iEUZV1kLcQW2_YSPSKK_soEZuzJxkLItyhE6Y1CbV0uSzvyj6nmtk_1hvjuWDPBXXbEO3K-YdEGpXXdkjdkk=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/0d037761a0e626becb13.webp",
+          "url": "https://play-lh.googleusercontent.com/bMX8E6MfcISLL8A-NJ4EXOcJDCtHJJHGOM2d_LjvwFkinjiLN3emhsG9h5rHKUKGqv0ZcZxRFrbvjIbKFnGaP9A=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/b1eaa7b880ab8313f8d9.webp",
+          "url": "https://play-lh.googleusercontent.com/QuUg9Jju_OCoUsed8KBwbf6h8wmoLYziMy_ehJUFD5VKP0_tDGJJt9EbO4CX_H1vS6TlTwLhpDACfXI1DiTrrNE=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/8172799b5ee41e2e0780.webp",
+          "url": "https://play-lh.googleusercontent.com/Sfjf17zKf3Bmn3adCl7c-URmELzpW7lDWxiJ8Tfz-_VAIPUo0F5eP3HIgJ2_GO7KmHtvTR8zQ4F8p2ZJ29sOMvk=w526-h296-rw",
+          "width": 526,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "Block Blast！",
+      "appId": "1617391485",
+      "redirectId": "307257",
+      "googlePackage": "com.block.juggle",
+      "appleUrl": "https://apps.apple.com/us/app/id1617391485",
+      "group": "抽象/界面",
+      "scope": "方格消除棋子",
+      "reason": "几何方格是主要形体，缺少具象参照；倒角与小范围渐变带来浅浮雕感，整体仍由色块组织。",
+      "xParts": [
+        0.5,
+        0.5
+      ],
+      "yParts": [
+        4,
+        4,
+        3.5
+      ],
+      "x": 10,
+      "y": 75,
+      "uncertainty": 10,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.block.juggle&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/14eb9dda835d6dcfef67.webp",
+          "url": "https://play-lh.googleusercontent.com/Kk0zhxkemu6XOoTOdnfwuav6SqhCF0x2sNf2ZAllenVz_0vCcZT3K1_cTLuGBNm_qH2yAElbT61Lc3FS8fezZMA=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/02636f77e125abf8fab9.webp",
+          "url": "https://play-lh.googleusercontent.com/dnreoc3iLNyiTjYehzbmPXs1prYXFABNSJfSJqSStPCnuyCzltw4MGdd53-H1te8MzH8hcSZhuoPRhuy5SbeGA=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/575ef6535ea1277a154d.webp",
+          "url": "https://play-lh.googleusercontent.com/sogNkRq2d8VqbVUlTdHi-Ni1m5DkHQmWYlvG44CJ5pD6kmtBnkX_gk3xcL1RpOPV3Q4QrQEbt_lWTbo409Wh=w526-h296-rw",
+          "width": 526,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/79d4982c0261004ad920.webp",
+          "url": "https://play-lh.googleusercontent.com/ZK1wgRgPHI7KcH8Onn73cxtrpxn2K5lWxASSxLFRVHG54VYF5aICrpGODO0hTgX-bl5rEqnHkLa-3TndPSdS0A=w526-h296-rw",
+          "width": 526,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "Rotate Rings",
+      "appId": "6793924927",
+      "redirectId": "415015",
+      "googlePackage": "com.nebula.rotaterings",
+      "appleUrl": "https://apps.apple.com/us/app/id6793924927",
+      "group": "物件",
+      "scope": "彩色开口圆环",
+      "reason": "圆环被统一成规则模块，空间关系服务拼图；色相分区强，少量投影保留玩具质感。",
+      "xParts": [
+        1.5,
+        1
+      ],
+      "yParts": [
+        4,
+        3.5,
+        3
+      ],
+      "x": 25,
+      "y": 70,
+      "uncertainty": 10,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.nebula.rotaterings&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/a57d69eda5ca2ae54177.webp",
+          "url": "https://play-lh.googleusercontent.com/ypQoZEv0K2uztBWtNKEu6koGobEXEqkcH6dGoA0fRDjU0CyiYTjIAMEpJqZT2_lUUiA47PdHLDsEKfOHfSx83MA=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/a6f4ed906c7b023dc504.webp",
+          "url": "https://play-lh.googleusercontent.com/-I9RvqaUV3K2ZbAUySCY_93TVtGzuQ3_RA1ZN1TpVkbIxQMHhQFjZCndLb1aw3ric5zIlrYInO_xxs-zan6YgQ=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/91d16fd0d9b4b93c1eb8.webp",
+          "url": "https://play-lh.googleusercontent.com/wvlwqK74K0lNezofxYssMoNnKfR-wM_qOZ1h47pa898Rwp6xEHNxM4VpTlOLRnaAFlkN_cf5NPXV44b_-DPm4Q=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/9905cef4848894e275fd.webp",
+          "url": "https://play-lh.googleusercontent.com/uui1OaGo5q8DUkqxxPyKGot15emaz7ZaBrg90-lTw7yzmolfgt-XYqXuoTS-utbSD5fZE1hfrMCKLIG0MKdndw=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "Brain Puzzle 3: Crazy Mind",
+      "appId": "6756482832",
+      "redirectId": "307452",
+      "googlePackage": "com.brain.crazy.joygame",
+      "appleUrl": "https://apps.apple.com/us/app/id6756482832",
+      "group": "角色",
+      "scope": "关卡人物插画",
+      "reason": "成人体态仍清晰，面部和表情作漫画化处理；描线、平面色区和手绘阴影占主导。各关卡人物比例有差异。",
+      "xParts": [
+        3.5,
+        2.5
+      ],
+      "yParts": [
+        4,
+        4.5,
+        4.5
+      ],
+      "x": 60,
+      "y": 90,
+      "uncertainty": 15,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.brain.crazy.joygame&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/28d27de1f3e51b15c671.webp",
+          "url": "https://play-lh.googleusercontent.com/x1Wu0MolbbgRrG_cU0b_Eo1PICnGDHqvVlK60bfnhVUwEGmB-IiWEr3nx5TDhRAe_BEPYvNnQC-TYcvIgpHzK1k=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/d3d93fecb23c55f2c98f.webp",
+          "url": "https://play-lh.googleusercontent.com/UsHhTmnAQeWaabW47Z5WeqVs3xEufjtuCFrFp2lPBYzti5fCHzWs6b_XLuRsjXNxMMTioN1-rgXjXM_G14JkiQ=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/15a133f3e425d2b9278e.webp",
+          "url": "https://play-lh.googleusercontent.com/PVhxY5MaQtQYDujBTsLdz3ncl_tnP6m_m-60GR6fwTxRk1hf3VVSXXECM3c0DdCEKXe7dye_A2PqIHW3RccS=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "Township",
+      "appId": "638689075",
+      "redirectId": "307271",
+      "googlePackage": "com.playrix.township",
+      "appleUrl": "https://apps.apple.com/us/app/id638689075",
+      "group": "场景",
+      "scope": "农场建筑与作物",
+      "reason": "房屋和田地保留现实功能，但屋顶、作物与地形呈玩具式概括；柔和阴影配高饱和固有色。",
+      "xParts": [
+        2.5,
+        2
+      ],
+      "yParts": [
+        3,
+        2.5,
+        2.5
+      ],
+      "x": 45,
+      "y": 55,
+      "uncertainty": 10,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.playrix.township&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/faa1cba2234120f9abf3.webp",
+          "url": "https://play-lh.googleusercontent.com/-aCA3a-E031C4Hh9OZ_BO74aUvgbpBcz-sJuSZgEg1nf09p1KIVlq1TV7IS05wDzViIM89VHJmuY7mRaobnEnQ=w526-h296-rw",
+          "width": 526,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/dc854eb523d4c924d9df.webp",
+          "url": "https://play-lh.googleusercontent.com/VJV08rKAgDOtdzK8AN3lHcmV7wL7yqgzKG6lNi7N-C_SD5r1eTm_ya_sUZJuMUzC0ZeIxVj2f8c2TdPbfB1Vjw=w526-h296-rw",
+          "width": 526,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/fa2b264b8018331b0c7b.webp",
+          "url": "https://play-lh.googleusercontent.com/6fBmvnzdFvguJDSgomIDShSwjyXxto76X5Glid2HSYCERMnDTfb15Q1jZQ5NDMnojWqy1CXCt6ImuFgzjK1XKzA=w526-h296-rw",
+          "width": 526,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/799ea86635352c27cde9.webp",
+          "url": "https://play-lh.googleusercontent.com/Hq4gg_lqgUO-NZLGHdis-olfGBeRWT0sMWit95bOGt3h44xUXDdiFDFyJHd0TfB_r1H0K3fXYAJYYmMKQuh5=w526-h296-rw",
+          "width": 526,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "Bus Traffic Fever!",
+      "appId": "6759763476",
+      "redirectId": "307255",
+      "googlePackage": "jp.co.goodroid.hyper.busflow",
+      "appleUrl": "https://apps.apple.com/us/app/id6759763476",
+      "group": "物件",
+      "scope": "巴士与乘客棋子",
+      "reason": "巴士被缩短、圆角化，乘客简化成成排小人；有连续体积与接触阴影，颜色主要承担分类功能。",
+      "xParts": [
+        2,
+        2
+      ],
+      "yParts": [
+        3.5,
+        2.5,
+        2.5
+      ],
+      "x": 40,
+      "y": 55,
+      "uncertainty": 10,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=jp.co.goodroid.hyper.busflow&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/5f3b6121e8806fdd70f1.webp",
+          "url": "https://play-lh.googleusercontent.com/vca8Iw1F0ERcbF1osIH0K3Px7iiJdz5LT98G8ScNPnldD3BnmyeRbYArR8gxIY_qurE5AWfs0Jn85d1dgHFwCA=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/c6fdfa5f1a118783228c.webp",
+          "url": "https://play-lh.googleusercontent.com/kUQqWbA910FD2qxMYo4w1NzA-uBf4GxHsUuPkZanX-9IKTTDqEUWA3HWTtQ3mt37eSuBYGQvt5F8x5o9OFOwFT0=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/e85ba1672aea77c95e25.webp",
+          "url": "https://play-lh.googleusercontent.com/QnrOGchibp6vbJC6CBmJ4ZVhGedR-FkVs1lnReWTbrQ3ihoc4htJyzw4lLoJC5h41RbfIz5vVhdmuPyUiwwe=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "Bus Fever Party!",
+      "appId": "6746743297",
+      "redirectId": "368294",
+      "googlePackage": "gridplus.busjam.carpuzzle",
+      "appleUrl": "https://apps.apple.com/us/app/id6746743297",
+      "group": "物件",
+      "scope": "交通拼图的车与人",
+      "reason": "车辆和乘客均采用紧凑的玩具比例；塑料般的统一表面与鲜艳分组色，保持简化三维光照。",
+      "xParts": [
+        2,
+        2
+      ],
+      "yParts": [
+        3.5,
+        2.5,
+        2.5
+      ],
+      "x": 40,
+      "y": 55,
+      "uncertainty": 10,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=gridplus.busjam.carpuzzle&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/dad785192ad303fa8562.webp",
+          "url": "https://play-lh.googleusercontent.com/Y8o_aXb8tfVFjYJiCdz3qAf4pXJGgxSorXDSKqw9AMVpdzv98hpL4-SiKxyfODjaPOtU1HY6_dGg28u--akF=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/4abae950245fe8f5a0f6.webp",
+          "url": "https://play-lh.googleusercontent.com/yz0Qa5YEn5VVXZ2PmB74ZCMnJ6FRNFTsYRH-9es617SGcDqZVdFF03c-5gD6XIr_s6FNWTIiffmyicPeHWae=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/76beba7b680f2db1391e.webp",
+          "url": "https://play-lh.googleusercontent.com/gLRbwS_5wESuJV263HjWZ9GAYkrSbh3qUkGpqAdKpCNpB7oWTvKvR3qOtto1WaLBQla-R97eWMFc_NSJNP8zDec=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "Amaze GO!™",
+      "appId": "6758326278",
+      "redirectId": "307266",
+      "googlePackage": "com.oakever.arrows",
+      "appleUrl": "https://apps.apple.com/us/app/id6758326278",
+      "group": "抽象/界面",
+      "scope": "箭头线条棋盘",
+      "reason": "图形几乎完全抽象，依靠方向和连线表达；单色线条与平面底色不模拟真实体积。",
+      "xParts": [
+        0,
+        0
+      ],
+      "yParts": [
+        3.5,
+        5,
+        5
+      ],
+      "x": 0,
+      "y": 95,
+      "uncertainty": 5,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.oakever.arrows&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/a8d58ef6d79fe00231a0.webp",
+          "url": "https://play-lh.googleusercontent.com/CP0P_f0vGa_Zs0TzqFHXPWXKoekUqj3T1X0tT1ZJ8GCxb41ex8rYaBIkKwtIkbI9ZbiXcqh4a_fC0GM00cEhuw=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/113ebd870473cd0e3b7c.webp",
+          "url": "https://play-lh.googleusercontent.com/mTHQQKdlE833qjxl6-NEj13Uh0N-DlksiINnk007WCUn6a64odva8vtTHJ-_mGXJ8hGrPmHhe1Tw2uJPJOImTbI=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/03e4f02e25035ac30c0d.webp",
+          "url": "https://play-lh.googleusercontent.com/Z-c_KF2YXzpSw8D15uQ7jIlV0v3HNPTR--ifUTLQSSk79efRLIgcord81sP3rXxzaYT-QPkjaoVfoiQbnXNS8i4=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "Gossip Harbor®: Merge & Story",
+      "appId": "1623318294",
+      "redirectId": "307264",
+      "googlePackage": "com.mergegames.gossipharbor",
+      "appleUrl": "https://apps.apple.com/us/app/id1623318294",
+      "group": "角色",
+      "scope": "故事人物",
+      "reason": "大眼、圆脸和夸张表情形成欧美卡通比例；皮肤与衣物有柔和体积，但毛孔和织物细节被概括。商店图混有剧情宣传构图。",
+      "xParts": [
+        2.5,
+        1.5
+      ],
+      "yParts": [
+        3,
+        2.5,
+        2.5
+      ],
+      "x": 40,
+      "y": 55,
+      "uncertainty": 15,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.mergegames.gossipharbor&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/488f7c35b8d815017f1d.webp",
+          "url": "https://play-lh.googleusercontent.com/1dofeIFKvycMzQnQP7eZ06hufLJmQUu7miEhCNSAsQiyrX8ImszsCgUfRqe1Skoi_SMe1YoFBlMfcAk8stdPDw=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/eed42e7527ee373270c9.webp",
+          "url": "https://play-lh.googleusercontent.com/jwuDLhQpOxDqPLj2Xz2JDv2NErnlVjLC6sImkrUpIIyT-j8vGCLGLMMH32qzRj_FzhPxCFpulEk621F_2TT0=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/0eb38f29d927e264ab20.webp",
+          "url": "https://play-lh.googleusercontent.com/n8MYQ9sOjyEOzM2gw1Sqqr0bLPTgycvYKezDH68zphPOlxAmcOZsmN1Ifyw73fed5PuBlNBNkcLPsZgUE0sD=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "Tasty Travels: Merge Game",
+      "appId": "6471045672",
+      "redirectId": "307268",
+      "googlePackage": "com.fatmerge.global",
+      "appleUrl": "https://apps.apple.com/us/app/id6471045672",
+      "group": "物件",
+      "scope": "合成棋盘中的食物",
+      "reason": "餐点保留可辨轮廓，却被压缩为圆润、大小统一的图标；高光与色彩被强化，采用洁净的插画式体积。",
+      "xParts": [
+        2.5,
+        2
+      ],
+      "yParts": [
+        3.5,
+        3,
+        2.5
+      ],
+      "x": 45,
+      "y": 60,
+      "uncertainty": 10,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.fatmerge.global&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/8535a2afa63fc2ff9ca5.webp",
+          "url": "https://play-lh.googleusercontent.com/oFug23yj9dYxtko9zEURKoVFgatMfKy_cNixw7N79KT3tZbJIhEi6IAumOAkwe58G1AxFGDWCoFWgUBD1ahq8fg=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/1b4067d9c977cf337657.webp",
+          "url": "https://play-lh.googleusercontent.com/u4TyCe51jZpgpQkBJb1jq5KDMN4fzahOQBzjtaMIhdaW66PnYwM7LbE5jYHvNR357YzEWaH3pg1z-KUxaV_WJVA=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/06af7cf56faced1038a5.webp",
+          "url": "https://play-lh.googleusercontent.com/YBI0J2NIjCEoxHtD-PsANkXi5q6clQnu6gA2-kvr0ggd7WVvsVLTFOIaf2YO1PFqaqduccmnxo7pcdp_JQqyow=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "Car Evolve",
+      "appId": "6754464806",
+      "redirectId": "307622",
+      "googlePackage": "io.heseri.car",
+      "appleUrl": "https://apps.apple.com/us/app/id6754464806",
+      "group": "物件",
+      "scope": "跑道车辆",
+      "reason": "车身比例和车轮位置接近真实车辆，结构有所简化；明亮路面和简化反射强化游戏感，不按漂浮赛道题材降写实度。",
+      "xParts": [
+        3.5,
+        3
+      ],
+      "yParts": [
+        3,
+        2.5,
+        2
+      ],
+      "x": 65,
+      "y": 50,
+      "uncertainty": 15,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=io.heseri.car&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/d007828811611d348bd9.webp",
+          "url": "https://play-lh.googleusercontent.com/ETS0uL27fR5D7sZRcWJ9SlGLjXXPWoKyC52OFN3VAIuoMbnXM-8k9A2M1j8eHQDp1u1LzRt7gw4HaXwccerT2A=w526-h296-rw",
+          "width": 137,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/843e2b34589098b461ac.webp",
+          "url": "https://play-lh.googleusercontent.com/vB12IYziqvOdpxWc03riZ5yTJyVMeigchQxuQ4UXzonxmSUxcu7RnF9INMr2Qjmu-sXpuqLEFMVSpIelizAdvA=w526-h296-rw",
+          "width": 137,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/ab1ae92b071550631ccd.webp",
+          "url": "https://play-lh.googleusercontent.com/AzjgEO_2mu2_HkxPBDoI2q10eSGbNaxmvH8QNKE4Btbu0EwrwoZ5vQ9lJ_ZtX0XFrzYv-fYwbHDmEkpZ9YEQ2g=w526-h296-rw",
+          "width": 137,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "Food Hunt: Pixel Puzzle",
+      "appId": "6769314786",
+      "redirectId": "307289",
+      "googlePackage": "com.vigafun.funfinity.foodhunt",
+      "appleUrl": "https://apps.apple.com/us/app/id6769314786",
+      "group": "抽象/界面",
+      "scope": "像素拼图与小棋子",
+      "reason": "食物图案被离散网格重组，轮廓高度概括；色彩分区与像素边界显著，体积信息有限。",
+      "xParts": [
+        0.5,
+        1
+      ],
+      "yParts": [
+        4.5,
+        4,
+        4.5
+      ],
+      "x": 15,
+      "y": 85,
+      "uncertainty": 10,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.vigafun.funfinity.foodhunt&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/f84812f35c3eb93bd26b.webp",
+          "url": "https://play-lh.googleusercontent.com/mbUcYy64eridoFcbm3C4FaqgmWA3ABtDmi_gVw-VryCGddWiwQRlZd5rAu26iXFien9P9tS_dugrVN1jJUe2L2Q=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/3871702863c45b8411de.webp",
+          "url": "https://play-lh.googleusercontent.com/6VfdBGWRwScOSJOSzHH7UL_ZUalkOaOmRBPmPk-jX98pi0R3l6q_7gdLfwZd0wv-flH5alWkLlotpGslW6HitQ=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/360ef404cd9c3824afd9.webp",
+          "url": "https://play-lh.googleusercontent.com/7gnquddRJM_Cxk3eVil6LOcqdtk-Rp7hS9Ni9GoDZ9LBqJB3LddGwC_coLTcJgTHlj2QM7gqV83qm-6XvAK0fA=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "Magic Tiles 3™: Piano Game",
+      "appId": "1443446174",
+      "redirectId": "307297",
+      "googlePackage": "com.youmusic.magictiles",
+      "appleUrl": "https://apps.apple.com/us/app/id1443446174",
+      "group": "抽象/界面",
+      "scope": "商店所示歌曲选择界面",
+      "reason": "本次可见图以列表、按钮和专辑缩略图为主，评功能界面的图形组织；不把歌手照片当作游戏角色，也不据此判断全部演奏场景。",
+      "xParts": [
+        0,
+        0
+      ],
+      "yParts": [
+        4,
+        5,
+        4.5
+      ],
+      "x": 0,
+      "y": 90,
+      "uncertainty": 20,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.youmusic.magictiles&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/a4eae97366dc7c4e8058.webp",
+          "url": "https://play-lh.googleusercontent.com/g71P25wh0ovS22Mzkjwh0sYBFK3cp23CKCN_At1gAn-G3t3g2wRJYgR5nuejMv-lw0rLqYZ9EnCN2VHpySQFBA=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/e4aa711d1943fd48471f.webp",
+          "url": "https://play-lh.googleusercontent.com/dzYcd9cSI47lEby01bi84Uf2aGMIgEAngRJLmOysEZWOvUfBeiLdusyyiIvHhnB6HDhX2zqFnUR99JJMkbFUmg=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/aca2bdc14f8b31e80bbd.webp",
+          "url": "https://play-lh.googleusercontent.com/K308szuXS0oVALJXlpE5kMd9wr7jv-Hbf6e42su5pB_yHsDyJDJaNxEDhwve_kmBP-e9HWYfFy86npKhYzucI1w=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "Triumph Arcade",
+      "appId": "1608987929",
+      "redirectId": "307278",
+      "googlePackage": null,
+      "appleUrl": "https://apps.apple.com/us/app/id1608987929",
+      "group": "合集/混合",
+      "scope": "合集内棋盘与小游戏界面",
+      "reason": "可见内容包含纸牌、棋盘、球类等不同模式；代表点反映简化物件与界面的共同倾向，不能代表每个子游戏。封面低多边形人像不计入。",
+      "xParts": [
+        1.5,
+        1.5
+      ],
+      "yParts": [
+        3.5,
+        3.5,
+        3
+      ],
+      "x": 30,
+      "y": 65,
+      "uncertainty": 25,
+      "platform": "iOS 商店图 · FoxData 镜像（US）",
+      "referenceSource": "https://foxdata.com/en/app-marketing-analytics/1608987929/as/US/triumph-play-for-cash/",
+      "images": [
+        {
+          "file": "assets/images/9cde1ee476477bd195c1.webp",
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7a/f4/d0/7af4d068-0037-2e0a-2d7f-79e9566874e5/1242x2688_2.jpg/720x0w.png",
+          "width": 720,
+          "height": 1558,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/32c890395e55c0ca48d9.webp",
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e7/c6/dd/e7c6dd1e-4a49-6c3e-ba4a-93cd7883eb48/1242x2688_1.jpg/720x0w.png",
+          "width": 720,
+          "height": 1558,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/366b1a39606c9aadd841.webp",
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/df/18/32/df183210-5a0c-687c-ad34-54e6d6ffab4a/1242x2688_3.jpg/720x0w.png",
+          "width": 720,
+          "height": 1558,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/14e76d9005d2e7eb10da.webp",
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/35/e9/5c/35e95c27-637d-19cc-555c-276f9d79baed/1242x2688_4.jpg/720x0w.png",
+          "width": 720,
+          "height": 1558,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "Fish Sort Puzzle – Bubble Jam",
+      "appId": "6771681639",
+      "redirectId": "392201",
+      "googlePackage": null,
+      "appleUrl": "https://apps.apple.com/us/app/id6771681639",
+      "group": "角色",
+      "scope": "泡泡中的鱼",
+      "reason": "鱼类的大眼、短身和圆润鳍片明显拟人化；表面使用连续渐变与闪亮高光，水下色彩经过强化。",
+      "xParts": [
+        1.5,
+        1
+      ],
+      "yParts": [
+        3.5,
+        2.5,
+        2.5
+      ],
+      "x": 25,
+      "y": 55,
+      "uncertainty": 10,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=triple.sorting.bubble.fish.match&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/8751757843f7236ee52c.webp",
+          "url": "https://play-lh.googleusercontent.com/HN1rJavYcjWbREnhBr_GnatnoRXXjCLiXDu2ONf17Knh0IHpy6WGnDTIXiSIpW8_CTGPH16vVuSMNTpixbmQlw=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/592cc682018b76ebe3fc.webp",
+          "url": "https://play-lh.googleusercontent.com/1mFYE7Lnhh3tepjSUrQxA3RX9IuxpRshR-H4tFsA_Z0lyThccBLss3jV753kfl2dEgKJUuI_gtjUmHKgCF0k=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/768521d7b879dca7aab4.webp",
+          "url": "https://play-lh.googleusercontent.com/BLtDnwp6H1FldsCsrJ9gP07Ejh1bhtQHpOX6bdyQA5BByJI6tErC6gm0dKdV801L9prVEc3Ff2CDtZtaUJGoSw=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "Royal Smash! – Physics Puzzle",
+      "appId": "6780891673",
+      "redirectId": "307326",
+      "googlePackage": "com.cyphergames.royalsmash",
+      "appleUrl": "https://apps.apple.com/us/app/id6780891673",
+      "group": "物件",
+      "scope": "积木建筑与炮台",
+      "reason": "城堡被压缩成色彩积木，炮台轮廓圆润；三维阴影清楚，但材质统一、色彩糖果化。",
+      "xParts": [
+        2,
+        1.5
+      ],
+      "yParts": [
+        3.5,
+        2.5,
+        2.5
+      ],
+      "x": 35,
+      "y": 55,
+      "uncertainty": 10,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.cyphergames.royalsmash&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/c468c520ddd332954cfb.webp",
+          "url": "https://play-lh.googleusercontent.com/gyE0rrS_jX4KQxjVSFVeWse7odrbBxV2PfSAt7v-DKfzHfEr3czuREUIoyX1DohEjbkZQT13tNLZChxoa4CJ=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/9f1107669f51a844258c.webp",
+          "url": "https://play-lh.googleusercontent.com/zDpfWchpN1b97nhoKS862e9a0gEJ-MoVWj41bITiPmzeqkndlgCm2fMoNXORfBErpEg9p4e4rp6OpfY_ewMi=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/28e80dbe339df8b8256d.webp",
+          "url": "https://play-lh.googleusercontent.com/2YoMl_KYN7iUoMphPP5E39seq7O-Raegd55hfgcq0CRcp_r9e67hPaQc4N2KHEFHg1b55WAj5cBki6KWbsp1=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "Paper.io 2",
+      "appId": "1423046460",
+      "redirectId": "307282",
+      "googlePackage": "io.voodoo.paper2",
+      "appleUrl": "https://apps.apple.com/us/app/id1423046460",
+      "group": "抽象/界面",
+      "scope": "占地区域与移动棋子",
+      "reason": "领地与路径本质为抽象色区，棋子体积简单；高饱和底色、边界和发光效果主导。不同皮肤可带来形体变化。",
+      "xParts": [
+        0.5,
+        0.5
+      ],
+      "yParts": [
+        4,
+        4,
+        3.5
+      ],
+      "x": 10,
+      "y": 75,
+      "uncertainty": 15,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=io.voodoo.paper2&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/629d4cca800faa7eb461.webp",
+          "url": "https://play-lh.googleusercontent.com/qseziZ-Sb4IV__KJ4KZYNXTIlsX6rjSzK5OoDkSHz64HN3BgBsG16VTiyFYIjDBN217c55UjdbilvW--iN7F-mk=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/8814dec544448b517cae.webp",
+          "url": "https://play-lh.googleusercontent.com/oGedj4cO0FDwy7ypWWXi7rlm-n6RrJL_6DxiVtDp0elNJualZJn2WceHu638bGCt4pWc5nwtPNCWvy2m6DMbaZY=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/b4d5d8ec6fccc29aa432.webp",
+          "url": "https://play-lh.googleusercontent.com/bGiaAxqx2eF2s0iyO7NcG4yQ9rsGI5Mwg4aEAkfkBNDDUF6NFW6O2oWlcP2cY-hefnoNHpv3VnZf_EnDSqQWyA=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "Gardenscapes",
+      "appId": "1105855019",
+      "redirectId": "307347",
+      "googlePackage": "com.playrix.gardenscapes",
+      "appleUrl": "https://apps.apple.com/us/app/id1105855019",
+      "group": "角色",
+      "scope": "商店场景中的人物",
+      "reason": "人物体块紧凑，面部、手脚明显概括；表面光照柔和而纹理简化，整体为明亮的卡通立体表现。",
+      "xParts": [
+        2.5,
+        2
+      ],
+      "yParts": [
+        3,
+        2.5,
+        2.5
+      ],
+      "x": 45,
+      "y": 55,
+      "uncertainty": 15,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.playrix.gardenscapes&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/46922419ff7e8092c16b.webp",
+          "url": "https://play-lh.googleusercontent.com/35B0ljIOTAB3oBRgQYMwhlBp4MBR1T2YsIzxdXWIZVCOQv5OyQkQFxDJGK9wVOabMG9bL8SDMt4iCFvLk4iQGnY=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/58a69006f0c034cc9e41.webp",
+          "url": "https://play-lh.googleusercontent.com/uHoccSaatOMEv2DhLPnu1uEUd44BmZrsffPt-On_rCxb5kF8sulFv76jdD29AzByYaKPMnqqQprzDgvMIb1m0A=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/4a28a0eff54096352b32.webp",
+          "url": "https://play-lh.googleusercontent.com/OePdUeeTsnqOncqmG6TIwY3BuuadQR09AzlKyYIPeZk6StZfpyu2zhJ27KKbxrBXAHyc-2IwQ98M3eNZ8KpDkw=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 21,
+      "name": "Jigsaw Drop: Solitaire Puzzle",
+      "appId": "6767091927",
+      "redirectId": "308079",
+      "googlePackage": "jigsaw.solitaire.match.games.free",
+      "appleUrl": "https://apps.apple.com/us/app/id6767091927",
+      "group": "合集/混合",
+      "scope": "拼图卡面内容",
+      "reason": "所见卡面大量使用照片式动物、食物与景物，形体接近自然；不同卡面也含插画，点位只概括本次展示内容，不把卡片外框计入。",
+      "xParts": [
+        4.5,
+        4.5
+      ],
+      "yParts": [
+        1.5,
+        1.5,
+        1.5
+      ],
+      "x": 90,
+      "y": 30,
+      "uncertainty": 25,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=jigsaw.solitaire.match.games.free&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/df957f37a9a84e8e0ebe.webp",
+          "url": "https://play-lh.googleusercontent.com/Kyl1yQMYO53npaywuGfe2UZRVEA2zoB1O99nCTwPxMo_omltToMmrsUgM_cZbnbvir-933OkuzQgANL7F_Mq6g=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/9646f22af791055557b5.webp",
+          "url": "https://play-lh.googleusercontent.com/3Y9oH0gGXOQf0EMev44oLarKOuYqJ8e6PHTaSJBlDM58wJc1N2ZaSIqi9w-iD3PjRrjY35rBKdECyFmJT4Uo=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/f422eefd523e503e9dd3.webp",
+          "url": "https://play-lh.googleusercontent.com/SZREF2_cVRAFki-hl1UbOYgIHG-t4hsxGi9yQ9rVwcoFFiwfEOwl9tOazKpQGY23rC_E7QXVUcJ0o6_0-gQpUQ=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 22,
+      "name": "GOGO! Blast",
+      "appId": "6776522053",
+      "redirectId": "393098",
+      "googlePackage": "com.nebula.arrows",
+      "appleUrl": "https://apps.apple.com/us/app/id6776522053",
+      "group": "抽象/界面",
+      "scope": "黑白箭头迷宫",
+      "reason": "方向线条构成抽象路径，几乎没有物件结构；黑白描线和少量提示色形成高度图形化表达。",
+      "xParts": [
+        0,
+        0
+      ],
+      "yParts": [
+        3.5,
+        5,
+        5
+      ],
+      "x": 0,
+      "y": 95,
+      "uncertainty": 5,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.nebula.arrows&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/607fa4a56c3ef8a96682.webp",
+          "url": "https://play-lh.googleusercontent.com/80Q0xkUeU2DvLIie6d2d0eDCNxb2m37_CM6GFTTmeN0vKi8hEhzSiF7ynJ3RsI1JvjxFzCixp82xduA4F3dM2A=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/3a05ba4042d4722348f8.webp",
+          "url": "https://play-lh.googleusercontent.com/jYxFwoGmlPA84oCec_ov8coY0zDfAU-mKIUEiEYpBmm0PxkqAlkyPmxQ50jFkmRwzqmy8sZjS3vvtq8OHjXqABE=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/8a5a25bea554b63c4f2a.webp",
+          "url": "https://play-lh.googleusercontent.com/RpALciJFptB-15THdtdUvtdNKr-I3mE7-hAZoI6OzYGnr8Lg4B22_KDiSoW2sfj0EFF01_7hYDwsMQMB5fo2tTQ=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 23,
+      "name": "Yarn Loop: Knit Puzzle",
+      "appId": "6755183085",
+      "redirectId": "307311",
+      "googlePackage": "com.combo.yarnflow",
+      "appleUrl": "https://apps.apple.com/us/app/id6755183085",
+      "group": "物件",
+      "scope": "针织像素图案",
+      "reason": "图案轮廓按针脚网格概括；线团、线股与刺绣框保留体积，针织材料的可信度使表现强度低于纯平面像素画。",
+      "xParts": [
+        1,
+        1
+      ],
+      "yParts": [
+        3.5,
+        3,
+        2.5
+      ],
+      "x": 20,
+      "y": 60,
+      "uncertainty": 15,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.combo.yarnflow&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/e5ffb78d6bb11a7b8ce6.webp",
+          "url": "https://play-lh.googleusercontent.com/F4vvMs-eBinjDwV6b3LE3svi9lb02JmIy2ANEXJmLMCPQElB061ciqDtRk_iSfZXSBDD7yl321-mLjBwtjQ=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/ec185d96f5b9c35c11dd.webp",
+          "url": "https://play-lh.googleusercontent.com/SWy-aECm1UHJ1NbUqGzY6bAofBvo6jQAXdUU_NQk-kks40oyIs3_WRBa-YQN1_b2e4-XjxGswxext0QWfMX2LQ=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/7ac6e3b1ea5ddb658222.webp",
+          "url": "https://play-lh.googleusercontent.com/XISfU80eQCm4mbdpvlAwMHi16eB8W52-yYDOucs91uyUxRsHOk3XYxDjB26fy2S4rthEhUOIyhshG1nRGSJUmMY=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 24,
+      "name": "Colorever: Gem Art Puzzle",
+      "appId": "6761757565",
+      "redirectId": "376503",
+      "googlePackage": "com.oakever.gemcoloring",
+      "appleUrl": "https://apps.apple.com/us/app/id6761757565",
+      "group": "物件",
+      "scope": "珠粒拼成的图案",
+      "reason": "自然对象被规则小珠阵列重组；圆珠有高光和厚度，但画面依靠离散色阶而非连续自然明暗。",
+      "xParts": [
+        1,
+        1
+      ],
+      "yParts": [
+        3.5,
+        3,
+        2.5
+      ],
+      "x": 20,
+      "y": 60,
+      "uncertainty": 15,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.oakever.gemcoloring&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/878bf770b770634e4e60.webp",
+          "url": "https://play-lh.googleusercontent.com/wpemQxAL-O9239ef4BL2yuuU6SkVrXjJDjQE5NXnEroySAETYnHle9NxnQZ1r9YDd-Ap4W-pnLYOsY-dp0t4Wg=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/14f01fc3e2aa1870725e.webp",
+          "url": "https://play-lh.googleusercontent.com/ppGg690srDpj0cDOOVMRs4Ypb6EIMDEE9M2P9zk5ZTAYUdzoLGXJrajz9o55XFIGGGv2GMqpiCsyFjb0pYoH_Q=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/240eb4027c869372c36e.webp",
+          "url": "https://play-lh.googleusercontent.com/A4pM5JKEa-6bqFbje6KmBQLOeaAEPiv--t396pFdyEQ838S9dGxAWwENxk0k8pJeIgGBAd5Txu5YV-nY07b2cg=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 25,
+      "name": "Subway Surfers",
+      "appId": "512939461",
+      "redirectId": "307280",
+      "googlePackage": "com.kiloo.subwaysurf",
+      "appleUrl": "https://apps.apple.com/us/app/id512939461",
+      "group": "角色",
+      "scope": "跑酷人物",
+      "reason": "大头、大鞋、圆润肢体形成明确卡通比例；材质较统一，使用连续柔光与鲜艳配色，保留三维体积。",
+      "xParts": [
+        2,
+        1.5
+      ],
+      "yParts": [
+        3.5,
+        2.5,
+        2.5
+      ],
+      "x": 35,
+      "y": 55,
+      "uncertainty": 10,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.kiloo.subwaysurf&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/a40dcf57093c71c8cc4b.webp",
+          "url": "https://play-lh.googleusercontent.com/0WDSfcGVkNLrbllx6z5GaNVA5ubkuBy5xBxfD8se188KrSqO2c-AJMRguiJMyacj5nx58-sIlJU7IXbYz18CyA=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/de662ace0e12656ff95f.webp",
+          "url": "https://play-lh.googleusercontent.com/r1EF2Yo2IQUeXIvAB-ZQe6-7PNGc_sIEeUKMhcpGi7AUpvtiZruKU5EVoSQj0JeAZ5nt4AXAp5J692rX1qS54A=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/390fbd079cf3ecf54709.webp",
+          "url": "https://play-lh.googleusercontent.com/LR8_LkjuVSenDQi1AIhZQVpNXXvdWb5eRWoza8OrpxM0I4iT6-MH7GeZA9_k1ngB7j8wEZaoT76Lsh4nA4CaYw=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 26,
+      "name": "Top Lords",
+      "appId": "6767834940",
+      "redirectId": "328416",
+      "googlePackage": "com.gamespark.topking.gp",
+      "appleUrl": "https://apps.apple.com/us/app/id6767834940",
+      "group": "角色",
+      "scope": "道路战斗中的士兵",
+      "reason": "士兵缩成短小、重复的队列单位，装备细节概括；地面和人物保留三维阴影，阵营色有明显功能性。",
+      "xParts": [
+        2,
+        1.5
+      ],
+      "yParts": [
+        3,
+        2.5,
+        2.5
+      ],
+      "x": 35,
+      "y": 55,
+      "uncertainty": 15,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.gamespark.topking.gp&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/49758d14817d3457e755.webp",
+          "url": "https://play-lh.googleusercontent.com/e0_l53JnLo6AzKEtEuZT2U-Svm9vmOz7srWMolS7h3CA27l-296_IqmGgSBd1ZbmpIbFXsUYLapMm1ajugiSJw=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/cfad1e3acf2bcb001455.webp",
+          "url": "https://play-lh.googleusercontent.com/AaKZ2NFZiwdasZ61OLzwz4WHiQH9Ky-0D3PPMjYU6XC0R1ROIBxBQW8ECRi1clCbrn1-5jt-BT75BY8BApn1hg=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/71ef442d6199269a9deb.webp",
+          "url": "https://play-lh.googleusercontent.com/6jnzl8dbhLHXbO_TVVVIyvmLbmUDLV3RfbqBB8mONx2AFpz6jzzPj2yKSyLghFzC4z2P0k2DhS1KBhcep-BV=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 27,
+      "name": "Candy Crush Saga",
+      "appId": "553834731",
+      "redirectId": "307307",
+      "googlePackage": "com.king.candycrushsaga",
+      "appleUrl": "https://apps.apple.com/us/app/id553834731",
+      "group": "物件",
+      "scope": "糖果棋子",
+      "reason": "糖果被标准化成少量辨识度极高的轮廓；玻璃糖般高光与渐变被夸大，颜色以区分棋子为主。",
+      "xParts": [
+        1.5,
+        1
+      ],
+      "yParts": [
+        4,
+        3,
+        3
+      ],
+      "x": 25,
+      "y": 65,
+      "uncertainty": 10,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.king.candycrushsaga&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/be161df06a47f368c7bd.webp",
+          "url": "https://play-lh.googleusercontent.com/xpUmpGTgfd8L2MIm_WOSAe23Kh6QtarIiMHneZeSbcbBakGqPGqumARHPaf4slct7VdB8k4SVzMhVRouojCS=w526-h296-rw",
+          "width": 177,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/93acb6307655335bf126.webp",
+          "url": "https://play-lh.googleusercontent.com/DTiz3ODN6Hi8dfqdaNOPm_rOk4j9vwbQBn0Wpx7I6w9Hmuh7DYpjOKBV977tQgIkcpUnbXopHqvncuRKSn0yplE=w526-h296-rw",
+          "width": 177,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/85848f38e4be2be91667.webp",
+          "url": "https://play-lh.googleusercontent.com/xdO4K6fRIzlShYIDhMS4wEKkdkejl44CYyGq9XGMSxEa-_ZmBCuUwDUAkpDvpxylbGfslj9FjMnTi4dXIJ3rSQ=w526-h296-rw",
+          "width": 177,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 28,
+      "name": "Royal Kingdom",
+      "appId": "1606549505",
+      "redirectId": "307263",
+      "googlePackage": "com.dreamgames.royalkingdom",
+      "appleUrl": "https://apps.apple.com/us/app/id1606549505",
+      "group": "物件",
+      "scope": "消除棋盘与关卡物件",
+      "reason": "棋子由皇冠、盾牌和色块等概括形状组成；图案与高光强化识别，背景仍有三维体积。评棋盘，不以广告险境决定风格。",
+      "xParts": [
+        1.5,
+        1.5
+      ],
+      "yParts": [
+        3.5,
+        3,
+        3
+      ],
+      "x": 30,
+      "y": 65,
+      "uncertainty": 15,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.dreamgames.royalkingdom&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/b7dc505a94f6b15a04e7.webp",
+          "url": "https://play-lh.googleusercontent.com/jBWwSlaYdGB_hQEUuNv8r3TOjPNWYFuB3oM6H-kgPr4qlE6UJMn7I86VV38kf5Yt8o3wjHNx5eKBDGucZZnx=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/836bbb51143e112e64c3.webp",
+          "url": "https://play-lh.googleusercontent.com/vKYvRloDkySk-r2g_yOXINauv2jUrxX5p-wzjjjT47nx5Ayk6CScGz2lFfLeY_mnBECh2UBz3h_buKCFQnG-FQ=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/999798dafb346640c06e.webp",
+          "url": "https://play-lh.googleusercontent.com/l8Y0-DfuKpmmmDjgxvbSQvIxXessx5iA29CZEGQU60ISEDrAkZQ-HsQ52aqh_rx_PXaTG-Th1wFC2EYjiXgo0w=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 29,
+      "name": "Mob Control",
+      "appId": "1562817072",
+      "redirectId": "307331",
+      "googlePackage": "com.vincentb.MobControl",
+      "appleUrl": "https://apps.apple.com/us/app/id1562817072",
+      "group": "角色",
+      "scope": "成群的小人单位",
+      "reason": "人体压缩成胶囊状，五官与关节很少；红蓝色块强烈分组，体积通过柔和三维阴影表达。",
+      "xParts": [
+        1,
+        0.5
+      ],
+      "yParts": [
+        3.5,
+        2.5,
+        2.5
+      ],
+      "x": 15,
+      "y": 55,
+      "uncertainty": 10,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.vincentb.MobControl&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/663a8c99cd1d877e02d4.webp",
+          "url": "https://play-lh.googleusercontent.com/cUHyJgHSwHNORl8d-pOTXS-dz5h8qkLvkfHpwft4O_vwq2-RtNric2_KkGfpkDbWGsfuMO2Aejaf1LCqSzPC5g=w526-h296-rw",
+          "width": 137,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/bf8c81361f90fa1f5e6e.webp",
+          "url": "https://play-lh.googleusercontent.com/4DqsFTixosRJyzV9DLWYbUcjSRgtqlJAv_-TfPZjM7691OnR-C6jb1be8Fy7x_fpRy0xBnnft_bF_BIsvmawgA=w526-h296-rw",
+          "width": 137,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/644e0cc1ed6ad21a85f8.webp",
+          "url": "https://play-lh.googleusercontent.com/9Q54fpbvSg24eCEr5eSupei-zL5wXyP_ZE8_5Dz_JndQGvTHSXKYMcJiekW-G-vqepyrdWn3CGV14tT84tE6WA=w526-h296-rw",
+          "width": 137,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 30,
+      "name": "Hollywood Merge",
+      "appId": "6755455500",
+      "redirectId": "307295",
+      "googlePackage": "com.hollywood.merge",
+      "appleUrl": "https://apps.apple.com/us/app/id6755455500",
+      "group": "角色",
+      "scope": "剧情与换装人物",
+      "reason": "人体比典型大头卡通更修长，眼睛和表情仍理想化；服装、皮肤有连续体积，表面较光滑。商店剧情图可能比实机更精细。",
+      "xParts": [
+        3,
+        2.5
+      ],
+      "yParts": [
+        3,
+        2.5,
+        2.5
+      ],
+      "x": 55,
+      "y": 55,
+      "uncertainty": 20,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.hollywood.merge&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/b87e3ebd30a473922142.webp",
+          "url": "https://play-lh.googleusercontent.com/-WNv7BEzwP_A52vXqfnyJG5rrp7DBStiIPmNtCZq0isjztorgdPghxcjaDhk2gegC9-F2E7FwX13sCWlMj6H=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/620bcbb73833d4877524.webp",
+          "url": "https://play-lh.googleusercontent.com/gVNB8WHQ63hJjKLjBegdjcC-awUjTb3MRaI6szvsrywSAJxXnDhuFdp1GO4bWBU0myVxN25tT0CMuW67lZul=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/a67bbcb36ea6160f2135.webp",
+          "url": "https://play-lh.googleusercontent.com/zIe35I7Uz4jAqh6X4NKjp6fIno_MSVRX9l5Rle-7ArIAxwJw4ZTlvw8h5AgcgsVgeXMqLHUVgL5kJBcHgD7uVUw=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 31,
+      "name": "Water Sort Puzzle : Challenge",
+      "appId": "6787414784",
+      "redirectId": "395062",
+      "googlePackage": null,
+      "appleUrl": "https://apps.apple.com/us/app/id6787414784",
+      "group": "物件",
+      "scope": "分层液体与瓶子",
+      "reason": "瓶子有明确容器结构，液面与玻璃边缘可辨；分层色块和夸张透明高光显著偏离自然液体观察。",
+      "xParts": [
+        3,
+        2.5
+      ],
+      "yParts": [
+        4,
+        3.5,
+        3
+      ],
+      "x": 55,
+      "y": 70,
+      "uncertainty": 10,
+      "platform": "iOS 商店图 · FoxData 镜像（US）",
+      "referenceSource": "https://foxdata.com/en/app-marketing-analytics/6787414784/as/US/water-sort-puzzle-challenge/",
+      "images": [
+        {
+          "file": "assets/images/65db976b5965a1b066a7.webp",
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bd/95/da/bd95da28-7525-945f-02c2-ef0827d8dd57/Level001_1242x2688.png/720x0w.png",
+          "width": 720,
+          "height": 1558,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/5fe88e727c9f4f6880c3.webp",
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/57/31/03/57310324-dfa3-8ca3-5394-718ff59b9660/Level040_1242x2688.png/720x0w.png",
+          "width": 720,
+          "height": 1558,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/bcb8d25c510b8932e625.webp",
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f4/66/f6/f466f6a0-021c-ad90-01e4-e8563bf46a7b/Level093_1242x2688.png/720x0w.png",
+          "width": 720,
+          "height": 1558,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/122a9f5be1558a02084f.webp",
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a1/57/94/a157945d-9c76-6b4d-fe77-4e3962657589/Level073_1242x2688.png/720x0w.png",
+          "width": 720,
+          "height": 1558,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 32,
+      "name": "Hotel Legacy: Merge Game",
+      "appId": "6752886832",
+      "redirectId": "307332",
+      "googlePackage": "com.fatr.global",
+      "appleUrl": "https://apps.apple.com/us/app/id6752886832",
+      "group": "角色",
+      "scope": "酒店服务人物",
+      "reason": "头部与五官略夸大，体态保留成人比例但较圆润；柔和渐变与干净材质组成卡通立体表现。",
+      "xParts": [
+        2.5,
+        2
+      ],
+      "yParts": [
+        3,
+        2.5,
+        2.5
+      ],
+      "x": 45,
+      "y": 55,
+      "uncertainty": 15,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.fatr.global&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/53200bfc4346fcfcbe72.webp",
+          "url": "https://play-lh.googleusercontent.com/cEw_edZs-ZM3mPPBUK0BsZD_U3fAAJnZwT2PFxB1vUodNefRL8J2DaFNAJKwcOAPZDUgDl5ssVEHsK3IbTriOzQ=w526-h296-rw",
+          "width": 137,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/a3299c7fab9633073817.webp",
+          "url": "https://play-lh.googleusercontent.com/uJaHfpGSMXPLbGXlCsWurf_BIqeOCE-beQz1uEsEVfBCgimdBUyxpOnXRnBUQjjCUVNLILmxLvMYsXAUi6HZrQ=w526-h296-rw",
+          "width": 137,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/398d92c1c0ddf8de58db.webp",
+          "url": "https://play-lh.googleusercontent.com/AkWXWAuKBRRnTORUPWMRdJyNhuSewypOQOYiFf9rm9MtAJrjaBymcAq6VG2u_vjlLf27pRQi-cni8j6ASba3-Q=w526-h296-rw",
+          "width": 137,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 33,
+      "name": "Arrows – Puzzle Escape",
+      "appId": "6748397500",
+      "redirectId": "307258",
+      "googlePackage": "com.ecffri.arrows",
+      "appleUrl": "https://apps.apple.com/us/app/id6748397500",
+      "group": "抽象/界面",
+      "scope": "箭头棋盘",
+      "reason": "箭头和连线几乎没有具象形体；黑白平面关系占主导，装饰和阴影极少。",
+      "xParts": [
+        0,
+        0
+      ],
+      "yParts": [
+        3.5,
+        5,
+        5
+      ],
+      "x": 0,
+      "y": 95,
+      "uncertainty": 5,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.ecffri.arrows&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/bbcbef6d72fb6f714d26.webp",
+          "url": "https://play-lh.googleusercontent.com/GO4zvWXMW_233SRh_QxiInCUn3hQTMQhOOXPj0J9ITETIKBPlBU1ATJYZSfkMFFnGG_m6QofkkPP5Fil4PAlUA=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/bf2e4b9ec6954f2d68eb.webp",
+          "url": "https://play-lh.googleusercontent.com/vKfqE3j1VtI_GYgQDG6XpBuoyT0y7O7urEAz5_93FIsrWLY43p8ggQkUrmceP6pVnogixwKZJ2TR0eEVmob6Cg=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/d254e5db101f6300597a.webp",
+          "url": "https://play-lh.googleusercontent.com/EJiLj8YmrRFw3ElJ0rE8kozfdDqVNKaMC_4FETYcuGQUw2cJ9ZrJ0apEc5A9agnrMix3hpz7uItsNwH_dQQX=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 34,
+      "name": "Mahjong Clash: Win Real Cash",
+      "appId": "6760530627",
+      "redirectId": "349127",
+      "googlePackage": null,
+      "appleUrl": "https://apps.apple.com/us/app/id6760530627",
+      "group": "物件",
+      "scope": "麻将牌与牌面",
+      "reason": "牌的厚度和圆角具有现实物件参照，印刷符号清晰；绿金配色、轮廓高光与UI式光效被强化。金额与支付宣传不计入。",
+      "xParts": [
+        3,
+        2.5
+      ],
+      "yParts": [
+        3,
+        3,
+        3
+      ],
+      "x": 55,
+      "y": 60,
+      "uncertainty": 15,
+      "platform": "iOS 商店图 · FoxData 镜像（US）",
+      "referenceSource": "https://foxdata.com/en/app-marketing-analytics/6760530627/as/US/mahjong-clash-win-real-cash/",
+      "images": [
+        {
+          "file": "assets/images/5ddc875c2462cef480cb.webp",
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/79/e7/3d/79e73d33-86f3-ab48-9301-2957d0604d54/1.png/720x0w.png",
+          "width": 720,
+          "height": 1558,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/71a1700d9cc4928e7f74.webp",
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/50/b0/5a/50b05a05-7321-d698-74a6-7c1eb20f7f8e/2.png/720x0w.png",
+          "width": 720,
+          "height": 1558,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/c644c4b06b258dc04eab.webp",
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/97/01/54/9701546a-89f4-be91-5285-d5b3a255a825/3.png/720x0w.png",
+          "width": 720,
+          "height": 1558,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/3200403365309854b1cd.webp",
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e1/c9/21/e1c921e6-24be-27ea-8367-989ac15315b5/4.png/720x0w.png",
+          "width": 720,
+          "height": 1558,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 35,
+      "name": "Dice Dreams™",
+      "appId": "1484468651",
+      "redirectId": "307279",
+      "googlePackage": "com.superplaystudios.dicedreams",
+      "appleUrl": "https://apps.apple.com/us/app/id1484468651",
+      "group": "角色",
+      "scope": "圆团状拟人角色",
+      "reason": "角色主要由球团、短手脚与大眼组成，结构高度夸张；表面有连续三维光照，配色与材质洁净、糖果化。",
+      "xParts": [
+        1,
+        0.5
+      ],
+      "yParts": [
+        3.5,
+        2.5,
+        2
+      ],
+      "x": 15,
+      "y": 50,
+      "uncertainty": 10,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.superplaystudios.dicedreams&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/d968340423860b989fa2.webp",
+          "url": "https://play-lh.googleusercontent.com/2R1GdlZ-ks6gHQjjte5Krdnqxmk6i_Bn8DCy18iY72X4gBwfT2BhwVhWtJ7RQ7bAVesMq5wx_OBv7iX5Pw3hfg=w526-h296-rw",
+          "width": 137,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/08ad8b42152af60ffbdb.webp",
+          "url": "https://play-lh.googleusercontent.com/nGxDBKERWswITWcGRAGuTgWVsdS6jyVZHHGfGaByaBc7cOz6zxA6QozgXrIGI2g8E3eP7zAgMLaYrLy5iR7pcew=w526-h296-rw",
+          "width": 137,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/881276946527a06dafa2.webp",
+          "url": "https://play-lh.googleusercontent.com/JuJytfFvfEf8HPYrlcbxvMXQ7Q3O0nmCvMnPeHN3fMUN3rSYjp1SM2Dn7EAg45m9nxiXgq738UyQtdD31PoD=w526-h296-rw",
+          "width": 137,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 36,
+      "name": "We Are Cooking",
+      "appId": "6498920694",
+      "redirectId": "308247",
+      "googlePackage": "com.matryoshka.cooking.vibes",
+      "appleUrl": "https://apps.apple.com/us/app/id6498920694",
+      "group": "物件",
+      "scope": "餐台食物与厨具",
+      "reason": "餐具、灶具和食材具象程度较高，比例略为整齐化；连续阴影表现烹饪体积，纹理被整理成易辨的图标式细节。",
+      "xParts": [
+        3.5,
+        3
+      ],
+      "yParts": [
+        2.5,
+        2,
+        2
+      ],
+      "x": 65,
+      "y": 45,
+      "uncertainty": 10,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.matryoshka.cooking.vibes&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/73a2ce698b624ed0810c.webp",
+          "url": "https://play-lh.googleusercontent.com/Gx1uwmy1r5CyE2V6ngpvTb7IWMZMP7h2TcICJKhco007C-xCXF1HIcA5tT0kLRnpshHXrxxID4j6sd4jCZuDKA=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/aa6da7e404606ebea29b.webp",
+          "url": "https://play-lh.googleusercontent.com/Nnyv6Kcujr7ubAmVHLGmqarrFl-3M3hFy6eFfOC2PfWbybRhR8QMynpLkYbRcEdcB_TBREiaqezGZ7PI89Q2=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/dda5de9f5cfc402316f1.webp",
+          "url": "https://play-lh.googleusercontent.com/B9W8_olMUhZQSPbh6mUljc4Qky0TAJRnu2m7kBYs4q_AMUZ8LVPMqCqYK-48PASUDAUchSTTUVB8cUwhN_Xt4Qg=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 37,
+      "name": "Glow Fashion Idol",
+      "appId": "6446197181",
+      "redirectId": "307319",
+      "googlePackage": "com.crazylabs.fashion.squad",
+      "appleUrl": "https://apps.apple.com/us/app/id6446197181",
+      "group": "角色",
+      "scope": "换装模特",
+      "reason": "人体、面部与服装结构接近真实模特，身材和皮肤经过美化；布料褶皱、肤色与光影较自然，仍有理想化平滑处理。",
+      "xParts": [
+        4,
+        3.5
+      ],
+      "yParts": [
+        2,
+        1.5,
+        2
+      ],
+      "x": 75,
+      "y": 35,
+      "uncertainty": 10,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.crazylabs.fashion.squad&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/67b9f38f7308d74ce073.webp",
+          "url": "https://play-lh.googleusercontent.com/V1vytOYaTOLtS0BEK157LS0ousnbkxx43h3T3X_wRwVC_Ryh59TJSYBVFWNw5HC4uc_V7U1QV6oApAJjemJiek0=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/85efffc104a03ef940c3.webp",
+          "url": "https://play-lh.googleusercontent.com/LGEQye1HA_-FDD59LZ3DX6RBRxlL22l4iZp-GPOVnK9JuCRfqe1vLfCLfVzk04IsgULXWlNON-hOOxGC8-Z2=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/4c3d10554fa83a5468a1.webp",
+          "url": "https://play-lh.googleusercontent.com/U8uCKBaoz9xwwlF0JZoN_01Qp3Gk3n_jb9prkeWMGFNGpF1K-1Nu8DrRM_mN6tW_CCP9CZPME0B2ctQRnfjM=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 38,
+      "name": "Coin Master",
+      "appId": "406889139",
+      "redirectId": "307450",
+      "googlePackage": "com.moonactive.coinmaster",
+      "appleUrl": "https://apps.apple.com/us/app/id406889139",
+      "group": "角色",
+      "scope": "拟人动物与转轮符号",
+      "reason": "动物大头短身，面部表情高度夸张；金属高光、发光和饱和配色强，但仍保留圆润三维体积。",
+      "xParts": [
+        1.5,
+        1
+      ],
+      "yParts": [
+        4,
+        3,
+        2.5
+      ],
+      "x": 25,
+      "y": 60,
+      "uncertainty": 15,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.moonactive.coinmaster&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/ff4f2e72338ccec5a235.webp",
+          "url": "https://play-lh.googleusercontent.com/Si1HS4WdCWDsg_5PkC-2B2tTr1IoiXXkxhi1Oxmr_fRwoDmCLHILpnBoCDAMH8KKNEhmO02Go6VcCSuPyme4=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/69f2d607c33257726612.webp",
+          "url": "https://play-lh.googleusercontent.com/NGTnD-1-dDNkXbCCcLZPA__hUFnalmxyKKZyybEc3YO3x6mfZN1-etxUPi8SGRswsIiTW6iXc8SbNInwsD-S=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/2baefc61783924f8751d.webp",
+          "url": "https://play-lh.googleusercontent.com/6bQZF2XzerCebJ7ab2MPn-qZBL3u9t5E-yCUZScTvfwhKgGhM1wk5RCN6xED43cKBVfqESUe7jZgyMmHoB6Vrw=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 39,
+      "name": "Match Factory!",
+      "appId": "6449094229",
+      "redirectId": "307322",
+      "googlePackage": "net.peakgames.match",
+      "appleUrl": "https://apps.apple.com/us/app/id6449094229",
+      "group": "物件",
+      "scope": "可收集的三维小物件",
+      "reason": "食物和玩具轮廓保留识别特征，比例圆润且统一化；塑料感材质和简化明暗形成精致玩具表现。",
+      "xParts": [
+        2.5,
+        2
+      ],
+      "yParts": [
+        3.5,
+        2.5,
+        2.5
+      ],
+      "x": 45,
+      "y": 55,
+      "uncertainty": 15,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=net.peakgames.match&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/615f337284f05de356e4.webp",
+          "url": "https://play-lh.googleusercontent.com/Inb_iWkRPbf8OpEKeu32rZrj2W_5W6hka8n-KTd7LeGSU-nmz9cIw8wKD0t0jZ4Z2wo_7hsRoR7TDJ2ktLfhQUw=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/8c66fa5cfa30064a7520.webp",
+          "url": "https://play-lh.googleusercontent.com/lVmYvkVdpRORXX_6dN33x6SjrfrqR4aE_otlZyDMUheELXSeQNTODRXRjgF6URXbf6EZFj1tBHdubW5JQ8Bk=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/2db417f0c5114a816d44.webp",
+          "url": "https://play-lh.googleusercontent.com/U22WRC3MIzSTuzlJrWjzCyNdCPeIuYajdKt4NAB5aeymFFzqThT-W5FzVFXEn-qWrf3kgpS1QeCSJLZ_4LuJMQ4=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 40,
+      "name": "Royal Match",
+      "appId": "1482155847",
+      "redirectId": "307286",
+      "googlePackage": "com.dreamgames.royalmatch",
+      "appleUrl": "https://apps.apple.com/us/app/id1482155847",
+      "group": "物件",
+      "scope": "消除棋子",
+      "reason": "皇冠、盾牌和水果等形状被压缩成统一棋子；高光与饱和色帮助区分，体积是经过概括的立体图标。",
+      "xParts": [
+        1.5,
+        1.5
+      ],
+      "yParts": [
+        3.5,
+        3,
+        3
+      ],
+      "x": 30,
+      "y": 65,
+      "uncertainty": 15,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.dreamgames.royalmatch&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/b61cbdfd2aa337c87f67.webp",
+          "url": "https://play-lh.googleusercontent.com/3DKrw93wnfUX3QR1diWf-Rf4lV8RPnZQKKC2UTwJjBN5pNK9geeRm-82zVljc8WH48xp90zjHmxEtaSO_L1V_Q=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/94fa528a86a57fc4e896.webp",
+          "url": "https://play-lh.googleusercontent.com/eEvKqfL4_0fHSBImq_tQwGReEacMiqZ2vd_SIa_L0W3Pb69_sI31u1u0fq5SLIp8THUz07GL8mJwRWakvDIt=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/08202f8f7b84efde7edc.webp",
+          "url": "https://play-lh.googleusercontent.com/_7cwj62R45aFAij07Hhrk-GogjsBwCotMxahAMhrzdjivO2NSdJZfirj8nLGd-R-ye_b9OVm1otWYSIWSlMxmg=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 41,
+      "name": "Hole Stars: Puzzle Game",
+      "appId": "6747028173",
+      "redirectId": "307673",
+      "googlePackage": "com.moonactive.holestars",
+      "appleUrl": "https://apps.apple.com/us/app/id6747028173",
+      "group": "物件",
+      "scope": "洞穴周围的玩具与小人",
+      "reason": "食物、人物和建筑均按玩具尺度概括；色相分组和光滑材质突出，阴影仍遵循简化三维关系。",
+      "xParts": [
+        2,
+        1.5
+      ],
+      "yParts": [
+        3.5,
+        2.5,
+        2.5
+      ],
+      "x": 35,
+      "y": 55,
+      "uncertainty": 15,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.moonactive.holestars&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/f3173e11e5f70f46cbfc.webp",
+          "url": "https://play-lh.googleusercontent.com/rq8oTHhlGuRZMgvUVc4WymTqICp8xrTSDjghk1mAOYIwFoN0VeEU5NIiCfn-hPFaR6eflmhKxZsvuI8uVlgpl2Y=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/44b29777dcf04f3c2d6a.webp",
+          "url": "https://play-lh.googleusercontent.com/YFQi4aHDGHP2fbci4c5L0E73h2MfCqvpTD6r1sFtFe2WoN6oYJJxkaw4XQltObUe2DO_kd4PZwu2JlTzQP8B=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/cbc62179b4d89758a1d0.webp",
+          "url": "https://play-lh.googleusercontent.com/geaxIVV3EGI0PtUvyPwFOcI2jH0yVHgUsaDInwrhh1ahB2OoRJUyiQZ6mWlR2QrThkkoCIUZ54FayppEtN6qQw=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 42,
+      "name": "Cube Smash – Puzzle Game",
+      "appId": "6786206777",
+      "redirectId": "399506",
+      "googlePackage": null,
+      "appleUrl": "https://apps.apple.com/us/app/id6786206777",
+      "group": "物件",
+      "scope": "体素积木造型",
+      "reason": "鱼与飞行器由规则立方体拼成，轮廓像素化；方块本身有连续明暗与厚度，因此不按纯二维像素的高Y处理。",
+      "xParts": [
+        1,
+        0.5
+      ],
+      "yParts": [
+        3.5,
+        2.5,
+        2.5
+      ],
+      "x": 15,
+      "y": 55,
+      "uncertainty": 10,
+      "platform": "iOS 商店图 · FoxData 镜像（VE）",
+      "referenceSource": "https://foxdata.com/en/app-marketing-analytics/6786206777/as/VE/cube-smash-puzzle-game/",
+      "images": [
+        {
+          "file": "assets/images/85c37e96bdc4b83547b2.webp",
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/05/29/40/052940a6-558a-d006-ce8b-b65326b7f688/1320x2868-2.jpg/460x0w.png",
+          "width": 460,
+          "height": 999,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/ee3fab7117158d243ffd.webp",
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4e/97/1d/4e971dd8-b62d-3a46-9405-e261bd06d640/1320x2868-4.jpg/460x0w.png",
+          "width": 460,
+          "height": 999,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/ea3ac4308ab72517b73b.webp",
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/db/a8/04/dba804e3-917a-5852-a6b6-8d3e6091d656/1320x2868-3.jpg/460x0w.png",
+          "width": 460,
+          "height": 999,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/a0be04e6ddb669f03eeb.webp",
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/df/3d/fd/df3dfd2c-c2a4-53f7-d595-ac9a8fd79f64/1320x2868-5.jpg/460x0w.png",
+          "width": 460,
+          "height": 999,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 43,
+      "name": "Jigsawcard Solitaire Puzzle",
+      "appId": "6754900673",
+      "redirectId": "307586",
+      "googlePackage": "com.oakever.jigsawcard",
+      "appleUrl": "https://apps.apple.com/us/app/id6754900673",
+      "group": "合集/混合",
+      "scope": "拼图卡面插画",
+      "reason": "可见建筑、花鸟等图像结构较具象，部分接近照片，部分偏绘画；统一点位的代表性有限，以卡面内容而非纸牌框评估。",
+      "xParts": [
+        3.5,
+        3.5
+      ],
+      "yParts": [
+        3,
+        3,
+        3
+      ],
+      "x": 70,
+      "y": 60,
+      "uncertainty": 25,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.oakever.jigsawcard&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/e8f08fac24b16d5fd643.webp",
+          "url": "https://play-lh.googleusercontent.com/dKypL5Om6m76ug1yZ6sMWePkEKDS7rc1anz_7MDqX6yk-CmVfa1fzzJZa3mT7CCdBV1sLCRZgNK2Ul5_0BYWLQ=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/82c60e03c4f0b4205047.webp",
+          "url": "https://play-lh.googleusercontent.com/s6SOQ6HBu_-tzMHInz9El7sc9jgEDGDaQdNehKCjCMktmxWO68W9QAqWVUmNizwF8_kZrmB_n0q1k5OALaWbTQ=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/940c9ae085d76627e15d.webp",
+          "url": "https://play-lh.googleusercontent.com/Py-25wzi9ztrq2M3GOFQ19SsT8D7C-XeIooafeZJe0SvISIemh-xVfNix-HDid2SMx9D-jfecOrDJIu4QfwsQw=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 44,
+      "name": "Goods Puzzle: Sort Challenge™",
+      "appId": "6482849843",
+      "redirectId": "307310",
+      "googlePackage": "com.fc.goods.sort.matching.puzzle.triplemaster",
+      "appleUrl": "https://apps.apple.com/us/app/id6482849843",
+      "group": "物件",
+      "scope": "货架商品",
+      "reason": "瓶罐、零食与玩具保留物种/包装轮廓，形状略胖、尺寸标准化；鲜艳色彩和绘制高光强化辨识。",
+      "xParts": [
+        2.5,
+        2
+      ],
+      "yParts": [
+        3.5,
+        3,
+        2.5
+      ],
+      "x": 45,
+      "y": 60,
+      "uncertainty": 10,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.fc.goods.sort.matching.puzzle.triplemaster&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/7d1334d79264acf419dd.webp",
+          "url": "https://play-lh.googleusercontent.com/97prtjb_320xPsin6Z0pKkiIW9oYnlki7GwhCJZc5VjWHvkyb7n3HKqLsg7qgbzB_hpmM1xrJqE4vAjN925sb0M=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/9b38dc2940e404dd9f5b.webp",
+          "url": "https://play-lh.googleusercontent.com/qD6kHbuD1ZMLFJxHfQ_g7W0ibnMizVnjuEVlNb8HOk-vgugUrE0N8yTsheJ5y6WLytNbbuOKZlTnqfj88B3LMRE=w526-h296-rw",
+          "width": 526,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/9bd5e1cb132174b27343.webp",
+          "url": "https://play-lh.googleusercontent.com/ZatOysR0k2N_MQ6hjO5evZBbafj1LDaN9kJai1WIpwuM6pjuMnxFKZqHsgn-mCaXAi0aaS3Cg212Or9a-Hz2dQ=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 45,
+      "name": "Make It Fit – Packing Puzzle",
+      "appId": "6796574369",
+      "redirectId": "454764",
+      "googlePackage": "com.make.it.fit.packingpuzzle",
+      "appleUrl": "https://apps.apple.com/us/app/id6796574369",
+      "group": "物件",
+      "scope": "便当食物与容器",
+      "reason": "食材和餐盒的结构较具象，比例没有强烈变形；配色温暖，轮廓、纹理和阴影采用插画式整理。",
+      "xParts": [
+        3.5,
+        3
+      ],
+      "yParts": [
+        2.5,
+        3,
+        3
+      ],
+      "x": 65,
+      "y": 60,
+      "uncertainty": 10,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.make.it.fit.packingpuzzle&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/108409a3c433514ee761.webp",
+          "url": "https://play-lh.googleusercontent.com/DRQdk9vjMTQXuw5Hk5Mg8af673nZdUhgxwvkFNfURzx8grcnWw_9yMwywsGkATkPFllr3EVezOJLk6rCropI=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/fbd85b887985f307aa2d.webp",
+          "url": "https://play-lh.googleusercontent.com/Geqx9KCPgMkkTok7jzW936h6EjfjwTR10TZtfIVBxr3ece39qCnBdy7kL0kKnxQ9E_j3Iuu_etG-0lx6pHBn=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/3404e9503e0cf5ee57ec.webp",
+          "url": "https://play-lh.googleusercontent.com/PipwWwTEHuoO5ZsayBEa79sppaEnfPSEssweHPY3cwdsUzmLPQhE_gqKa4dspgQ7J-RWbKXIMN7zqul5MGyezA=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 46,
+      "name": "Brawl Stars",
+      "appId": "1229016807",
+      "redirectId": "307335",
+      "googlePackage": "com.supercell.brawlstars",
+      "appleUrl": "https://apps.apple.com/us/app/id1229016807",
+      "group": "角色",
+      "scope": "商店展示的英雄角色",
+      "reason": "头身与肢体块面大胆夸张，服装轮廓高度图形化；高饱和色、简化明暗和统一表面形成鲜明辨识。此次图为角色展示。",
+      "xParts": [
+        1.5,
+        1
+      ],
+      "yParts": [
+        4,
+        3,
+        3
+      ],
+      "x": 25,
+      "y": 65,
+      "uncertainty": 15,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.supercell.brawlstars&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/5b07afd8a489db1d7f85.webp",
+          "url": "https://play-lh.googleusercontent.com/wcQjY9Ga0gt2hs6c68-dehkeEPbG99pa9InPN2_2T6Tj0cdzUvslvjsHEnNHRgAeQSzImVueMvRKl6Or5tWkPA=w526-h296-rw",
+          "width": 526,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/a21946209ad74e902d0f.webp",
+          "url": "https://play-lh.googleusercontent.com/Hzq-rp_7FogcOBeH8iLI0dnUSr4abKO0nRX_7AOiYiDUAZVvmvxcDjkRioYE3jLxE4fhrhIwkpWzHp5lK1c85wU=w526-h296-rw",
+          "width": 526,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 47,
+      "name": "Screwdom",
+      "appId": "6740043080",
+      "redirectId": "308663",
+      "googlePackage": "com.ig.screwdom",
+      "appleUrl": "https://apps.apple.com/us/app/id6740043080",
+      "group": "物件",
+      "scope": "螺丝玩具与拼装模型",
+      "reason": "机器人、房屋被处理成圆润的模块玩具；塑料、金属的简化反射和阴影较可信，Y低于平涂图案。",
+      "xParts": [
+        2,
+        1.5
+      ],
+      "yParts": [
+        3.5,
+        2,
+        2
+      ],
+      "x": 35,
+      "y": 50,
+      "uncertainty": 10,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.ig.screwdom&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/e6c1dc5815052ee7b6ca.webp",
+          "url": "https://play-lh.googleusercontent.com/IwIuIboxyJIgsghNtAsFwLLSpAI0zAORTzsuPFW8u0VmfXlCXxb-wToOtVRCikT8kuXBmiNwII6obVyEgqnY3A=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/dcf7c67cae2aa4c44794.webp",
+          "url": "https://play-lh.googleusercontent.com/4lx2NTIdJia09Etq3Zzq3ejjTuDbzGOL-yz1hEPeMvRKRE-tANUW6Lkef5tnD4qgbv26eHLE47ul6Srgro3Ufgo=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/e644ca5a16ec8a524c94.webp",
+          "url": "https://play-lh.googleusercontent.com/oMDr1rpeCS-W5hIni4JiYaObUd4mkos5otEp6NrTdQtl_ZROV0Dn9EtSyZ7oxq36xkNQcYOd9KM0YNNL-eDtfkY=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 48,
+      "name": "Find Hidden Objects – Spot It!",
+      "appId": "6474133872",
+      "redirectId": "307545",
+      "googlePackage": "com.yolo.hiddenobjects",
+      "appleUrl": "https://apps.apple.com/us/app/id6474133872",
+      "group": "场景",
+      "scope": "室内寻物插画",
+      "reason": "家具、器皿和人物保留可辨现实结构，透视较完整；边缘与阴影经过手绘整理，细节多不等于更写实或更风格化。",
+      "xParts": [
+        3.5,
+        3.5
+      ],
+      "yParts": [
+        2.5,
+        3,
+        3
+      ],
+      "x": 70,
+      "y": 60,
+      "uncertainty": 15,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.yolo.hiddenobjects&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/e94a622243742579b4da.webp",
+          "url": "https://play-lh.googleusercontent.com/uqi6x_JGNSW7S703zYOoamMaSIdZQs5JDmxeCMxpDJnloL7Lm5WIc9Pr_ovhGcyuE2v8MWVYBi7sW-UJuh08=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/e967b20e2895812e73af.webp",
+          "url": "https://play-lh.googleusercontent.com/q0dQXmlXH6MMYVPvoHwMBZFPa0Mw-oZBVJe3CeFlQE6aFqf8v_8LfPQXu25D1AUa0Fn48k3DShOXI4L7mmssJA=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/14bebb3b52d324947aee.webp",
+          "url": "https://play-lh.googleusercontent.com/VzJKfxp-bEji0kJ0ef8zd57VB5iyH-PYWDR4q1QXr8QQQCEZS7sos2KFbaYJOjTGZYOzEEWJYiNu6_y_h77ZCN0=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 49,
+      "name": "Tile Explorer: Tiles Clear!",
+      "appId": "6498883328",
+      "redirectId": "307276",
+      "googlePackage": "com.oakever.tiletrip",
+      "appleUrl": "https://apps.apple.com/us/app/id6498883328",
+      "group": "物件",
+      "scope": "方牌上的水果图标",
+      "reason": "水果、花朵被概括成小图标，统一承载于圆角方牌；轮廓色块与绘制高光主导，背景景观不参与评分。",
+      "xParts": [
+        1.5,
+        1.5
+      ],
+      "yParts": [
+        3.5,
+        3.5,
+        3
+      ],
+      "x": 30,
+      "y": 65,
+      "uncertainty": 10,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.oakever.tiletrip&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/5206950403324333dac2.webp",
+          "url": "https://play-lh.googleusercontent.com/466hpYrzeVWrblJOfLzwC5L2dc45L40GO44vH_8A_vJUowWFb9aUpuc9-xUys0g6RzkNoE0m2B1SbOZO14MROg=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/09d3533dfa20d8261804.webp",
+          "url": "https://play-lh.googleusercontent.com/3CZKGkJJAH5A7Zs7795HDaZ_7ePpamCJYe32gBa7B_Urk1w_xgydKB7g_tdbPMthCpd7nnRJevmTrPScE_D6CA=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/ca9cebd3f3c3422fad5c.webp",
+          "url": "https://play-lh.googleusercontent.com/MGHLxWYmuVH3TcBqWBnOpRxzssXNF4K2viOgi6Q1vTx-q88ueb_uYNL7ajCH-1XsGusvRma4Xh525SmA2AdW=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 50,
+      "name": "Family Farm Merge",
+      "appId": "6760998152",
+      "redirectId": "307528",
+      "googlePackage": "com.roomperfect.global",
+      "appleUrl": "https://apps.apple.com/us/app/id6760998152",
+      "group": "角色",
+      "scope": "农场人物与动物",
+      "reason": "大眼、圆脸、短小体态形成亲和卡通形体；柔和光照配光滑表面与明亮配色。",
+      "xParts": [
+        2,
+        1.5
+      ],
+      "yParts": [
+        3.5,
+        2.5,
+        2.5
+      ],
+      "x": 35,
+      "y": 55,
+      "uncertainty": 15,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.roomperfect.global&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/3ca18f053f756d78d752.webp",
+          "url": "https://play-lh.googleusercontent.com/4w9r1_12Wt1D5KlKFX_qGlp0fNSI24WxjJ5TqHWUHAJiGDHIPoy67At0yDYBIU9hv0JlaKllBX4emNDlxGIBkw=w526-h296-rw",
+          "width": 137,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/4eb542d93a2952bc03f1.webp",
+          "url": "https://play-lh.googleusercontent.com/xZY66JtAFONsleIRyVGr1ovuAQEuqQOPQEJurVU7F5zGgpmvM8hQzvm6JcAkABn56V-TFSuCqP-VgrMUspFJbw=w526-h296-rw",
+          "width": 137,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/8aea8805464ba2d7f406.webp",
+          "url": "https://play-lh.googleusercontent.com/Dm4GeR-L1cWf_wPuAyEao_09672EMEZo6NEeWXCvpYjL8PxmdYrHcTMJnmJFLNopPf6RsyPcqargkbyz8A7vfu4=w526-h296-rw",
+          "width": 137,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 51,
+      "name": "Hole.io – Original Hole Game",
+      "appId": "1389111413",
+      "redirectId": "307296",
+      "googlePackage": "io.voodoo.holeio",
+      "appleUrl": "https://apps.apple.com/us/app/id1389111413",
+      "group": "场景",
+      "scope": "可吞噬的城市物件",
+      "reason": "建筑与车辆具象但简化、玩具化，街区比例被压缩；有三维投影和简化材质，皮肤主题存在差异。",
+      "xParts": [
+        2.5,
+        2.5
+      ],
+      "yParts": [
+        3,
+        2.5,
+        2.5
+      ],
+      "x": 50,
+      "y": 55,
+      "uncertainty": 15,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=io.voodoo.holeio&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/71f47670316ffd6e4eaa.webp",
+          "url": "https://play-lh.googleusercontent.com/gV9VY5kIOXfyICIA74XJbYyaxEGgxaZrMXyLdThnkRHGtHBXc8ooEYLAH-B5oIvLDETpjVP0e5DVdloDotXi0A=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/c7f463042e241041075f.webp",
+          "url": "https://play-lh.googleusercontent.com/WyE8FWBSYYOYtv7W_K6He1qUjPBG5kZGdXV1NYve9Z19mU6a8Z4it5qgGbT60TuDfPnU--NHujwk6IUbvKcn=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/ff6d3c109c422e2bf677.webp",
+          "url": "https://play-lh.googleusercontent.com/you_YfhnnJrqBKl0C-OYmNMNFU0MiUUA1ztJXxHDm7PtQwK4soVn8VNhZsIPHvRfs8TmB3pWfga2SXTrK6RPSA=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 52,
+      "name": "Jewel Coloring",
+      "appId": "6759081967",
+      "redirectId": "307283",
+      "googlePackage": "color.number.paint.pixle.art.sort.jigsaw",
+      "appleUrl": "https://apps.apple.com/us/app/id6759081967",
+      "group": "物件",
+      "scope": "珠宝拼色图案",
+      "reason": "轮廓由珠粒或像素网格重构；晶面与珠粒有体积，图案仍依赖离散色块，不能因使用珠粒直接判为自然主义。",
+      "xParts": [
+        1,
+        1
+      ],
+      "yParts": [
+        3.5,
+        3,
+        2.5
+      ],
+      "x": 20,
+      "y": 60,
+      "uncertainty": 15,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=color.number.paint.pixle.art.sort.jigsaw&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/71f16bffc8416c1b22ad.webp",
+          "url": "https://play-lh.googleusercontent.com/_M4RCceuZ0GwSmBXm24WlmoxvHvYTQIkAhjEg9x5pUJiT8q3Ck2HxRrnheiOWuDqcJZ1C_zt2wvrqp7zYxPolw=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/39193688a89f0d5f7426.webp",
+          "url": "https://play-lh.googleusercontent.com/b2CjIRW5DwyiPo4RIm1CzxDCx1grPRlcsNbObsPlBigweLbwhsB5jL-G0k1yDjWjzg_H6MHOuBITTLyXmsn_gQ=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/2803f59ad67a11ce679e.webp",
+          "url": "https://play-lh.googleusercontent.com/519ApX1x1tAqyzufkFSx2yT2yWC26uPgDwieBzUdsDaWZyfpQQqSU8SA920JUTtNzQJOm0j3frrQw7r2Ais_QzU=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 53,
+      "name": "FanDuel Casino – Real Money",
+      "appId": "1506229470",
+      "redirectId": "307720",
+      "googlePackage": "com.fanduel.casino",
+      "appleUrl": "https://apps.apple.com/us/app/id1506229470",
+      "group": "合集/混合",
+      "scope": "所见老虎机主题画面",
+      "reason": "该App容纳多种风格，所见转轮、卡通吉祥物和金属符号呈图标化形体；强金紫配色和发光强调舞台感。真人桌台等内容不包含在此点。",
+      "xParts": [
+        2,
+        2
+      ],
+      "yParts": [
+        4,
+        3.5,
+        3
+      ],
+      "x": 40,
+      "y": 70,
+      "uncertainty": 25,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.fanduel.casino&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/826d8bb12359b269a39b.webp",
+          "url": "https://play-lh.googleusercontent.com/Z2WNXGNQxgn-x14_IbUFX6nrxzSdfLBv2JMo947OrVSqnvbXxJbftV4pad7rmDLXn2_1kJheW_XCLKXksDzO3p4=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/530f91ba169ca8dc426f.webp",
+          "url": "https://play-lh.googleusercontent.com/qhi-EX7vYdiRFC1cpYCB0Ns_tWgo_UNbwtg1qMAryB5cidOMUA6Gi7TqzExSHZIpNmUzjL5fLoJi8K-glAzWIw=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/609549747b69543de00b.webp",
+          "url": "https://play-lh.googleusercontent.com/61q2HdtOYKpn8PJFkDK7ZOLt6xTQqf2g8slTZ8S5Rh9ksKZYJymufaUgXkcydf9gw-zEHIU1DbTIMOImG8H6=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/5f64461de91145e6902a.webp",
+          "url": "https://play-lh.googleusercontent.com/qhi-EX7vYdiRFC1cpYCB0Ns_tWgo_UNbwtg1qMAryB5cidOMUA6Gi7TqzExSHZIpNmUzjL5fLoJi8K-glAzWIw=w2560-h1440-rw",
+          "width": 810,
+          "height": 1440,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 54,
+      "name": "Brain Puzzle 2: Logic Twist",
+      "appId": "6747063674",
+      "redirectId": "410518",
+      "googlePackage": "com.brain.logic.joygame",
+      "appleUrl": "https://apps.apple.com/us/app/id6747063674",
+      "group": "角色",
+      "scope": "关卡故事人物",
+      "reason": "人物比例较具象，脸部与表情漫画化，关卡间差异较大；线稿、平涂与简化硬边阴影非常明显。",
+      "xParts": [
+        3,
+        2.5
+      ],
+      "yParts": [
+        4,
+        4.5,
+        4.5
+      ],
+      "x": 55,
+      "y": 90,
+      "uncertainty": 15,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.brain.logic.joygame&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/a2baa2055a254f6f5a85.webp",
+          "url": "https://play-lh.googleusercontent.com/vuqV3Dxgy41SGVjOmPM_NFyDfO9fcWqplBVoxA6qZAtFuEgAZiTEwSB-_I5WCfqQyzUWhXtXZhqTaXJsAw0D-os=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/2657ab32591c7c4fb4af.webp",
+          "url": "https://play-lh.googleusercontent.com/IjnlCeeGJ8GX-Wn_1eiJ4O9uXj7P2r4hQj7P8cVAQGfJo5TV_NjvzO4-wvrsOPtm69PZyglSc5khbGi_UI0a1Q=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/bbea4b8c350e7dfe7686.webp",
+          "url": "https://play-lh.googleusercontent.com/REX56DF-_cL4jm_2Tc6zpVWf6rY6ogrPwwsIyPz3NvWxnfAlLSbB1Hq72LT2Lrhu5qU24ibm14bQrSugDHm2mA=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 55,
+      "name": "Color Block: Combo Blast",
+      "appId": "6478063606",
+      "redirectId": "315394",
+      "googlePackage": "com.puzzlegames.puzzlebrickslegend",
+      "appleUrl": "https://apps.apple.com/us/app/id6478063606",
+      "group": "抽象/界面",
+      "scope": "彩色方块棋盘",
+      "reason": "轮廓是抽象拼合单元，缺少自然对象结构；倒角高光产生浅体积，但整体仍由功能性色块构成。",
+      "xParts": [
+        0.5,
+        0.5
+      ],
+      "yParts": [
+        4,
+        4,
+        3.5
+      ],
+      "x": 10,
+      "y": 75,
+      "uncertainty": 10,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.puzzlegames.puzzlebrickslegend&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/a64246a67361f61c7e42.webp",
+          "url": "https://play-lh.googleusercontent.com/Yh9LcMVHcxBzZSYdUtZHzroy-EJ5qotfvyLYPYb6tj4PcIRtzkPxJJZ-Np09aSkU1BFWQeNs2UPZ2qI9j0bIxw=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/9136e4db9e25f1eda673.webp",
+          "url": "https://play-lh.googleusercontent.com/gwh-xZ0KAhCFkbduDpj2o_lmTp7RrB7s8g5zfNr_C7EdSzsgl5JgMrHLxYBvtqBh4H27poYk644KtkTUS8azs9g=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/cd67d120aff59935f912.webp",
+          "url": "https://play-lh.googleusercontent.com/yiYfjbhIu56Ml1VxPUtHCDq3kfCEdWkJFWFz9DZMjkTZrIYHtTSP98K7WtmDVcKoI-T_B9eEs6i6gIJShV-e1Q=w526-h296-rw",
+          "width": 526,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 56,
+      "name": "Toon Blast",
+      "appId": "1176027022",
+      "redirectId": "307498",
+      "googlePackage": "net.peakgames.toonblast",
+      "appleUrl": "https://apps.apple.com/us/app/id1176027022",
+      "group": "物件",
+      "scope": "商店可见的消除方块",
+      "reason": "方块形体高度概括，规则网格主导；饱和色与浮雕式高光区分棋子。本点不以未展示的动物主角代替所见棋盘。",
+      "xParts": [
+        1,
+        1
+      ],
+      "yParts": [
+        3.5,
+        3.5,
+        3
+      ],
+      "x": 20,
+      "y": 65,
+      "uncertainty": 15,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=net.peakgames.toonblast&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/26df089a4551eb59af7f.webp",
+          "url": "https://play-lh.googleusercontent.com/MTquim-dT2HDAwxqzk7i2fqlzAt9QpwCgPZhhz2Rc8bc99AdIx7twtHSRWTvuNTo6htC6Xgdva3OU3-PJ4-WVQ=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/93c9b9262c2eb23e091c.webp",
+          "url": "https://play-lh.googleusercontent.com/XUShi312Uva64M6TlmrgouAULKTCqaajr6cMzkQByUqqwNS0Apx8OiYEx7sIxSiFK_uTr4bisuUSSTfWvUGueNU=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/414f3f19e3a14cd13ec8.webp",
+          "url": "https://play-lh.googleusercontent.com/-27S5k4d6GGZYSJudemCX1B5n8w6ZbKCCkYo2uCeMwGozggn9mcsAybu1zjsKgzgs1YXz2gXQzb8snYjuoqL1Lw=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 57,
+      "name": "Bulldozer Master: Crush & Mine",
+      "appId": "6747710694",
+      "redirectId": "392202",
+      "googlePackage": "io.supercent.bulldozermasters",
+      "appleUrl": "https://apps.apple.com/us/app/id6747710694",
+      "group": "物件",
+      "scope": "工程机械与岩石",
+      "reason": "履带、钻头和机械结构保留现实比例，岩石有不规则破面；较自然的金属、尘土与阴影，模型细节仍有简化。",
+      "xParts": [
+        4,
+        3.5
+      ],
+      "yParts": [
+        2,
+        1.5,
+        2
+      ],
+      "x": 75,
+      "y": 35,
+      "uncertainty": 15,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=io.supercent.bulldozermasters&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/fb7d7b29bea75003710a.webp",
+          "url": "https://play-lh.googleusercontent.com/DVh5WxJt9CZm99_VUircjnpuMCQmqBLAepG8ex3VGVfxVbTdoUWKpvAy6SHzFPr2DJy-XwJQCeb-G5CM_TqmEA=w526-h296-rw",
+          "width": 137,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/cd12ae04111a3bbc3eb4.webp",
+          "url": "https://play-lh.googleusercontent.com/OBdACbbbemayX0JnvIDXa4lSC9WtJwBoCokxknFt9J9kZ88Wj7-YPqxx0DOd7JIT1HHDIcQeEpNTRabOdPee=w526-h296-rw",
+          "width": 137,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/af3ee4fdff5371858d23.webp",
+          "url": "https://play-lh.googleusercontent.com/xCZeHKRnxZQKtOo5Gkl7u_ktYZiVsYZ6iZrqrhb1b03KSX8Bm2MfOlDuGqNn_WjxZzfjXOiDdHUzhd0wOe5AOg=w526-h296-rw",
+          "width": 137,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 58,
+      "name": "Clash of Critters",
+      "appId": "6741567125",
+      "redirectId": "307462",
+      "googlePackage": "com.farlightgames.pgame.gp",
+      "appleUrl": "https://apps.apple.com/us/app/id6741567125",
+      "group": "角色",
+      "scope": "怪物收集角色",
+      "reason": "怪物被压缩为大头、短肢、夸张器官的图形轮廓；粗轮廓线、硬边阴影和亮色块表现强烈。",
+      "xParts": [
+        1,
+        0.5
+      ],
+      "yParts": [
+        4.5,
+        4.5,
+        4.5
+      ],
+      "x": 15,
+      "y": 90,
+      "uncertainty": 10,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.farlightgames.pgame.gp&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/86e1331721865c9228c8.webp",
+          "url": "https://play-lh.googleusercontent.com/sSISJdmoUAT5CinFeQJOR1TGJOI905OuEzDiJH_YljwACqIrI8Qx3XCGLnS2Hk9Jkzljn_lzZCjcoPa0aw87=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/ff6c9145f56f6b6943a0.webp",
+          "url": "https://play-lh.googleusercontent.com/XTUeb2SWoDd4wQ869k1WfmMqves_svKHMmyN2O5628mRpeVm6T2wxhev09nySoHXnj1yUYHX8uUhC92gt6pT=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/b5b5339ac70bd8a89bdc.webp",
+          "url": "https://play-lh.googleusercontent.com/FNKII39HqVM_acYL8_dzuG_Y51MQ2mXG_NQBiC7jaZMmd7qL5wm0oVcJhtwLxInEGk9TA-7v6QJfKiW2mjaipw=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 59,
+      "name": "Jackpot Go: Slots Casino",
+      "appId": "6739792763",
+      "redirectId": "466529",
+      "googlePackage": "com.jackpot.android",
+      "appleUrl": "https://apps.apple.com/us/app/id6739792763",
+      "group": "合集/混合",
+      "scope": "老虎机转轮与主题符号",
+      "reason": "物件与主题角色主要作为图标符号，形体有较大跨度；金紫配色、亮边和发光使表现强度较高。仅代表所见主题。",
+      "xParts": [
+        2,
+        1.5
+      ],
+      "yParts": [
+        4,
+        3.5,
+        3.5
+      ],
+      "x": 35,
+      "y": 75,
+      "uncertainty": 25,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.jackpot.android&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/65a8e26e1e0cae99432f.webp",
+          "url": "https://play-lh.googleusercontent.com/OYFqJnsgqoHttu4sM1nEFHdkLvFWaVxo8j90hojyaMKgEvmE5fMU54ImJJl8x5sigmTFzGcsy-XD7oEv0C2rUqQ=w526-h296-rw",
+          "width": 526,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/4fb19ee286e8194ffb97.webp",
+          "url": "https://play-lh.googleusercontent.com/bhy3-UnieGPteNXZZgaRPmj3oEdXVqN9AlRDRewREDbpw--BPcRvp--5IzLK9-C231zas4S-xFswDkFdQbH9=w526-h296-rw",
+          "width": 526,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/6f3aecf9ecd5cd72affa.webp",
+          "url": "https://play-lh.googleusercontent.com/LixKCHQQyABakuXiZ6-oKvNgFeFRpHzFZmXNx8y4p9WGXhkBzdToGxouxAOppNGx39etan5G7OII-OyYj7qu6w=w526-h296-rw",
+          "width": 526,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 60,
+      "name": "Solar Smash",
+      "appId": "1495723103",
+      "redirectId": "308329",
+      "googlePackage": "com.paradyme.solarsmash",
+      "appleUrl": "https://apps.apple.com/us/app/id1495723103",
+      "group": "场景",
+      "scope": "行星表面与太空光照",
+      "reason": "行星球体和地表纹理结构较接近自然观察；受光、阴影和大气层有连续变化，爆炸被戏剧化。奇幻破坏能力不降低形体写实分。",
+      "xParts": [
+        4.5,
+        4.5
+      ],
+      "yParts": [
+        2,
+        1.5,
+        1.5
+      ],
+      "x": 90,
+      "y": 35,
+      "uncertainty": 15,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.paradyme.solarsmash&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/6bce3296f9956e9a356c.webp",
+          "url": "https://play-lh.googleusercontent.com/oOXRBVwGGwUSpTGhUxUJZIVnKbHVLVU9qF49_xnS25n1NcJvXhh9d_DSH2ztTv2W0vqYk966iTZ5IWSl2SdjSA=w526-h296-rw",
+          "width": 526,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/3584a2a1e78eba64f257.webp",
+          "url": "https://play-lh.googleusercontent.com/GAGH-7F-EqAW4RW9br7yM2yarcafl-M-yrOpCehmH6mlProoce0VB_VAF8mnmWZCl86n3BT6U1K9IFh3p2mCgw=w526-h296-rw",
+          "width": 526,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/c5d84534403d53775ea8.webp",
+          "url": "https://play-lh.googleusercontent.com/4o03cydmg-Vth1JoU_PMuIxNUN9_WgsrHuA2l_MwkeASIzaYm-b2vzQTT5ID1b_XQzfJBZePe7dU3Zm88GXNFg=w526-h296-rw",
+          "width": 526,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 61,
+      "name": "Jam Bus:Sandfall",
+      "appId": "6797530374",
+      "redirectId": "416791",
+      "googlePackage": "bus.sand.fall.jam.loop.traffic.flow",
+      "appleUrl": "https://apps.apple.com/us/app/id6797530374",
+      "group": "抽象/界面",
+      "scope": "沙粒图案与车辆棋子",
+      "reason": "图案由像素状颗粒组成，车辆压缩为色彩模块；色阶与棋子编码主导，少量三维高光提供厚度。",
+      "xParts": [
+        1,
+        1
+      ],
+      "yParts": [
+        4,
+        3.5,
+        3.5
+      ],
+      "x": 20,
+      "y": 75,
+      "uncertainty": 15,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=bus.sand.fall.jam.loop.traffic.flow&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/dce8a693968155e54705.webp",
+          "url": "https://play-lh.googleusercontent.com/ySlhs5k7eGnLsQ7el-aNZbf813Q5JHAJnIGgclYfwE8xLuMjVrChpvvF34qKERQTSor1soxee80dwvhyTLeSeQ8=w526-h296-rw",
+          "width": 130,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/5a268d9511e6617fadbd.webp",
+          "url": "https://play-lh.googleusercontent.com/m9cYdb_iKFZQKb-5AWOEXXKwohrtcaEl7Z0nFC31bsyQdVBo2gGrbgNNb3uto_ftCp_qgIkyUrc1PChYwQ75DQ=w526-h296-rw",
+          "width": 130,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/29a4f83ac8525332c784.webp",
+          "url": "https://play-lh.googleusercontent.com/NGMrXO2-QgCuSw7yVM9zUWL0C2MYDOJsPnOZ4_7fHaZ5XqzpipxvoCyLfC8KM3_xLKyWk_ddxnWc7IxJLhixZQ=w526-h296-rw",
+          "width": 130,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 62,
+      "name": "Geometry Dash Lite",
+      "appId": "698255242",
+      "redirectId": "307338",
+      "googlePackage": "com.robtopx.geometryjumplite",
+      "appleUrl": "https://apps.apple.com/us/app/id698255242",
+      "group": "抽象/界面",
+      "scope": "几何角色与障碍",
+      "reason": "角色、尖刺、轨道均是高度抽象图形；霓虹配色、平面块面和描边是主要表现手段。",
+      "xParts": [
+        0,
+        0
+      ],
+      "yParts": [
+        5,
+        5,
+        4.5
+      ],
+      "x": 0,
+      "y": 95,
+      "uncertainty": 5,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.robtopx.geometryjumplite&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/f75fc33a1d9808b27914.webp",
+          "url": "https://play-lh.googleusercontent.com/bX2Wz4jdga0sVrzi4Fil27DHqPl9mcyqtpvRnNkn0vDJbqF8P6sxNkduUXH0SzXm1TtwAaEiig7fBjZsWq1p=w526-h296-rw",
+          "width": 444,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/d85601d6376edfa7a0a2.webp",
+          "url": "https://play-lh.googleusercontent.com/NCZrWzgzwXib8qO-rH_75W3SBEgrQs2k8nLmL6-2qz3OaTUoyMavsFYKTxrv_10rb3k-9Beaam6pR-YcZ3YUlg=w526-h296-rw",
+          "width": 444,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/f5d922187b2c89bf1358.webp",
+          "url": "https://play-lh.googleusercontent.com/Obb-8opSdMNfCZdf8YANmePY_dq10s-NISkvDQJot1Mz69q_bd2f8BCsKdxE3NlnPhSf5vhYRb4pTDRTbwS6qQ=w526-h296-rw",
+          "width": 444,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 63,
+      "name": "Pokémon TCG Pocket",
+      "appId": "6479970832",
+      "redirectId": "307484",
+      "googlePackage": "jp.pokemon.pokemontcgp",
+      "appleUrl": "https://apps.apple.com/us/app/id6479970832",
+      "group": "合集/混合",
+      "scope": "所展示卡面的宝可梦",
+      "reason": "生物形体明显卡通化，但卡面涵盖平涂、绘画和立体等多种媒介；代表点只作样本中心，不能代表全部卡牌画师与稀有度。",
+      "xParts": [
+        2,
+        1.5
+      ],
+      "yParts": [
+        4,
+        4,
+        4
+      ],
+      "x": 35,
+      "y": 80,
+      "uncertainty": 25,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=jp.pokemon.pokemontcgp&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/bb5239fa867153f5e8c0.webp",
+          "url": "https://play-lh.googleusercontent.com/8a96l9MXMhlMWlA3DWZc95r6OR4HQ72x0TfG-fvwuRIUllw7_PhqjaH2D7Gui0CE7iJW5f7f1LgBvVKbR-3V9g=w526-h296-rw",
+          "width": 136,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/2fbd9011aebb5d0afd9e.webp",
+          "url": "https://play-lh.googleusercontent.com/3095dF_hgrFj9yNWv0dJFrq7YaH7QYhp4CG7_hl2l6UVyCiTfXw5TMGuXgvCK-3Hgmj86vt1OLgP8MxOMFs85Q=w526-h296-rw",
+          "width": 136,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/0aa60348fcf59795a8e2.webp",
+          "url": "https://play-lh.googleusercontent.com/qu6rNAdHsxykb5QQfn-F9iaZCShG5gKn_iUHYwJP_Xp1jyNx0dWgrZGHjbOSey4bpe0Zfk8aPtHoKHNlLEVzkA=w526-h296-rw",
+          "width": 136,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 64,
+      "name": "Satisfying Clean ASMR",
+      "appId": "6767180267",
+      "redirectId": "410921",
+      "googlePackage": "com.dongz.satisclean",
+      "appleUrl": "https://apps.apple.com/us/app/id6767180267",
+      "group": "物件",
+      "scope": "被清洁的器物表面",
+      "reason": "地毯、卫生间物件与装饰品结构较具象；污渍、金属反射和水流有较强材料感，装饰玩偶的局部形体更卡通。",
+      "xParts": [
+        4,
+        3.5
+      ],
+      "yParts": [
+        2,
+        1.5,
+        1.5
+      ],
+      "x": 75,
+      "y": 35,
+      "uncertainty": 20,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.dongz.satisclean&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/3068f32e2f4af56a9464.webp",
+          "url": "https://play-lh.googleusercontent.com/5Es7YVX_yWgVRA559EtoxY66ht9UIQ9QjdwCpfw4i1HZ-pm3tdlApzKBoJZSUkpw4H-xlCE7Qp47yg3w-HTaUp4=w526-h296-rw",
+          "width": 137,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/e5d55f391b789867e36a.webp",
+          "url": "https://play-lh.googleusercontent.com/9OGtdUeAiS8ah4SnugjRVwIpVHJzNthrqH6CPRqk8wl4UrWHFUTfXfyYdR8DRmAbaMf7Ff8K4CiMEX3k6NSxAw=w526-h296-rw",
+          "width": 137,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 65,
+      "name": "Maze Out! – Tap Puzzle",
+      "appId": "6762192889",
+      "redirectId": "397343",
+      "googlePackage": null,
+      "appleUrl": "https://apps.apple.com/us/app/id6762192889",
+      "group": "抽象/界面",
+      "scope": "箭头路径与迷宫",
+      "reason": "主要形体完全由路径与箭头组成；黑白平面关系占主导，少量彩色机关不改变整体表达。",
+      "xParts": [
+        0,
+        0
+      ],
+      "yParts": [
+        3.5,
+        5,
+        5
+      ],
+      "x": 0,
+      "y": 95,
+      "uncertainty": 5,
+      "platform": "iOS 商店图 · FoxData 镜像（US）",
+      "referenceSource": "https://foxdata.com/en/app-marketing-analytics/6762192889/as/US/arrow-jam-tap-puzzle/",
+      "images": [
+        {
+          "file": "assets/images/9d5562eddaf7de723870.webp",
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5f/52/d2/5f52d2fc-3293-1a19-1adf-4f7cd9d7648e/Market_1_2868x1320.png/460x0w.png",
+          "width": 460,
+          "height": 999,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/248bbc1086009838c609.webp",
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/12/c3/77/12c37724-5ed7-22f7-02b4-cd796e963a58/Market_2_2868x1320.png/460x0w.png",
+          "width": 460,
+          "height": 999,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/7fe2163963ab0b72e48a.webp",
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/56/77/2c/56772c7e-546f-146d-d583-ba1ed80ca6de/Market_3_2868x1320.png/460x0w.png",
+          "width": 460,
+          "height": 999,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/d48a2d0b50134d7372d1.webp",
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/08/3f/30/083f3073-18da-ce21-1c67-5b7eb5ea708e/Market_4_2868x1320.png/460x0w.png",
+          "width": 460,
+          "height": 999,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 66,
+      "name": "Color Slide – Hexa Puzzle",
+      "appId": "6590876141",
+      "redirectId": "307618",
+      "googlePackage": "com.awesome.puzzlehexasort",
+      "appleUrl": "https://apps.apple.com/us/app/id6590876141",
+      "group": "抽象/界面",
+      "scope": "六边形堆叠棋子",
+      "reason": "六边形为抽象几何模块；厚度与渐变可辨，但高饱和色相和统一光滑表面明显经过主观组织。",
+      "xParts": [
+        0.5,
+        0.5
+      ],
+      "yParts": [
+        4.5,
+        3.5,
+        3
+      ],
+      "x": 10,
+      "y": 70,
+      "uncertainty": 10,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.awesome.puzzlehexasort&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/21b8932afb2e4a4d0a77.webp",
+          "url": "https://play-lh.googleusercontent.com/gksSt0fCPK4Xo0Y7juDJsiSJyqw7pvX1I0Iw5SoGrf5DuGbUkpIBks7K0zSxGyJzuMYxN_RVuhrVxRymM_16=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/9c2e51b82041c4cc40b2.webp",
+          "url": "https://play-lh.googleusercontent.com/27am-dpMtqgb9oLK-BZoKdeKkDczqGpNXx7lCsrF6edEUb--mpNX_I1sx2zL7hZnhK0XsJkGWhm4jW5bGct0Z74=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 67,
+      "name": "Bus Crowd – Traffic Jam",
+      "appId": "6754059516",
+      "redirectId": "382063",
+      "googlePackage": "busflow.traffic.puzzle",
+      "appleUrl": "https://apps.apple.com/us/app/id6754059516",
+      "group": "物件",
+      "scope": "车辆与乘客棋子",
+      "reason": "车辆紧凑圆润，乘客高度概括；色彩承担分组信息，立体阴影与玩具材质仍清楚。",
+      "xParts": [
+        2,
+        2
+      ],
+      "yParts": [
+        3.5,
+        2.5,
+        2.5
+      ],
+      "x": 40,
+      "y": 55,
+      "uncertainty": 10,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=busflow.traffic.puzzle&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/0299e50dea618a7891c3.webp",
+          "url": "https://play-lh.googleusercontent.com/A29EcWKHB8CmVLvzt_BOeZdkTddSxu26QkS8F2sQoP1ZmnyJgjLheAgrp3sW2-P4vtMJmjYT6tPGU0CkHPm6qYQ=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/dc383eafa81d55b0e6d4.webp",
+          "url": "https://play-lh.googleusercontent.com/o8CoDTcrakz_oSk3S8DSLiIoey6aCG5GJudk3Ltp13mL1rnX_KIGhR6wMI9qQtDWrdIPr66J0cX9MAzecGxXQZQ=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/1fc7a0eb97dc66d6444e.webp",
+          "url": "https://play-lh.googleusercontent.com/-eiwBb0D_-AlLCIsJH0JiTXLD2c_d8olaGYKe560uY9d_o9-C0l0ihIht2VW68uSpxjBnIX1kQXsjOP-r8Jmmw=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 68,
+      "name": "Offline Games – No Wifi Games",
+      "appId": "6448104157",
+      "redirectId": "307320",
+      "googlePackage": "com.JindoBlu.OfflineGames",
+      "appleUrl": "https://apps.apple.com/us/app/id6448104157",
+      "group": "合集/混合",
+      "scope": "所示迷宫及小游戏棋盘",
+      "reason": "可见子游戏多用几何方格和简化物件；平面色块与浅体积并存。合集模式很多，位置不代表每一个子游戏。",
+      "xParts": [
+        0.5,
+        0.5
+      ],
+      "yParts": [
+        4,
+        4.5,
+        4
+      ],
+      "x": 10,
+      "y": 85,
+      "uncertainty": 25,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.JindoBlu.OfflineGames&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/b747b28b15e1975f693a.webp",
+          "url": "https://play-lh.googleusercontent.com/KX7qqcvONKSBX61oHf9f6seBq_tIqkDmzmRHdQb_WsZTk5AiBGFx5SwoSpcs4LbeZVVFWytUno08Cws6bLU-Pw=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/c7bd9d24c5e296995c78.webp",
+          "url": "https://play-lh.googleusercontent.com/7wumX1DOvEFnqWxYIvohfsfFg05rlYeHigRw0gIz8qSkyFfnaDj9jUifvgZ_osyej1KmmWvqs6ttzYb_dSFb0B4=w526-h296-rw",
+          "width": 526,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/7239b155a87d6eef542b.webp",
+          "url": "https://play-lh.googleusercontent.com/Z64PiwOzqvVWWdAgMXH83uxGAb0MKpgo7K4aGN5zT15u6jZy2JllP2WFm1wwH-mRKJ5HpKCstsih9C0iLCt7=w526-h296-rw",
+          "width": 526,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 69,
+      "name": "Cutie Sort – Magic Color Fever",
+      "appId": "6796547048",
+      "redirectId": "458847",
+      "googlePackage": null,
+      "appleUrl": "https://apps.apple.com/us/app/id6796547048",
+      "group": "角色",
+      "scope": "猫与拟人小动物棋子",
+      "reason": "圆头、大眼、小身躯与重复造型明显卡通化；连续渐变配糖果色，高光被增强，几乎没有自然毛发细节。",
+      "xParts": [
+        1,
+        0.5
+      ],
+      "yParts": [
+        4,
+        3,
+        2.5
+      ],
+      "x": 15,
+      "y": 60,
+      "uncertainty": 10,
+      "platform": "iOS 商店图 · FoxData 镜像（US）",
+      "referenceSource": "https://foxdata.com/en/app-marketing-analytics/6796547048/as/US/cutie-sort-magic-color-fever/",
+      "images": [
+        {
+          "file": "assets/images/d823aace5d782149b628.webp",
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f5/05/72/f5057217-1726-76cd-aa40-f0ac0e562d5d/ab_18376_1793779237620.png/460x0w.png",
+          "width": 460,
+          "height": 997,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/44ac4a49b23ff7eb2875.webp",
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ec/31/d4/ec31d438-04dd-c7d9-3fbc-3a69f6a1fd60/ab_18377_1793779244201.png/460x0w.png",
+          "width": 460,
+          "height": 997,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/57674967ae6bbfdc9ed4.webp",
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c0/6a/4e/c06a4e16-8421-a28e-c50b-fe492d083631/ab_18378_1793779250618.png/460x0w.png",
+          "width": 460,
+          "height": 997,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/d8d778d3c29a48b14458.webp",
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/40/96/80/409680e9-0bf0-fff5-32a5-171af79d23f4/ab_18379_1793779256474.png/460x0w.png",
+          "width": 460,
+          "height": 997,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 70,
+      "name": "Goods Puzzle: 3D Sorting Games",
+      "appId": "6499306806",
+      "redirectId": "307581",
+      "googlePackage": "sorting.games.goods.sort.triple.match3d.puzzle.stuff",
+      "appleUrl": "https://apps.apple.com/us/app/id6499306806",
+      "group": "物件",
+      "scope": "货架包装与食物",
+      "reason": "商品有现实轮廓参照，但尺寸、比例与复杂结构被整理成易辨模块；色彩饱和，明暗柔和而统一。",
+      "xParts": [
+        2.5,
+        2
+      ],
+      "yParts": [
+        3.5,
+        3,
+        2.5
+      ],
+      "x": 45,
+      "y": 60,
+      "uncertainty": 10,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=sorting.games.goods.sort.triple.match3d.puzzle.stuff&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/02a0c965128d5c54ee98.webp",
+          "url": "https://play-lh.googleusercontent.com/5-Y8dngKRYFkwA2iHKmaqNHEpyEPYFwS1Cpyvr_LmwYwddtHjNLEtxxPRSL8vSYR-6qBF_CjgnS7NS13ETxLtuQ=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/63e426906976bff51f99.webp",
+          "url": "https://play-lh.googleusercontent.com/ZOOv7OswcHnvKxOABqJ0y2ugsWvK9WZ4JZTegu8EbEU8t3xZPPwHT3rH7n0oElZqHBGoFDCdTgQKl0fPmJz84T0=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/c3be9e88e1f19a7a7505.webp",
+          "url": "https://play-lh.googleusercontent.com/skChL0gyfcOsz_wJkRU4uLKqjOWIALP1fFFuTVuJ0Vgo7zp6h4GB_2QuZv_tO4t7me4MSiwv4NS80gvKQTyY=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 71,
+      "name": "Treasure Masters",
+      "appId": "6444407009",
+      "redirectId": "307339",
+      "googlePackage": "com.gimica.treasuremaster",
+      "appleUrl": "https://apps.apple.com/us/app/id6444407009",
+      "group": "角色",
+      "scope": "球状怪物",
+      "reason": "独眼、圆团身体和巨大五官是主要形体语言；表面有渐变、裂纹或毛绒感，结合强烈的色光。",
+      "xParts": [
+        1.5,
+        1
+      ],
+      "yParts": [
+        3.5,
+        2.5,
+        2.5
+      ],
+      "x": 25,
+      "y": 55,
+      "uncertainty": 15,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.gimica.treasuremaster&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/341dea36f83453d2ff2c.webp",
+          "url": "https://play-lh.googleusercontent.com/6DjBVPuBgLoAmZtNMGRt0qS9VA6D8wOwgonqZrKDA5YhOHHZNBCKq5UsvHVU-GzqE9bQD81BUXPdUJoO88E-VQY=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/628bda307d59b71053b5.webp",
+          "url": "https://play-lh.googleusercontent.com/1OxqMxGCkA9WRQLBRNMi8N2Ut4tqeE-42zeRfdVUSaylNQsFVtzJI-nkyqvmtzXNeH1XXRhfSi4JEeeJ5bPg=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/8b035ed350405b599019.webp",
+          "url": "https://play-lh.googleusercontent.com/BTm8sXjaiWiyEr2f2bEXtQ1yQ_oJSfXcS3sBWxvUkQT7xWSSlonyoUZ70LzBXw2YZJD0fRWf0-ReNprGGN8Ga20=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 72,
+      "name": "Yarn Fever! Unravel Puzzle",
+      "appId": "6747875092",
+      "redirectId": "307466",
+      "googlePackage": "puzzle.yarn.fever.unravel.puzzle",
+      "appleUrl": "https://apps.apple.com/us/app/id6747875092",
+      "group": "物件",
+      "scope": "针织玩偶与房屋",
+      "reason": "熊与房屋是夸张的工艺玩偶比例；线股、织纹和柔和阴影具有可信的针织材料感，因此可落在偏自然主义表现区域。",
+      "xParts": [
+        1.5,
+        1
+      ],
+      "yParts": [
+        2.5,
+        1.5,
+        1.5
+      ],
+      "x": 25,
+      "y": 35,
+      "uncertainty": 15,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=puzzle.yarn.fever.unravel.puzzle&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/f77908ea16949a0b5799.webp",
+          "url": "https://play-lh.googleusercontent.com/GFLMkXLRi9pZAzFE1ZZlO5KfbJUA2yhTER-ZD6OJODVKSoJ_HQC3lNR6oSsMJHdTXQT98Hnc6WgA883b-Atee-s=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/b8aff0f593952b8efd50.webp",
+          "url": "https://play-lh.googleusercontent.com/z6RCdHPBB7Ubsnsq2FGepfpLUu40KVCghbUiBn4sVU5efGzfwfS693V2qGNH0AMDph88-VWIJR7pHS2faF-aRQ=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/e6cc84ed802e3e8edbe5.webp",
+          "url": "https://play-lh.googleusercontent.com/TWzaepwWXASlc_htqWfj4AtJTxjrxjcQP1xF6fP5DOOHdbtbFiUKHSkTHsd-ygur9WNuYkSP4nSDCuOa0jN0oA=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 73,
+      "name": "Cookingo: Perfect Meal",
+      "appId": "6756288168",
+      "redirectId": "307309",
+      "googlePackage": "com.cookingo.perfect.meal",
+      "appleUrl": "https://apps.apple.com/us/app/id6756288168",
+      "group": "物件",
+      "scope": "烹饪台与食材",
+      "reason": "蔬菜、锅具和煎制食物结构可辨，轮廓略作概括；暖色平涂、细描线与绘制阴影形成手绘厨房感。此次只有一张有效参考图。",
+      "xParts": [
+        3,
+        2.5
+      ],
+      "yParts": [
+        3,
+        3.5,
+        3.5
+      ],
+      "x": 55,
+      "y": 70,
+      "uncertainty": 20,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.cookingo.perfect.meal&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/bfaef9536ed51a1c0fb4.webp",
+          "url": "https://play-lh.googleusercontent.com/mDqLEPF_yZOZmo-Falk0FROB1hNp7D-HEquE4BQAK3TJ6-Nb32hcpArmZwXMs7bGZS1VT1CWjMn9oLVOlVI6pw=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 74,
+      "name": "Coin Master – Board Adventure",
+      "appId": "6745761596",
+      "redirectId": "307486",
+      "googlePackage": "com.moonactive.cmboard",
+      "appleUrl": "https://apps.apple.com/us/app/id6745761596",
+      "group": "角色",
+      "scope": "棋盘吉祥物与小人",
+      "reason": "拟人动物大头短身，棋盘上的建筑玩具化；表面采用简化立体光照，色彩鲜明且材质统一。",
+      "xParts": [
+        1.5,
+        1
+      ],
+      "yParts": [
+        3.5,
+        2.5,
+        2.5
+      ],
+      "x": 25,
+      "y": 55,
+      "uncertainty": 15,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.moonactive.cmboard&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/ffcef5bd3ab2f7e5a478.webp",
+          "url": "https://play-lh.googleusercontent.com/TDkNO1QCOMsrFGxsv7Xffy7HRkRq_UIYnJS6YU8p1VCVhfiONr5-Ry4VFTGM6b2QGBMjRQ9kypqh4NfR8bZiAQ=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/37b78770d58e585884a4.webp",
+          "url": "https://play-lh.googleusercontent.com/93DhO5eaSKbzj6kLwF-eYgjRkMOm1QW-ENe54nRSFHZ4AQlueKBJgt553MI-dwfKcqcztC1n2P9gc5PiMd93D0w=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/0675f089d459ca583ac2.webp",
+          "url": "https://play-lh.googleusercontent.com/c_N-nD4T1jTN1gUoQoQtq1AxcwnwVS8XRJY-AC73Ydwu1dsLHqDv-aFMALhcxmKH8z7_5n5HsW3rAMFgyGwTkw=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 75,
+      "name": "Hidden Object Games: Seek It",
+      "appId": "6751270213",
+      "redirectId": "307485",
+      "googlePackage": "hidden.object.find.seek.search.mystery.puzzle.games.free",
+      "appleUrl": "https://apps.apple.com/us/app/id6751270213",
+      "group": "场景",
+      "scope": "寻物场景插画",
+      "reason": "器皿、家具与环境结构较具象；色彩和细节被密集编排，笔触与明暗带装饰绘画感。主题场景变化较大。",
+      "xParts": [
+        4,
+        3.5
+      ],
+      "yParts": [
+        3,
+        3,
+        3.5
+      ],
+      "x": 75,
+      "y": 65,
+      "uncertainty": 20,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=hidden.object.find.seek.search.mystery.puzzle.games.free&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/5c100ebbb02ddd0c8997.webp",
+          "url": "https://play-lh.googleusercontent.com/0UWF-Ahh_nGlHYGxk78hmGVnCKJr0I-xMMlvqhQC7eWKFOT2fBQinLZI6gRoo6FFMxXFtbTer7yuEilJwExV=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/b8c3ad185f2cfd30663b.webp",
+          "url": "https://play-lh.googleusercontent.com/CQ6lHBmqw-5Iy6447XlGToGEavPRsla_ye4RTKHltuPFdGmALJ7xR_xi7oNkp9A27hwga2pZ4WRH0C2X8lnO=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/d5144a6ada0a678594ae.webp",
+          "url": "https://play-lh.googleusercontent.com/WgWb98CiGCth-62VW2pb3xpMiAPgQ7ABsNjY01cBc1u91bB3oXansDFLGBQmFe8I7X-C57OhlbqVgqARLUUD2Q=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 76,
+      "name": "Tidy Puzzle: Perfect Satisfy",
+      "appId": "6749947089",
+      "redirectId": "307576",
+      "googlePackage": null,
+      "appleUrl": "https://apps.apple.com/us/app/id6749947089",
+      "group": "物件",
+      "scope": "整理与清洁的日常用品",
+      "reason": "杯碟、灶台、化妆盒保留现实结构，轮廓柔化；细描线、粉彩色区和概括阴影形成二维插画表现。",
+      "xParts": [
+        2.5,
+        2.5
+      ],
+      "yParts": [
+        3,
+        4,
+        4
+      ],
+      "x": 50,
+      "y": 75,
+      "uncertainty": 15,
+      "platform": "iOS 商店图 · FoxData 镜像（TW）",
+      "referenceSource": "https://foxdata.com/en/app-marketing-analytics/6749947089/as/TW/tidy-puzzle-perfect-satisfy/",
+      "images": [
+        {
+          "file": "assets/images/f52824c476a8ce2c4bbe.webp",
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4d/37/b0/4d37b09f-ae23-e290-e321-44fcf73c510d/A5.jpg/460x0w.png",
+          "width": 460,
+          "height": 997,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/e96009619c690a6ccc9f.webp",
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8b/63/26/8b63261f-b997-99b3-d53c-08fb68558637/A3.jpg/460x0w.png",
+          "width": 460,
+          "height": 997,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/a2238823985bb78297bf.webp",
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/83/b2/65/83b26519-1d48-1c7d-53b2-05ee880a6c16/A1.jpg/460x0w.png",
+          "width": 460,
+          "height": 997,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/88df3d48fe84dc22115c.webp",
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f5/bf/d1/f5bfd11a-e7c0-9e06-3672-32245c5935b2/A6.jpg/460x0w.png",
+          "width": 460,
+          "height": 997,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 77,
+      "name": "Vehicle Masters",
+      "appId": "6444705312",
+      "redirectId": "308339",
+      "googlePackage": "com.pd.vehiclemasters",
+      "appleUrl": "https://apps.apple.com/us/app/id6444705312",
+      "group": "物件",
+      "scope": "驾驶车辆",
+      "reason": "卡车、驾驶舱与机械的比例较自然，细节被简化；环境面块较明显，表面缺少复杂反射，但自然光照方向仍成立。",
+      "xParts": [
+        4,
+        3.5
+      ],
+      "yParts": [
+        2.5,
+        2,
+        2.5
+      ],
+      "x": 75,
+      "y": 45,
+      "uncertainty": 15,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.pd.vehiclemasters&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/c11342f8c061ae8ebb42.webp",
+          "url": "https://play-lh.googleusercontent.com/gurtkNDNnmWDL2EDcGBCjxravXLvy2CH5S1Dw46kEPgHGovX87dDk67zrxFvv4V5sKfIRXEwh8kmqPR3W0ioXw=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/29a19fdae824a2042b48.webp",
+          "url": "https://play-lh.googleusercontent.com/8ic67QQUV-vKrq4frsghWcrnx_XlmV85XMI7lf92eHeeYQv4OcBzEjyH3L8xHYMkK3MdsilcovGArbNVv9TMlw=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/e3a20f3650b5717713b4.webp",
+          "url": "https://play-lh.googleusercontent.com/XeB3LokvXRlhgpuRK-DjugffKAHjERD1gq-7TuHEAzh-qi9hMsJTH-RzoylPk8-zuAStAK4oaJ0MZrtAvZqS8Q=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 78,
+      "name": "Fruit Merge™: Match Game",
+      "appId": "6471572249",
+      "redirectId": "307493",
+      "googlePackage": "com.melon.drop.fruit.merge.master",
+      "appleUrl": "https://apps.apple.com/us/app/id6471572249",
+      "group": "角色",
+      "scope": "拟人水果",
+      "reason": "水果被圆球化并赋予大眼表情，大小关系按玩法重组；粗线、平面色块和简化阴影表现鲜明。",
+      "xParts": [
+        0.5,
+        0.5
+      ],
+      "yParts": [
+        4,
+        4.5,
+        4.5
+      ],
+      "x": 10,
+      "y": 90,
+      "uncertainty": 10,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.melon.drop.fruit.merge.master&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/97641436a3e5f3f63bb4.webp",
+          "url": "https://play-lh.googleusercontent.com/NOQ0XHz6SOxidbfgXmMrWD9RrxxScismtrXhEsOvYbHK2n7L8s6FYFR3AzgMK-jkHfQBZCCCkia92B5bD7SZW3Y=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/f2c50c54353fa0c3025e.webp",
+          "url": "https://play-lh.googleusercontent.com/L-kDWwIR6VFYD4nhmoolb32ynomYLIZGbwIVGYnpE1zE7C0aQ3SIw9vHzIWx475iXLVqabk9Tglrq11VIBSLcA=w526-h296-rw",
+          "width": 526,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/723d5b6f985ed56a1d94.webp",
+          "url": "https://play-lh.googleusercontent.com/g7sxQPbNV0VwjmnfnpNQ08W-jrVfe1o38CcbZXJJ-uerq1LzWOZYqQzSqeRrvlMREmMIsozBBa88NoeYURrUoQ=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 79,
+      "name": "Wool Crush™-Escape Traffic Jam",
+      "appId": "6743385713",
+      "redirectId": "307313",
+      "googlePackage": null,
+      "appleUrl": "https://apps.apple.com/us/app/id6743385713",
+      "group": "物件",
+      "scope": "针织图案与交通棋子",
+      "reason": "针织图案和车流均为高度概括模块；毛线的细密体积与阴影仍可辨，鲜艳颜色则用于解题。混合模式会带来较大跨度。",
+      "xParts": [
+        1.5,
+        1
+      ],
+      "yParts": [
+        4,
+        2.5,
+        2
+      ],
+      "x": 25,
+      "y": 55,
+      "uncertainty": 20,
+      "platform": "iOS 商店图 · FoxData 镜像（NL）",
+      "referenceSource": "https://foxdata.com/en/app-marketing-analytics/6743385713/as/NL/wool-crush-escape-traffic-jam/",
+      "images": [
+        {
+          "file": "assets/images/c07b6884da468cc165fd.webp",
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/67/67/8c/67678c9f-27ac-efd7-f1b1-0255ccc83997/ab_13439_1792424197617.png/460x0w.png",
+          "width": 460,
+          "height": 997,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/7de8015412867bd5128c.webp",
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3d/3c/51/3d3c51d9-457e-348f-1f2f-ccfec9172913/ab_13440_1792424200981.png/460x0w.png",
+          "width": 460,
+          "height": 997,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/11a0bbfb2e87d19a9273.webp",
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9c/8a/07/9c8a07d9-361a-6b6e-0b23-4b2078e86c34/ab_13441_1792424204220.png/460x0w.png",
+          "width": 460,
+          "height": 997,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/c41f3827bc2acafbbdc5.webp",
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/92/cf/5f/92cf5fca-a150-5cae-bbc9-85944b9eaaed/ab_13442_1792424207896.png/460x0w.png",
+          "width": 460,
+          "height": 997,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 80,
+      "name": "Hex Match: Block Puzzle",
+      "appId": "6756410999",
+      "redirectId": "379752",
+      "googlePackage": "com.gimica.hexmatch",
+      "appleUrl": "https://apps.apple.com/us/app/id6756410999",
+      "group": "抽象/界面",
+      "scope": "六边形拼图",
+      "reason": "规则几何轮廓与少量数字/符号构成主要形体；色彩块面、轮廓亮边与浅浮雕表现突出。",
+      "xParts": [
+        0.5,
+        0.5
+      ],
+      "yParts": [
+        4,
+        4,
+        3.5
+      ],
+      "x": 10,
+      "y": 75,
+      "uncertainty": 10,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.gimica.hexmatch&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/98551ecdfc6dbf617da8.webp",
+          "url": "https://play-lh.googleusercontent.com/5QdqyN9UTzyP_49QOISKZ6_Wi_HsPxV5jUtiDk9RYA3t824lRIzDDzTYCYq71QFJxVf-ENGBdpK6tb5kZky7Tg=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/da317b3434c00b65a2fd.webp",
+          "url": "https://play-lh.googleusercontent.com/XnijJAyS1OTyvM0jPwln_93kI9zNponnJsOtPbGyWFBzhj1LdMcmbybSnV9kHdUAPqhCAa5Xegou_A6-qIK-=w526-h296-rw",
+          "width": 526,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/1f3dd59c313ab6d010c5.webp",
+          "url": "https://play-lh.googleusercontent.com/lGiU3F6ScORJShiazdf4F8c7LlLyKmvKLqSVJxLmhD3ITYSjTxcZRUFkJyaeOLvOm-sOOpqAYLsydmZPBnFGyg=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 81,
+      "name": "Bingo Rock",
+      "appId": "6751319735",
+      "redirectId": "316509",
+      "googlePackage": null,
+      "appleUrl": "https://apps.apple.com/us/app/id6751319735",
+      "group": "抽象/界面",
+      "scope": "宾果号码与棋盘界面",
+      "reason": "号码格、彩球和按钮构成主要视觉，角色仅为附属头像；紫金舞台色、发光与图标化明暗明显。仅评棋盘，不评奖励宣传。",
+      "xParts": [
+        0.5,
+        0.5
+      ],
+      "yParts": [
+        4.5,
+        4,
+        4
+      ],
+      "x": 10,
+      "y": 85,
+      "uncertainty": 15,
+      "platform": "iOS 商店图 · FoxData 镜像（US）",
+      "referenceSource": "https://foxdata.com/en/app-marketing-analytics/6751319735/as/US/bingo-rock/",
+      "images": [
+        {
+          "file": "assets/images/60e26bfd6f1c248a7920.webp",
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1a/ce/59/1ace59ea-5395-0c75-75e6-4b0c4ce1e187/1.jpg/460x0w.png",
+          "width": 460,
+          "height": 997,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/da3f9b24fa749325fdd4.webp",
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f9/a9/21/f9a921b1-9660-2673-46f6-01f1ee19dc88/2.jpg/460x0w.png",
+          "width": 460,
+          "height": 997,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/1068c01d4ef3efc9e978.webp",
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f8/a3/ea/f8a3eafd-5a3f-6e70-f2e6-d68d3a12f25b/4.jpg/460x0w.png",
+          "width": 460,
+          "height": 997,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/9215a98b4d8ce8198fcf.webp",
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c4/6e/46/c46e4607-8182-7f93-2055-6f90c82cf58f/3.jpg/460x0w.png",
+          "width": 460,
+          "height": 997,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 82,
+      "name": "Ludo Go! – Dice Board Games",
+      "appId": "6815260519",
+      "redirectId": "461773",
+      "googlePackage": "com.easybrain.ludo.board.games",
+      "appleUrl": "https://apps.apple.com/us/app/id6815260519",
+      "group": "物件",
+      "scope": "骰子与棋盘棋子",
+      "reason": "棋子和骰子保留桌游物件结构，比例被圆润化；有浅体积与投影，配色和高光强调可读性。",
+      "xParts": [
+        2.5,
+        2
+      ],
+      "yParts": [
+        3.5,
+        3,
+        2.5
+      ],
+      "x": 45,
+      "y": 60,
+      "uncertainty": 10,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.easybrain.ludo.board.games&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/01e7abe06e4d59c29991.webp",
+          "url": "https://play-lh.googleusercontent.com/7jVXDD_rduv31XXfo8L_xNQCOYBwrqR7P8nwGLQf236jwphalbVxqXqE2UFcxIrosjg7_jQGAwVYsE7kI9h1Sw=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/1cee006514ff5adeea90.webp",
+          "url": "https://play-lh.googleusercontent.com/17NYURVfa-ZF82ZZnhvWtchu3lvG9c2WxWkwVvYWyJfTNB-D3zI_sGy7kWCpQEuA2UBgkB_h5nFMjMiqg43nkA=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/b5e39de62a1445a52126.webp",
+          "url": "https://play-lh.googleusercontent.com/7i1zUpBpYi4y5H2YuKIkhdSnbzBOiS1WJdKAX9dbgu8PrMWYqtMwYeWy8j-pPd0sPR9hpOUiW7WP77GPNym5=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 83,
+      "name": "Pocket Sort: Coin Merge Puzzle",
+      "appId": "6755425214",
+      "redirectId": "308073",
+      "googlePackage": "com.pocket.sort.coin.puzzle.game",
+      "appleUrl": "https://apps.apple.com/us/app/id6755425214",
+      "group": "物件",
+      "scope": "彩色硬币/筹码",
+      "reason": "圆片与堆叠结构可辨，但纹样和面额被压缩成图标；木盘和筹码有体积，色彩编码与亮边更强。",
+      "xParts": [
+        2,
+        1.5
+      ],
+      "yParts": [
+        3.5,
+        3,
+        2.5
+      ],
+      "x": 35,
+      "y": 60,
+      "uncertainty": 10,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.pocket.sort.coin.puzzle.game&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/c811822855123de605b0.webp",
+          "url": "https://play-lh.googleusercontent.com/gpEGSQfYxzTvQb-t_dAurZWBYAjD0SWuAidDt02p_sED_NsYC6Wu0ZW6dL01m6turlSdmUQ9atBv_oigHKTz=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/5c130e04f722c8c0200e.webp",
+          "url": "https://play-lh.googleusercontent.com/NL5hFZOVCHKtMxbKCtI42zvCzVu57Q85hs-fOmBfxr9LQfgB8ZAWmyX7GoHjM4_f0N0QOQPSy8vFiOP7_Fzj=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/b881e3a0e09296d95183.webp",
+          "url": "https://play-lh.googleusercontent.com/Kj0-HqUrLq4dGZ8I7JHdg_fQ8VB1Mu4_rO4XnKg1NMKv4XFEzdiZXQwefFCTDpvSca9y-sSXjhjk6UIpwTWp=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 84,
+      "name": "Jelly Busters: Puzzle Game",
+      "appId": "6756058501",
+      "redirectId": "308022",
+      "googlePackage": "com.moonactive.jellybusters",
+      "appleUrl": "https://apps.apple.com/us/app/id6756058501",
+      "group": "物件",
+      "scope": "拼图像素与果冻棋子",
+      "reason": "图案高度离散化，果冻角色比例夸张；色阶组织与像素边界显著，同时保留单块的立体高光。画作关卡差异较大。",
+      "xParts": [
+        1,
+        1
+      ],
+      "yParts": [
+        4,
+        3.5,
+        3.5
+      ],
+      "x": 20,
+      "y": 75,
+      "uncertainty": 20,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.moonactive.jellybusters&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/ea6699e0f1edbea9eab1.webp",
+          "url": "https://play-lh.googleusercontent.com/IwvxVcUmLfASGecKUlrJ_nNAmF7vaLqdFpqLUdrqWhY81dXDJhT9yq6UZ3k_E35LsTtljDqHiD1ag-M_xAXQeg=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/b2316c5ab9d1a7c8a94b.webp",
+          "url": "https://play-lh.googleusercontent.com/J8dvr1RmlapV34EUJVyUIAA6rTgAmXRIVL3xOhB6D2p5CJOwIW172zi-fmjZRSvDxdBZwl1QQ32gNDqF3LIMO3I=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/e3f64137508a7f1ce083.webp",
+          "url": "https://play-lh.googleusercontent.com/RGek9tIJS06CdXM0palPkvQJU72lDuvgqbn30b_nbuvdy1rM-ivK25LGDd2iEBAozaaQ6E48A940yf399Mn6SQ=w526-h296-rw",
+          "width": 165,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 85,
+      "name": "Find The Cat 2 – Spot It!",
+      "appId": "6758662578",
+      "redirectId": "353934",
+      "googlePackage": "com.agavegames.findthecat2",
+      "appleUrl": "https://apps.apple.com/us/app/id6758662578",
+      "group": "场景",
+      "scope": "藏猫场景与人物",
+      "reason": "角色和猫的形体概括，场景器物仍容易辨认；轮廓线、平面色区和插画式明暗形成绘本表现。",
+      "xParts": [
+        2.5,
+        2
+      ],
+      "yParts": [
+        3.5,
+        4,
+        4
+      ],
+      "x": 45,
+      "y": 80,
+      "uncertainty": 15,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.agavegames.findthecat2&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/12cbeba1dfa5644f9605.webp",
+          "url": "https://play-lh.googleusercontent.com/Awk8MoYXWqKm_zKhWXlFfy2S7p7TsNzaYHi2_JKJFRawHjR9eBgH_e58ABVI-5Ud62Z7QNaFbNkeZijWn_5_2w=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/9afab1dda36fa925650d.webp",
+          "url": "https://play-lh.googleusercontent.com/WT_3KCpdnu6vQB0S_rOJfJRyJLRTRdQcf1YGEw7U4fMnIhueQIDDfZWTB8kR3aOWcvnlgNOBK9OpZoL1gRFOTg=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 86,
+      "name": "Krillion Today: Trivia & Quiz",
+      "appId": "6819295797",
+      "redirectId": "468298",
+      "googlePackage": "to.krillion.app",
+      "appleUrl": "https://apps.apple.com/us/app/id6819295797",
+      "group": "抽象/界面",
+      "scope": "问答文字界面",
+      "reason": "可见图以文字、输入框和结果卡为主，没有可比较的人体或物件形体；左端表示抽象。Android 页面名称为 Rarest Krill，按关联包名取图，iOS版本需再核。",
+      "xParts": [
+        0,
+        0
+      ],
+      "yParts": [
+        3.5,
+        5,
+        4.5
+      ],
+      "x": 0,
+      "y": 90,
+      "uncertainty": 25,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=to.krillion.app&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/334ab142975d96800199.webp",
+          "url": "https://play-lh.googleusercontent.com/YoauNdv8xqlB1ELfK6sGdXZirpI-OdUh_r-Lh5jY_I8un3mFoairepsxnUE0Ac1a06qm-YeHBzN2O3QUFOyD=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/53187dce803bc8c37f7e.webp",
+          "url": "https://play-lh.googleusercontent.com/sr5d5KLxH1BbBs2nDHanxKeRpbRsqQr1bWMEjrXZQ9IrMbbHlxlWKmTeimmYUOyedXMM16IYkQAfMXvwG1C0Rg=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 87,
+      "name": "Ghost Sniper: War FPS Shooter",
+      "appId": "6756882608",
+      "redirectId": "307652",
+      "googlePackage": "sniper.war.target.soldier.shooter.aldagames.com",
+      "appleUrl": "https://apps.apple.com/us/app/id6756882608",
+      "group": "场景",
+      "scope": "第一人称武器与战场",
+      "reason": "枪械、士兵和建筑遵循现实结构，细节具象；土石、金属、阴影和环境色以自然观察为主，保留适度戏剧光照。",
+      "xParts": [
+        4.5,
+        4.5
+      ],
+      "yParts": [
+        1.5,
+        1,
+        1
+      ],
+      "x": 90,
+      "y": 25,
+      "uncertainty": 15,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=sniper.war.target.soldier.shooter.aldagames.com&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/37482f3f039f61fd42b9.webp",
+          "url": "https://play-lh.googleusercontent.com/6gsA8YUGdWLf5lVWUhM1PRTqObBHFMSnbsChVWPHckMujfq7MMfb2TosoqaGEkW_WXGKxUPC1eNT_GO5EOowdA=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/543e126c6e3a546cbe0c.webp",
+          "url": "https://play-lh.googleusercontent.com/UHZDTLBeWj5AiZnP37ZoP9QtMXx24syQw6CoP22m_Kmof_SsHfcM6aRoAYBacPBu7EaDdiybha56VB85USYsdg=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/dd56d3c6919e0c331eed.webp",
+          "url": "https://play-lh.googleusercontent.com/bql2NQjK2iISJOKNVPh3SnYcWW0XamlPbu-3p92GEWZN6l9nmCrXKBEJEI4551VioqKjc7pIR_AMKYjsjsy1Dw=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 88,
+      "name": "Royal Cooking",
+      "appId": "1664415775",
+      "redirectId": "307508",
+      "googlePackage": "com.matryoshka.royal.cooking.kitchen.madness",
+      "appleUrl": "https://apps.apple.com/us/app/id1664415775",
+      "group": "物件",
+      "scope": "餐台食物与灶具",
+      "reason": "厨房设备和食物比例较具象，但表面更整齐、轮廓更饱满；自然式连续明暗与少量绘制质感并存。",
+      "xParts": [
+        3.5,
+        3
+      ],
+      "yParts": [
+        2.5,
+        2,
+        2
+      ],
+      "x": 65,
+      "y": 45,
+      "uncertainty": 10,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.matryoshka.royal.cooking.kitchen.madness&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/a71b73b1dbd5d49721d5.webp",
+          "url": "https://play-lh.googleusercontent.com/PY3vvsSB7jcWDOgAyvcuDeXoTBTY9Af_VSER10nUQvhwhvj6MOCIJYffvRbLRh9XUV5rV5fEad6VOJW8TU6n=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/5e73ba89d00cbcb511b7.webp",
+          "url": "https://play-lh.googleusercontent.com/0Mx_ZRNJDEnXT0ZpA2EEY2UBLgy5EZzaPxCPEyxVH9NzOu3n4rmcdYVvVyeEkIc9wW2VPWQdJ2ZeEb03T8UVbA=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/59e9374e4e0a06e56f3a.webp",
+          "url": "https://play-lh.googleusercontent.com/OGK71JXYuOgxoljOmspkaJkQKfCx8KxSt2_Md0UZ_XJi8Oe1-jW2yASkriolN8b9NxwYvUDd1sdraVNQ6LCv7Q=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 89,
+      "name": "Travel Sort: Color & Match",
+      "appId": "6751308308",
+      "redirectId": "430482",
+      "googlePackage": "com.happyhour.water.sort",
+      "appleUrl": "https://apps.apple.com/us/app/id6751308308",
+      "group": "物件",
+      "scope": "液体瓶子",
+      "reason": "容器细颈、瓶身和液面仍具象；互不混合的色层、透明高光和糖果配色强化图形组织。活动吉祥物不计入主体。",
+      "xParts": [
+        3,
+        2.5
+      ],
+      "yParts": [
+        4,
+        3.5,
+        3
+      ],
+      "x": 55,
+      "y": 70,
+      "uncertainty": 10,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.happyhour.water.sort&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/16cdef27921379cfa918.webp",
+          "url": "https://play-lh.googleusercontent.com/ugKJnYRQtchKbb0UGkekK5An_KD-52JM44Y5Qzr5RLsKLcXcinUl4LNsnXnUvAXlsIHxrMpB76YwW1t4ekfE=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/d4c1e8985c75ff29a2f6.webp",
+          "url": "https://play-lh.googleusercontent.com/3hdH-Iwas-78osacJX2ExOD1vFAtv1Nj-XT__S80ukYqrPVJsT3JysWt_24ltXRnGtmTwecnAf7ipFVMz1HM7w=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/7a5f6feaf8b7112da0bd.webp",
+          "url": "https://play-lh.googleusercontent.com/LSjK_ii-b5mp-Uz3I-5oYLoiVLAQx0oXnDi3OIes_ihgTwMMFd8O6E8pLtHbT3kpKTAu2VCqQhkFlG8tgLfSpQ=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 90,
+      "name": "Flambé®: Merge and Cook",
+      "appId": "6618142292",
+      "redirectId": "308664",
+      "googlePackage": "com.cola.game",
+      "appleUrl": "https://apps.apple.com/us/app/id6618142292",
+      "group": "物件",
+      "scope": "合成食物与餐具图标",
+      "reason": "食物轮廓具象但圆润、统一大小；高饱和固有色、绘制高光与柔和渐变形成精致休闲插画。",
+      "xParts": [
+        2.5,
+        2.5
+      ],
+      "yParts": [
+        3.5,
+        3,
+        2.5
+      ],
+      "x": 50,
+      "y": 60,
+      "uncertainty": 10,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.cola.game&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/d38a80068f895180f598.webp",
+          "url": "https://play-lh.googleusercontent.com/-ezLOx5UO9pZVMBTFHcgLFEzYoiH0aRN9clIJxKrmqVpCpKg9UrYtWH0gFzBs-YDA8CVljubTOhvuHXNTCcHtg=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/bb01c5e5199433de4629.webp",
+          "url": "https://play-lh.googleusercontent.com/vVVX0uWJPM4JHKn06uy-VCPbwLih6M_THlDgPgTJy6iCPFtUQwooyIZrr5voATtd4vn2iueEojdSj63jLu34=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/4165dfe69c210d94e7e6.webp",
+          "url": "https://play-lh.googleusercontent.com/qu1c9214QpI675g0KXGyTvWXsMiWWkl6PZGpHf0PUjGNlENE57c9wZSTIRo8p4mFmRNEbTg5k4zwE9QIHO9hmg=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 91,
+      "name": "Sand Drop: Color Sort Puzzle",
+      "appId": "6786642612",
+      "redirectId": "454759",
+      "googlePackage": "com.fingersyoda.sanddrop",
+      "appleUrl": "https://apps.apple.com/us/app/id6786642612",
+      "group": "抽象/界面",
+      "scope": "沙粒拼色图案",
+      "reason": "猫、帆船等轮廓被压缩成大色块，粒子只提供局部颗粒感；图形分区比自然光照更重要。",
+      "xParts": [
+        1,
+        1
+      ],
+      "yParts": [
+        4.5,
+        4,
+        4
+      ],
+      "x": 20,
+      "y": 85,
+      "uncertainty": 10,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.fingersyoda.sanddrop&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/cf3bc83ce327bd1ce3ad.webp",
+          "url": "https://play-lh.googleusercontent.com/bxs59cjQFy_DYm8Nrc1Rr0fecjolkBSs26UWWg5iiAjyf71c5yJyA_63feH41i1jCCL4nDQA4XFvKllODseL=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/54276513bc2eb15f92d0.webp",
+          "url": "https://play-lh.googleusercontent.com/fshcXttdvhqQr_42ep8q64MN_lKoHYjHrKkRR7UyWh2E2V10orz9BBp7Bz6ltAnq6C6rivsCL9psAlF8ZrxdcQ=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/e4bcda0d152689ed213a.webp",
+          "url": "https://play-lh.googleusercontent.com/O6phLwWLK9Td5DLT6sCgLGCeeCcA740i5YE5dNPDniDL-yjik45jfSLVznFXzurbOBouPvr7tUHALUMbnvMQ=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 92,
+      "name": "Wordle!",
+      "appId": "1095569891",
+      "redirectId": "308394",
+      "googlePackage": "com.vottzapps.wordle",
+      "appleUrl": "https://apps.apple.com/us/app/id1095569891",
+      "group": "抽象/界面",
+      "scope": "字母方格界面",
+      "reason": "文字与色块没有自然形体参照，左端表示抽象；平涂、网格与功能性色彩编码几乎不模拟真实表面。",
+      "xParts": [
+        0,
+        0
+      ],
+      "yParts": [
+        3.5,
+        5,
+        5
+      ],
+      "x": 0,
+      "y": 95,
+      "uncertainty": 5,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.vottzapps.wordle&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/034b00175feec3cf898b.webp",
+          "url": "https://play-lh.googleusercontent.com/GSC5zro-epDMOYxAKM1ZE7vbdNWS4CCTW_l_lkJ_2iS--h3uBQVdQoxzKuioDXOWWF8l7fMbwQSfNfO6IR49=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/2fff34c6270308783d77.webp",
+          "url": "https://play-lh.googleusercontent.com/39JHPGDM2yi5ouhHdOFlHSpwb7zlWUBnpZN4VS3d3VzTNDut6jUs4LRSN-VMbDyIwxcA9d7_I19ox8XmRSpT-A=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/0a70c8b3353e2a79c88c.webp",
+          "url": "https://play-lh.googleusercontent.com/IVYmf7QzHd_Bt_7DwSg4HPwzWDODGQxzQSkXn2fkJTzzaCJr1Kx-EwmARAkAiYvnsH3QT285HR8aKDw_p36QIw=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 93,
+      "name": "Aquapark.io",
+      "appId": "1453989822",
+      "redirectId": "307513",
+      "googlePackage": "com.cassette.aquapark",
+      "appleUrl": "https://apps.apple.com/us/app/id1453989822",
+      "group": "角色",
+      "scope": "滑道上的玩家角色",
+      "reason": "人物与动物皮肤身体圆润、短小，结构概括；三维光照保持体积，滑道色彩与表面反射经过简化。",
+      "xParts": [
+        1.5,
+        1
+      ],
+      "yParts": [
+        3.5,
+        2.5,
+        2.5
+      ],
+      "x": 25,
+      "y": 55,
+      "uncertainty": 15,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.cassette.aquapark&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/8a4ff9a63d8469aef4dc.webp",
+          "url": "https://play-lh.googleusercontent.com/1dp0nJmXacbeXLuEYD3tKIxNxrvqp0E7ikk0P1cIU5l-oIRilOP5Wq1MwNmWO9jyVtdiYA5lx9KfymtOlKFn=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/12ffabb45c8ab15268fc.webp",
+          "url": "https://play-lh.googleusercontent.com/XTdHQaHvJK20arqTGjwR1M7J_qLyZUJf3FXHmb_vGTCZhjMR0xUTzA1LXlUkDkHAPi2Ba-O3B03Mkq3I0X2e6gA=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/bcc3d27085a953e85f12.webp",
+          "url": "https://play-lh.googleusercontent.com/vle5wlPRnFK5G70i0AY_OVrXx2_PT2UZZrnc5IYJUAqry0pKpAeQsvSo_BUJUwygsOF_hRt5sFHD9xzVhJo73w=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 94,
+      "name": "Gleaming Slots – Win Real Cash",
+      "appId": "6566176181",
+      "redirectId": "466524",
+      "googlePackage": "gleamingslots.bestcashgame.downnow",
+      "appleUrl": "https://apps.apple.com/us/app/id6566176181",
+      "group": "合集/混合",
+      "scope": "所示老虎机主题",
+      "reason": "转轮图标和主题角色的形体偏概括，模式之间差异较大；金属亮边、紫绿光效与高对比配色强调娱乐界面感。",
+      "xParts": [
+        2,
+        1.5
+      ],
+      "yParts": [
+        4,
+        3.5,
+        3.5
+      ],
+      "x": 35,
+      "y": 75,
+      "uncertainty": 25,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=gleamingslots.bestcashgame.downnow&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/a4ba594a0a594a07a331.webp",
+          "url": "https://play-lh.googleusercontent.com/R_MNs851TO15NXOKNpjnaHCVv1VItA9lIoG5BineuES9muKO73TkK8cfJ83WCFdQt-qtPBli4KbfVon5c8xRRQ=w526-h296-rw",
+          "width": 526,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/b36cdad05adc1f0d2331.webp",
+          "url": "https://play-lh.googleusercontent.com/6Nh3Vq33_745Fi2psHsX8iaCUA7J98rMCLRUxnSvEyqdORTutWTRen39L1Pf7-WGtBekS3p6QdGhMtUTUjNJ6g=w526-h296-rw",
+          "width": 526,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/8a0c153fb5d3f7f6844c.webp",
+          "url": "https://play-lh.googleusercontent.com/-7OFF8brfJ8L-ObEZti6Tn8F94wRxLLVopRHY-Wk8DwxV9Tfp0AiTbhfbgIVT5MogdaNfMJosHzIBaPIgsCo9g=w526-h296-rw",
+          "width": 526,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 95,
+      "name": "2 Player Games : Offline Games",
+      "appId": "1465731199",
+      "redirectId": "307451",
+      "googlePackage": "com.JindoBlu.TwoPlayerGamesChallenge",
+      "appleUrl": "https://apps.apple.com/us/app/id1465731199",
+      "group": "合集/混合",
+      "scope": "双人小游戏棋盘",
+      "reason": "球拍、车辆与棋子多为几何或图标式形体；平面配色与简化阴影为共同倾向。该点不表示所有子游戏完全相同。",
+      "xParts": [
+        0.5,
+        0.5
+      ],
+      "yParts": [
+        4,
+        4.5,
+        4
+      ],
+      "x": 10,
+      "y": 85,
+      "uncertainty": 25,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.JindoBlu.TwoPlayerGamesChallenge&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/fe53abc121cb45abb29d.webp",
+          "url": "https://play-lh.googleusercontent.com/chl7JHh2jDQWWElNnwqRo-UxpGYqjQteoExdzbYDGoEy4VdzGW6hpyq6CTjCee1c8ZVhnAvBiBtowPY4emRgBA=w526-h296-rw",
+          "width": 166,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/a1590e5caa201380d151.webp",
+          "url": "https://play-lh.googleusercontent.com/L6guwHVMaoteFmyEezbABUgCum9NdGKMygKKCW5i6ypR51c9rVXDGGvWGwbPtQw2ERwG7Sp773ZztDKmVnwrrQ=w526-h296-rw",
+          "width": 526,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/c48a3ca2a0b94a4f22b0.webp",
+          "url": "https://play-lh.googleusercontent.com/cuR_tQ-gS8swBMN-WfcVamfI42-GY5SJmVZrnWx09Hhs60X_3xW68etiwCeqqEn3yz0jGEfVwRjK86MFCxKyqg=w526-h296-rw",
+          "width": 526,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 96,
+      "name": "Temple Run",
+      "appId": "420009108",
+      "redirectId": "307526",
+      "googlePackage": "com.imangi.templerun",
+      "appleUrl": "https://apps.apple.com/us/app/id420009108",
+      "group": "角色",
+      "scope": "跑者与遗迹环境中的人物",
+      "reason": "人体比例和动作结构较自然，面部与模型细节较简化；贴图、石材和受光有自然参照。年代较早、画质较低不等同于强卡通。",
+      "xParts": [
+        3.5,
+        3
+      ],
+      "yParts": [
+        2.5,
+        2,
+        2.5
+      ],
+      "x": 65,
+      "y": 45,
+      "uncertainty": 15,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.imangi.templerun&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/5938091ce85f6b8eea3f.webp",
+          "url": "https://play-lh.googleusercontent.com/lDxXvtbAuEV7wKODVTJJZkrKhoOc9LPDDT9Ab49YkJMBcrbqSdkpjRGn9H06pZK9dqWB6Ruv6aI5p1-QBgqk3w=w526-h296-rw",
+          "width": 137,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/f2c48ecc3676a85f7ccf.webp",
+          "url": "https://play-lh.googleusercontent.com/Uxq0m0XGoDWQC8dQbdA9rfWZOqvAORCxCFT3zczAdQiOepKAIlRGYYrqTW-fsFNlYY4upQm0u2V_2yJ9SakvXw=w526-h296-rw",
+          "width": 137,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/d7f0eda379313bc5f1be.webp",
+          "url": "https://play-lh.googleusercontent.com/PAnLeyBdEPsIs6uptMc1Bo5EUgIypGU6BIcJMpi8u81Dr6JrT7QG62_A3VMM66_5KdO3OscUh76mcn5neVvMdQ=w526-h296-rw",
+          "width": 137,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 97,
+      "name": "Pizza Ready!",
+      "appId": "6450917563",
+      "redirectId": "307343",
+      "googlePackage": "io.supercent.pizzaidle",
+      "appleUrl": "https://apps.apple.com/us/app/id6450917563",
+      "group": "角色",
+      "scope": "餐厅服务小人",
+      "reason": "人物近似胶囊和圆柱组合，五官与关节弱化；色彩分区明显，三维阴影与统一塑料表面表现简洁。",
+      "xParts": [
+        1,
+        0.5
+      ],
+      "yParts": [
+        3.5,
+        2.5,
+        2.5
+      ],
+      "x": 15,
+      "y": 55,
+      "uncertainty": 10,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=io.supercent.pizzaidle&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/51b0a583c973a76afbd2.webp",
+          "url": "https://play-lh.googleusercontent.com/8iUIvujENByiloxIFjOeXiRq0kJnaEJC-eOPmUonD2PU5U565_dPlGzGAXM0DFcWgMbhZHKzy433L81RWtaA=w526-h296-rw",
+          "width": 137,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/cbb36ad88a4b8ba30421.webp",
+          "url": "https://play-lh.googleusercontent.com/N55BEsOP50eGZmuYS7bUIc3GMmLPShJFH6R-NBYgXfw6Kz6WM-nB4gaTmU1tOBmL-hRHFO8nc-ZUdO0_2k-5RA=w526-h296-rw",
+          "width": 137,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/fbda347c290efc62f254.webp",
+          "url": "https://play-lh.googleusercontent.com/x0Vw8B3X1-jchKMyqzrXli0IStmmy5CPtMBaOLJppFtRfbeRceXiyFA7wx7lOu0jX16O-zLtgiOUxxJIMJx3mV8=w526-h296-rw",
+          "width": 137,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 98,
+      "name": "Bowmasters – Multiplayer Games",
+      "appId": "1118431695",
+      "redirectId": "307546",
+      "googlePackage": "com.playgendary.bowmasters",
+      "appleUrl": "https://apps.apple.com/us/app/id1118431695",
+      "group": "角色",
+      "scope": "横版对战人物",
+      "reason": "头身、四肢与武器比例夸张，轮廓趋于几何剪影；高饱和块面、硬边阴影和轮廓线形成强图形风格。",
+      "xParts": [
+        1,
+        1
+      ],
+      "yParts": [
+        4.5,
+        5,
+        4.5
+      ],
+      "x": 20,
+      "y": 95,
+      "uncertainty": 10,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.playgendary.bowmasters&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/1f6c3fd6495e5de79e1d.webp",
+          "url": "https://play-lh.googleusercontent.com/T9KAhj8uh2p3whbupb81hk-EUS_3f27UPTIrdDoH-v0TEOF23xZMKbt1oN2WLBcTlP16d6Y0Sc1mGGLXUi9Btg=w526-h296-rw",
+          "width": 526,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/9e052f504685df5c60cc.webp",
+          "url": "https://play-lh.googleusercontent.com/4k4INerJYv2C24_GWPCU9xrhbh2hp6WaGaTAKdCHgLDsDr-26TAyw5MnFFFYCGksqhx_RipG8zpYb5HPWSUYPA=w526-h296-rw",
+          "width": 526,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/9f731141ac671e98e797.webp",
+          "url": "https://play-lh.googleusercontent.com/Jc6YQ6HGr-LVyLDOCe9iP6CJgX4qmUKOoV0Im1jCRyz0k2zpVqu-rrkGZDbwCVEp4A8VFdMDZbhK-7bHOjqleA=w526-h296-rw",
+          "width": 526,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 99,
+      "name": "Knock Out : Physics Puzzle",
+      "appId": "6782096197",
+      "redirectId": "365683",
+      "googlePackage": "com.combo.knockout",
+      "appleUrl": "https://apps.apple.com/us/app/id6782096197",
+      "group": "物件",
+      "scope": "方块塔与发射器",
+      "reason": "目标以规则积木搭成，形体具象程度有限；块面有清楚厚度和投影，色彩高度统一并服务关卡区分。",
+      "xParts": [
+        1.5,
+        1.5
+      ],
+      "yParts": [
+        3.5,
+        2.5,
+        2.5
+      ],
+      "x": 30,
+      "y": 55,
+      "uncertainty": 10,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.combo.knockout&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/01863e221f2cd511af03.webp",
+          "url": "https://play-lh.googleusercontent.com/O7RPPuE2853J1-BI0m36lLG8s_DmkZaGSJN1A-YVPOXRcwkvazdx0eDlFTl1iKpnOzdiV-KbpmatPXD7X6g2jV4=w526-h296-rw",
+          "width": 136,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/059b45c422439b9b582a.webp",
+          "url": "https://play-lh.googleusercontent.com/2gKUdYS9qlW-2bneqTpzcrztoEhc6_IFFa5GgJqn7sweYFJvGD_VNBdv22RtcyEXkV8miMTJSwXMHvx-F6H6=w526-h296-rw",
+          "width": 136,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/ced69133c5cde6f18977.webp",
+          "url": "https://play-lh.googleusercontent.com/sM9cFxDw1v92AGgx8XtFapLlKD6LJjtaACYOsK6AOD2UGJJW7SNpwUt41vAvcY29NvMPLhT29-PjEqzhgFJ3OA=w526-h296-rw",
+          "width": 136,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    },
+    {
+      "rank": 100,
+      "name": "Idle Cat Gunner: Shooter RPG",
+      "appId": "6764201639",
+      "redirectId": "317163",
+      "googlePackage": "com.Chodun.CatGunner",
+      "appleUrl": "https://apps.apple.com/us/app/id6764201639",
+      "group": "角色",
+      "scope": "俯视猫咪角色",
+      "reason": "猫被压缩为短身、大头的小体块，结构高度概括；深轮廓线、平面色块与少量简化阴影构成绘本式卡通。",
+      "xParts": [
+        1,
+        0.5
+      ],
+      "yParts": [
+        3.5,
+        4.5,
+        4.5
+      ],
+      "x": 15,
+      "y": 85,
+      "uncertainty": 15,
+      "platform": "Google Play 同款参考",
+      "referenceSource": "https://play.google.com/store/apps/details?id=com.Chodun.CatGunner&hl=en&gl=us",
+      "images": [
+        {
+          "file": "assets/images/acf30a1ab5d5f0fd09b5.webp",
+          "url": "https://play-lh.googleusercontent.com/mwyUGjmkVXdBzgrp4PVxKuRBMGQlUn-UDDeOjeEOn4-6tAXPkLHwWdjaoKegJfmwfQnCFOlVtZ8oX9Twrgol=w526-h296-rw",
+          "width": 526,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/32c2bd0c2e7f7da5851f.webp",
+          "url": "https://play-lh.googleusercontent.com/Xp3eL8PfClRDR89YDmefDVO09HQe24q0cMB16JByxoLCGzfqj34qS3ZH2J2Yv21R5UINMKaeJrFjkh-0A8lR5w=w526-h296-rw",
+          "width": 526,
+          "height": 296,
+          "mime": "image/webp"
+        },
+        {
+          "file": "assets/images/3e2e037e998461e1bea1.webp",
+          "url": "https://play-lh.googleusercontent.com/Vt5AorfrBqbuCJYDyW13WOiy5cX6JIEZiH77yXRtscJzfevG2KokrEjmyr_fibY_fgpzb1d3qIeQUJpYN3FUY9E=w526-h296-rw",
+          "width": 526,
+          "height": 296,
+          "mime": "image/webp"
+        }
+      ]
+    }
+  ]
+}

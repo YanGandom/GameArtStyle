@@ -1,0 +1,2945 @@
+{
+  "method": {
+    "version": "1.1",
+    "date": "2026-11-05",
+    "x": "形体语言：卡通 → 写实",
+    "y": "表现语言：自然主义 → 风格化",
+    "xWeights": [
+      0.6,
+      0.4
+    ],
+    "yWeights": [
+      0.25,
+      0.4,
+      0.35
+    ],
+    "xLabels": [
+      "比例与轮廓自然度",
+      "五官与结构具象度"
+    ],
+    "yLabels": [
+      "色彩的主观组织",
+      "明暗的图形化处理",
+      "表面的媒介化处理"
+    ],
+    "gradeStep": 0.5,
+    "coordinateStep": 5,
+    "xDefinition": "只判断角色形体如何接近自然结构或被夸张、概括；不计皮肤、木头、布料是否渲染逼真。",
+    "yDefinition": "只判断色彩、明暗与表面表达如何服从自然观察或被主观重组；不重复计入头身比例、骨相变形。",
+    "naturalism": "这里的自然主义指表现遵循可观察的材料与光照规律，可以是皮肤，也可以是现实中的布偶、木雕、纸模型；并非限定某个历史艺术流派。",
+    "changedFromPrevious": "横轴现为左卡通、右写实；相对上一版仅按X新=100−X旧镜像，Y和原有判断不变。",
+    "aggregation": "游戏分项0–5、每0.5一档；加权分×20后按5分一档展示。X分项越高越接近自然形体，Y分项越高表现处理越强。风格中心来自游戏坐标均值，本次保留原取整位置并镜像；范围为样本最小最大值。",
+    "limits": "两轴在真实作品中仍可能相关，不强求四个象限样本平均分布。数值是本图的人工比较口径，非行业测量标准，不能将相邻5分视为确定的客观差异。",
+    "reviewStatus": "沿用已有100案例的角色范围与图鉴参考，按本图口径重新标注；本次未逐款新增截图核验。可从详情打开原图鉴与参考来源复核。"
+  },
+  "colors": {
+    "写实与体块": "#b26934",
+    "卡通与图形": "#268a86",
+    "动漫与手绘": "#7263ae",
+    "材质与几何": "#447fa8"
+  },
+  "games": [
+    {
+      "id": 1,
+      "name": "最后生还者 Part II",
+      "direction": 1,
+      "style": "自然主义写实",
+      "family": "写实与体块",
+      "scope": "艾莉等主要人类角色的游戏内常态造型",
+      "source": "https://www.creativeuncut.com/gallery-38/tlou2-ellie-design.html",
+      "image": "https://www.creativeuncut.com/gallery-38/art/tlou2-ellie-design.jpg",
+      "xParts": [
+        5,
+        5
+      ],
+      "yParts": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "x": 100,
+      "y": 10,
+      "reason": "人体骨相、比例与五官接近现实；皮肤、旧布和连续明暗主要服从自然观察，仅有克制的电影式调色。"
+    },
+    {
+      "id": 2,
+      "name": "艾尔登法环",
+      "direction": 2,
+      "style": "写实暗黑奇幻",
+      "family": "写实与体块",
+      "scope": "常见骑士、士兵与主要人形角色",
+      "source": "https://www.creativeuncut.com/gallery-43/er-godrick-knight-soldier-and-foot-soldier.html",
+      "image": "https://www.creativeuncut.com/gallery-43/art/er-godrick-knight-soldier-and-foot-soldier.jpg",
+      "xParts": [
+        4.5,
+        4.5
+      ],
+      "yParts": [
+        1,
+        1,
+        1
+      ],
+      "x": 90,
+      "y": 20,
+      "reason": "常见人形骑士结构较自然；金属、皮革和布料保留物理质感。暗黑题材、复杂甲胄本身不增加Y。"
+    },
+    {
+      "id": 3,
+      "name": "赛博朋克2077",
+      "direction": 3,
+      "style": "赛博朋克写实",
+      "family": "写实与体块",
+      "scope": "主要人形角色的服装与义体",
+      "source": "https://www.notebookcheck.com/Cyberpunk-2077-Phantom-Liberty-ist-jetzt-erhaeltlich-Launch-Trailer-geht-viral.755629.0.html",
+      "image": "https://www.notebookcheck.com/fileadmin/Notebooks/News/_nc3/Cyberpunk_2077_Phantom_Liberty_chars.jpg",
+      "xParts": [
+        5,
+        4.5
+      ],
+      "yParts": [
+        1.5,
+        0.5,
+        0.5
+      ],
+      "x": 95,
+      "y": 15,
+      "reason": "主要人物维持真实人体与五官；霓虹和配色有设计倾向，但角色表面的光照材质仍较自然，不计城市场景。"
+    },
+    {
+      "id": 4,
+      "name": "魔兽世界",
+      "direction": 4,
+      "style": "厚重夸张奇幻",
+      "family": "写实与体块",
+      "scope": "典型种族角色及常用职业装备",
+      "source": "https://wowpedia.fandom.com/wiki/Talk%3AHeight",
+      "image": "https://i.imgur.com/Y6g9g6M.png",
+      "xParts": [
+        2.5,
+        2.5
+      ],
+      "yParts": [
+        3,
+        3,
+        3.5
+      ],
+      "x": 50,
+      "y": 65,
+      "reason": "肩部、手脚及种族体块明显夸张；大色面、概括高光和手绘感表面提高表现风格化程度。"
+    },
+    {
+      "id": 5,
+      "name": "守望先锋",
+      "direction": 5,
+      "style": "动画电影式英雄卡通",
+      "family": "卡通与图形",
+      "scope": "英雄的基础皮肤与常态装备",
+      "source": "https://christiannahaywood.com/overwatch-payload-tour",
+      "image": "https://cdn.myportfolio.com/3ec45c2d-f674-4524-ad8f-ded5ad647b2c/e7ee8ba7-11a4-4ac7-8cad-e9f1de911429_rw_1920.jpg?h=425aadf3817021a4729e637474534831",
+      "xParts": [
+        2.5,
+        3
+      ],
+      "yParts": [
+        2.5,
+        2,
+        2
+      ],
+      "x": 55,
+      "y": 45,
+      "reason": "英雄体型和面部带动画式夸张；色彩与明暗被整理，但金属、皮肤和布料仍保留可辨的三维材料反应。"
+    },
+    {
+      "id": 6,
+      "name": "军团要塞2",
+      "direction": 6,
+      "style": "复古商业插画式卡通",
+      "family": "卡通与图形",
+      "scope": "九大职业默认服装",
+      "source": "https://gametyrant.com/news/valve-is-prepping-team-fortress-2-for-esports-beta-is-opening-soon",
+      "image": "https://images.squarespace-cdn.com/content/v1/55ef0e29e4b099e22cdc9eea/1456162428757-I36BFTN179ZGHEKBGAMD/valve-is-prepping-team-fortress-2-for-esports-beta-is-opening-soon-social.jpg",
+      "xParts": [
+        2,
+        2
+      ],
+      "yParts": [
+        3,
+        3,
+        3
+      ],
+      "x": 40,
+      "y": 60,
+      "reason": "宽肩细腿、几何脸型与轮廓高度设计化；材质、明暗块和配色延续复古商业插画的概括方式。"
+    },
+    {
+      "id": 7,
+      "name": "无主之地3",
+      "direction": 7,
+      "style": "美式漫画描线",
+      "family": "卡通与图形",
+      "scope": "秘藏猎人的游戏内默认造型",
+      "source": "https://www.gamesradar.com/borderlands-3-character-class-best/",
+      "image": "https://cdn.mos.cms.futurecdn.net/RxF68SpGWqssT67PhHVEKS.jpg",
+      "xParts": [
+        3,
+        3
+      ],
+      "yParts": [
+        3.5,
+        3.5,
+        4.5
+      ],
+      "x": 60,
+      "y": 75,
+      "reason": "人物比例中度夸张；描线、笔触化表面与人为组织的阴影让呈现明显偏漫画，即使体积仍是三维。"
+    },
+    {
+      "id": 8,
+      "name": "原神",
+      "direction": 8,
+      "style": "精致日式动漫",
+      "family": "动漫与手绘",
+      "scope": "可玩角色的游戏内常态模型",
+      "source": "https://canaltech.com.br/games/genshin-impact-e-o-formato-de-sucesso-dos-gachas-196202/",
+      "image": "https://t.ctcdn.com.br/k9AuNWxuMIbGeTHie-OHBI8nSRU%3D/1200x675/smart/i505301.jpeg",
+      "xParts": [
+        2.5,
+        2
+      ],
+      "yParts": [
+        3,
+        3.5,
+        3.5
+      ],
+      "x": 45,
+      "y": 70,
+      "reason": "动漫脸、头身与发束进行概括；分段明暗、干净色块和被简化的材料使Y较高。"
+    },
+    {
+      "id": 9,
+      "name": "罪恶装备 -Strive-",
+      "direction": 9,
+      "style": "夸张格斗与动漫形体",
+      "family": "动漫与手绘",
+      "scope": "常规战斗模型，排除特效与夸张镜头",
+      "source": "https://blacknerdproblems.com/guilty-gear-strive-review/",
+      "image": "https://blacknerdproblems.com/wp-content/uploads/2021/06/GG_Roster.jpeg",
+      "xParts": [
+        2,
+        2
+      ],
+      "yParts": [
+        4,
+        4.5,
+        4.5
+      ],
+      "x": 40,
+      "y": 90,
+      "reason": "夸张肌肉、肢体和五官强调漫画节奏；模型以硬边阴影与线条模拟二维动画，表现风格化很强。"
+    },
+    {
+      "id": 10,
+      "name": "女神异闻录5 皇家版",
+      "direction": 10,
+      "style": "都市波普动漫",
+      "family": "动漫与手绘",
+      "scope": "怪盗团默认战斗服与模型",
+      "source": "https://www.vidaextra.com/analisis/persona-5-royal-analisis-review-precio-experiencia-juego-para-ps4",
+      "image": "https://i.blogs.es/a2f15a/p5r_1920_1200/1366_2000.jpeg",
+      "xParts": [
+        2.5,
+        2
+      ],
+      "yParts": [
+        4,
+        4,
+        4
+      ],
+      "x": 45,
+      "y": 80,
+      "reason": "怪盗人物有修长动漫比例和符号化五官；黑白关系、平面色块与刻意的材质概括提高Y。"
+    },
+    {
+      "id": 11,
+      "name": "勇者斗恶龙XI",
+      "direction": 11,
+      "style": "经典冒险漫画",
+      "family": "动漫与手绘",
+      "scope": "勇者斗恶龙XI主要队员的3D造型",
+      "source": "https://www.dq11.jp/funkit/",
+      "image": "https://www.dq11.jp/funkit/_img/wallpaper/DQXI-D-1920x1080.jpg",
+      "xParts": [
+        2,
+        2
+      ],
+      "yParts": [
+        2.5,
+        2.5,
+        2.5
+      ],
+      "x": 40,
+      "y": 50,
+      "reason": "大眼、漫画发束和头身偏卡通；三维渐变与材料虽经过概括，仍有柔和、完整的体积表达。"
+    },
+    {
+      "id": 12,
+      "name": "勇气默示录II",
+      "direction": 12,
+      "style": "日式Q版职业角色",
+      "family": "动漫与手绘",
+      "scope": "勇气默示录II的Q版游戏内角色",
+      "source": "https://www.nintendo.com/de-de/Spiele/Nintendo-Switch-Spiele/BRAVELY-DEFAULT-II-1698006.html",
+      "image": "https://www.nintendo.com/eu/media/images/08_content_images/games_6/nintendo_switch_7/nswitch_bravelydefaultii/CI_NSwitch_BravelyDefaultII_BlindedByTheLight.jpg",
+      "xParts": [
+        1,
+        1
+      ],
+      "yParts": [
+        2.5,
+        2.5,
+        2.5
+      ],
+      "x": 20,
+      "y": 50,
+      "reason": "大头短身与小型五官使形体高度卡通；表现保留三维塑形，不能因为Q版就把Y直接拉满。"
+    },
+    {
+      "id": 13,
+      "name": "奥丁领域：里普特拉西尔",
+      "direction": 13,
+      "style": "华丽手绘奇幻",
+      "family": "动漫与手绘",
+      "scope": "实际二维角色形象与常态服饰",
+      "source": "https://atlus-vanillaware.jp/osl/news/special/page/2/",
+      "image": "https://atlus-vanillaware.jp/osl/news/wp-content/uploads/2016/01/wp_pc1_1920x1080_osl.jpg",
+      "xParts": [
+        2,
+        2.5
+      ],
+      "yParts": [
+        3.5,
+        3.5,
+        4
+      ],
+      "x": 45,
+      "y": 75,
+      "reason": "人物比例和服饰轮廓有装饰化变形；手绘渐变、边缘组织与绘画表面形成明显媒介语言。"
+    },
+    {
+      "id": 14,
+      "name": "哈迪斯",
+      "direction": 14,
+      "style": "图形化神话插画",
+      "family": "卡通与图形",
+      "scope": "哈迪斯对话立绘，不是俯视小模型",
+      "source": "https://www.erscream.com/post/video-games-an-art-analysis",
+      "image": "https://static.wixstatic.com/media/21a631_aea31924b27a416ea02a6f9b2d105324~mv2.jpeg/v1/fill/w_980%2Ch_980%2Cal_c%2Cq_85%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto/21a631_aea31924b27a416ea02a6f9b2d105324~mv2.jpeg",
+      "xParts": [
+        3.5,
+        3
+      ],
+      "yParts": [
+        4.5,
+        4.5,
+        4.5
+      ],
+      "x": 65,
+      "y": 90,
+      "reason": "对话立绘仍能读出较完整的人体骨架和肌肉；图形化阴影、色彩重组及线条使表现高度风格化。"
+    },
+    {
+      "id": 15,
+      "name": "暗黑地牢",
+      "direction": 15,
+      "style": "哥特黑块漫画",
+      "family": "卡通与图形",
+      "scope": "暗黑地牢一代英雄战斗立绘",
+      "source": "https://www.castingcall.club/projects/darkest-dungeon-ancestor-s-journal-readings-23042095-69fa-4499-b71a-ffb09f6ed49e",
+      "image": "https://d1m9vqlvl3fy94.cloudfront.net/project/attachment/116212/69365DarkestDungeon_Characters.jpg",
+      "xParts": [
+        2.5,
+        2
+      ],
+      "yParts": [
+        4,
+        4.5,
+        4.5
+      ],
+      "x": 45,
+      "y": 90,
+      "reason": "英雄形体仍可识别，但比例与面部被概括；粗线、黑块和木刻感表面明显偏离自然成像。"
+    },
+    {
+      "id": 16,
+      "name": "饥荒联机版",
+      "direction": 16,
+      "style": "怪诞手绘童话",
+      "family": "卡通与图形",
+      "scope": "饥荒联机版默认幸存者形象",
+      "source": "https://www.klei.com/games/dont-starve-together",
+      "image": "https://a.storyblok.com/f/259446/1200x1079/3d9b461919/ds10_decal.png",
+      "xParts": [
+        1,
+        0.5
+      ],
+      "yParts": [
+        4,
+        4.5,
+        4.5
+      ],
+      "x": 15,
+      "y": 90,
+      "reason": "尖头、细肢和异常头身高度卡通化；线稿、平涂与刻意粗糙的笔触形成统一的非自然表现。"
+    },
+    {
+      "id": 17,
+      "name": "茶杯头",
+      "direction": 17,
+      "style": "复古动画与橡皮管",
+      "family": "卡通与图形",
+      "scope": "茶杯头、马克杯人与圣杯小姐常态形象",
+      "source": "https://www.nintendolife.com/features/cuphead-creators-on-the-perfect-physical-edition-animation-and-working-with-netflix",
+      "image": "https://images.nintendolife.com/8d0e5314bfcfd/cuphead-1.large.jpg",
+      "xParts": [
+        0.5,
+        0.5
+      ],
+      "yParts": [
+        4,
+        4.5,
+        4.5
+      ],
+      "x": 10,
+      "y": 90,
+      "reason": "杯头、橡皮管四肢与手套大鞋形成高度符号化身体；角色以传统动画线条和概括明暗呈现。"
+    },
+    {
+      "id": 18,
+      "name": "旗帜的传说",
+      "direction": 18,
+      "style": "史诗平涂动画",
+      "family": "动漫与手绘",
+      "scope": "旗帜的传说对话及角色插画",
+      "source": "https://stoicstudio.com/",
+      "image": "https://stoicstudio.com/images/main-banner.png",
+      "xParts": [
+        3.5,
+        3
+      ],
+      "yParts": [
+        3,
+        4,
+        4
+      ],
+      "x": 65,
+      "y": 75,
+      "reason": "人体比例相对克制，面部与衣纹被简化；平涂、统一线条和经过编排的明暗让Y明显高于X。"
+    },
+    {
+      "id": 19,
+      "name": "战场女武神",
+      "direction": 19,
+      "style": "水彩与铅笔动漫",
+      "family": "动漫与手绘",
+      "scope": "战场女武神角色的常态游戏画面",
+      "source": "https://www.creativeuncut.com/gallery-09/vc-characters.html",
+      "image": "https://www.creativeuncut.com/gallery-09/art/vc-characters.jpg",
+      "xParts": [
+        2.5,
+        2
+      ],
+      "yParts": [
+        3,
+        3.5,
+        4
+      ],
+      "x": 45,
+      "y": 70,
+      "reason": "人物为动漫比例与五官；铅笔边缘、水彩化颜色及材料处理形成绘画表达，不把纸纹密度当细节复杂度。"
+    },
+    {
+      "id": 20,
+      "name": "大神",
+      "direction": 20,
+      "style": "水墨和风绘卷",
+      "family": "动漫与手绘",
+      "scope": "大神主要角色的游戏内造型",
+      "source": "https://www.maxoe.com/games/jeux-articles/tests-ps3/okami-hd-retour-dun-art-oublie-a-decouvrir/",
+      "image": "https://www.maxoe.com/img/uploads/2018/01/Okami-HD_une.jpg",
+      "xParts": [
+        1.5,
+        1
+      ],
+      "yParts": [
+        4.5,
+        4.5,
+        5
+      ],
+      "x": 25,
+      "y": 95,
+      "reason": "身体、面部与生物特征被概括成符号；笔墨轮廓、色彩和表面语言都强烈依赖水墨媒介。"
+    },
+    {
+      "id": 21,
+      "name": "极乐迪斯科",
+      "direction": 21,
+      "style": "表现主义油画肖像",
+      "family": "动漫与手绘",
+      "scope": "极乐迪斯科对话肖像，不是场景模型",
+      "source": "https://stopgame.ru/show/107801/ot_glubokogo_zapoya_do_revolyucii_v_rpg_istoriya_razrabotki_disco_elysium",
+      "image": "https://images.stopgame.ru/articles/2020/02/12/ot_glubokogo_zapoya_do_revolyucii_v_rpg_istoriya_razrabotki_disco_elysium-1581535444-s.jpg",
+      "xParts": [
+        4,
+        3.5
+      ],
+      "yParts": [
+        4.5,
+        4,
+        5
+      ],
+      "x": 75,
+      "y": 90,
+      "reason": "仅评对话肖像：脸部骨相较可信，形体变形相对有限；非自然配色、破碎笔触和色面重组使Y很高。"
+    },
+    {
+      "id": 22,
+      "name": "Spiritfarer",
+      "direction": 22,
+      "style": "温暖绘本拟人",
+      "family": "卡通与图形",
+      "scope": "Spiritfarer主要角色常态全身形象",
+      "source": "https://www.touchtapplay.com/spiritfarer-character-guide-all-characters-and-stories-in-spiritfarer/",
+      "image": "https://www.touchtapplay.com/wp-content/uploads/2022/01/All-Characters-and-Stories-in-Spiritfarer-scaled.jpeg?fit=2560%2C1440",
+      "xParts": [
+        1.5,
+        1.5
+      ],
+      "yParts": [
+        3.5,
+        4,
+        4
+      ],
+      "x": 30,
+      "y": 80,
+      "reason": "动物拟人的头身与五官明显卡通；轮廓线、平面色块与柔和的绘本着色提高Y。"
+    },
+    {
+      "id": 23,
+      "name": "空洞骑士",
+      "direction": 23,
+      "style": "极简面具式暗黑童话",
+      "family": "卡通与图形",
+      "scope": "空洞骑士主要NPC与主角基础形象",
+      "source": "https://games.sina.cn/wm/2018-07-05/detail-ihevauxk8216601.d.html",
+      "image": "https://n.sinaimg.cn/translate/584/w841h543/20180705/-5jf-hevauxk8215801.jpg",
+      "xParts": [
+        0.5,
+        0.5
+      ],
+      "yParts": [
+        4,
+        4.5,
+        4.5
+      ],
+      "x": 10,
+      "y": 90,
+      "reason": "面具五官、短身和简化披风接近符号形象；角色主要以平面线条和少量色块塑造，而不是自然材料。"
+    },
+    {
+      "id": 24,
+      "name": "纸片马力欧 RPG",
+      "direction": 24,
+      "style": "纸片剪贴",
+      "family": "材质与几何",
+      "scope": "纸片马力欧RPG的纸片角色本体",
+      "source": "https://www.nintendo.com/tw/switch/a9qda/character/index.html",
+      "image": "https://www.nintendo.com/tw/switch/a9qda/assets/img/character/chara_header.webp",
+      "xParts": [
+        0.5,
+        0.5
+      ],
+      "yParts": [
+        4,
+        4.5,
+        3.5
+      ],
+      "x": 10,
+      "y": 80,
+      "reason": "角色本体的比例、五官和剪影高度漫画化；纸边可呈现真实质感，但纸面人物仍依赖平涂和描线。"
+    },
+    {
+      "id": 25,
+      "name": "小小大星球3",
+      "direction": 25,
+      "style": "布偶与手工拼接",
+      "family": "材质与几何",
+      "scope": "小小大星球3默认布偶，排除复杂联动换装",
+      "source": "https://www.pushsquare.com/games/ps4/littlebigplanet_3",
+      "image": "https://images.pushsquare.com/17611b2a4dd30/1280x720.jpg",
+      "xParts": [
+        1,
+        1.5
+      ],
+      "yParts": [
+        1.5,
+        1,
+        1
+      ],
+      "x": 25,
+      "y": 25,
+      "reason": "布偶的大头短肢高度卡通；纤维、缝线、拉链和接触阴影接近可拍摄的现实玩偶，因此Y较低。"
+    },
+    {
+      "id": 26,
+      "name": "动物森友会",
+      "direction": 26,
+      "style": "圆润亲和人物",
+      "family": "卡通与图形",
+      "scope": "动物森友会居民默认衣装",
+      "source": "https://www.vodafone.de/featured/article/animal-crossing-nintendo-direct-zeigt-reif-fuer-die-insel-paket-co-91707",
+      "image": "https://www.vodafone.de/featured/media/cache/hero_teaser_image/cms/2020/02/Animal-Crossing-Nintendo-Pressebild.jpg?v=1f1f98960b7fd126863b394b254326b6",
+      "xParts": [
+        1,
+        1
+      ],
+      "yParts": [
+        2.5,
+        2.5,
+        2.5
+      ],
+      "x": 20,
+      "y": 50,
+      "reason": "动物与居民五官符号化、头身夸张；表面和色彩高度整理，但有柔和三维光照，不属于纯平面图形。"
+    },
+    {
+      "id": 27,
+      "name": "糖豆人",
+      "direction": 27,
+      "style": "极简软体角色",
+      "family": "材质与几何",
+      "scope": "糖豆人基础豆形身体，排除主题套装",
+      "source": "https://www.sportskeeda.com/esports/is-worth-playing-fall-guys-2025",
+      "image": "https://staticg.sportskeeda.com/editor/2025/01/47be8-17373397243642-1920.jpg",
+      "xParts": [
+        0.5,
+        0.5
+      ],
+      "yParts": [
+        3,
+        2,
+        2
+      ],
+      "x": 10,
+      "y": 45,
+      "reason": "胶囊身体与面部高度抽象；基础豆形保留软体玩具式体积与高光，Y不会因极简比例自动到顶。"
+    },
+    {
+      "id": 28,
+      "name": "宝可梦",
+      "direction": 28,
+      "style": "图标化萌系生物",
+      "family": "卡通与图形",
+      "scope": "初代御三家官方二维角色图；不泛指所有世代模型",
+      "source": "https://www.nintendolife.com/news/2020/02/feature_best_pokemon_starters_from_all_gens_as_voted_by_you?page=3",
+      "image": "https://images.nintendolife.com/419360808c6be/gen1starters.original.jpg",
+      "xParts": [
+        1,
+        1
+      ],
+      "yParts": [
+        3,
+        4,
+        4
+      ],
+      "x": 20,
+      "y": 75,
+      "reason": "仅评初代御三家二维图：生物特征被压缩为可识别的大形状；线条、平涂和概括阴影明显风格化。"
+    },
+    {
+      "id": 29,
+      "name": "斯普拉遁3",
+      "direction": 29,
+      "style": "街头潮流卡通",
+      "family": "卡通与图形",
+      "scope": "斯普拉遁3玩家角色的常态衣装",
+      "source": "https://www.businesswire.com/news/home/20220909005154/en/Nintendo-News-Ink-Your-Mark-on-the-Splatlands-in-the-Fast-and-Fresh-Splatoon-3-Out-Now",
+      "image": "https://mms.businesswire.com/media/20220909005154/en/1566648/5/Splatoon_3_Key_Art.jpg?download=1",
+      "xParts": [
+        1.5,
+        1.5
+      ],
+      "yParts": [
+        3.5,
+        2,
+        2
+      ],
+      "x": 30,
+      "y": 50,
+      "reason": "大头、手脚和触手头发明显卡通；色彩有强设计性，墨液、鞋和衣物仍有可信三维材料反应。"
+    },
+    {
+      "id": 30,
+      "name": "我的世界",
+      "direction": 30,
+      "style": "方块与体素感",
+      "family": "材质与几何",
+      "scope": "我的世界默认Steve与Alex，无写实材质包",
+      "source": "https://www.businesswire.com/news/home/20201003005002/en/Steve-and-Alex-From-Minecraft-Block-Off-Some-Time-to-Join-the-Cast-of-Super-Smash-Bros.-Ultimate",
+      "image": "https://mms.businesswire.com/media/20201003005002/en/827177/5/SSBU_Steve_%26_Alex_1.jpg?download=1",
+      "xParts": [
+        0.5,
+        0
+      ],
+      "yParts": [
+        3.5,
+        4,
+        4.5
+      ],
+      "x": 5,
+      "y": 80,
+      "reason": "方块身体与关节极度符号化；默认像素表面、有限色块与概括照明使呈现也高度风格化。"
+    },
+    {
+      "id": 31,
+      "name": "深岩银河",
+      "direction": 31,
+      "style": "低多边形切面",
+      "family": "材质与几何",
+      "scope": "深岩银河默认职业矮人",
+      "source": "https://www.pcgamer.com/meet-one-of-the-last-positive-communities-left-in-gaming/",
+      "image": "https://cdn.mos.cms.futurecdn.net/KWFF3SDU5sWCoJKNgV2RRA.png",
+      "xParts": [
+        1.5,
+        1.5
+      ],
+      "yParts": [
+        3,
+        3.5,
+        4
+      ],
+      "x": 30,
+      "y": 70,
+      "reason": "矮人短壮体态与结构被切面化概括；块面明暗和低多边形表面共同构成显著视觉语言。"
+    },
+    {
+      "id": 32,
+      "name": "八方旅人",
+      "direction": 32,
+      "style": "精细像素角色",
+      "family": "材质与几何",
+      "scope": "八方旅人战斗与行走像素角色，不是高清设定画",
+      "source": "https://www.pinterest.com/pin/octopath-job-sprites--382946774564062833/",
+      "image": "https://i.pinimg.com/originals/e6/58/8f/e6588f8dfb151e57217a3611ba2b6206.jpg",
+      "xParts": [
+        1.5,
+        1
+      ],
+      "yParts": [
+        3.5,
+        4,
+        4.5
+      ],
+      "x": 25,
+      "y": 80,
+      "reason": "仅评游戏内像素人物：头身被压缩，面部符号化；材料和明暗由有限像素簇表达，不纳入场景景深。"
+    },
+    {
+      "id": 33,
+      "name": "神秘海域4",
+      "direction": 1,
+      "style": "自然主义写实",
+      "family": "写实与体块",
+      "scope": "神秘海域4主要人类角色游戏模型",
+      "source": "https://www.polygon.com/2015/7/2/8878173/the-art-of-uncharted-4-a-thiefs-end",
+      "image": "https://cdn.vox-cdn.com/thumbor/eF0mjDNcMroLdH3ny6yqKTmu_Dc%3D/cdn.vox-cdn.com/uploads/chorus_asset/file/3840584/AOUC4_Preview_PG_01.0.jpg",
+      "xParts": [
+        5,
+        5
+      ],
+      "yParts": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "x": 100,
+      "y": 10,
+      "reason": "自然人体比例和面部使X靠右；角色皮肤、布料与光照接近现实观察，电影化色调只作轻度处理。"
+    },
+    {
+      "id": 34,
+      "name": "荒野大镖客：救赎2",
+      "direction": 1,
+      "style": "自然主义写实",
+      "family": "写实与体块",
+      "scope": "荒野大镖客2主要帮派成员常态衣着",
+      "source": "https://medium.com/%40AdamR19/red-dead-redemption-2-sobering-melancholy-and-very-fun-7ece16c69a9d",
+      "image": "https://miro.medium.com/v2/1%2AnKC1VQvFpFknUxwsXEpUIg.jpeg",
+      "xParts": [
+        5,
+        5
+      ],
+      "yParts": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "x": 100,
+      "y": 10,
+      "reason": "主要成员人体结构接近现实；皮革、布料、毛发和明暗连续可信，西部题材不改变表现维度。"
+    },
+    {
+      "id": 35,
+      "name": "死亡搁浅",
+      "direction": 33,
+      "style": "科幻机能与工业装甲",
+      "family": "写实与体块",
+      "scope": "死亡搁浅Sam默认工作装，含常态运输背架",
+      "source": "https://stopgame.ru/blogs/topic/117763/death_stranding_i_ego_odinochestvo",
+      "image": "https://images.stopgame.ru/uploads/users/2025/707889/00015.4itwg1r.png",
+      "xParts": [
+        5,
+        4.5
+      ],
+      "yParts": [
+        1,
+        0.5,
+        0.5
+      ],
+      "x": 95,
+      "y": 15,
+      "reason": "人物骨相与比例高度写实，背架是功能装备而非身体变形；材料和光影可信，科幻物件不自动增加Y。"
+    },
+    {
+      "id": 36,
+      "name": "生化危机：村庄",
+      "direction": 2,
+      "style": "写实暗黑奇幻",
+      "family": "写实与体块",
+      "scope": "村庄主要人形角色，排除怪物变身",
+      "source": "https://wall.alphacoders.com/big.php?i=1149542",
+      "image": "https://images6.alphacoders.com/114/thumb-1920-1149542.jpg",
+      "xParts": [
+        4.5,
+        4.5
+      ],
+      "yParts": [
+        1,
+        1,
+        1
+      ],
+      "x": 90,
+      "y": 20,
+      "reason": "主要人形角色有少量身高和面部夸张；皮肤及衣物仍按自然材料塑造，哥特服饰不直接推高Y。"
+    },
+    {
+      "id": 37,
+      "name": "博德之门3",
+      "direction": 2,
+      "style": "写实暗黑奇幻",
+      "family": "写实与体块",
+      "scope": "博德之门3起源伙伴的基础造型",
+      "source": "https://www.eurogamer.pt/personagens-de-origem-explicados-em-baldurs-gate-3",
+      "image": "https://assetsio.gnwcdn.com/baldurs-gate-3-key-art-crop.jpg?auto=webp&fit=bounds&format=jpg&height=1920&quality=70&width=1920",
+      "xParts": [
+        4.5,
+        4.5
+      ],
+      "yParts": [
+        1.5,
+        1,
+        1
+      ],
+      "x": 90,
+      "y": 25,
+      "reason": "伙伴身体与五官维持自然逻辑，异族特征只算实际变形；皮肤、金属和布料接近自然，配色略作设计。"
+    },
+    {
+      "id": 38,
+      "name": "巫师3：狂猎",
+      "direction": 1,
+      "style": "自然主义写实",
+      "family": "写实与体块",
+      "scope": "巫师3主要人物的常态衣甲",
+      "source": "https://www.weareplaystation.fr/communautes/the-witcher-3-wild-hunt/astuces/wiki/les-personnages-1",
+      "image": "https://www.weareplaystation.fr/cdn-cgi/image/w%3D3840%2Cf%3Dauto%2Cq%3D80/api/upload/media/post/0006/16/thumb_515125_post_big.jpg",
+      "xParts": [
+        4.5,
+        4.5
+      ],
+      "yParts": [
+        1,
+        1,
+        1
+      ],
+      "x": 90,
+      "y": 20,
+      "reason": "人物与五官略理想化，主要结构可信；旧皮革、锁甲及皮肤以自然光影呈现，不将奇幻题材当风格化分。"
+    },
+    {
+      "id": 39,
+      "name": "血源诅咒",
+      "direction": 2,
+      "style": "写实暗黑奇幻",
+      "family": "写实与体块",
+      "scope": "血源主要猎人与人偶常态造型，不计兽化Boss",
+      "source": "https://www.creativeuncut.com/gallery-29/bb-doll.html",
+      "image": "https://www.creativeuncut.com/gallery-29/art/bb-doll.jpg",
+      "xParts": [
+        4,
+        4
+      ],
+      "yParts": [
+        1.5,
+        1.5,
+        1.5
+      ],
+      "x": 80,
+      "y": 30,
+      "reason": "猎人与人偶略有修长和雕塑化形体；材料较真实，但色调与明暗比自然记录更经过编排。"
+    },
+    {
+      "id": 40,
+      "name": "只狼：影逝二度",
+      "direction": 1,
+      "style": "自然主义写实",
+      "family": "写实与体块",
+      "scope": "只狼主角与主要人形角色常态造型",
+      "source": "https://www.sekirothegame.com/ru/digitalartbook",
+      "image": "https://www.activision.com/cdn/sekiro/artbook/sekiro-page-21-ru.jpg",
+      "xParts": [
+        4.5,
+        4.5
+      ],
+      "yParts": [
+        1,
+        1,
+        1
+      ],
+      "x": 90,
+      "y": 20,
+      "reason": "人体、面部和肢体结构较自然；旧布、皮肤、金属与连续光影占主导，忍者题材不决定Y。"
+    },
+    {
+      "id": 41,
+      "name": "黑神话：悟空",
+      "direction": 2,
+      "style": "写实暗黑奇幻",
+      "family": "写实与体块",
+      "scope": "悟空与主要人形神怪，排除巨大怪物特例",
+      "source": "https://www.gry-online.pl/newsroom/black-myth-wukong-nareszcie-z-mapa-wielka-aktualizacja-dodaje-tak/z02bafe",
+      "image": "https://www.gry-online.pl/i/h/22/471548302.jpg",
+      "xParts": [
+        4,
+        4.5
+      ],
+      "yParts": [
+        1,
+        0.5,
+        0.5
+      ],
+      "x": 85,
+      "y": 15,
+      "reason": "只评悟空与主要人形神怪：非人骨相有实际变形，但结构可信；毛发、金属和布料高度接近自然材料。"
+    },
+    {
+      "id": 42,
+      "name": "仁王2",
+      "direction": 2,
+      "style": "写实暗黑奇幻",
+      "family": "写实与体块",
+      "scope": "仁王2常见人类武士装备，不计临时妖化特效",
+      "source": "https://gamewith.jp/gamedb/3954/articles/15544",
+      "image": "https://img.gamewith.jp/img/8d35a1064e2c18050e800aa42216ecc9.jpg",
+      "xParts": [
+        4,
+        4.5
+      ],
+      "yParts": [
+        1.5,
+        1,
+        1
+      ],
+      "x": 85,
+      "y": 25,
+      "reason": "武士比例略理想化；材料与照明以自然表现为主，纹饰和甲片丰富不等于表现风格化更强。"
+    },
+    {
+      "id": 43,
+      "name": "怪物猎人：世界",
+      "direction": 4,
+      "style": "厚重夸张奇幻",
+      "family": "写实与体块",
+      "scope": "怪物猎人世界常见猎人套装及固定NPC",
+      "source": "https://mail.creativeuncut.com/gallery-35/mhw-first-fleet.html",
+      "image": "https://mail.creativeuncut.com/gallery-35/art/mhw-first-fleet.jpg",
+      "xParts": [
+        4,
+        4
+      ],
+      "yParts": [
+        1.5,
+        1.5,
+        1.5
+      ],
+      "x": 80,
+      "y": 30,
+      "reason": "猎人和装备轮廓适度夸张；骨、角、金属与皮毛仍有材料逻辑，色彩和光影经过统一整理。"
+    },
+    {
+      "id": 44,
+      "name": "最终幻想VII 重制版",
+      "direction": 8,
+      "style": "精致日式动漫",
+      "family": "动漫与手绘",
+      "scope": "最终幻想VII重制版主要队员默认服装",
+      "source": "https://www.larazon.es/videojuegos/square-enix/la-personalidad-de-los-protagonistas-de-final-fantasy-vii-remake-te-enamorara-y-te-explicamos-por-que_20200410699781ba9243cc133c549b15.html",
+      "image": "https://fotografias-2.larazon.es/assets/videojuegos/2020/04/personajes-ffvii.jpg?height=720&width=1200",
+      "xParts": [
+        3.5,
+        3.5
+      ],
+      "yParts": [
+        1.5,
+        1,
+        1
+      ],
+      "x": 70,
+      "y": 25,
+      "reason": "动漫式五官、发型与理想比例使X略向卡通；皮肤、布料和金属则以较自然的连续光影呈现。"
+    },
+    {
+      "id": 45,
+      "name": "最终幻想XIV",
+      "direction": 13,
+      "style": "华丽手绘奇幻",
+      "family": "动漫与手绘",
+      "scope": "最终幻想XIV主要人物及典型职业套装",
+      "source": "https://medium.com/%40catbussell/the-existentialist-wonder-of-final-fantasy-xiv-endwalker-c6f3b66ab0df",
+      "image": "https://miro.medium.com/1%2Abu-HV6Px4vES0WTke7juAQ.png",
+      "xParts": [
+        3,
+        3
+      ],
+      "yParts": [
+        2,
+        2.5,
+        2.5
+      ],
+      "x": 60,
+      "y": 50,
+      "reason": "族群与职业人物比例带动漫理想化；材料和明暗比自然摄影更概括，但仍保留三维体积。"
+    },
+    {
+      "id": 46,
+      "name": "尼尔：机械纪元",
+      "direction": 35,
+      "style": "主题时装与科幻哥特",
+      "family": "动漫与手绘",
+      "scope": "尼尔机械纪元2B、9S、A2常态模型",
+      "source": "https://novacrystallis.com/2016/04/nier-automata-official-screenshots-released/nier-automata-character-art/",
+      "image": "https://novacrystallis.com/wp-content/uploads/2016/04/NieR-Automata-Character-Art.jpg",
+      "xParts": [
+        3.5,
+        3.5
+      ],
+      "yParts": [
+        1.5,
+        1.5,
+        1.5
+      ],
+      "x": 70,
+      "y": 30,
+      "reason": "主要人物有理想化动漫比例与面部；黑衣、皮肤和机械保留材料逻辑，统一色调带适度风格处理。"
+    },
+    {
+      "id": 47,
+      "name": "剑星",
+      "direction": 35,
+      "style": "主题时装与科幻哥特",
+      "family": "动漫与手绘",
+      "scope": "剑星主要人物与默认战斗服，不比较全部换装",
+      "source": "https://www.techshake.com/stellar-blade-chega-ao-pc-em-julho-com-dlcs-trajes-ineditos-e-chefao-extra/",
+      "image": "https://cdn.techshake.com/imagens/data-de-lancamento-de-stellar-blade-para-pc-e-revelada-em-trailer-og.jpg",
+      "xParts": [
+        3.5,
+        4
+      ],
+      "yParts": [
+        1.5,
+        1,
+        1
+      ],
+      "x": 75,
+      "y": 25,
+      "reason": "人物身材与面部明显理想化但轮廓结构完整；服装、皮肤和金属按较自然的材料与光照塑造。"
+    },
+    {
+      "id": 48,
+      "name": "星际战甲",
+      "direction": 34,
+      "style": "生物机械融合",
+      "family": "写实与体块",
+      "scope": "星际战甲典型战甲本体，不含能量特效",
+      "source": "https://www.gamersdecide.com/articles/warframe-best-places-to-farm-xp",
+      "image": "https://www.gamersdecide.com/sites/default/files/2019-06/all_frames-min1.jpg",
+      "xParts": [
+        2.5,
+        3
+      ],
+      "yParts": [
+        2,
+        1.5,
+        1.5
+      ],
+      "x": 55,
+      "y": 35,
+      "reason": "生物机械躯体的轮廓和关节组织偏离常见自然结构；反光、硬度和体积仍较可信，不因非人题材给Y满分。"
+    },
+    {
+      "id": 49,
+      "name": "命运2",
+      "direction": 33,
+      "style": "科幻机能与工业装甲",
+      "family": "写实与体块",
+      "scope": "命运2三职业典型基础装备",
+      "source": "https://www.shacknews.com/article/113290/destiny-2-all-classes-subclasses-and-perk-trees",
+      "image": "https://d1lss44hh2trtw.cloudfront.net/assets/article/2019/08/08/destiny-2-all-classes-subclasses-and-perk-trees_feature.jpg",
+      "xParts": [
+        4,
+        4
+      ],
+      "yParts": [
+        1.5,
+        1.5,
+        1.5
+      ],
+      "x": 80,
+      "y": 30,
+      "reason": "装甲下的人体与关节逻辑较自然；色彩和表面经过科幻设计整理，材料与照明仍有物理可信度。"
+    },
+    {
+      "id": 50,
+      "name": "光环：无限",
+      "direction": 33,
+      "style": "科幻机能与工业装甲",
+      "family": "写实与体块",
+      "scope": "光环无限斯巴达常规装甲",
+      "source": "https://www.halowaypoint.com/en-us/news/halo-infinite-multiplayer-reveal",
+      "image": "https://content.halocdn.com/media/Default/community/E32021PressKit/4k_infinite_mp_spartanlineup_watermarked-524ad6c8f5b84372a859ab0a32274926.png",
+      "xParts": [
+        4.5,
+        4.5
+      ],
+      "yParts": [
+        1,
+        1,
+        1
+      ],
+      "x": 90,
+      "y": 20,
+      "reason": "人体和工业装甲结构可信；金属、漆面与阴影保持自然逻辑，装甲的制造细节不算风格化强度。"
+    },
+    {
+      "id": 51,
+      "name": "质量效应2",
+      "direction": 33,
+      "style": "科幻机能与工业装甲",
+      "family": "写实与体块",
+      "scope": "质量效应2主要队员常态模型",
+      "source": "https://colinmcmahonauthor.com/2014/01/29/how-mass-effect-2-failed-the-trilogy/",
+      "image": "https://redringsofredemption.files.wordpress.com/2014/01/masseffect2squad.jpg",
+      "xParts": [
+        4,
+        4
+      ],
+      "yParts": [
+        1.5,
+        1.5,
+        1.5
+      ],
+      "x": 80,
+      "y": 30,
+      "reason": "外星人物有实际骨相变形，但体积完整；皮肤和装甲以连续光影呈现，Y偏低至中低。"
+    },
+    {
+      "id": 52,
+      "name": "Apex英雄",
+      "direction": 5,
+      "style": "动画电影式英雄卡通",
+      "family": "卡通与图形",
+      "scope": "Apex英雄默认皮肤与技能装置",
+      "source": "https://www.gamersdecide.com/articles/apex-legends-best-reticle-colors-1",
+      "image": "https://www.gamersdecide.com/sites/default/files/2023-12/apex-legends-most-fun-legends-01.jpg",
+      "xParts": [
+        3.5,
+        3.5
+      ],
+      "yParts": [
+        2.5,
+        2,
+        2
+      ],
+      "x": 70,
+      "y": 45,
+      "reason": "人物体态和职业轮廓经过适度夸张；色彩组织较鲜明，材料和阴影适度概括。"
+    },
+    {
+      "id": 53,
+      "name": "无畏契约",
+      "direction": 6,
+      "style": "复古商业插画式卡通",
+      "family": "卡通与图形",
+      "scope": "无畏契约默认游戏内角色",
+      "source": "https://earlygame.com/valorant/what-are-bonus-rounds",
+      "image": "https://prod.assets.earlygamecdn.com/images/12-Valorant-agents.jpg?x=0.5&y=0.5",
+      "xParts": [
+        3,
+        2.5
+      ],
+      "yParts": [
+        3,
+        3.5,
+        3.5
+      ],
+      "x": 55,
+      "y": 70,
+      "reason": "脸部与衣装轮廓有几何化概括；大色块、简化反光与清晰明暗分组带来较高Y。"
+    },
+    {
+      "id": 54,
+      "name": "英雄联盟",
+      "direction": 4,
+      "style": "厚重夸张奇幻",
+      "family": "写实与体块",
+      "scope": "英雄联盟常态基础皮肤模型，不以宣传原画评分",
+      "source": "https://wallpapersafari.com/league-of-legends-official-wallpapers/",
+      "image": "https://cdn.wallpapersafari.com/16/56/g6F0KT.jpg",
+      "xParts": [
+        2.5,
+        2
+      ],
+      "yParts": [
+        3.5,
+        3.5,
+        4
+      ],
+      "x": 45,
+      "y": 75,
+      "reason": "基础模型强调大轮廓、夸张体型和武器；俯视可读性所需的手绘表面、配色与明暗整理提高Y。"
+    },
+    {
+      "id": 55,
+      "name": "Dota 2",
+      "direction": 4,
+      "style": "厚重夸张奇幻",
+      "family": "写实与体块",
+      "scope": "Dota2基础英雄模型，不以稀有饰品评分",
+      "source": "https://www.vidaextra.com/listas/juegos-steam-gratis",
+      "image": "https://i.blogs.es/71e186/dota2/1366_2000.jpeg",
+      "xParts": [
+        2.5,
+        2.5
+      ],
+      "yParts": [
+        3,
+        3,
+        3.5
+      ],
+      "x": 50,
+      "y": 65,
+      "reason": "人物与生物体块偏夸张；材料和颜色经过较强概括，但保留较厚重的三维光影。"
+    },
+    {
+      "id": 56,
+      "name": "暗黑破坏神IV",
+      "direction": 2,
+      "style": "写实暗黑奇幻",
+      "family": "写实与体块",
+      "scope": "暗黑破坏神IV职业创建及常见装备近景",
+      "source": "https://www.creativeuncut.com/gallery-38/d4-character-class-portraits.html",
+      "image": "https://www.creativeuncut.com/gallery-38/art/d4-character-class-portraits.jpg",
+      "xParts": [
+        4.5,
+        4.5
+      ],
+      "yParts": [
+        1.5,
+        1,
+        1
+      ],
+      "x": 90,
+      "y": 25,
+      "reason": "职业人物骨相和人体比例较自然；皮肤、骨饰和旧衣甲材料可信，黑暗配色仅是适度审美编排。"
+    },
+    {
+      "id": 57,
+      "name": "崩坏：星穹铁道",
+      "direction": 8,
+      "style": "精致日式动漫",
+      "family": "动漫与手绘",
+      "scope": "星穹铁道游戏内人物与默认服装",
+      "source": "https://www.gamesradar.com/genshin-impact-devs-on-swapping-open-worlds-and-real-time-combat-for-deftly-assembled-dungeons-in-honkai-star-rail/",
+      "image": "https://cdn.mos.cms.futurecdn.net/7sQYFYjKaKjtm6Ax64bNrK.jpg",
+      "xParts": [
+        2.5,
+        2
+      ],
+      "yParts": [
+        3,
+        3.5,
+        3.5
+      ],
+      "x": 45,
+      "y": 70,
+      "reason": "动漫五官、发束与理想头身占主导；色块、分段阴影与材料概括使表现明显偏风格化。"
+    },
+    {
+      "id": 58,
+      "name": "绝区零",
+      "direction": 29,
+      "style": "街头潮流卡通",
+      "family": "卡通与图形",
+      "scope": "绝区零可玩角色基础形态",
+      "source": "https://note.com/zenzero_usagi/n/nd3d90914a6e2",
+      "image": "https://assets.st-note.com/production/uploads/images/133968772/rectangle_large_type_2_1b0b2d905a6cb37edac5a03030ecf795.png?fit=bounds&quality=85&width=1280",
+      "xParts": [
+        2,
+        2.5
+      ],
+      "yParts": [
+        3.5,
+        3,
+        3
+      ],
+      "x": 45,
+      "y": 65,
+      "reason": "不同人物和兽人有鲜明体态夸张；材料保留三维性，但阴影、色彩与表面被主动整理成动画式语言。"
+    },
+    {
+      "id": 59,
+      "name": "明日方舟",
+      "direction": 8,
+      "style": "精致日式动漫",
+      "family": "动漫与手绘",
+      "scope": "明日方舟默认精一/精二干员立绘，不是Q版战斗小人",
+      "source": "https://game.3loumao.org/743900435",
+      "image": "https://img2.tapimg.com/moment/etag/FomJ2dM5cySZctxKnefBhyfK4FJJ.jpeg",
+      "xParts": [
+        2.5,
+        2
+      ],
+      "yParts": [
+        3,
+        3.5,
+        3.5
+      ],
+      "x": 45,
+      "y": 70,
+      "reason": "只评干员立绘：动漫面部与比例有概括；线稿、插画光影和经过组织的色彩使Y较高。"
+    },
+    {
+      "id": 60,
+      "name": "蔚蓝档案",
+      "direction": 8,
+      "style": "精致日式动漫",
+      "family": "动漫与手绘",
+      "scope": "蔚蓝档案默认学生立绘，不是Q版战斗模型",
+      "source": "https://bluearchive.nexon.com/home",
+      "image": "https://lwi.nexon.com/m_ba/brand/media/illust_m_02.png",
+      "xParts": [
+        2,
+        1.5
+      ],
+      "yParts": [
+        3.5,
+        4,
+        4
+      ],
+      "x": 35,
+      "y": 80,
+      "reason": "学生立绘的脸部与身体偏萌系动漫；透明色彩、平面阴影与材料简化形成明显二维表达。"
+    },
+    {
+      "id": 61,
+      "name": "重返未来：1999",
+      "direction": 35,
+      "style": "主题时装与科幻哥特",
+      "family": "动漫与手绘",
+      "scope": "重返未来1999常态角色立绘",
+      "source": "https://tvtropes.org/pmwiki/pmwiki.php/Characters/Reverse1999",
+      "image": "https://static.tvtropes.org/pmwiki/pub/images/r1999_character_roster_1.PNG",
+      "xParts": [
+        3,
+        3
+      ],
+      "yParts": [
+        3.5,
+        3,
+        4
+      ],
+      "x": 60,
+      "y": 70,
+      "reason": "立绘比例较成熟，结构比萌系人物自然；色调、绘画边缘和表面笔触具有较强编辑性。"
+    },
+    {
+      "id": 62,
+      "name": "火焰纹章：风花雪月",
+      "direction": 8,
+      "style": "精致日式动漫",
+      "family": "动漫与手绘",
+      "scope": "风花雪月学院阶段制服及对应游戏模型",
+      "source": "https://www.creativeuncut.com/gallery-37/feth-characters-lineup.html",
+      "image": "https://www.creativeuncut.com/gallery-37/art/feth-characters-lineup.jpg",
+      "xParts": [
+        2.5,
+        2
+      ],
+      "yParts": [
+        2.5,
+        3,
+        3
+      ],
+      "x": 45,
+      "y": 60,
+      "reason": "学院角色的比例、五官和发束属于动漫语汇；模型明暗和材料概括，整体Y中高。"
+    },
+    {
+      "id": 63,
+      "name": "异度神剑3",
+      "direction": 8,
+      "style": "精致日式动漫",
+      "family": "动漫与手绘",
+      "scope": "异度神剑3主要队员初始职业",
+      "source": "https://www.imore.com/gaming/nintendo-switch/xenoblade-chronicles-3-all-characters-and-recruitable-heroes",
+      "image": "https://cdn.mos.cms.futurecdn.net/tU7udiD9gQw2zTkDeov78o.jpg",
+      "xParts": [
+        2.5,
+        2.5
+      ],
+      "yParts": [
+        3,
+        3,
+        3
+      ],
+      "x": 50,
+      "y": 60,
+      "reason": "主角体态和面部带动漫比例；服装与武器的光影有统一概括，但体积和材料区别仍可辨。"
+    },
+    {
+      "id": 64,
+      "name": "破晓传说",
+      "direction": 19,
+      "style": "水彩与铅笔动漫",
+      "family": "动漫与手绘",
+      "scope": "破晓传说主要队员默认游戏模型",
+      "source": "https://www.creativeuncut.com/art_tales-of-arise_a.html",
+      "image": "https://www.creativeuncut.com/social/tales-of-arise.jpg",
+      "xParts": [
+        3,
+        2.5
+      ],
+      "yParts": [
+        3,
+        3.5,
+        4
+      ],
+      "x": 55,
+      "y": 70,
+      "reason": "人物结构相对完整、五官动漫化；绘画感颜色、边缘和材质使表现比单纯三维写实更风格化。"
+    },
+    {
+      "id": 65,
+      "name": "碧蓝幻想：Relink",
+      "direction": 13,
+      "style": "华丽手绘奇幻",
+      "family": "动漫与手绘",
+      "scope": "碧蓝幻想Relink主要角色默认模型",
+      "source": "https://www.rpgsite.net/guide/15421-granblue-fantasy-relink-tips",
+      "image": "https://images.rpgsite.net/image/da49c9a1/133017/original/Granblue-Fantasy-Relink_20231222_06.jpg",
+      "xParts": [
+        2.5,
+        2.5
+      ],
+      "yParts": [
+        3,
+        3.5,
+        4
+      ],
+      "x": 50,
+      "y": 70,
+      "reason": "人物头身、五官与衣装轮廓偏动漫；三维模型以手绘感表面和整理过的明暗保持插画气质。"
+    },
+    {
+      "id": 66,
+      "name": "暗喻幻想：ReFantazio",
+      "direction": 10,
+      "style": "都市波普动漫",
+      "family": "动漫与手绘",
+      "scope": "暗喻幻想主要队伍常态人物模型",
+      "source": "https://www.tomsguide.com/gaming/metaphor-refantazio-review",
+      "image": "https://cdn.mos.cms.futurecdn.net/v2/t%3A0%2Cl%3A458%2Ccw%3A2924%2Cch%3A1645%2Cq%3A80%2Cw%3A2560/kyqiAT5SLJBE8VLz5zmbyB.jpg",
+      "xParts": [
+        2.5,
+        2
+      ],
+      "yParts": [
+        3.5,
+        4,
+        4
+      ],
+      "x": 45,
+      "y": 80,
+      "reason": "异族特征与动漫五官适度夸张；线条、图形化阴影和色彩编排带强烈插画表现。"
+    },
+    {
+      "id": 67,
+      "name": "美妙世界",
+      "direction": 10,
+      "style": "都市波普动漫",
+      "family": "动漫与手绘",
+      "scope": "美妙世界初代角色立绘",
+      "source": "https://www.nintendolife.com/news/2025/06/the-world-ends-with-you-director-leaves-square-enix-after-29-years",
+      "image": "https://images.nintendolife.com/6c64cf91e956a/large.jpg",
+      "xParts": [
+        1.5,
+        1
+      ],
+      "yParts": [
+        4,
+        4.5,
+        4.5
+      ],
+      "x": 25,
+      "y": 90,
+      "reason": "长细肢体、尖角轮廓与大鞋明显漫画化；粗线、有限色面与强对比阴影强调平面图形。"
+    },
+    {
+      "id": 68,
+      "name": "王国之心II",
+      "direction": 11,
+      "style": "经典冒险漫画",
+      "family": "动漫与手绘",
+      "scope": "王国之心II核心队伍的游戏内常态造型",
+      "source": "https://www.khinsider.com/dark-seeker-saga/kingdom-hearts-2/images/artwork",
+      "image": "https://images.khinsider.com/Kingdom%20Hearts%20II/Artwork/Promotional%20Artwork/KH2FM%2B%20Artwork02.png",
+      "xParts": [
+        1.5,
+        2
+      ],
+      "yParts": [
+        2.5,
+        2.5,
+        2.5
+      ],
+      "x": 35,
+      "y": 50,
+      "reason": "少年与动物角色的头身、手脚和面部明显卡通；三维材料适度概括，保留连续塑形。"
+    },
+    {
+      "id": 69,
+      "name": "街头霸王6",
+      "direction": 9,
+      "style": "夸张格斗与动漫形体",
+      "family": "动漫与手绘",
+      "scope": "街头霸王6默认服装及战斗模型",
+      "source": "https://www.ps-esports.com/articles/2023-capcom-street-fighter-6-worldwide-release-creating-headlines",
+      "image": "https://images.squarespace-cdn.com/content/v1/5e63720415b8f434bc5652ca/1686156738286-JPSG48WI797K2IL10FM6/street_fighter_6_03.jpeg",
+      "xParts": [
+        3,
+        3.5
+      ],
+      "yParts": [
+        2,
+        1.5,
+        1.5
+      ],
+      "x": 65,
+      "y": 35,
+      "reason": "肌肉、手脚和体态夸张但结构完整；常态战斗角色的皮肤与布料接近自然，排除涂鸦特效。"
+    },
+    {
+      "id": 70,
+      "name": "铁拳8",
+      "direction": 1,
+      "style": "自然主义写实",
+      "family": "写实与体块",
+      "scope": "铁拳8默认角色造型",
+      "source": "https://wallpapercg.com/tekken-8-wallpapers",
+      "image": "https://wallpapercg.com/download/tekken-8-3840x2160-20545.jpeg",
+      "xParts": [
+        4,
+        4.5
+      ],
+      "yParts": [
+        1.5,
+        1,
+        1
+      ],
+      "x": 85,
+      "y": 25,
+      "reason": "人物骨相和结构较自然，体态带明星化理想；服装皮肤光照偏自然，夸张舞台服不直接提高Y。"
+    },
+    {
+      "id": 71,
+      "name": "龙珠斗士Z",
+      "direction": 9,
+      "style": "夸张格斗与动漫形体",
+      "family": "动漫与手绘",
+      "scope": "龙珠斗士Z常态战斗模型，排除气焰特效",
+      "source": "https://www.gcores.com/articles/96371",
+      "image": "https://image.gcores.com/706bfa32-02ad-4167-af2a-fcdbf449308a.jpg?x-oss-process=image%2Fresize%2Climit_1%2Cm_lfit%2Cw_3000%2Ch_5250%2Fquality%2Cq_90%2Fformat%2Cwebp",
+      "xParts": [
+        2,
+        2
+      ],
+      "yParts": [
+        4,
+        4.5,
+        4.5
+      ],
+      "x": 40,
+      "y": 90,
+      "reason": "肌肉、头发和面部高度漫画化；硬边阴影、轮廓线和赛璐璐材料表达很强，排除气焰特效。"
+    },
+    {
+      "id": 72,
+      "name": "骷髅女孩",
+      "direction": 17,
+      "style": "复古动画与橡皮管",
+      "family": "卡通与图形",
+      "scope": "骷髅女孩默认角色静止战斗姿态",
+      "source": "https://fightersgeneration.com/games/skullgirls-p3.html",
+      "image": "https://fightersgeneration.com/nx5/game/skullgirls-conceptart2.jpg",
+      "xParts": [
+        1.5,
+        1.5
+      ],
+      "yParts": [
+        4,
+        4,
+        4.5
+      ],
+      "x": 30,
+      "y": 85,
+      "reason": "身体、寄生物和机械结构夸张重组；动画线条、平面配色与被组织的阴影形成明显风格。"
+    },
+    {
+      "id": 73,
+      "name": "恶魔战士",
+      "direction": 9,
+      "style": "夸张格斗与动漫形体",
+      "family": "动漫与手绘",
+      "scope": "恶魔战士经典二维战斗角色",
+      "source": "https://bloody-disgusting.com/editorials/3770949/darkstalkers-the-monster-movie-origins-of-capcoms-fighting-game/",
+      "image": "https://i0.wp.com/bloody-disgusting.com/wp-content/uploads/2023/07/darkstalkers.jpg?fit=1920%2C1080&ssl=1",
+      "xParts": [
+        1.5,
+        1.5
+      ],
+      "yParts": [
+        3.5,
+        4,
+        4.5
+      ],
+      "x": 30,
+      "y": 80,
+      "reason": "怪物与人体具有漫画式变形；二维像素与线条化明暗高度概括，不以怪物是否存在决定Y。"
+    },
+    {
+      "id": 74,
+      "name": "脑航员2",
+      "direction": 36,
+      "style": "怪诞比例与讽刺人物",
+      "family": "卡通与图形",
+      "scope": "脑航员2主要角色常态模型",
+      "source": "https://www.doublefine.com/games/psychonauts-2",
+      "image": "https://assets.doublefine.com/images/screenshots/Psychonauts-2/Psychonauts2-screenshots-071521-Previews-4k-17.jpg",
+      "xParts": [
+        1,
+        1.5
+      ],
+      "yParts": [
+        2.5,
+        2,
+        2
+      ],
+      "x": 25,
+      "y": 45,
+      "reason": "头身、面部与骨相极端变形；衣物和皮肤仍保有三维体积与材料区别，形成卡通形体配较自然塑形。"
+    },
+    {
+      "id": 75,
+      "name": "耻辱2",
+      "direction": 36,
+      "style": "怪诞比例与讽刺人物",
+      "family": "卡通与图形",
+      "scope": "耻辱2主要人物的游戏模型，不是概念肖像",
+      "source": "https://www.creativeuncut.com/art_dishonored-2_a.html",
+      "image": "https://www.creativeuncut.com/social/dishonored-2.jpg",
+      "xParts": [
+        3.5,
+        3.5
+      ],
+      "yParts": [
+        2,
+        2,
+        2.5
+      ],
+      "x": 70,
+      "y": 45,
+      "reason": "人物手脸和肢体略有雕塑式夸张；绘画化表面、色调与明暗带有中等表现处理，但不是平涂。"
+    },
+    {
+      "id": 76,
+      "name": "盗贼之海",
+      "direction": 36,
+      "style": "怪诞比例与讽刺人物",
+      "family": "卡通与图形",
+      "scope": "盗贼之海常态海盗衣装，排除特殊发光套装",
+      "source": "https://www.forbes.com/sites/erikkain/2018/04/20/this-is-why-more-video-games-should-do-co-op-like-far-cry-5/",
+      "image": "https://blogs-images.forbes.com/erikkain/files/2018/04/Sea-of-Thieves-16.jpg",
+      "xParts": [
+        2,
+        2
+      ],
+      "yParts": [
+        2.5,
+        2.5,
+        3
+      ],
+      "x": 40,
+      "y": 55,
+      "reason": "海盗体态、面部和轮廓明显夸张；色块、材料边缘与反光被概括，仍保留立体光照。"
+    },
+    {
+      "id": 77,
+      "name": "瑞奇与叮当：时空跳转",
+      "direction": 5,
+      "style": "动画电影式英雄卡通",
+      "family": "卡通与图形",
+      "scope": "瑞奇与叮当时空跳转主角常态模型",
+      "source": "https://www.denofgeek.com/games/ratchet-and-clank-rift-apart-every-planet-level-world-guide/",
+      "image": "https://www.denofgeek.com/wp-content/uploads/2021/06/Ratcher-tand-Clank-Rift-Apart.jpg?fit=2000%2C1125",
+      "xParts": [
+        1.5,
+        2
+      ],
+      "yParts": [
+        1.5,
+        1,
+        1
+      ],
+      "x": 35,
+      "y": 25,
+      "reason": "动物人体与面部较卡通；毛发、金属、布料和接触光影接近可触摸的材料，因此表现自然主义较强。"
+    },
+    {
+      "id": 78,
+      "name": "古惑狼4：时机已到",
+      "direction": 40,
+      "style": "动物吉祥物与弹性动画",
+      "family": "卡通与图形",
+      "scope": "古惑狼4主角基础服装",
+      "source": "https://mail.creativeuncut.com/gallery-40/cb4-key-art.html",
+      "image": "https://mail.creativeuncut.com/gallery-40/art/cb4-key-art.jpg",
+      "xParts": [
+        1,
+        1.5
+      ],
+      "yParts": [
+        3,
+        2.5,
+        2.5
+      ],
+      "x": 25,
+      "y": 55,
+      "reason": "大口鼻、手脚和弹性体态高度卡通；颜色与材料比自然物更简洁，仍保有三维塑形。"
+    },
+    {
+      "id": 79,
+      "name": "小龙斯派罗：重燃三部曲",
+      "direction": 40,
+      "style": "动物吉祥物与弹性动画",
+      "family": "卡通与图形",
+      "scope": "小龙斯派罗重燃版主角与主要NPC",
+      "source": "https://www.nicholaskole.art/",
+      "image": "https://images.squarespace-cdn.com/content/v1/59f60ac28a02c7be42f00d3e/1542139865496-T5X0HDM27OK4LCENPIE9/IMG_8621.jpg?format=2500w",
+      "xParts": [
+        1,
+        1.5
+      ],
+      "yParts": [
+        3,
+        2.5,
+        2.5
+      ],
+      "x": 25,
+      "y": 55,
+      "reason": "大头短肢与圆润龙体被明显夸张；颜色、表面和光影适度概括，非全平面表现。"
+    },
+    {
+      "id": 80,
+      "name": "索尼克：未知边境",
+      "direction": 40,
+      "style": "动物吉祥物与弹性动画",
+      "family": "卡通与图形",
+      "scope": "索尼克未知边境主要动物角色，不计环境写实度",
+      "source": "https://mail.creativeuncut.com/gallery-44/sf-characters.html",
+      "image": "https://mail.creativeuncut.com/gallery-44/art/sf-characters.jpg",
+      "xParts": [
+        1,
+        1
+      ],
+      "yParts": [
+        2.5,
+        2,
+        2
+      ],
+      "x": 20,
+      "y": 45,
+      "reason": "流线躯体、大鞋和符号化面部偏高度卡通；角色自身的光照仍有材料体积，不将写实地貌计入Y。"
+    },
+    {
+      "id": 81,
+      "name": "超级马力欧3D世界",
+      "direction": 26,
+      "style": "圆润亲和人物",
+      "family": "卡通与图形",
+      "scope": "超级马力欧3D世界四位主角默认服装",
+      "source": "https://www.mariowiki.com/File%3AMain_Crew_Artwork_-_Super_Mario_3D_World.png",
+      "image": "https://www.mariowiki.com/images/thumb/2/23/Main_Crew_Artwork_-_Super_Mario_3D_World.png/1200px-Main_Crew_Artwork_-_Super_Mario_3D_World.png",
+      "xParts": [
+        1,
+        1
+      ],
+      "yParts": [
+        2.5,
+        2,
+        2.5
+      ],
+      "x": 20,
+      "y": 45,
+      "reason": "圆鼻大头、手脚与五官高度概括；表面反光与明暗柔和简洁，Y处于中段而非满分。"
+    },
+    {
+      "id": 82,
+      "name": "星之卡比：新星同盟",
+      "direction": 27,
+      "style": "极简软体角色",
+      "family": "材质与几何",
+      "scope": "卡比与常见伙伴基础形态",
+      "source": "https://www.nintendo.com/jp/topics/article/82f01b08-1de5-11e8-a129-063b7ac45a6d",
+      "image": "https://assets.topics.apps-jp.nintendo.com/image/2019/09/02083013446644/0/00001039_820_461.jpg",
+      "xParts": [
+        0.5,
+        0.5
+      ],
+      "yParts": [
+        3,
+        2.5,
+        2.5
+      ],
+      "x": 10,
+      "y": 55,
+      "reason": "球形身体、短肢和符号面部接近高度卡通；角色有柔和立体光影，表面和颜色较概括。"
+    },
+    {
+      "id": 83,
+      "name": "路易吉洋馆3",
+      "direction": 26,
+      "style": "圆润亲和人物",
+      "family": "卡通与图形",
+      "scope": "路易吉洋馆3路易吉与傀易吉常态形态",
+      "source": "https://luigismansion3.nintendo.com/",
+      "image": "https://luigismansion3.nintendo.com/assets/img/home/luigi-gooigi-2x.png",
+      "xParts": [
+        1.5,
+        1.5
+      ],
+      "yParts": [
+        2,
+        1.5,
+        1.5
+      ],
+      "x": 30,
+      "y": 35,
+      "reason": "角色比例与五官明显卡通；布料、皮肤和胶体有可辨材料反应，整体表现更靠自然主义一侧。"
+    },
+    {
+      "id": 84,
+      "name": "宝可梦传说：阿尔宙斯",
+      "direction": 11,
+      "style": "经典冒险漫画",
+      "family": "动漫与手绘",
+      "scope": "阿尔宙斯人类训练家的游戏模型",
+      "source": "https://www.creativeuncut.com/art_pokemon-legends-arceus_a.html",
+      "image": "https://www.creativeuncut.com/social/pokemon-legends-arceus.jpg",
+      "xParts": [
+        2,
+        2
+      ],
+      "yParts": [
+        2.5,
+        3,
+        3
+      ],
+      "x": 40,
+      "y": 60,
+      "reason": "只评人类训练家：少年头身与动漫五官被概括；模型的明暗和衣料表现简化，Y中高。"
+    },
+    {
+      "id": 85,
+      "name": "咩咩启示录",
+      "direction": 23,
+      "style": "极简面具式暗黑童话",
+      "family": "卡通与图形",
+      "scope": "咩咩启示录主角及普通信徒",
+      "source": "https://store.playstation.com/en-us/concept/10004484",
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202512/1518/96db93313e2e9f0cec620f08d93f64123eba62a3a88b10f9.png",
+      "xParts": [
+        0.5,
+        0.5
+      ],
+      "yParts": [
+        4.5,
+        4.5,
+        4.5
+      ],
+      "x": 10,
+      "y": 90,
+      "reason": "圆头短肢、符号化五官和轮廓高度卡通；纯色、描线与平面明暗同样高度风格化。"
+    },
+    {
+      "id": 86,
+      "name": "林中之夜",
+      "direction": 22,
+      "style": "温暖绘本拟人",
+      "family": "卡通与图形",
+      "scope": "林中之夜主要角色游戏形象",
+      "source": "https://pixelpoppers.com/review/night-in-the-woods/",
+      "image": "https://pixelpoppers.com/review/night-in-the-woods/night-in-the-woods.jpg",
+      "xParts": [
+        0.5,
+        0.5
+      ],
+      "yParts": [
+        4.5,
+        5,
+        5
+      ],
+      "x": 10,
+      "y": 100,
+      "reason": "动物头部和身体压缩为图标式形状；几乎以平面色块和图形关系表达，材料与自然光照线索很少。"
+    },
+    {
+      "id": 87,
+      "name": "虫子快餐店",
+      "direction": 28,
+      "style": "图标化萌系生物",
+      "family": "卡通与图形",
+      "scope": "虫子快餐店食物生物为主，居民为辅",
+      "source": "https://store.playstation.com/fr-fr/product/EP2104-PPSA01503_00-BSNAX60962576975",
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202006/1917/1lbOO1nn1Bjr5srlmyH2DGaf.png",
+      "xParts": [
+        1,
+        1.5
+      ],
+      "yParts": [
+        2.5,
+        2.5,
+        2.5
+      ],
+      "x": 25,
+      "y": 50,
+      "reason": "食物与昆虫轮廓被拟人和夸张；材质、颜色较简洁，但仍保有三维体积，不因混合物种自动提高Y。"
+    },
+    {
+      "id": 88,
+      "name": "史莱姆牧场",
+      "direction": 27,
+      "style": "极简软体角色",
+      "family": "材质与几何",
+      "scope": "史莱姆牧场常见史莱姆，不评估环境或人类插画",
+      "source": "https://www.pjsgames.com/en-ch/products/slime-rancher-pc-mac-linux-gog-digital-download",
+      "image": "https://www.pjsgames.com/cdn/shop/files/card-slime-rancher-pc-mac-linux-gog-digital-download.jpg?v=1761256429&width=1920",
+      "xParts": [
+        0.5,
+        0.5
+      ],
+      "yParts": [
+        3,
+        2,
+        2
+      ],
+      "x": 10,
+      "y": 45,
+      "reason": "球形软体与符号面部接近卡通端；透明度、高光与体积可感知，材料表现属于中度概括。"
+    },
+    {
+      "id": 89,
+      "name": "双人成行",
+      "direction": 25,
+      "style": "布偶与手工拼接",
+      "family": "材质与几何",
+      "scope": "双人成行Cody与May的游戏内人偶",
+      "source": "https://mynintendonews.com/2025/10/26/it-takes-two-team-looked-at-nintendo-for-inspiration-on-their-hit-game/",
+      "image": "https://i0.wp.com/mynintendonews.com/wp-content/uploads/2022/09/it_takes_two.jpg?fit=1280%2C720&ssl=1",
+      "xParts": [
+        2,
+        2
+      ],
+      "yParts": [
+        1.5,
+        1,
+        1
+      ],
+      "x": 40,
+      "y": 25,
+      "reason": "人偶头身、五官与身体轮廓明显卡通；木头、黏土、毛线和接触光影接近现实手工材料，故Y较低。"
+    },
+    {
+      "id": 90,
+      "name": "耀西的手工世界",
+      "direction": 25,
+      "style": "布偶与手工拼接",
+      "family": "材质与几何",
+      "scope": "耀西手工世界的角色本体，不计手工布景",
+      "source": "https://mynintendonews.com/2019/03/27/review-yoshis-crafted-world-for-nintendo-switch/",
+      "image": "https://i0.wp.com/mynintendonews.com/wp-content/uploads/2019/02/yoshis_crafted_world_artwork.jpg?fit=1372%2C772&ssl=1",
+      "xParts": [
+        1,
+        1.5
+      ],
+      "yParts": [
+        2,
+        1.5,
+        1
+      ],
+      "x": 25,
+      "y": 30,
+      "reason": "玩偶动物的头身和结构高度卡通；绒感、接缝及三维明暗接近实物，手工媒介本身不必高Y。"
+    },
+    {
+      "id": 91,
+      "name": "撕纸小邮差",
+      "direction": 24,
+      "style": "纸片剪贴",
+      "family": "材质与几何",
+      "scope": "撕纸小邮差主角纸模型",
+      "source": "https://www.imdb.com/title/tt2409476/",
+      "image": "https://m.media-amazon.com/images/M/MV5BMzU3MjQwZmYtMTVlZS00YzNlLWEzZGEtZjQ4ZjhiOGU0NTcxXkEyXkFqcGc%40._V1_.jpg",
+      "xParts": [
+        1,
+        1
+      ],
+      "yParts": [
+        2,
+        2,
+        1.5
+      ],
+      "x": 20,
+      "y": 35,
+      "reason": "折纸躯体与五官高度概括；纸张折面和投影保持实物逻辑，角色印刷色彩略作图形化处理。"
+    },
+    {
+      "id": 92,
+      "name": "隐迹渐现",
+      "direction": 37,
+      "style": "手抄本与木刻图像",
+      "family": "动漫与手绘",
+      "scope": "隐迹渐现游戏中的手抄本人物",
+      "source": "https://pentiment.obsidian.net/",
+      "image": "https://d1079ywfijtdjs.cloudfront.net/images/pentiment/v1/screenshots/1009_173248.jpg",
+      "xParts": [
+        2.5,
+        2
+      ],
+      "yParts": [
+        4,
+        4.5,
+        4.5
+      ],
+      "x": 45,
+      "y": 90,
+      "reason": "人物比例比极简动物更接近人体，但面部和结构被概括；手抄本式线条、平面设色与明暗高度风格化。"
+    },
+    {
+      "id": 93,
+      "name": "GRIS",
+      "direction": 38,
+      "style": "极简水彩与抽象人物",
+      "family": "动漫与手绘",
+      "scope": "GRIS最终游戏人物，不以探索草稿评分",
+      "source": "https://x.com/nomadastudiobcn/status/1065225594441555968",
+      "image": "https://pbs.twimg.com/media/DshxB37X4AAtMtJ.jpg",
+      "xParts": [
+        1.5,
+        1
+      ],
+      "yParts": [
+        4.5,
+        4.5,
+        5
+      ],
+      "x": 25,
+      "y": 95,
+      "reason": "人物身体、脸部和裙装轮廓被几何化；色彩、边缘与水彩媒介形成高强度表现处理，仅评角色本体。"
+    },
+    {
+      "id": 94,
+      "name": "光之子",
+      "direction": 19,
+      "style": "水彩与铅笔动漫",
+      "family": "动漫与手绘",
+      "scope": "光之子Aurora等常态二维角色",
+      "source": "https://www.behance.net/gallery/14506365/CHILD-OF-LIGHT-VIDEO-GAME-MAIN-CHARACTER-DESIGN",
+      "image": "https://mir-s3-cdn-cf.behance.net/project_modules/hd_webp/f3d71214506365.562a9806da667.jpg",
+      "xParts": [
+        2,
+        2
+      ],
+      "yParts": [
+        3.5,
+        4,
+        4.5
+      ],
+      "x": 40,
+      "y": 80,
+      "reason": "童话人物头身与五官偏卡通；水彩边缘、透明色层和简化明暗使Y较高。"
+    },
+    {
+      "id": 95,
+      "name": "战斗厨师旅团",
+      "direction": 18,
+      "style": "史诗平涂动画",
+      "family": "动漫与手绘",
+      "scope": "战斗厨师旅团主要角色立绘及二维形象",
+      "source": "https://www.marielumart.com/professional-projects",
+      "image": "https://images.squarespace-cdn.com/content/v1/56ca5115356fb0ec8c2bed9b/1492897213285-X55U0TF2EUYGK3S2M7XW/Battle%2BChef%2BBrigade%2BPreview%2B5.png",
+      "xParts": [
+        2,
+        2
+      ],
+      "yParts": [
+        3,
+        4,
+        4
+      ],
+      "x": 40,
+      "y": 75,
+      "reason": "人物比例与脸部采用动画式概括；线稿、平涂和简化材料使二维表达明显风格化。"
+    },
+    {
+      "id": 96,
+      "name": "星之海",
+      "direction": 32,
+      "style": "精细像素角色",
+      "family": "材质与几何",
+      "scope": "星之海游戏内像素角色，不看高清宣传图",
+      "source": "https://www.laptopmag.com/news/sea-of-stars",
+      "image": "https://cdn.mos.cms.futurecdn.net/v2/t%3A0%2Cl%3A420%2Ccw%3A1080%2Cch%3A1080%2Cq%3A80%2Cw%3A1080/6Y5ouFKiFAi7zqoLDZBg8m.png",
+      "xParts": [
+        1.5,
+        1
+      ],
+      "yParts": [
+        3.5,
+        4,
+        4.5
+      ],
+      "x": 25,
+      "y": 80,
+      "reason": "像素人物头身压缩、五官符号化；配色和明暗由设计过的像素簇组织，不将高清宣传插画混入评分。"
+    },
+    {
+      "id": 97,
+      "name": "星露谷物语",
+      "direction": 32,
+      "style": "精细像素角色",
+      "family": "材质与几何",
+      "scope": "星露谷物语游戏内角色像素与对话像素肖像",
+      "source": "https://www.pngitem.com/middle/iRJbxww_stardew-valley-villagers-names-hd-png-download/",
+      "image": "https://www.pngitem.com/pimgs/m/163-1639954_stardew-valley-villagers-names-hd-png-download.png",
+      "xParts": [
+        1.5,
+        1
+      ],
+      "yParts": [
+        3.5,
+        4.5,
+        4.5
+      ],
+      "x": 25,
+      "y": 85,
+      "reason": "游戏内人物与对话像素肖像的结构被概括；有限色块和像素明暗取代自然材料细节，Y显著高于实物感人偶。"
+    },
+    {
+      "id": 98,
+      "name": "死亡细胞",
+      "direction": 39,
+      "style": "高对比动态像素",
+      "family": "材质与几何",
+      "scope": "死亡细胞常态角色像素，排除技能与残影",
+      "source": "https://twinfinite.net/guides/dead-cells-fatal-falls-new-biomes-locations-how/",
+      "image": "https://twinfinite.net/wp-content/uploads/2021/02/20210202203601_1-min.jpg?resize=1000%2C563",
+      "xParts": [
+        1.5,
+        1.5
+      ],
+      "yParts": [
+        4,
+        4,
+        4.5
+      ],
+      "x": 30,
+      "y": 85,
+      "reason": "躯体、发光头部和衣装轮廓偏符号化；像素色面与概括明暗形成高Y，排除技能残影和特效。"
+    },
+    {
+      "id": 99,
+      "name": "光明旅者",
+      "direction": 39,
+      "style": "高对比动态像素",
+      "family": "材质与几何",
+      "scope": "光明旅者常态像素角色",
+      "source": "https://www.zeit.de/digital/games/2016-04/hyper-light-drifter-spiel-test",
+      "image": "https://img.zeit.de/digital/games/2016-04/hyper-light-drifter/standard__1120x840",
+      "xParts": [
+        1.5,
+        1
+      ],
+      "yParts": [
+        4.5,
+        4.5,
+        4.5
+      ],
+      "x": 25,
+      "y": 90,
+      "reason": "面罩、披风和躯体被压缩成像素符号；主观配色与图形化明暗十分突出，不以背景霓虹面积计分。"
+    },
+    {
+      "id": 100,
+      "name": "晶体管",
+      "direction": 14,
+      "style": "图形化神话插画",
+      "family": "卡通与图形",
+      "scope": "晶体管Red的二维角色美术及主角形象",
+      "source": "https://www.gamesradar.com/transistor-review/",
+      "image": "https://cdn.mos.cms.futurecdn.net/27cb91bab9219eab6d40df3d2fccf3fd-2560-80.jpg",
+      "xParts": [
+        3,
+        3
+      ],
+      "yParts": [
+        4,
+        3.5,
+        4.5
+      ],
+      "x": 60,
+      "y": 80,
+      "reason": "修长人物仍有较完整人体结构；图形化绘画、主观颜色与装饰性表面使表现风格化明显高于形体卡通化。"
+    }
+  ],
+  "styles": [
+    {
+      "id": 1,
+      "name": "自然主义写实",
+      "family": "写实与体块",
+      "members": [
+        1,
+        33,
+        34,
+        38,
+        40,
+        70
+      ],
+      "x": 94,
+      "y": 16,
+      "bounds": {
+        "xmin": 85,
+        "xmax": 100,
+        "ymin": 10,
+        "ymax": 25
+      }
+    },
+    {
+      "id": 2,
+      "name": "写实暗黑奇幻",
+      "family": "写实与体块",
+      "members": [
+        2,
+        36,
+        37,
+        39,
+        41,
+        42,
+        56
+      ],
+      "x": 87,
+      "y": 23,
+      "bounds": {
+        "xmin": 80,
+        "xmax": 90,
+        "ymin": 15,
+        "ymax": 30
+      }
+    },
+    {
+      "id": 3,
+      "name": "赛博朋克写实",
+      "family": "写实与体块",
+      "members": [
+        3
+      ],
+      "x": 95,
+      "y": 15,
+      "bounds": {
+        "xmin": 95,
+        "xmax": 95,
+        "ymin": 15,
+        "ymax": 15
+      }
+    },
+    {
+      "id": 4,
+      "name": "厚重夸张奇幻",
+      "family": "写实与体块",
+      "members": [
+        4,
+        43,
+        54,
+        55
+      ],
+      "x": 56,
+      "y": 59,
+      "bounds": {
+        "xmin": 45,
+        "xmax": 80,
+        "ymin": 30,
+        "ymax": 75
+      }
+    },
+    {
+      "id": 5,
+      "name": "动画电影式英雄卡通",
+      "family": "卡通与图形",
+      "members": [
+        5,
+        52,
+        77
+      ],
+      "x": 53,
+      "y": 38,
+      "bounds": {
+        "xmin": 35,
+        "xmax": 70,
+        "ymin": 25,
+        "ymax": 45
+      }
+    },
+    {
+      "id": 6,
+      "name": "复古商业插画式卡通",
+      "family": "卡通与图形",
+      "members": [
+        6,
+        53
+      ],
+      "x": 47,
+      "y": 65,
+      "bounds": {
+        "xmin": 40,
+        "xmax": 55,
+        "ymin": 60,
+        "ymax": 70
+      }
+    },
+    {
+      "id": 7,
+      "name": "美式漫画描线",
+      "family": "卡通与图形",
+      "members": [
+        7
+      ],
+      "x": 60,
+      "y": 75,
+      "bounds": {
+        "xmin": 60,
+        "xmax": 60,
+        "ymin": 75,
+        "ymax": 75
+      }
+    },
+    {
+      "id": 8,
+      "name": "精致日式动漫",
+      "family": "动漫与手绘",
+      "members": [
+        8,
+        44,
+        57,
+        59,
+        60,
+        62,
+        63
+      ],
+      "x": 48,
+      "y": 62,
+      "bounds": {
+        "xmin": 35,
+        "xmax": 70,
+        "ymin": 25,
+        "ymax": 80
+      }
+    },
+    {
+      "id": 9,
+      "name": "夸张格斗与动漫形体",
+      "family": "动漫与手绘",
+      "members": [
+        9,
+        69,
+        71,
+        73
+      ],
+      "x": 44,
+      "y": 74,
+      "bounds": {
+        "xmin": 30,
+        "xmax": 65,
+        "ymin": 35,
+        "ymax": 90
+      }
+    },
+    {
+      "id": 10,
+      "name": "都市波普动漫",
+      "family": "动漫与手绘",
+      "members": [
+        10,
+        66,
+        67
+      ],
+      "x": 38,
+      "y": 83,
+      "bounds": {
+        "xmin": 25,
+        "xmax": 45,
+        "ymin": 80,
+        "ymax": 90
+      }
+    },
+    {
+      "id": 11,
+      "name": "经典冒险漫画",
+      "family": "动漫与手绘",
+      "members": [
+        11,
+        68,
+        84
+      ],
+      "x": 38,
+      "y": 53,
+      "bounds": {
+        "xmin": 35,
+        "xmax": 40,
+        "ymin": 50,
+        "ymax": 60
+      }
+    },
+    {
+      "id": 12,
+      "name": "日式Q版职业角色",
+      "family": "动漫与手绘",
+      "members": [
+        12
+      ],
+      "x": 20,
+      "y": 50,
+      "bounds": {
+        "xmin": 20,
+        "xmax": 20,
+        "ymin": 50,
+        "ymax": 50
+      }
+    },
+    {
+      "id": 13,
+      "name": "华丽手绘奇幻",
+      "family": "动漫与手绘",
+      "members": [
+        13,
+        45,
+        65
+      ],
+      "x": 52,
+      "y": 65,
+      "bounds": {
+        "xmin": 45,
+        "xmax": 60,
+        "ymin": 50,
+        "ymax": 75
+      }
+    },
+    {
+      "id": 14,
+      "name": "图形化神话插画",
+      "family": "卡通与图形",
+      "members": [
+        14,
+        100
+      ],
+      "x": 62,
+      "y": 85,
+      "bounds": {
+        "xmin": 60,
+        "xmax": 65,
+        "ymin": 80,
+        "ymax": 90
+      }
+    },
+    {
+      "id": 15,
+      "name": "哥特黑块漫画",
+      "family": "卡通与图形",
+      "members": [
+        15
+      ],
+      "x": 45,
+      "y": 90,
+      "bounds": {
+        "xmin": 45,
+        "xmax": 45,
+        "ymin": 90,
+        "ymax": 90
+      }
+    },
+    {
+      "id": 16,
+      "name": "怪诞手绘童话",
+      "family": "卡通与图形",
+      "members": [
+        16
+      ],
+      "x": 15,
+      "y": 90,
+      "bounds": {
+        "xmin": 15,
+        "xmax": 15,
+        "ymin": 90,
+        "ymax": 90
+      }
+    },
+    {
+      "id": 17,
+      "name": "复古动画与橡皮管",
+      "family": "卡通与图形",
+      "members": [
+        17,
+        72
+      ],
+      "x": 20,
+      "y": 88,
+      "bounds": {
+        "xmin": 10,
+        "xmax": 30,
+        "ymin": 85,
+        "ymax": 90
+      }
+    },
+    {
+      "id": 18,
+      "name": "史诗平涂动画",
+      "family": "动漫与手绘",
+      "members": [
+        18,
+        95
+      ],
+      "x": 52,
+      "y": 75,
+      "bounds": {
+        "xmin": 40,
+        "xmax": 65,
+        "ymin": 75,
+        "ymax": 75
+      }
+    },
+    {
+      "id": 19,
+      "name": "水彩与铅笔动漫",
+      "family": "动漫与手绘",
+      "members": [
+        19,
+        64,
+        94
+      ],
+      "x": 47,
+      "y": 73,
+      "bounds": {
+        "xmin": 40,
+        "xmax": 55,
+        "ymin": 70,
+        "ymax": 80
+      }
+    },
+    {
+      "id": 20,
+      "name": "水墨和风绘卷",
+      "family": "动漫与手绘",
+      "members": [
+        20
+      ],
+      "x": 25,
+      "y": 95,
+      "bounds": {
+        "xmin": 25,
+        "xmax": 25,
+        "ymin": 95,
+        "ymax": 95
+      }
+    },
+    {
+      "id": 21,
+      "name": "表现主义油画肖像",
+      "family": "动漫与手绘",
+      "members": [
+        21
+      ],
+      "x": 75,
+      "y": 90,
+      "bounds": {
+        "xmin": 75,
+        "xmax": 75,
+        "ymin": 90,
+        "ymax": 90
+      }
+    },
+    {
+      "id": 22,
+      "name": "温暖绘本拟人",
+      "family": "卡通与图形",
+      "members": [
+        22,
+        86
+      ],
+      "x": 20,
+      "y": 90,
+      "bounds": {
+        "xmin": 10,
+        "xmax": 30,
+        "ymin": 80,
+        "ymax": 100
+      }
+    },
+    {
+      "id": 23,
+      "name": "极简面具式暗黑童话",
+      "family": "卡通与图形",
+      "members": [
+        23,
+        85
+      ],
+      "x": 10,
+      "y": 90,
+      "bounds": {
+        "xmin": 10,
+        "xmax": 10,
+        "ymin": 90,
+        "ymax": 90
+      }
+    },
+    {
+      "id": 24,
+      "name": "纸片剪贴",
+      "family": "材质与几何",
+      "members": [
+        24,
+        91
+      ],
+      "x": 15,
+      "y": 58,
+      "bounds": {
+        "xmin": 10,
+        "xmax": 20,
+        "ymin": 35,
+        "ymax": 80
+      }
+    },
+    {
+      "id": 25,
+      "name": "布偶与手工拼接",
+      "family": "材质与几何",
+      "members": [
+        25,
+        89,
+        90
+      ],
+      "x": 30,
+      "y": 27,
+      "bounds": {
+        "xmin": 25,
+        "xmax": 40,
+        "ymin": 25,
+        "ymax": 30
+      }
+    },
+    {
+      "id": 26,
+      "name": "圆润亲和人物",
+      "family": "卡通与图形",
+      "members": [
+        26,
+        81,
+        83
+      ],
+      "x": 23,
+      "y": 43,
+      "bounds": {
+        "xmin": 20,
+        "xmax": 30,
+        "ymin": 35,
+        "ymax": 50
+      }
+    },
+    {
+      "id": 27,
+      "name": "极简软体角色",
+      "family": "材质与几何",
+      "members": [
+        27,
+        82,
+        88
+      ],
+      "x": 10,
+      "y": 48,
+      "bounds": {
+        "xmin": 10,
+        "xmax": 10,
+        "ymin": 45,
+        "ymax": 55
+      }
+    },
+    {
+      "id": 28,
+      "name": "图标化萌系生物",
+      "family": "卡通与图形",
+      "members": [
+        28,
+        87
+      ],
+      "x": 22,
+      "y": 63,
+      "bounds": {
+        "xmin": 20,
+        "xmax": 25,
+        "ymin": 50,
+        "ymax": 75
+      }
+    },
+    {
+      "id": 29,
+      "name": "街头潮流卡通",
+      "family": "卡通与图形",
+      "members": [
+        29,
+        58
+      ],
+      "x": 37,
+      "y": 58,
+      "bounds": {
+        "xmin": 30,
+        "xmax": 45,
+        "ymin": 50,
+        "ymax": 65
+      }
+    },
+    {
+      "id": 30,
+      "name": "方块与体素感",
+      "family": "材质与几何",
+      "members": [
+        30
+      ],
+      "x": 5,
+      "y": 80,
+      "bounds": {
+        "xmin": 5,
+        "xmax": 5,
+        "ymin": 80,
+        "ymax": 80
+      }
+    },
+    {
+      "id": 31,
+      "name": "低多边形切面",
+      "family": "材质与几何",
+      "members": [
+        31
+      ],
+      "x": 30,
+      "y": 70,
+      "bounds": {
+        "xmin": 30,
+        "xmax": 30,
+        "ymin": 70,
+        "ymax": 70
+      }
+    },
+    {
+      "id": 32,
+      "name": "精细像素角色",
+      "family": "材质与几何",
+      "members": [
+        32,
+        96,
+        97
+      ],
+      "x": 25,
+      "y": 82,
+      "bounds": {
+        "xmin": 25,
+        "xmax": 25,
+        "ymin": 80,
+        "ymax": 85
+      }
+    },
+    {
+      "id": 33,
+      "name": "科幻机能与工业装甲",
+      "family": "写实与体块",
+      "members": [
+        35,
+        49,
+        50,
+        51
+      ],
+      "x": 86,
+      "y": 24,
+      "bounds": {
+        "xmin": 80,
+        "xmax": 95,
+        "ymin": 15,
+        "ymax": 30
+      }
+    },
+    {
+      "id": 34,
+      "name": "生物机械融合",
+      "family": "写实与体块",
+      "members": [
+        48
+      ],
+      "x": 55,
+      "y": 35,
+      "bounds": {
+        "xmin": 55,
+        "xmax": 55,
+        "ymin": 35,
+        "ymax": 35
+      }
+    },
+    {
+      "id": 35,
+      "name": "主题时装与科幻哥特",
+      "family": "动漫与手绘",
+      "members": [
+        46,
+        47,
+        61
+      ],
+      "x": 68,
+      "y": 42,
+      "bounds": {
+        "xmin": 60,
+        "xmax": 75,
+        "ymin": 25,
+        "ymax": 70
+      }
+    },
+    {
+      "id": 36,
+      "name": "怪诞比例与讽刺人物",
+      "family": "卡通与图形",
+      "members": [
+        74,
+        75,
+        76
+      ],
+      "x": 45,
+      "y": 48,
+      "bounds": {
+        "xmin": 25,
+        "xmax": 70,
+        "ymin": 45,
+        "ymax": 55
+      }
+    },
+    {
+      "id": 37,
+      "name": "手抄本与木刻图像",
+      "family": "动漫与手绘",
+      "members": [
+        92
+      ],
+      "x": 45,
+      "y": 90,
+      "bounds": {
+        "xmin": 45,
+        "xmax": 45,
+        "ymin": 90,
+        "ymax": 90
+      }
+    },
+    {
+      "id": 38,
+      "name": "极简水彩与抽象人物",
+      "family": "动漫与手绘",
+      "members": [
+        93
+      ],
+      "x": 25,
+      "y": 95,
+      "bounds": {
+        "xmin": 25,
+        "xmax": 25,
+        "ymin": 95,
+        "ymax": 95
+      }
+    },
+    {
+      "id": 39,
+      "name": "高对比动态像素",
+      "family": "材质与几何",
+      "members": [
+        98,
+        99
+      ],
+      "x": 27,
+      "y": 88,
+      "bounds": {
+        "xmin": 25,
+        "xmax": 30,
+        "ymin": 85,
+        "ymax": 90
+      }
+    },
+    {
+      "id": 40,
+      "name": "动物吉祥物与弹性动画",
+      "family": "卡通与图形",
+      "members": [
+        78,
+        79,
+        80
+      ],
+      "x": 23,
+      "y": 52,
+      "bounds": {
+        "xmin": 20,
+        "xmax": 25,
+        "ymin": 45,
+        "ymax": 55
+      }
+    }
+  ]
+}
