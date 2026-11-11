@@ -21,8 +21,17 @@ for(const key of ['games','casual'])for(const n of [10,30,37,100]){
 // Minimal DOM model to exercise the actual page controller. No browser layout claim.
 for(const key of ['games','casual','styles'])for(const y of DATA.datasets[key].axes.filter(a=>a!=='form')){
  const d=DATA.datasets[key],s=C.makeScene(d.items,{...base,dataset:key,y,labels:'none'},{width:1280,height:503},DATA.axes);
- assert.equal(s.labels.length,0);assert.equal(s.badges.length,d.items.length);checkScene({...s,labels:s.badges},d.items.length);
- const svg=C.renderSvg(s);assert.equal((svg.match(/data-number=/g)||[]).length,d.items.length);layoutChecks++;
+ assert.equal(s.labels.length,0);assert.equal(s.badges.length,d.items.length);
+ assert.equal(new Set(d.items.map(C.numberText)).size,d.items.length,'Numeric identifiers must be unique');
+ for(const badge of s.badges){assert.match(C.numberText(badge.item),/^[1-9][0-9]*$/);assert(badge.font<=9);assert(badge.h<=13);}
+ const named=C.makeScene(d.items,{...base,dataset:key,y,labels:'all'},{width:1280,height:503},DATA.axes);
+ // Name layouts may expand the canvas; compare projections at identical dimensions.
+ const compactSameSize=C.makeScene(d.items,{...base,dataset:key,y,labels:'none'},{width:named.w,height:named.h},DATA.axes);
+ assert.deepEqual(compactSameSize.points.map(p=>[p.item.key,p.px,p.py]),named.points.map(p=>[p.item.key,p.px,p.py]));checkScene({...s,labels:s.badges},d.items.length);
+ const svg=C.renderSvg(s);assert.equal((svg.match(/data-number=/g)||[]).length,d.items.length);
+ const badgeTexts=[...svg.matchAll(/<g class="name-node number-node[^]*?<text[^>]*>([^<]+)<\/text><\/g>/g)];assert.equal(badgeTexts.length,d.items.length);
+ for(const m of badgeTexts)assert.match(m[1],/^[1-9][0-9]*$/);
+ if(key==='casual')assert.equal(C.numberText(d.items.find(g=>g.entryType==='supplement')),'101');layoutChecks++;
 }
 class Element{
  constructor(tag='div'){this.tag=tag;this.attributes={};this.children=[];this.listeners={};this.dataset={};this.value='';this.textContent='';this.disabled=false;this.hidden=false;this.open=false;this._html='';this._classes=new Set();this.classList={add:c=>this._classes.add(c),remove:c=>this._classes.delete(c),contains:c=>this._classes.has(c),toggle:(c,on)=>{const v=on??!this._classes.has(c);v?this._classes.add(c):this._classes.delete(c);return v;}};}
@@ -33,7 +42,7 @@ class Element{
 }
 async function interactions(){
  const ids=[...html.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]),el=Object.fromEntries(ids.map(id=>[id,new Element()]));
- const ds=['games','styles','casual'].map(k=>{const b=new Element('button');b.setAttribute('data-dataset',k);return b;}),presets=['form,era','form,expression','form,complexity'].map(k=>{const b=new Element('button');b.setAttribute('data-preset',k);return b;});
+ const ds=[...html.matchAll(/<button data-dataset="([^"]+)"/g)].map(m=>m[1]).map(k=>{const b=new Element('button');b.setAttribute('data-dataset',k);return b;}),presets=['form,era','form,expression','form,complexity'].map(k=>{const b=new Element('button');b.setAttribute('data-preset',k);return b;});
  const events={},document={fullscreenElement:null,getElementById:id=>{assert(el[id],'Missing '+id);return el[id];},createElement:tag=>new Element(tag),querySelectorAll:s=>s==='[data-dataset]'?ds:s==='[data-preset]'?presets:[],addEventListener:(k,f)=>events[k]=f};
  const store=new Map();const localStorage={getItem:k=>store.get(k)||null,setItem:(k,v)=>store.set(k,v)};
  const urls=[];const Url={createObjectURL:blob=>{urls.push(blob);return'blob:mock';},revokeObjectURL(){}};
@@ -47,22 +56,25 @@ async function interactions(){
  fire('swap');assert.equal(el['axis-x'].value,'form');assert.equal(el['axis-y'].value,'expression');fire('reverse-x');assert.equal(el['reverse-x'].attributes['aria-pressed'],'true');
  el.search.value='星露谷物语';fire('search','input');assert.match(el.status.textContent,/1 \/ 100/);assert.match(el.detail.innerHTML,/星露谷物语/);
  el.search.value='NO_SUCH_TITLE_ZZZ';fire('search','input');assert.equal(el.empty.hidden,false);assert.match(el.detail.innerHTML,/没有匹配/);
- fire('reset');ds[1].click();assert.match(el.status.textContent,/40 \/ 40/);assert.match(el.detail.innerHTML,/布偶与手工拼接/);
+ fire('reset');ds[2].click();assert.match(el.status.textContent,/40 \/ 40/);assert.match(el.detail.innerHTML,/布偶与手工拼接/);
  assert.equal(el['limit-controls'].hidden,true);assert.equal(el['style-count-note'].hidden,false);
  const member=el.detail.querySelectorAll('[data-member]').find(b=>b.dataset.member==='g-89');assert(member);member.click();assert.match(el.detail.innerHTML,/双人成行/);assert.equal(Number(el['game-limit'].value),89);limit(100);
- ds[2].click();assert.match(el.status.textContent,/100 \/ 100/);assert.equal(el['axis-y'].value,'expression');assert.match(el['axis-y'].innerHTML,/disabled>世界年代 · 未评估/);assert.match(el.detail.innerHTML,/Meowdoku/);
+ ds[1].click();assert.match(el.status.textContent,/100 \/ 101/);assert.equal(el['axis-y'].value,'expression');assert.match(el['axis-y'].innerHTML,/disabled>世界年代 · 未评估/);assert.match(el.detail.innerHTML,/MONOPOLY GO!/);
  el.detail.querySelectorAll('[data-image]')[0].click();assert(el['image-viewer'].open);fire('close-viewer');assert(!el['image-viewer'].open);
- presets[0].click();assert.equal(el['axis-y'].value,'era');assert.match(el['dataset-note'].textContent,/原100款/);
+ assert.equal(presets[0].disabled,true);assert.equal(presets[2].disabled,true);assert.equal(presets[1].disabled,false);
+ presets[0].click();assert.equal(el['axis-y'].value,'expression');assert.equal(ds[1].attributes['aria-pressed'],'true','Unavailable presets must not switch datasets');
+ assert.match(el['preset-note'].textContent,/尚未评估/);
+ ds[0].click();presets[0].click();assert.equal(el['axis-y'].value,'era');assert.match(el['dataset-note'].textContent,/原100款/);assert.equal(presets[0].attributes['aria-pressed'],'true');
  el.labels.value='selected';fire('labels','change');assert.match(el.status.textContent,/1 个名称已显示/);
  await fire('fullscreen');assert(el.explorer.classList.contains('focus-view'));assert.equal(el.labels.value,'all');assert.match(el.status.textContent,/100 个名称已显示/);
  fire('toggle-detail');assert(el.explorer.classList.contains('detail-open'));fire('toggle-detail');assert(!el.explorer.classList.contains('detail-open'));
  events.keydown({key:'Escape',preventDefault(){}});assert(!el.explorer.classList.contains('focus-view'));
  fire('zoom-in');assert.equal(el['zoom-level'].textContent,'2×');fire('zoom-in');assert.equal(el['zoom-level'].textContent,'4×');fire('fit');assert.equal(el['zoom-level'].textContent,'1×');
  fire('export-svg');fire('export-data');assert.equal(urls.length,2);assert.match(await urls[0].text(),/svg xmlns/);const exported=JSON.parse(await urls[1].text());assert.equal(exported.samples.length,100);assert(!exported.samples[0].images);
- for(const [index,key]of [[0,'games'],[2,'casual']]){
+ for(const [index,key]of [[0,'games'],[1,'casual']]){
   ds[index].click();assert.equal(el['limit-controls'].hidden,false);
-  for(const n of [10,37,100]){
-   limit(n);assert.match(el.status.textContent,new RegExp(`${n} / 100`));assert.match(el.status.textContent,new RegExp(`${n} 个名称已显示`));
+  for(const n of [10,37,DATA.datasets[key].items.length]){
+   limit(n);assert.match(el.status.textContent,new RegExp(`${n} / ${DATA.datasets[key].items.length}`));assert.match(el.status.textContent,new RegExp(`${n} 个名称已显示`));
    assert.equal(el['table-count'].textContent,n+' 个样本');assert.equal(el['table-body'].querySelectorAll('[data-row]').length,n);
    fire('export-data');const out=JSON.parse(await urls.at(-1).text());assert.deepEqual(out.samples.map(g=>g.key),DATA.datasets[key].items.slice(0,n).map(g=>g.key));
    assert.equal(JSON.parse(store.get('art-explorer-v1')).limit,n);
@@ -73,9 +85,9 @@ async function interactions(){
   el.search.value='';fire('search','input');fire('swap');assert.equal(Number(el['game-limit'].value),10);
   await fire('fullscreen');assert.match(el.status.textContent,/10 个名称已显示/);limit(37);assert.match(el.status.textContent,/37 个名称已显示/);events.keydown({key:'Escape',preventDefault(){}});
  }
- limit(10);ds[1].click();assert.match(el.status.textContent,/40 \/ 40/);assert(el['limit-controls'].hidden);ds[0].click();assert.match(el.status.textContent,/10 \/ 100/);
+ limit(10);ds[2].click();assert.match(el.status.textContent,/40 \/ 40/);assert(el['limit-controls'].hidden);ds[0].click();assert.match(el.status.textContent,/10 \/ 100/);
  limit(0);assert.equal(Number(el['game-limit'].value),10);limit(200);assert.equal(Number(el['game-limit'].value),100);limit('bad');assert.equal(Number(el['game-limit'].value),30);
- for(const [index,key]of [[0,'games'],[2,'casual']]){
+ for(const [index,key]of [[0,'games'],[1,'casual']]){
   ds[index].click();limit(10);fire('toggle-names');assert.equal(el.labels.value,'none');assert.equal(el['toggle-names'].textContent,'显示游戏名字');
   assert.match(el.status.textContent,/0 个名称已显示/);let badges=el['plot-wrap'].querySelectorAll('[data-number]');assert.equal(badges.length,10);
   badges[0].listeners.mouseenter();assert.equal(el['game-preview'].hidden,false);assert(el['game-preview'].innerHTML.includes(C.esc(DATA.datasets[key].items[0].name)));assert(el['game-preview'].innerHTML.includes(C.esc(DATA.datasets[key].items[0].description)));
@@ -84,6 +96,18 @@ async function interactions(){
   fire('toggle-names');assert.equal(el.labels.value,'all');assert.match(el.status.textContent,/37 个名称已显示/);assert.equal(el['plot-wrap'].querySelectorAll('[data-number]').length,0);
   events.keydown({key:'Escape',preventDefault(){}});
  }
- return ['axis switching and swap','axis reversal','dataset switch and disabled unevaluated axes','search and empty state','style member navigation expands limit','image lightbox','fullscreen fallback and Esc','all names on fullscreen entry','fullscreen detail toggle','zoom and reset','SVG and JSON export','10/37/100 slider on both game lists','ordered prefix before search','slider persists and clamps','fullscreen slider updates','style view keeps 40 directions','name toggle and individual numbered badges','hover and keyboard focus show correct description','tooltip dismissal','fullscreen preserves hidden names'];
+ ds[1].click();limit(101);assert.equal(el['game-limit'].max,101);assert.match(el.status.textContent,/101 \/ 101/);limit(10);assert(el['table-body'].innerHTML.includes('MONOPOLY GO!'));assert.match(el['limit-hint'].textContent,/补充 1 款/);
+ // Recovery actions preserve the collection and query intent.
+ assert.equal(el['sample-totals'].textContent,201);assert.match(el['collection-note'].textContent,/2026.11.05/);
+ el.search.value=DATA.datasets.casual.items[99].code;fire('search','input');
+ assert.equal(el['chart-empty'].hidden,false);assert.equal(el['filter-summary'].hidden,false);assert.equal(el['show-all'].hidden,false);assert.equal(el['export-data'].disabled,true);
+ fire('show-all');assert.equal(Number(el['game-limit'].value),101);assert.equal(el['table-count'].textContent,'1 个样本');assert.equal(el['chart-empty'].hidden,true);assert.equal(el.search.value,DATA.datasets.casual.items[99].code.toLowerCase());assert.equal(ds[1].attributes['aria-pressed'],'true');
+ fire('clear-filters');assert.equal(el['filter-summary'].hidden,true);assert.equal(el.search.value,'');assert.equal(el['table-count'].textContent,'101 个样本');
+ el.legend.querySelectorAll('[data-family]')[1].click();assert.equal(el['filter-summary'].hidden,false);assert.match(el['filter-description'].textContent,/类别：/);
+ presets[1].click();assert.equal(el['filter-summary'].hidden,false,'Changing view must preserve category filter');
+ el.legend.querySelectorAll('[data-family]')[0].click();assert.equal(el['filter-summary'].hidden,true);
+ el.search.value='NO_SUCH_TITLE_ZZZ';fire('search','input');assert.equal(el['chart-empty'].hidden,false);assert.equal(el['show-all'].hidden,true);fire('empty-clear');assert.equal(el['chart-empty'].hidden,true);assert.equal(el['table-count'].textContent,'101 个样本');
+ assert(el.detail.innerHTML.indexOf('class="gallery')<el.detail.innerHTML.indexOf('class="metrics"'),'Reference images precede scores');
+ return ['unsupported presets preserve collection','preset selection preserves filters','clear filters and empty result recovery','expand search to full collection','reference images precede scores','supplement stays visible without changing original ranks','dynamic slider maximum','axis switching and swap','axis reversal','dataset switch and disabled unevaluated axes','search and empty state','style member navigation expands limit','image lightbox','fullscreen fallback and Esc','all names on fullscreen entry','fullscreen detail toggle','zoom and reset','SVG and JSON export','10/37/100 slider on both game lists','ordered prefix before search','slider persists and clamps','fullscreen slider updates','style view keeps 40 directions','name toggle and individual numbered badges','hover and keyboard focus show correct description','tooltip dismissal','fullscreen preserves hidden names'];
 }
 interactions().then(behavior=>console.log(JSON.stringify({layoutChecks,behavior,browserVerification:'DOM行为模型与坐标布局检查，非真实浏览器测试。'},null,2))).catch(e=>{console.error(e);process.exit(1)});

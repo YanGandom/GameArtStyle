@@ -17,12 +17,12 @@ for(const file of htmls){
  }
 }
 const context={window:{}};vm.runInNewContext(fs.readFileSync('assets/js/data.js','utf8'),context);const data=context.window.DATA;
-assert.equal(data.datasets.games.items.length,100);assert.equal(data.datasets.casual.items.length,100);assert.equal(data.datasets.styles.items.length,40);
+assert.equal(data.datasets.games.items.length,100);assert.equal(data.datasets.casual.items.length,101);assert.equal(data.datasets.styles.items.length,40);
 let images=0;
 for(const ds of Object.values(data.datasets))for(const item of ds.items){
  for(const im of item.images||[]){assert(!im.file,'Local source path leaked');if(!/^https?:/.test(im.src)){assert(fs.existsSync(im.src),'Missing image '+im.src);images++;}}
  for(const s of item.sources||[])if(!/^https?:/.test(s.url))assert(fs.existsSync(s.url.split(/[?#]/)[0]),'Missing source '+s.url);
 }
-assert.equal(images,309);
+assert.equal(images,412);
 for(const file of files.filter(f=>/\.(html|js|css|json)$/.test(f))){const text=fs.readFileSync(file,'utf8');assert(!/file:\/\/\/|[A-Za-z]:[\\/](?:Users|Documents)[\\/]/i.test(text),'Machine-specific path in '+file);}
-console.log(JSON.stringify({pages:htmls.length,localLinks:links,packagedImages:images,externalOriginalGameImages:100,entry:'index.html',portable:true}));
+console.log(JSON.stringify({pages:htmls.length,localLinks:links,packagedImages:images,externalOriginalGameImages:0,entry:'index.html',portable:true}));
