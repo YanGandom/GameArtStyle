@@ -1,6 +1,6 @@
 /* 游戏美术分析数据；window.DATA 可直接离线加载。 */
 window.DATA = {
-  "date": "2026-11-10",
+  "date": "2026-11-11",
   "axes": {
     "form": {
       "name": "形体写实度",
@@ -72,10 +72,14 @@ window.DATA = {
           "evidence": "依据作品常见背景分档；此前未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://www.creativeuncut.com/gallery-38/art/tlou2-ellie-design.jpg"
+              "src": "assets/images/palette-g-1.webp",
+              "url": "https://www.creativeuncut.com/gallery-38/art/tlou2-ellie-design.jpg",
+              "width": 1200,
+              "height": 1000,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -85,7 +89,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://www.creativeuncut.com/gallery-38/tlou2-ellie-design.html"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#593e2c",
+            "text": "#ffffff",
+            "contrast": 9.79,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-1.webp",
+                "url": "https://www.creativeuncut.com/gallery-38/art/tlou2-ellie-design.jpg",
+                "page": "https://www.creativeuncut.com/gallery-38/tlou2-ellie-design.html",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 1000
+                },
+                "sha256": "f0870c54e750c6297465fe8bd4b74ebe7940ffc2c8fcd8339e5580c19bb6d5d2"
+              }
+            ],
+            "candidates": [
+              "#593e2c",
+              "#a17b67",
+              "#d1a590",
+              "#3c291e",
+              "#59442f"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-2",
@@ -115,10 +149,14 @@ window.DATA = {
           "evidence": "人工类比：沿用图鉴角色范围与常见世界设定，未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://www.creativeuncut.com/gallery-43/art/er-godrick-knight-soldier-and-foot-soldier.jpg"
+              "src": "assets/images/palette-g-2.webp",
+              "url": "https://www.creativeuncut.com/gallery-43/art/er-godrick-knight-soldier-and-foot-soldier.jpg",
+              "width": 1200,
+              "height": 1043,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -128,7 +166,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://www.creativeuncut.com/gallery-43/er-godrick-knight-soldier-and-foot-soldier.html"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#524836",
+            "text": "#ffffff",
+            "contrast": 8.96,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-2.webp",
+                "url": "https://www.creativeuncut.com/gallery-43/art/er-godrick-knight-soldier-and-foot-soldier.jpg",
+                "page": "https://www.creativeuncut.com/gallery-43/er-godrick-knight-soldier-and-foot-soldier.html",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 1043
+                },
+                "sha256": "575d473a2751eb87f151fcb35663c86a12a21832b6a193c3be0b1f783296f0b4"
+              }
+            ],
+            "candidates": [
+              "#524836",
+              "#56523a",
+              "#583d29",
+              "#3c3326",
+              "#393b2b"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-3",
@@ -158,10 +226,14 @@ window.DATA = {
           "evidence": "依据作品常见背景分档；此前未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://www.notebookcheck.com/fileadmin/Notebooks/News/_nc3/Cyberpunk_2077_Phantom_Liberty_chars.jpg"
+              "src": "assets/images/palette-g-3.webp",
+              "url": "https://www.notebookcheck.com/fileadmin/Notebooks/News/_nc3/Cyberpunk_2077_Phantom_Liberty_chars.jpg",
+              "width": 1200,
+              "height": 575,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -171,7 +243,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://www.notebookcheck.com/Cyberpunk-2077-Phantom-Liberty-ist-jetzt-erhaeltlich-Launch-Trailer-geht-viral.755629.0.html"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#f2072c",
+            "text": "#000000",
+            "contrast": 4.84,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-3.webp",
+                "url": "https://www.notebookcheck.com/fileadmin/Notebooks/News/_nc3/Cyberpunk_2077_Phantom_Liberty_chars.jpg",
+                "page": "https://www.notebookcheck.com/Cyberpunk-2077-Phantom-Liberty-ist-jetzt-erhaeltlich-Launch-Trailer-geht-viral.755629.0.html",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 575
+                },
+                "sha256": "a0a09575bc769a014683d5b7de0fb9ed97f02aad336d269d8668b8d06047bf6d"
+              }
+            ],
+            "candidates": [
+              "#f2072c",
+              "#9c1528",
+              "#651621",
+              "#603632",
+              "#a06962"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-4",
@@ -201,10 +303,14 @@ window.DATA = {
           "evidence": "人工类比：沿用图鉴角色范围与常见世界设定，未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://i.imgur.com/Y6g9g6M.png"
+              "src": "assets/images/palette-g-4.webp",
+              "url": "https://i.imgur.com/Y6g9g6M.png",
+              "width": 1176,
+              "height": 605,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -214,7 +320,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://wowpedia.fandom.com/wiki/Talk%3AHeight"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#603b24",
+            "text": "#ffffff",
+            "contrast": 9.78,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-4.webp",
+                "url": "https://i.imgur.com/Y6g9g6M.png",
+                "page": "https://wowpedia.fandom.com/wiki/Talk%3AHeight",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1176,
+                  "height": 605
+                },
+                "sha256": "f750ab5f7d66a3c5bc16ab58afe6323306e655768466ff9254064742cba78c4b"
+              }
+            ],
+            "candidates": [
+              "#603b24",
+              "#604b2f",
+              "#9c825c",
+              "#9b7054",
+              "#642922"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-5",
@@ -244,10 +380,14 @@ window.DATA = {
           "evidence": "依据作品常见背景分档；此前未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://cdn.myportfolio.com/3ec45c2d-f674-4524-ad8f-ded5ad647b2c/e7ee8ba7-11a4-4ac7-8cad-e9f1de911429_rw_1920.jpg?h=425aadf3817021a4729e637474534831"
+              "src": "assets/images/palette-g-5.webp",
+              "url": "https://cdn.myportfolio.com/3ec45c2d-f674-4524-ad8f-ded5ad647b2c/e7ee8ba7-11a4-4ac7-8cad-e9f1de911429_rw_1920.jpg?h=425aadf3817021a4729e637474534831",
+              "width": 1200,
+              "height": 720,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -257,7 +397,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://christiannahaywood.com/overwatch-payload-tour"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#645439",
+            "text": "#ffffff",
+            "contrast": 7.32,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-5.webp",
+                "url": "https://cdn.myportfolio.com/3ec45c2d-f674-4524-ad8f-ded5ad647b2c/e7ee8ba7-11a4-4ac7-8cad-e9f1de911429_rw_1920.jpg?h=425aadf3817021a4729e637474534831",
+                "page": "https://christiannahaywood.com/overwatch-payload-tour",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 720
+                },
+                "sha256": "1a2460c7b58f2b8f99efb95b0aa4a1c6caa85608f6cb482a547b4c02fccb8b62"
+              }
+            ],
+            "candidates": [
+              "#645439",
+              "#644d3f",
+              "#988055",
+              "#97735b",
+              "#9d9256"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-6",
@@ -287,10 +457,14 @@ window.DATA = {
           "evidence": "人工类比：沿用图鉴角色范围与常见世界设定，未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://images.squarespace-cdn.com/content/v1/55ef0e29e4b099e22cdc9eea/1456162428757-I36BFTN179ZGHEKBGAMD/valve-is-prepping-team-fortress-2-for-esports-beta-is-opening-soon-social.jpg"
+              "src": "assets/images/palette-g-6.webp",
+              "url": "https://images.squarespace-cdn.com/content/v1/55ef0e29e4b099e22cdc9eea/1456162428757-I36BFTN179ZGHEKBGAMD/valve-is-prepping-team-fortress-2-for-esports-beta-is-opening-soon-social.jpg",
+              "width": 1200,
+              "height": 675,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -300,7 +474,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://gametyrant.com/news/valve-is-prepping-team-fortress-2-for-esports-beta-is-opening-soon"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#644736",
+            "text": "#ffffff",
+            "contrast": 8.43,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-6.webp",
+                "url": "https://images.squarespace-cdn.com/content/v1/55ef0e29e4b099e22cdc9eea/1456162428757-I36BFTN179ZGHEKBGAMD/valve-is-prepping-team-fortress-2-for-esports-beta-is-opening-soon-social.jpg",
+                "page": "https://gametyrant.com/news/valve-is-prepping-team-fortress-2-for-esports-beta-is-opening-soon",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 675
+                },
+                "sha256": "b7607c86fd75813913aa28f0949b0a214b03ac6d4a9ea391a4e534b756b1240b"
+              }
+            ],
+            "candidates": [
+              "#644736",
+              "#936650",
+              "#5a342f",
+              "#a3927e",
+              "#974e44"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-7",
@@ -330,10 +534,14 @@ window.DATA = {
           "evidence": "依据作品常见背景分档；此前未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://cdn.mos.cms.futurecdn.net/RxF68SpGWqssT67PhHVEKS.jpg"
+              "src": "assets/images/palette-g-7.webp",
+              "url": "https://cdn.mos.cms.futurecdn.net/RxF68SpGWqssT67PhHVEKS.jpg",
+              "width": 1200,
+              "height": 675,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -343,7 +551,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://www.gamesradar.com/borderlands-3-character-class-best/"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#92e4fc",
+            "text": "#000000",
+            "contrast": 14.67,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-7.webp",
+                "url": "https://cdn.mos.cms.futurecdn.net/RxF68SpGWqssT67PhHVEKS.jpg",
+                "page": "https://www.gamesradar.com/borderlands-3-character-class-best/",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 675
+                },
+                "sha256": "b358b6620d5cc0de835080a22a6d696a3b58345f57e20d03fe9efacfb38e0dc6"
+              }
+            ],
+            "candidates": [
+              "#92e4fc",
+              "#a8e0f5",
+              "#3f586a",
+              "#6e8a9b",
+              "#a18662"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-8",
@@ -373,10 +611,14 @@ window.DATA = {
           "evidence": "人工类比：沿用图鉴角色范围与常见世界设定，未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://t.ctcdn.com.br/k9AuNWxuMIbGeTHie-OHBI8nSRU%3D/1200x675/smart/i505301.jpeg"
+              "src": "assets/images/palette-g-8.webp",
+              "url": "https://t.ctcdn.com.br/k9AuNWxuMIbGeTHie-OHBI8nSRU%3D/1200x675/smart/i505301.jpeg",
+              "width": 1200,
+              "height": 675,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -386,7 +628,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://canaltech.com.br/games/genshin-impact-e-o-formato-de-sucesso-dos-gachas-196202/"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#6eacd9",
+            "text": "#000000",
+            "contrast": 8.56,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-8.webp",
+                "url": "https://t.ctcdn.com.br/k9AuNWxuMIbGeTHie-OHBI8nSRU%3D/1200x675/smart/i505301.jpeg",
+                "page": "https://canaltech.com.br/games/genshin-impact-e-o-formato-de-sucesso-dos-gachas-196202/",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 675
+                },
+                "sha256": "96023ddf8828ea366affcd8fdb577c369c14077e47cb14ad09b79072fb077830"
+              }
+            ],
+            "candidates": [
+              "#6eacd9",
+              "#588fd0",
+              "#6c8da5",
+              "#5178a9",
+              "#5c4638"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-9",
@@ -416,10 +688,14 @@ window.DATA = {
           "evidence": "人工类比：沿用图鉴角色范围与常见世界设定，未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://blacknerdproblems.com/wp-content/uploads/2021/06/GG_Roster.jpeg"
+              "src": "assets/images/palette-g-9.webp",
+              "url": "https://blacknerdproblems.com/wp-content/uploads/2021/06/GG_Roster.jpeg",
+              "width": 1200,
+              "height": 675,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -429,7 +705,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://blacknerdproblems.com/guilty-gear-strive-review/"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#5d3c38",
+            "text": "#ffffff",
+            "contrast": 9.68,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-9.webp",
+                "url": "https://blacknerdproblems.com/wp-content/uploads/2021/06/GG_Roster.jpeg",
+                "page": "https://blacknerdproblems.com/guilty-gear-strive-review/",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 675
+                },
+                "sha256": "2f9159e3a38395d6a4cac19c3edd6e331db2dff89fd0a2f239dd6dd916a407dc"
+              }
+            ],
+            "candidates": [
+              "#5d3c38",
+              "#5e483b",
+              "#a2655f",
+              "#a07358",
+              "#63393d"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-10",
@@ -459,10 +765,14 @@ window.DATA = {
           "evidence": "依据作品常见背景分档；此前未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://i.blogs.es/a2f15a/p5r_1920_1200/1366_2000.jpeg"
+              "src": "assets/images/palette-g-10.webp",
+              "url": "https://i.blogs.es/a2f15a/p5r_1920_1200/1366_2000.jpeg",
+              "width": 1200,
+              "height": 750,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -472,7 +782,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://www.vidaextra.com/analisis/persona-5-royal-analisis-review-precio-experiencia-juego-para-ps4"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#641d21",
+            "text": "#ffffff",
+            "contrast": 12.09,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-10.webp",
+                "url": "https://i.blogs.es/a2f15a/p5r_1920_1200/1366_2000.jpeg",
+                "page": "https://www.vidaextra.com/analisis/persona-5-royal-analisis-review-precio-experiencia-juego-para-ps4",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 750
+                },
+                "sha256": "bae8765b650e84443238f887a846efab091b0543eeb47ee605a887a2b119bc2d"
+              }
+            ],
+            "candidates": [
+              "#641d21",
+              "#5b2825",
+              "#94282f",
+              "#9a443d",
+              "#3e485a"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-11",
@@ -502,10 +842,14 @@ window.DATA = {
           "evidence": "人工类比：沿用图鉴角色范围与常见世界设定，未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://www.dq11.jp/funkit/_img/wallpaper/DQXI-D-1920x1080.jpg"
+              "src": "assets/images/palette-g-11.webp",
+              "url": "https://www.dq11.jp/funkit/_img/wallpaper/DQXI-D-1920x1080.jpg",
+              "width": 1200,
+              "height": 675,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -515,7 +859,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://www.dq11.jp/funkit/"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#4a5a63",
+            "text": "#ffffff",
+            "contrast": 7.14,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-11.webp",
+                "url": "https://www.dq11.jp/funkit/_img/wallpaper/DQXI-D-1920x1080.jpg",
+                "page": "https://www.dq11.jp/funkit/",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 675
+                },
+                "sha256": "a88531becbc0029713f7621eacbf7a1153af62f46e0deb1ccc406db9d4d16499"
+              }
+            ],
+            "candidates": [
+              "#4a5a63",
+              "#688597",
+              "#51666b",
+              "#5d799e",
+              "#d384a9"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-12",
@@ -545,10 +919,14 @@ window.DATA = {
           "evidence": "人工类比：沿用图鉴角色范围与常见世界设定，未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://www.nintendo.com/eu/media/images/08_content_images/games_6/nintendo_switch_7/nswitch_bravelydefaultii/CI_NSwitch_BravelyDefaultII_BlindedByTheLight.jpg"
+              "src": "assets/images/palette-g-12.webp",
+              "url": "https://www.nintendo.com/eu/media/images/08_content_images/games_6/nintendo_switch_7/nswitch_bravelydefaultii/CI_NSwitch_BravelyDefaultII_BlindedByTheLight.jpg",
+              "width": 1200,
+              "height": 675,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -558,7 +936,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://www.nintendo.com/de-de/Spiele/Nintendo-Switch-Spiele/BRAVELY-DEFAULT-II-1698006.html"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#506d2a",
+            "text": "#ffffff",
+            "contrast": 5.93,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-12.webp",
+                "url": "https://www.nintendo.com/eu/media/images/08_content_images/games_6/nintendo_switch_7/nswitch_bravelydefaultii/CI_NSwitch_BravelyDefaultII_BlindedByTheLight.jpg",
+                "page": "https://www.nintendo.com/de-de/Spiele/Nintendo-Switch-Spiele/BRAVELY-DEFAULT-II-1698006.html",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 675
+                },
+                "sha256": "84e8af07287873ca1abac6ef58ec484a286d8d57f898922cd232942e81fcd709"
+              }
+            ],
+            "candidates": [
+              "#506d2a",
+              "#6d8e3d",
+              "#45622e",
+              "#6c8d53",
+              "#e1b19d"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-13",
@@ -588,10 +996,14 @@ window.DATA = {
           "evidence": "人工类比：沿用图鉴角色范围与常见世界设定，未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://atlus-vanillaware.jp/osl/news/wp-content/uploads/2016/01/wp_pc1_1920x1080_osl.jpg"
+              "src": "assets/images/palette-g-13.webp",
+              "url": "https://atlus-vanillaware.jp/osl/news/wp-content/uploads/2016/01/wp_pc1_1920x1080_osl.jpg",
+              "width": 1200,
+              "height": 675,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -601,7 +1013,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://atlus-vanillaware.jp/osl/news/special/page/2/"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#3d7ce7",
+            "text": "#000000",
+            "contrast": 5.23,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-13.webp",
+                "url": "https://atlus-vanillaware.jp/osl/news/wp-content/uploads/2016/01/wp_pc1_1920x1080_osl.jpg",
+                "page": "https://atlus-vanillaware.jp/osl/news/special/page/2/",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 675
+                },
+                "sha256": "603fc89367b69a770cc65f266a5fda5384f6c0ba58b709f07e83d724c37765b4"
+              }
+            ],
+            "candidates": [
+              "#3d7ce7",
+              "#232c68",
+              "#46abf4",
+              "#e1ba7a",
+              "#2c3c99"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-14",
@@ -631,10 +1073,14 @@ window.DATA = {
           "evidence": "人工类比：沿用图鉴角色范围与常见世界设定，未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://static.wixstatic.com/media/21a631_aea31924b27a416ea02a6f9b2d105324~mv2.jpeg/v1/fill/w_980%2Ch_980%2Cal_c%2Cq_85%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto/21a631_aea31924b27a416ea02a6f9b2d105324~mv2.jpeg"
+              "src": "assets/images/palette-g-14.webp",
+              "url": "https://static.wixstatic.com/media/21a631_aea31924b27a416ea02a6f9b2d105324~mv2.jpeg/v1/fill/w_980%2Ch_980%2Cal_c%2Cq_85%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto/21a631_aea31924b27a416ea02a6f9b2d105324~mv2.jpeg",
+              "width": 980,
+              "height": 980,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -644,7 +1090,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://www.erscream.com/post/video-games-an-art-analysis"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#a18c6e",
+            "text": "#000000",
+            "contrast": 6.48,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-14.webp",
+                "url": "https://static.wixstatic.com/media/21a631_aea31924b27a416ea02a6f9b2d105324~mv2.jpeg/v1/fill/w_980%2Ch_980%2Cal_c%2Cq_85%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto/21a631_aea31924b27a416ea02a6f9b2d105324~mv2.jpeg",
+                "page": "https://www.erscream.com/post/video-games-an-art-analysis",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 980,
+                  "height": 980
+                },
+                "sha256": "df5a7137c67b55663b8af605e7788ad25080b64445b6c09cbc2bb0f91ac656b8"
+              }
+            ],
+            "candidates": [
+              "#a18c6e",
+              "#675245",
+              "#9c6862",
+              "#9f806c",
+              "#645540"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-15",
@@ -674,10 +1150,14 @@ window.DATA = {
           "evidence": "人工类比：沿用图鉴角色范围与常见世界设定，未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://d1m9vqlvl3fy94.cloudfront.net/project/attachment/116212/69365DarkestDungeon_Characters.jpg"
+              "src": "assets/images/palette-g-15.webp",
+              "url": "https://images.castingcall.club/project_images/116212-darkest-dungeon-ancestor-s-journal-readings.jpg",
+              "width": 500,
+              "height": 500,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "本次补充的取色参考图，详见“取色参考来源”；原图鉴链接仍保留。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -686,8 +1166,42 @@ window.DATA = {
             {
               "label": "图像来源",
               "url": "https://www.castingcall.club/projects/darkest-dungeon-ancestor-s-journal-readings-23042095-69fa-4499-b71a-ffb09f6ed49e"
+            },
+            {
+              "label": "取色参考来源",
+              "url": "https://www.castingcall.club/projects/darkest-dungeon-ancestor-s-journal-readings-23042095-69fa-4499-b71a-ffb09f6ed49e"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#563832",
+            "text": "#ffffff",
+            "contrast": 10.48,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-15.webp",
+                "url": "https://images.castingcall.club/project_images/116212-darkest-dungeon-ancestor-s-journal-readings.jpg",
+                "page": "https://www.castingcall.club/projects/darkest-dungeon-ancestor-s-journal-readings-23042095-69fa-4499-b71a-ffb09f6ed49e",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 500,
+                  "height": 500
+                },
+                "sha256": "1562dacee09b1d9bec6117acd4a06f9f0b531fc91e3ba2b681ab1c1caa2c7c1a"
+              }
+            ],
+            "candidates": [
+              "#563832",
+              "#5a4237",
+              "#987565",
+              "#3b2926",
+              "#3b2c24"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-16",
@@ -717,10 +1231,14 @@ window.DATA = {
           "evidence": "人工类比：沿用图鉴角色范围与常见世界设定，未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://a.storyblok.com/f/259446/1200x1079/3d9b461919/ds10_decal.png"
+              "src": "assets/images/palette-g-16.webp",
+              "url": "https://a.storyblok.com/f/259446/1200x1079/3d9b461919/ds10_decal.png",
+              "width": 1200,
+              "height": 1079,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -730,7 +1248,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://www.klei.com/games/dont-starve-together"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#644a3b",
+            "text": "#ffffff",
+            "contrast": 8.14,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-16.webp",
+                "url": "https://a.storyblok.com/f/259446/1200x1079/3d9b461919/ds10_decal.png",
+                "page": "https://www.klei.com/games/dont-starve-together",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 1079
+                },
+                "sha256": "9d2c9cc8ba89972945de62e9408001a0dbfcc9ca3e316c2929ecfee3cd342024"
+              }
+            ],
+            "candidates": [
+              "#644a3b",
+              "#5d3b35",
+              "#9b6d52",
+              "#9d8660",
+              "#66553b"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-17",
@@ -760,10 +1308,14 @@ window.DATA = {
           "evidence": "已查阅下列官方资料；资料支持背景或灵感，数值位置与跨度仍是本图人工判断。",
           "images": [
             {
-              "src": "https://images.nintendolife.com/8d0e5314bfcfd/cuphead-1.large.jpg"
+              "src": "assets/images/palette-g-17.webp",
+              "url": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_2.0/store/software/switch/70010000016330/d94d2186ef03c930392253c83c84af0c73b7e57cd902a526b09b4155a25930fe",
+              "width": 1200,
+              "height": 675,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "本次补充的取色参考图，详见“取色参考来源”；原图鉴链接仍保留。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -776,8 +1328,42 @@ window.DATA = {
             {
               "label": "官方：1930年代动画灵感",
               "url": "https://studiomdhr.com/press-kits/"
+            },
+            {
+              "label": "取色参考来源",
+              "url": "https://www.nintendo.com/us/store/products/cuphead-switch/"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#fbcf19",
+            "text": "#000000",
+            "contrast": 14.08,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-17.webp",
+                "url": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_2.0/store/software/switch/70010000016330/d94d2186ef03c930392253c83c84af0c73b7e57cd902a526b09b4155a25930fe",
+                "page": "https://www.nintendo.com/us/store/products/cuphead-switch/",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 675
+                },
+                "sha256": "ecbddd1e16ff2116b73321f3795885fd29525714be04f5d127d777b95ca036b1"
+              }
+            ],
+            "candidates": [
+              "#fbcf19",
+              "#db471d",
+              "#a28d31",
+              "#5d92ac",
+              "#64581f"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-18",
@@ -807,10 +1393,14 @@ window.DATA = {
           "evidence": "人工类比：沿用图鉴角色范围与常见世界设定，未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://stoicstudio.com/images/main-banner.png"
+              "src": "assets/images/palette-g-18.webp",
+              "url": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_TheBannerSaga_image1600w.jpg",
+              "width": 1200,
+              "height": 600,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "本次补充的取色参考图，详见“取色参考来源”；原图鉴链接仍保留。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -819,8 +1409,42 @@ window.DATA = {
             {
               "label": "图像来源",
               "url": "https://stoicstudio.com/"
+            },
+            {
+              "label": "取色参考来源",
+              "url": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-download-software/The-Banner-Saga-1378942.html"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#a03018",
+            "text": "#ffffff",
+            "contrast": 7.13,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-18.webp",
+                "url": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_TheBannerSaga_image1600w.jpg",
+                "page": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-download-software/The-Banner-Saga-1378942.html",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 600
+                },
+                "sha256": "cae8af1b19854d13dd61848ac4354d7abdbbe7cca0ce3565d666ba0d9981f13e"
+              }
+            ],
+            "candidates": [
+              "#a03018",
+              "#37465e",
+              "#7185a2",
+              "#6a2c1f",
+              "#43485f"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-19",
@@ -850,10 +1474,14 @@ window.DATA = {
           "evidence": "人工类比：沿用图鉴角色范围与常见世界设定，未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://www.creativeuncut.com/gallery-09/art/vc-characters.jpg"
+              "src": "assets/images/palette-g-19.webp",
+              "url": "https://www.creativeuncut.com/gallery-09/art/vc-characters.jpg",
+              "width": 1000,
+              "height": 700,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -863,7 +1491,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://www.creativeuncut.com/gallery-09/vc-characters.html"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#665448",
+            "text": "#ffffff",
+            "contrast": 7.13,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-19.webp",
+                "url": "https://www.creativeuncut.com/gallery-09/art/vc-characters.jpg",
+                "page": "https://www.creativeuncut.com/gallery-09/vc-characters.html",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1000,
+                  "height": 700
+                },
+                "sha256": "5db90458a4b72845bac431725ba85e932539b34991a12770230cf9b92989a1f5"
+              }
+            ],
+            "candidates": [
+              "#665448",
+              "#97785e",
+              "#4d5768",
+              "#9d876a",
+              "#645645"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-20",
@@ -893,10 +1551,14 @@ window.DATA = {
           "evidence": "人工类比：沿用图鉴角色范围与常见世界设定，未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://www.maxoe.com/img/uploads/2018/01/Okami-HD_une.jpg"
+              "src": "assets/images/palette-g-20.webp",
+              "url": "https://www.maxoe.com/img/uploads/2018/01/Okami-HD_une.jpg",
+              "width": 720,
+              "height": 435,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -906,7 +1568,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://www.maxoe.com/games/jeux-articles/tests-ps3/okami-hd-retour-dun-art-oublie-a-decouvrir/"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#df8e5f",
+            "text": "#000000",
+            "contrast": 8.17,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-20.webp",
+                "url": "https://www.maxoe.com/img/uploads/2018/01/Okami-HD_une.jpg",
+                "page": "https://www.maxoe.com/games/jeux-articles/tests-ps3/okami-hd-retour-dun-art-oublie-a-decouvrir/",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 720,
+                  "height": 435
+                },
+                "sha256": "d197c23b39f30ccb92d673aa5e1163a9043d609caebfee36a002b4f3017fcbac"
+              }
+            ],
+            "candidates": [
+              "#df8e5f",
+              "#ddb063",
+              "#aa8851",
+              "#f1dd72",
+              "#b06940"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-21",
@@ -936,10 +1628,14 @@ window.DATA = {
           "evidence": "人工类比：沿用图鉴角色范围与常见世界设定，未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://images.stopgame.ru/articles/2020/02/12/ot_glubokogo_zapoya_do_revolyucii_v_rpg_istoriya_razrabotki_disco_elysium-1581535444-s.jpg"
+              "src": "assets/images/palette-g-21.webp",
+              "url": "https://images.stopgame.ru/articles/2020/02/12/ot_glubokogo_zapoya_do_revolyucii_v_rpg_istoriya_razrabotki_disco_elysium-1581535444-s.jpg",
+              "width": 759,
+              "height": 562,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -949,7 +1645,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://stopgame.ru/show/107801/ot_glubokogo_zapoya_do_revolyucii_v_rpg_istoriya_razrabotki_disco_elysium"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#632e21",
+            "text": "#ffffff",
+            "contrast": 10.79,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-21.webp",
+                "url": "https://images.stopgame.ru/articles/2020/02/12/ot_glubokogo_zapoya_do_revolyucii_v_rpg_istoriya_razrabotki_disco_elysium-1581535444-s.jpg",
+                "page": "https://stopgame.ru/show/107801/ot_glubokogo_zapoya_do_revolyucii_v_rpg_istoriya_razrabotki_disco_elysium",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 759,
+                  "height": 562
+                },
+                "sha256": "3b088efecafd629f6ab03f1d0d171ca7e8eea049916a2c341949e5506269929b"
+              }
+            ],
+            "candidates": [
+              "#632e21",
+              "#5a3e2e",
+              "#a1804d",
+              "#986441",
+              "#437ca8"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-22",
@@ -976,10 +1702,14 @@ window.DATA = {
           "evidence": "不作确定年代判断；参考对象见原图鉴。",
           "images": [
             {
-              "src": "https://www.touchtapplay.com/wp-content/uploads/2022/01/All-Characters-and-Stories-in-Spiritfarer-scaled.jpeg?fit=2560%2C1440"
+              "src": "assets/images/palette-g-22.webp",
+              "url": "https://www.touchtapplay.com/wp-content/uploads/2022/01/All-Characters-and-Stories-in-Spiritfarer-scaled.jpeg?fit=2560%2C1440",
+              "width": 1200,
+              "height": 675,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -989,7 +1719,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://www.touchtapplay.com/spiritfarer-character-guide-all-characters-and-stories-in-spiritfarer/"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#fba770",
+            "text": "#000000",
+            "contrast": 10.9,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-22.webp",
+                "url": "https://www.touchtapplay.com/wp-content/uploads/2022/01/All-Characters-and-Stories-in-Spiritfarer-scaled.jpeg?fit=2560%2C1440",
+                "page": "https://www.touchtapplay.com/spiritfarer-character-guide-all-characters-and-stories-in-spiritfarer/",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 675
+                },
+                "sha256": "fb9f0ef5e2422c05b3a3b926e247eb851a80266d78a889601e48305c78bd0683"
+              }
+            ],
+            "candidates": [
+              "#fba770",
+              "#59250d",
+              "#da5e69",
+              "#913d1c",
+              "#963220"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-23",
@@ -1019,10 +1779,14 @@ window.DATA = {
           "evidence": "人工类比：沿用图鉴角色范围与常见世界设定，未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://n.sinaimg.cn/translate/584/w841h543/20180705/-5jf-hevauxk8215801.jpg"
+              "src": "assets/images/palette-g-23.webp",
+              "url": "https://n.sinaimg.cn/translate/584/w841h543/20180705/-5jf-hevauxk8215801.jpg",
+              "width": 841,
+              "height": 543,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -1032,7 +1796,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://games.sina.cn/wm/2018-07-05/detail-ihevauxk8216601.d.html"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#3e4255",
+            "text": "#ffffff",
+            "contrast": 9.87,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-23.webp",
+                "url": "https://n.sinaimg.cn/translate/584/w841h543/20180705/-5jf-hevauxk8215801.jpg",
+                "page": "https://games.sina.cn/wm/2018-07-05/detail-ihevauxk8216601.d.html",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 841,
+                  "height": 543
+                },
+                "sha256": "bebd4dc4c456fb812b01d6a3a83913f75edd09a33d98220cbfc801c70cc53aa9"
+              }
+            ],
+            "candidates": [
+              "#3e4255",
+              "#2e3b51",
+              "#2a2d3c",
+              "#563147",
+              "#6f3b53"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-24",
@@ -1062,10 +1856,14 @@ window.DATA = {
           "evidence": "人工类比：沿用图鉴角色范围与常见世界设定，未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://www.nintendo.com/tw/switch/a9qda/assets/img/character/chara_header.webp"
+              "src": "assets/images/palette-g-24.webp",
+              "url": "https://www.nintendo.com/tw/switch/a9qda/assets/img/character/chara_header.webp",
+              "width": 1200,
+              "height": 780,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -1075,7 +1873,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://www.nintendo.com/tw/switch/a9qda/character/index.html"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#e8634a",
+            "text": "#000000",
+            "contrast": 6.33,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-24.webp",
+                "url": "https://www.nintendo.com/tw/switch/a9qda/assets/img/character/chara_header.webp",
+                "page": "https://www.nintendo.com/tw/switch/a9qda/character/index.html",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 780
+                },
+                "sha256": "a9df494fef639d21b800b140a9d9722436231fbf1b457e27a87f5b880ecb3676"
+              }
+            ],
+            "candidates": [
+              "#e8634a",
+              "#f5c473",
+              "#633314",
+              "#f4ce1f",
+              "#018f1a"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-25",
@@ -1102,10 +1930,14 @@ window.DATA = {
           "evidence": "不作确定年代判断；参考对象见原图鉴。",
           "images": [
             {
-              "src": "https://images.pushsquare.com/17611b2a4dd30/1280x720.jpg"
+              "src": "assets/images/palette-g-25.webp",
+              "url": "https://image.api.playstation.com/vulcan/img/rnd/202010/2122/vQqEXW0BefsUqAyJTelwjmuA.png?w=1920&thumb=false",
+              "width": 1200,
+              "height": 675,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "本次补充的取色参考图，详见“取色参考来源”；原图鉴链接仍保留。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -1114,8 +1946,42 @@ window.DATA = {
             {
               "label": "图像来源",
               "url": "https://www.pushsquare.com/games/ps4/littlebigplanet_3"
+            },
+            {
+              "label": "取色参考来源",
+              "url": "https://www.playstation.com/en-us/games/littlebigplanet-3/"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#74e5f4",
+            "text": "#000000",
+            "contrast": 14.29,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-25.webp",
+                "url": "https://image.api.playstation.com/vulcan/img/rnd/202010/2122/vQqEXW0BefsUqAyJTelwjmuA.png?w=1920&thumb=false",
+                "page": "https://www.playstation.com/en-us/games/littlebigplanet-3/",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 675
+                },
+                "sha256": "de75e720c73a1b71db56f9cf5120adab5f8848818e9ac5c8e23f17380d09d086"
+              }
+            ],
+            "candidates": [
+              "#74e5f4",
+              "#1da2ea",
+              "#9e785d",
+              "#644534",
+              "#ceb18d"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-26",
@@ -1145,10 +2011,14 @@ window.DATA = {
           "evidence": "依据作品常见背景分档；此前未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://www.vodafone.de/featured/media/cache/hero_teaser_image/cms/2020/02/Animal-Crossing-Nintendo-Pressebild.jpg?v=1f1f98960b7fd126863b394b254326b6"
+              "src": "assets/images/palette-g-26.webp",
+              "url": "https://www.vodafone.de/featured/media/cache/hero_teaser_image/cms/2020/02/Animal-Crossing-Nintendo-Pressebild.jpg?v=1f1f98960b7fd126863b394b254326b6",
+              "width": 1168,
+              "height": 646,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -1158,7 +2028,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://www.vodafone.de/featured/article/animal-crossing-nintendo-direct-zeigt-reif-fuer-die-insel-paket-co-91707"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#4da954",
+            "text": "#000000",
+            "contrast": 7.1,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-26.webp",
+                "url": "https://www.vodafone.de/featured/media/cache/hero_teaser_image/cms/2020/02/Animal-Crossing-Nintendo-Pressebild.jpg?v=1f1f98960b7fd126863b394b254326b6",
+                "page": "https://www.vodafone.de/featured/article/animal-crossing-nintendo-direct-zeigt-reif-fuer-die-insel-paket-co-91707",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1168,
+                  "height": 646
+                },
+                "sha256": "58bf356466561a9f1231d9db8e7d3b7181083b90bb5a9097f937bb138e32b44a"
+              }
+            ],
+            "candidates": [
+              "#4da954",
+              "#439d3e",
+              "#68a5fd",
+              "#7ac3f8",
+              "#75ca7d"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-27",
@@ -1188,10 +2088,14 @@ window.DATA = {
           "evidence": "人工类比：沿用图鉴角色范围与常见世界设定，未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://staticg.sportskeeda.com/editor/2025/01/47be8-17373397243642-1920.jpg"
+              "src": "assets/images/palette-g-27.webp",
+              "url": "https://staticg.sportskeeda.com/editor/2025/01/47be8-17373397243642-1920.jpg",
+              "width": 1200,
+              "height": 675,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -1201,7 +2105,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://www.sportskeeda.com/esports/is-worth-playing-fall-guys-2025"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#188ad0",
+            "text": "#000000",
+            "contrast": 5.58,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-27.webp",
+                "url": "https://staticg.sportskeeda.com/editor/2025/01/47be8-17373397243642-1920.jpg",
+                "page": "https://www.sportskeeda.com/esports/is-worth-playing-fall-guys-2025",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 675
+                },
+                "sha256": "7a75843042096ff904f7f22d3b7ccb9bc760001dfb2d07aeff37d26e15f0929b"
+              }
+            ],
+            "candidates": [
+              "#188ad0",
+              "#f665c4",
+              "#39cef6",
+              "#0b6eba",
+              "#f4b23b"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-28",
@@ -1231,10 +2165,14 @@ window.DATA = {
           "evidence": "人工类比：沿用图鉴角色范围与常见世界设定，未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://images.nintendolife.com/419360808c6be/gen1starters.original.jpg"
+              "src": "assets/images/palette-g-28.webp",
+              "url": "https://www.pokemon.com/pokedex/",
+              "width": 645,
+              "height": 215,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "初代御三家官方图鉴插画拼图（每幅原始215px），用于色彩与造型参考；不是高清实机截图。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -1243,8 +2181,47 @@ window.DATA = {
             {
               "label": "图像来源",
               "url": "https://www.nintendolife.com/news/2020/02/feature_best_pokemon_starters_from_all_gens_as_voted_by_you?page=3"
+            },
+            {
+              "label": "取色参考来源",
+              "url": "https://www.pokemon.com/pokedex/"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#719f8d",
+            "text": "#000000",
+            "contrast": 7.06,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-28.webp",
+                "url": "https://www.pokemon.com/pokedex/",
+                "page": "https://www.pokemon.com/pokedex/",
+                "componentUrls": [
+                  "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/001.png",
+                  "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/004.png",
+                  "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/007.png"
+                ],
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 645,
+                  "height": 215
+                },
+                "sha256": "74c84056a214757342929783b8f7f2e76d379bd756418b01a8247dd173844aa8"
+              }
+            ],
+            "candidates": [
+              "#719f8d",
+              "#e3a67b",
+              "#689dac",
+              "#8ec4d2",
+              "#6c9d70"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-29",
@@ -1274,10 +2251,14 @@ window.DATA = {
           "evidence": "已查阅下列官方资料；资料支持背景或灵感，数值位置与跨度仍是本图人工判断。",
           "images": [
             {
-              "src": "https://mms.businesswire.com/media/20220909005154/en/1566648/5/Splatoon_3_Key_Art.jpg?download=1"
+              "src": "assets/images/palette-g-29.webp",
+              "url": "https://mms.businesswire.com/media/20220909005154/en/1566648/5/Splatoon_3_Key_Art.jpg?download=1",
+              "width": 1200,
+              "height": 675,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -1291,7 +2272,37 @@ window.DATA = {
               "label": "任天堂：世界历史年表",
               "url": "https://splatoon.nintendo.com/base/en/story/"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#e7dc48",
+            "text": "#000000",
+            "contrast": 14.7,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-29.webp",
+                "url": "https://mms.businesswire.com/media/20220909005154/en/1566648/5/Splatoon_3_Key_Art.jpg?download=1",
+                "page": "https://www.businesswire.com/news/home/20220909005154/en/Nintendo-News-Ink-Your-Mark-on-the-Splatlands-in-the-Fast-and-Fresh-Splatoon-3-Out-Now",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 675
+                },
+                "sha256": "621c425a0a6e44b17b3851007b0c8d9384c492df772601b4be06301d7f74ee53"
+              }
+            ],
+            "candidates": [
+              "#e7dc48",
+              "#4252a1",
+              "#36559e",
+              "#605ca5",
+              "#a8a046"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-30",
@@ -1321,10 +2332,14 @@ window.DATA = {
           "evidence": "人工类比：沿用图鉴角色范围与常见世界设定，未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://mms.businesswire.com/media/20201003005002/en/827177/5/SSBU_Steve_%26_Alex_1.jpg?download=1"
+              "src": "assets/images/palette-g-30.webp",
+              "url": "https://mms.businesswire.com/media/20201003005002/en/827177/5/SSBU_Steve_%26_Alex_1.jpg?download=1",
+              "width": 1200,
+              "height": 675,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -1334,7 +2349,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://www.businesswire.com/news/home/20201003005002/en/Steve-and-Alex-From-Minecraft-Block-Off-Some-Time-to-Join-the-Cast-of-Super-Smash-Bros.-Ultimate"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#ecad7e",
+            "text": "#000000",
+            "contrast": 10.84,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-30.webp",
+                "url": "https://mms.businesswire.com/media/20201003005002/en/827177/5/SSBU_Steve_%26_Alex_1.jpg?download=1",
+                "page": "https://www.businesswire.com/news/home/20201003005002/en/Steve-and-Alex-From-Minecraft-Block-Off-Some-Time-to-Join-the-Cast-of-Super-Smash-Bros.-Ultimate",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 675
+                },
+                "sha256": "5d3a5874435dcd61bbe2cfa8d36a787ad70892ed4b8e6b8b5ddc30efd9108095"
+              }
+            ],
+            "candidates": [
+              "#ecad7e",
+              "#ab7e60",
+              "#623e26",
+              "#4f42b3",
+              "#17afb0"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-31",
@@ -1364,10 +2409,14 @@ window.DATA = {
           "evidence": "依据作品常见背景分档；此前未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://cdn.mos.cms.futurecdn.net/KWFF3SDU5sWCoJKNgV2RRA.png"
+              "src": "assets/images/palette-g-31.webp",
+              "url": "https://cdn.mos.cms.futurecdn.net/KWFF3SDU5sWCoJKNgV2RRA.png",
+              "width": 1200,
+              "height": 675,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -1377,7 +2426,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://www.pcgamer.com/meet-one-of-the-last-positive-communities-left-in-gaming/"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#305c4b",
+            "text": "#ffffff",
+            "contrast": 7.6,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-31.webp",
+                "url": "https://cdn.mos.cms.futurecdn.net/KWFF3SDU5sWCoJKNgV2RRA.png",
+                "page": "https://www.pcgamer.com/meet-one-of-the-last-positive-communities-left-in-gaming/",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 675
+                },
+                "sha256": "34b9d0408e8a07881c483bef46b7c4255bd02a8fb9689043613605f00952b2da"
+              }
+            ],
+            "candidates": [
+              "#305c4b",
+              "#5da579",
+              "#3d674f",
+              "#7bcc9c",
+              "#439874"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-32",
@@ -1407,10 +2486,14 @@ window.DATA = {
           "evidence": "人工类比：沿用图鉴角色范围与常见世界设定，未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://i.pinimg.com/originals/e6/58/8f/e6588f8dfb151e57217a3611ba2b6206.jpg"
+              "src": "assets/images/palette-g-32.webp",
+              "url": "https://i.pinimg.com/originals/e6/58/8f/e6588f8dfb151e57217a3611ba2b6206.jpg",
+              "width": 710,
+              "height": 748,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -1420,7 +2503,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://www.pinterest.com/pin/octopath-job-sprites--382946774564062833/"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#644e40",
+            "text": "#ffffff",
+            "contrast": 7.79,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-32.webp",
+                "url": "https://i.pinimg.com/originals/e6/58/8f/e6588f8dfb151e57217a3611ba2b6206.jpg",
+                "page": "https://www.pinterest.com/pin/octopath-job-sprites--382946774564062833/",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 710,
+                  "height": 748
+                },
+                "sha256": "1e77f11e34ba0d2a471fc8e40f480f14f631a7ad7954c7d91143108f6c8f0ec6"
+              }
+            ],
+            "candidates": [
+              "#644e40",
+              "#665641",
+              "#917c5f",
+              "#8d725f",
+              "#61443e"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-33",
@@ -1450,10 +2563,14 @@ window.DATA = {
           "evidence": "依据作品常见背景分档；此前未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://cdn.vox-cdn.com/thumbor/eF0mjDNcMroLdH3ny6yqKTmu_Dc%3D/cdn.vox-cdn.com/uploads/chorus_asset/file/3840584/AOUC4_Preview_PG_01.0.jpg"
+              "src": "assets/images/palette-g-33.webp",
+              "url": "https://cdn.vox-cdn.com/thumbor/eF0mjDNcMroLdH3ny6yqKTmu_Dc%3D/cdn.vox-cdn.com/uploads/chorus_asset/file/3840584/AOUC4_Preview_PG_01.0.jpg",
+              "width": 900,
+              "height": 1200,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -1463,7 +2580,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://www.polygon.com/2015/7/2/8878173/the-art-of-uncharted-4-a-thiefs-end"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#574235",
+            "text": "#ffffff",
+            "contrast": 9.4,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-33.webp",
+                "url": "https://cdn.vox-cdn.com/thumbor/eF0mjDNcMroLdH3ny6yqKTmu_Dc%3D/cdn.vox-cdn.com/uploads/chorus_asset/file/3840584/AOUC4_Preview_PG_01.0.jpg",
+                "page": "https://www.polygon.com/2015/7/2/8878173/the-art-of-uncharted-4-a-thiefs-end",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 900,
+                  "height": 1200
+                },
+                "sha256": "7049aa394de9cf6700fa2603fabce9bedf3d474091abb2c16e9534d21d204f39"
+              }
+            ],
+            "candidates": [
+              "#574235",
+              "#a07461",
+              "#604f3d",
+              "#3c2c23",
+              "#996b5d"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-34",
@@ -1493,10 +2640,14 @@ window.DATA = {
           "evidence": "已查阅下列官方资料；资料支持背景或灵感，数值位置与跨度仍是本图人工判断。",
           "images": [
             {
-              "src": "https://miro.medium.com/v2/1%2AnKC1VQvFpFknUxwsXEpUIg.jpeg"
+              "src": "assets/images/palette-g-34.webp",
+              "url": "https://miro.medium.com/v2/1%2AnKC1VQvFpFknUxwsXEpUIg.jpeg",
+              "width": 1200,
+              "height": 750,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -1510,7 +2661,37 @@ window.DATA = {
               "label": "官方商店：1899年",
               "url": "https://www.playstation.com/en-us/games/red-dead-redemption-2/"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#b71519",
+            "text": "#ffffff",
+            "contrast": 6.69,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-34.webp",
+                "url": "https://miro.medium.com/v2/1%2AnKC1VQvFpFknUxwsXEpUIg.jpeg",
+                "page": "https://medium.com/%40AdamR19/red-dead-redemption-2-sobering-melancholy-and-very-fun-7ece16c69a9d",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 750
+                },
+                "sha256": "c3bf39d1eb7eb3ae7c334a5f5854cbcf1da2ae2713445fa6b913420e6e3c31df"
+              }
+            ],
+            "candidates": [
+              "#b71519",
+              "#c41719",
+              "#a16648",
+              "#5e2c23",
+              "#634231"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-35",
@@ -1540,10 +2721,14 @@ window.DATA = {
           "evidence": "依据作品常见背景分档；此前未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://images.stopgame.ru/uploads/users/2025/707889/00015.4itwg1r.png"
+              "src": "assets/images/palette-g-35.webp",
+              "url": "https://images.stopgame.ru/uploads/users/2025/707889/00015.4itwg1r.png",
+              "width": 1200,
+              "height": 522,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -1553,7 +2738,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://stopgame.ru/blogs/topic/117763/death_stranding_i_ego_odinochestvo"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#a98166",
+            "text": "#000000",
+            "contrast": 6.04,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-35.webp",
+                "url": "https://images.stopgame.ru/uploads/users/2025/707889/00015.4itwg1r.png",
+                "page": "https://stopgame.ru/blogs/topic/117763/death_stranding_i_ego_odinochestvo",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 522
+                },
+                "sha256": "427dfc34461e6c4d6a5c0f8a5f34bdc0e6c8f658556c5580042562076d1b45d4"
+              }
+            ],
+            "candidates": [
+              "#a98166",
+              "#614b3c",
+              "#5f503b",
+              "#c79b7d",
+              "#614441"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-36",
@@ -1583,10 +2798,14 @@ window.DATA = {
           "evidence": "依据作品常见背景分档；此前未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://images6.alphacoders.com/114/thumb-1920-1149542.jpg"
+              "src": "assets/images/palette-g-36.webp",
+              "url": "https://images6.alphacoders.com/114/thumb-1920-1149542.jpg",
+              "width": 1200,
+              "height": 675,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -1596,7 +2815,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://wall.alphacoders.com/big.php?i=1149542"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#5d4e3b",
+            "text": "#ffffff",
+            "contrast": 8.05,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-36.webp",
+                "url": "https://images6.alphacoders.com/114/thumb-1920-1149542.jpg",
+                "page": "https://wall.alphacoders.com/big.php?i=1149542",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 675
+                },
+                "sha256": "c46ec513505fd7bf6e3e43ed1b2917bd4b1fbad371512563162050e53dbac912"
+              }
+            ],
+            "candidates": [
+              "#5d4e3b",
+              "#3f4f57",
+              "#968066",
+              "#574536",
+              "#3c3327"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-37",
@@ -1626,10 +2875,14 @@ window.DATA = {
           "evidence": "人工类比：沿用图鉴角色范围与常见世界设定，未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://assetsio.gnwcdn.com/baldurs-gate-3-key-art-crop.jpg?auto=webp&fit=bounds&format=jpg&height=1920&quality=70&width=1920"
+              "src": "assets/images/palette-g-37.webp",
+              "url": "https://assetsio.gnwcdn.com/baldurs-gate-3-key-art-crop.jpg?auto=webp&fit=bounds&format=jpg&height=1920&quality=70&width=1920",
+              "width": 1200,
+              "height": 675,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -1639,7 +2892,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://www.eurogamer.pt/personagens-de-origem-explicados-em-baldurs-gate-3"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#1b4360",
+            "text": "#ffffff",
+            "contrast": 10.36,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-37.webp",
+                "url": "https://assetsio.gnwcdn.com/baldurs-gate-3-key-art-crop.jpg?auto=webp&fit=bounds&format=jpg&height=1920&quality=70&width=1920",
+                "page": "https://www.eurogamer.pt/personagens-de-origem-explicados-em-baldurs-gate-3",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 675
+                },
+                "sha256": "28b326881acea024afc5b099405b6c49ec3f67dec139ce6a8e09141ec915bbd6"
+              }
+            ],
+            "candidates": [
+              "#1b4360",
+              "#2d729b",
+              "#5f312b",
+              "#293d58",
+              "#46a5d6"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-38",
@@ -1669,10 +2952,14 @@ window.DATA = {
           "evidence": "人工类比：沿用图鉴角色范围与常见世界设定，未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://www.weareplaystation.fr/cdn-cgi/image/w%3D3840%2Cf%3Dauto%2Cq%3D80/api/upload/media/post/0006/16/thumb_515125_post_big.jpg"
+              "src": "assets/images/palette-g-38.webp",
+              "url": "https://www.weareplaystation.fr/cdn-cgi/image/w%3D3840%2Cf%3Dauto%2Cq%3D80/api/upload/media/post/0006/16/thumb_515125_post_big.jpg",
+              "width": 947,
+              "height": 557,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -1682,7 +2969,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://www.weareplaystation.fr/communautes/the-witcher-3-wild-hunt/astuces/wiki/les-personnages-1"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#43525a",
+            "text": "#ffffff",
+            "contrast": 8.07,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-38.webp",
+                "url": "https://www.weareplaystation.fr/cdn-cgi/image/w%3D3840%2Cf%3Dauto%2Cq%3D80/api/upload/media/post/0006/16/thumb_515125_post_big.jpg",
+                "page": "https://www.weareplaystation.fr/communautes/the-witcher-3-wild-hunt/astuces/wiki/les-personnages-1",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 947,
+                  "height": 557
+                },
+                "sha256": "8aa17283114a896b9a5fd9abb13f4831d4e036310b38b77bda08795bdfc5947d"
+              }
+            ],
+            "candidates": [
+              "#43525a",
+              "#644734",
+              "#9c6943",
+              "#2b353b",
+              "#5f3b36"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-39",
@@ -1712,10 +3029,14 @@ window.DATA = {
           "evidence": "人工类比：沿用图鉴角色范围与常见世界设定，未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://www.creativeuncut.com/gallery-29/art/bb-doll.jpg"
+              "src": "assets/images/palette-g-39.webp",
+              "url": "https://www.creativeuncut.com/gallery-29/art/bb-doll.jpg",
+              "width": 1000,
+              "height": 1000,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -1725,7 +3046,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://www.creativeuncut.com/gallery-29/bb-doll.html"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#3c322c",
+            "text": "#ffffff",
+            "contrast": 12.42,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-39.webp",
+                "url": "https://www.creativeuncut.com/gallery-29/art/bb-doll.jpg",
+                "page": "https://www.creativeuncut.com/gallery-29/bb-doll.html",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1000,
+                  "height": 1000
+                },
+                "sha256": "734ee78612e84d487ecd83edfb6e6f339b4e5b78f27dc88f9acf7c3c284c7e00"
+              }
+            ],
+            "candidates": [
+              "#3c322c",
+              "#543f3d",
+              "#4a3f38",
+              "#3b332b",
+              "#3c2f2c"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-40",
@@ -1755,10 +3106,14 @@ window.DATA = {
           "evidence": "已查阅下列官方资料；资料支持背景或灵感，数值位置与跨度仍是本图人工判断。",
           "images": [
             {
-              "src": "https://www.activision.com/cdn/sekiro/artbook/sekiro-page-21-ru.jpg"
+              "src": "assets/images/palette-g-40.webp",
+              "url": "https://www.activision.com/cdn/sekiro/artbook/sekiro-page-21-ru.jpg",
+              "width": 806,
+              "height": 1000,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -1772,7 +3127,37 @@ window.DATA = {
               "label": "官方：16世纪末日本",
               "url": "https://www.playstation.com/en-vn/games/sekiro-shadows-die-twice/"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#5e4638",
+            "text": "#ffffff",
+            "contrast": 8.75,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-40.webp",
+                "url": "https://www.activision.com/cdn/sekiro/artbook/sekiro-page-21-ru.jpg",
+                "page": "https://www.sekirothegame.com/ru/digitalartbook",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 806,
+                  "height": 1000
+                },
+                "sha256": "e2463b2860f343e807f7f4d438a48ab2f4a477e68d61df04f6de3db37e3b5996"
+              }
+            ],
+            "candidates": [
+              "#5e4638",
+              "#574c3e",
+              "#946b50",
+              "#3b2f28",
+              "#4c3530"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-41",
@@ -1802,10 +3187,14 @@ window.DATA = {
           "evidence": "人工类比：沿用图鉴角色范围与常见世界设定，未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://www.gry-online.pl/i/h/22/471548302.jpg"
+              "src": "assets/images/palette-g-41.webp",
+              "url": "https://gmedia.playstation.com/is/image/SIEPDC/black-myth-wukong-hero-desktop-01-en-07feb24?$1600px$",
+              "width": 1200,
+              "height": 449,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "本次补充的取色参考图，详见“取色参考来源”；原图鉴链接仍保留。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -1814,8 +3203,42 @@ window.DATA = {
             {
               "label": "图像来源",
               "url": "https://www.gry-online.pl/newsroom/black-myth-wukong-nareszcie-z-mapa-wielka-aktualizacja-dodaje-tak/z02bafe"
+            },
+            {
+              "label": "取色参考来源",
+              "url": "https://www.playstation.com/en-us/games/black-myth-wukong/"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#4e3b2f",
+            "text": "#ffffff",
+            "contrast": 10.5,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-41.webp",
+                "url": "https://gmedia.playstation.com/is/image/SIEPDC/black-myth-wukong-hero-desktop-01-en-07feb24?$1600px$",
+                "page": "https://www.playstation.com/en-us/games/black-myth-wukong/",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 449
+                },
+                "sha256": "ac9067b8ad2035bcbf01dc885f75c6c7c57445af1ab8ef06557df674dcfdaa23"
+              }
+            ],
+            "candidates": [
+              "#4e3b2f",
+              "#554a3c",
+              "#3c2d24",
+              "#3c3429",
+              "#513633"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-42",
@@ -1845,10 +3268,14 @@ window.DATA = {
           "evidence": "已查阅下列官方资料；资料支持背景或灵感，数值位置与跨度仍是本图人工判断。",
           "images": [
             {
-              "src": "https://img.gamewith.jp/img/8d35a1064e2c18050e800aa42216ecc9.jpg"
+              "src": "assets/images/palette-g-42.webp",
+              "url": "https://img.gamewith.jp/img/8d35a1064e2c18050e800aa42216ecc9.jpg",
+              "width": 701,
+              "height": 671,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -1862,7 +3289,37 @@ window.DATA = {
               "label": "官方商店：1555年日本",
               "url": "https://store.playstation.com/en-us/product/UP9000-CUSA15532_00-NIOH2NA000000000"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#5b4135",
+            "text": "#ffffff",
+            "contrast": 9.29,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-42.webp",
+                "url": "https://img.gamewith.jp/img/8d35a1064e2c18050e800aa42216ecc9.jpg",
+                "page": "https://gamewith.jp/gamedb/3954/articles/15544",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 701,
+                  "height": 671
+                },
+                "sha256": "4683f5296a8f3d668f4b2323c7740e2a2581a8d895c8b227f0ffece93ec1b973"
+              }
+            ],
+            "candidates": [
+              "#5b4135",
+              "#512b23",
+              "#32435a",
+              "#977660",
+              "#385367"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-43",
@@ -1892,10 +3349,14 @@ window.DATA = {
           "evidence": "人工类比：沿用图鉴角色范围与常见世界设定，未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://mail.creativeuncut.com/gallery-35/art/mhw-first-fleet.jpg"
+              "src": "assets/images/palette-g-43.webp",
+              "url": "https://mail.creativeuncut.com/gallery-35/art/mhw-first-fleet.jpg",
+              "width": 1200,
+              "height": 667,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -1905,7 +3366,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://mail.creativeuncut.com/gallery-35/mhw-first-fleet.html"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#933b33",
+            "text": "#ffffff",
+            "contrast": 7.18,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-43.webp",
+                "url": "https://mail.creativeuncut.com/gallery-35/art/mhw-first-fleet.jpg",
+                "page": "https://mail.creativeuncut.com/gallery-35/mhw-first-fleet.html",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 667
+                },
+                "sha256": "b586ae33145934e5321d3245a95ff4f733429ec31c06d6367c97db624bfe9b8c"
+              }
+            ],
+            "candidates": [
+              "#933b33",
+              "#624e43",
+              "#a47962",
+              "#a18b63",
+              "#613c37"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-44",
@@ -1935,10 +3426,14 @@ window.DATA = {
           "evidence": "人工类比：沿用图鉴角色范围与常见世界设定，未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://fotografias-2.larazon.es/assets/videojuegos/2020/04/personajes-ffvii.jpg?height=720&width=1200"
+              "src": "assets/images/palette-g-44.webp",
+              "url": "https://image.api.playstation.com/vulcan/img/rnd/202010/0723/vDLeyNzrJdGwabFlEo44GkEZ.png?w=1920&thumb=false",
+              "width": 1200,
+              "height": 675,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "本次补充的取色参考图，详见“取色参考来源”；原图鉴链接仍保留。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -1947,8 +3442,42 @@ window.DATA = {
             {
               "label": "图像来源",
               "url": "https://www.larazon.es/videojuegos/square-enix/la-personalidad-de-los-protagonistas-de-final-fantasy-vii-remake-te-enamorara-y-te-explicamos-por-que_20200410699781ba9243cc133c549b15.html"
+            },
+            {
+              "label": "取色参考来源",
+              "url": "https://store.playstation.com/en-us/product/UP0082-CUSA07211_00-FFVIIREMAKE00000/"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#3e563a",
+            "text": "#ffffff",
+            "contrast": 8.08,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-44.webp",
+                "url": "https://image.api.playstation.com/vulcan/img/rnd/202010/0723/vDLeyNzrJdGwabFlEo44GkEZ.png?w=1920&thumb=false",
+                "page": "https://store.playstation.com/en-us/product/UP0082-CUSA07211_00-FFVIIREMAKE00000/",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 675
+                },
+                "sha256": "d5437ac1e5b0892638cf1055c05ae06abf7f013a667593e6a3c1399bb5db0bf2"
+              }
+            ],
+            "candidates": [
+              "#3e563a",
+              "#3c593f",
+              "#46573c",
+              "#4d573d",
+              "#365b44"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-45",
@@ -1978,10 +3507,14 @@ window.DATA = {
           "evidence": "人工类比：沿用图鉴角色范围与常见世界设定，未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://miro.medium.com/1%2Abu-HV6Px4vES0WTke7juAQ.png"
+              "src": "assets/images/palette-g-45.webp",
+              "url": "https://miro.medium.com/1%2Abu-HV6Px4vES0WTke7juAQ.png",
+              "width": 1200,
+              "height": 750,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -1991,7 +3524,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://medium.com/%40catbussell/the-existentialist-wonder-of-final-fantasy-xiv-endwalker-c6f3b66ab0df"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#526e9f",
+            "text": "#ffffff",
+            "contrast": 5.13,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-45.webp",
+                "url": "https://miro.medium.com/1%2Abu-HV6Px4vES0WTke7juAQ.png",
+                "page": "https://medium.com/%40catbussell/the-existentialist-wonder-of-final-fantasy-xiv-endwalker-c6f3b66ab0df",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 750
+                },
+                "sha256": "ab7a25e432ffaa60e7e26e0969e6c0765dc5d7faba9f67a7d89246edcf0bcb3b"
+              }
+            ],
+            "candidates": [
+              "#526e9f",
+              "#62869d",
+              "#2d4263",
+              "#385467",
+              "#515d92"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-46",
@@ -2021,10 +3584,14 @@ window.DATA = {
           "evidence": "已查阅下列官方资料；资料支持背景或灵感，数值位置与跨度仍是本图人工判断。",
           "images": [
             {
-              "src": "https://novacrystallis.com/wp-content/uploads/2016/04/NieR-Automata-Character-Art.jpg"
+              "src": "assets/images/palette-g-46.webp",
+              "url": "https://image.api.playstation.com/vulcan/img/rnd/202010/1520/5liN9zIS3F0j74pareZ2Ehk0.png?w=1920&thumb=false",
+              "width": 1200,
+              "height": 675,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "本次补充的取色参考图，详见“取色参考来源”；原图鉴链接仍保留。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -2037,8 +3604,42 @@ window.DATA = {
             {
               "label": "开发商：遥远未来设定",
               "url": "https://www.platinumgames.com/works/nier-automata"
+            },
+            {
+              "label": "取色参考来源",
+              "url": "https://store.playstation.com/en-us/concept/217551/"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#697f8f",
+            "text": "#000000",
+            "contrast": 5.06,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-46.webp",
+                "url": "https://image.api.playstation.com/vulcan/img/rnd/202010/1520/5liN9zIS3F0j74pareZ2Ehk0.png?w=1920&thumb=false",
+                "page": "https://store.playstation.com/en-us/concept/217551/",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 675
+                },
+                "sha256": "9fbc3d11a4e1856b2286422015701ba779717b23d8c354b75127463fdd1b4485"
+              }
+            ],
+            "candidates": [
+              "#697f8f",
+              "#394758",
+              "#4b6171",
+              "#1e2a3c",
+              "#66788b"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-47",
@@ -2068,10 +3669,14 @@ window.DATA = {
           "evidence": "依据作品常见背景分档；此前未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://cdn.techshake.com/imagens/data-de-lancamento-de-stellar-blade-para-pc-e-revelada-em-trailer-og.jpg"
+              "src": "assets/images/palette-g-47.webp",
+              "url": "https://cdn.techshake.com/imagens/data-de-lancamento-de-stellar-blade-para-pc-e-revelada-em-trailer-og.jpg",
+              "width": 1200,
+              "height": 900,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -2081,7 +3686,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://www.techshake.com/stellar-blade-chega-ao-pc-em-julho-com-dlcs-trajes-ineditos-e-chefao-extra/"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#184465",
+            "text": "#ffffff",
+            "contrast": 10.23,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-47.webp",
+                "url": "https://cdn.techshake.com/imagens/data-de-lancamento-de-stellar-blade-para-pc-e-revelada-em-trailer-og.jpg",
+                "page": "https://www.techshake.com/stellar-blade-chega-ao-pc-em-julho-com-dlcs-trajes-ineditos-e-chefao-extra/",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 900
+                },
+                "sha256": "f44c15c75e3080fcac21559b4ce9719f466944bb0ce1cda580a36ac039bd6baf"
+              }
+            ],
+            "candidates": [
+              "#184465",
+              "#4c7c98",
+              "#1a3757",
+              "#5a7599",
+              "#7aacc7"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-48",
@@ -2111,10 +3746,14 @@ window.DATA = {
           "evidence": "依据作品常见背景分档；此前未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://www.gamersdecide.com/sites/default/files/2019-06/all_frames-min1.jpg"
+              "src": "assets/images/palette-g-48.webp",
+              "url": "https://www.gamersdecide.com/sites/default/files/2019-06/all_frames-min1.jpg",
+              "width": 1200,
+              "height": 675,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -2124,7 +3763,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://www.gamersdecide.com/articles/warframe-best-places-to-farm-xp"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#6c81a1",
+            "text": "#000000",
+            "contrast": 5.27,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-48.webp",
+                "url": "https://www.gamersdecide.com/sites/default/files/2019-06/all_frames-min1.jpg",
+                "page": "https://www.gamersdecide.com/articles/warframe-best-places-to-farm-xp",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 675
+                },
+                "sha256": "8be09416520ad4cbecf594ff4fdeb0e67a5ea829f8c473d5f0a13001ac229717"
+              }
+            ],
+            "candidates": [
+              "#6c81a1",
+              "#3d495f",
+              "#242d3b",
+              "#7698af",
+              "#394c59"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-49",
@@ -2154,10 +3823,14 @@ window.DATA = {
           "evidence": "依据作品常见背景分档；此前未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://d1lss44hh2trtw.cloudfront.net/assets/article/2019/08/08/destiny-2-all-classes-subclasses-and-perk-trees_feature.jpg"
+              "src": "assets/images/palette-g-49.webp",
+              "url": "https://d1lss44hh2trtw.cloudfront.net/assets/article/2019/08/08/destiny-2-all-classes-subclasses-and-perk-trees_feature.jpg",
+              "width": 1200,
+              "height": 750,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -2167,7 +3840,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://www.shacknews.com/article/113290/destiny-2-all-classes-subclasses-and-perk-trees"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#5b4743",
+            "text": "#ffffff",
+            "contrast": 8.69,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-49.webp",
+                "url": "https://d1lss44hh2trtw.cloudfront.net/assets/article/2019/08/08/destiny-2-all-classes-subclasses-and-perk-trees_feature.jpg",
+                "page": "https://www.shacknews.com/article/113290/destiny-2-all-classes-subclasses-and-perk-trees",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 750
+                },
+                "sha256": "2cb9ca7a6bfc143a008c82b1392f8fb74975e17d2560974b274eef1760a80585"
+              }
+            ],
+            "candidates": [
+              "#5b4743",
+              "#655149",
+              "#3c2c2a",
+              "#857065",
+              "#4c3839"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-50",
@@ -2197,10 +3900,14 @@ window.DATA = {
           "evidence": "已查阅下列官方资料；资料支持背景或灵感，数值位置与跨度仍是本图人工判断。",
           "images": [
             {
-              "src": "https://content.halocdn.com/media/Default/community/E32021PressKit/4k_infinite_mp_spartanlineup_watermarked-524ad6c8f5b84372a859ab0a32274926.png"
+              "src": "assets/images/palette-g-50.webp",
+              "url": "https://content.halocdn.com/media/Default/community/E32021PressKit/4k_infinite_mp_spartanlineup_watermarked-524ad6c8f5b84372a859ab0a32274926.png",
+              "width": 1200,
+              "height": 675,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -2214,7 +3921,37 @@ window.DATA = {
               "label": "官方故事：2560年与无限开篇",
               "url": "https://content.halocdn.com/media/Default/community/2023_1120-waypointchronicles_battleforthebloodmoon-r03-a3e3cc23be4c413598af74154d3b85da.pdf"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#3f465e",
+            "text": "#ffffff",
+            "contrast": 9.39,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-50.webp",
+                "url": "https://content.halocdn.com/media/Default/community/E32021PressKit/4k_infinite_mp_spartanlineup_watermarked-524ad6c8f5b84372a859ab0a32274926.png",
+                "page": "https://www.halowaypoint.com/en-us/news/halo-infinite-multiplayer-reveal",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 675
+                },
+                "sha256": "6ceffa544f2f40f6e77aeea90cf043a21adb8260c5dd99b23953ef2a1c2e0c98"
+              }
+            ],
+            "candidates": [
+              "#3f465e",
+              "#374156",
+              "#5c3d27",
+              "#5a4f3e",
+              "#5e352e"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-51",
@@ -2244,10 +3981,14 @@ window.DATA = {
           "evidence": "依据作品常见背景分档；此前未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://redringsofredemption.files.wordpress.com/2014/01/masseffect2squad.jpg"
+              "src": "assets/images/palette-g-51.webp",
+              "url": "https://redringsofredemption.files.wordpress.com/2014/01/masseffect2squad.jpg",
+              "width": 1200,
+              "height": 675,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -2257,7 +3998,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://colinmcmahonauthor.com/2014/01/29/how-mass-effect-2-failed-the-trilogy/"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#5f2404",
+            "text": "#ffffff",
+            "contrast": 12.01,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-51.webp",
+                "url": "https://redringsofredemption.files.wordpress.com/2014/01/masseffect2squad.jpg",
+                "page": "https://colinmcmahonauthor.com/2014/01/29/how-mass-effect-2-failed-the-trilogy/",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 675
+                },
+                "sha256": "8bd777c3e7c70c15eb79944828a311436cfad610e0f980081f571e519cf7fca9"
+              }
+            ],
+            "candidates": [
+              "#5f2404",
+              "#611404",
+              "#963909",
+              "#962105",
+              "#e23a14"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-52",
@@ -2287,10 +4058,14 @@ window.DATA = {
           "evidence": "依据作品常见背景分档；此前未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://www.gamersdecide.com/sites/default/files/2023-12/apex-legends-most-fun-legends-01.jpg"
+              "src": "assets/images/palette-g-52.webp",
+              "url": "https://www.gamersdecide.com/sites/default/files/2023-12/apex-legends-most-fun-legends-01.jpg",
+              "width": 1200,
+              "height": 799,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -2300,7 +4075,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://www.gamersdecide.com/articles/apex-legends-best-reticle-colors-1"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#a84e48",
+            "text": "#ffffff",
+            "contrast": 5.45,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-52.webp",
+                "url": "https://www.gamersdecide.com/sites/default/files/2023-12/apex-legends-most-fun-legends-01.jpg",
+                "page": "https://www.gamersdecide.com/articles/apex-legends-best-reticle-colors-1",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 799
+                },
+                "sha256": "5b3711c5070d19efc56bc760c9f6800258c20a8f7f25069b2cba7e1a5ed775fd"
+              }
+            ],
+            "candidates": [
+              "#a84e48",
+              "#d35a4c",
+              "#aa3d3f",
+              "#9f8653",
+              "#65563f"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-53",
@@ -2330,10 +4135,14 @@ window.DATA = {
           "evidence": "依据作品常见背景分档；此前未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://prod.assets.earlygamecdn.com/images/12-Valorant-agents.jpg?x=0.5&y=0.5"
+              "src": "assets/images/palette-g-53.webp",
+              "url": "https://prod.assets.earlygamecdn.com/images/12-Valorant-agents.jpg?x=0.5&y=0.5",
+              "width": 1200,
+              "height": 675,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -2343,7 +4152,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://earlygame.com/valorant/what-are-bonus-rounds"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#fb4856",
+            "text": "#000000",
+            "contrast": 6.15,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-53.webp",
+                "url": "https://prod.assets.earlygamecdn.com/images/12-Valorant-agents.jpg?x=0.5&y=0.5",
+                "page": "https://earlygame.com/valorant/what-are-bonus-rounds",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 675
+                },
+                "sha256": "83a2b20ddfc1e140039d0b5d1e8e9c7e06e68564e6374d98b202c54015cacb73"
+              }
+            ],
+            "candidates": [
+              "#fb4856",
+              "#9e444f",
+              "#643039",
+              "#354257",
+              "#354b58"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-54",
@@ -2373,10 +4212,14 @@ window.DATA = {
           "evidence": "人工类比：沿用图鉴角色范围与常见世界设定，未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://cdn.wallpapersafari.com/16/56/g6F0KT.jpg"
+              "src": "assets/images/palette-g-54.webp",
+              "url": "https://cdn.wallpapersafari.com/16/56/g6F0KT.jpg",
+              "width": 1200,
+              "height": 675,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -2386,7 +4229,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://wallpapersafari.com/league-of-legends-official-wallpapers/"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#334c5c",
+            "text": "#ffffff",
+            "contrast": 9.03,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-54.webp",
+                "url": "https://cdn.wallpapersafari.com/16/56/g6F0KT.jpg",
+                "page": "https://wallpapersafari.com/league-of-legends-official-wallpapers/",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 675
+                },
+                "sha256": "63e6c24c4dd2736d90890bf16e9cb33ade3319bbe062ce42f1754dfb9b9c7cf7"
+              }
+            ],
+            "candidates": [
+              "#334c5c",
+              "#31425b",
+              "#5a3b2a",
+              "#58322c",
+              "#4b6a9a"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-55",
@@ -2416,10 +4289,14 @@ window.DATA = {
           "evidence": "人工类比：沿用图鉴角色范围与常见世界设定，未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://i.blogs.es/71e186/dota2/1366_2000.jpeg"
+              "src": "assets/images/palette-g-55.webp",
+              "url": "https://i.blogs.es/71e186/dota2/1366_2000.jpeg",
+              "width": 1200,
+              "height": 762,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -2429,7 +4306,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://www.vidaextra.com/listas/juegos-steam-gratis"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#583827",
+            "text": "#ffffff",
+            "contrast": 10.41,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-55.webp",
+                "url": "https://i.blogs.es/71e186/dota2/1366_2000.jpeg",
+                "page": "https://www.vidaextra.com/listas/juegos-steam-gratis",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 762
+                },
+                "sha256": "88a65f055d7f875b2f6b63faa5d92dd5527ea09ddfecbe5379318dd2e4c67406"
+              }
+            ],
+            "candidates": [
+              "#583827",
+              "#4f2d27",
+              "#e0bc86",
+              "#3c2622",
+              "#9c7558"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-56",
@@ -2459,10 +4366,14 @@ window.DATA = {
           "evidence": "人工类比：沿用图鉴角色范围与常见世界设定，未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://www.creativeuncut.com/gallery-38/art/d4-character-class-portraits.jpg"
+              "src": "assets/images/palette-g-56.webp",
+              "url": "https://www.creativeuncut.com/gallery-38/art/d4-character-class-portraits.jpg",
+              "width": 1200,
+              "height": 775,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -2472,7 +4383,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://www.creativeuncut.com/gallery-38/d4-character-class-portraits.html"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#5f4638",
+            "text": "#ffffff",
+            "contrast": 8.67,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-56.webp",
+                "url": "https://www.creativeuncut.com/gallery-38/art/d4-character-class-portraits.jpg",
+                "page": "https://www.creativeuncut.com/gallery-38/d4-character-class-portraits.html",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 775
+                },
+                "sha256": "502ba8afef9f2b861f444f12902b3f2cf0101d35454cef97bfea672989505cf3"
+              }
+            ],
+            "candidates": [
+              "#5f4638",
+              "#9c755c",
+              "#543631",
+              "#d6aa8a",
+              "#594f3f"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-57",
@@ -2502,10 +4443,14 @@ window.DATA = {
           "evidence": "人工类比：沿用图鉴角色范围与常见世界设定，未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://cdn.mos.cms.futurecdn.net/7sQYFYjKaKjtm6Ax64bNrK.jpg"
+              "src": "assets/images/palette-g-57.webp",
+              "url": "https://cdn.mos.cms.futurecdn.net/7sQYFYjKaKjtm6Ax64bNrK.jpg",
+              "width": 1200,
+              "height": 675,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -2515,7 +4460,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://www.gamesradar.com/genshin-impact-devs-on-swapping-open-worlds-and-real-time-combat-for-deftly-assembled-dungeons-in-honkai-star-rail/"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#2c3f5e",
+            "text": "#ffffff",
+            "contrast": 10.65,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-57.webp",
+                "url": "https://cdn.mos.cms.futurecdn.net/7sQYFYjKaKjtm6Ax64bNrK.jpg",
+                "page": "https://www.gamesradar.com/genshin-impact-devs-on-swapping-open-worlds-and-real-time-combat-for-deftly-assembled-dungeons-in-honkai-star-rail/",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 675
+                },
+                "sha256": "effd151898b8ff49eef0cdb4c29c50a610b6b40c237c42b307c970c10270e25e"
+              }
+            ],
+            "candidates": [
+              "#2c3f5e",
+              "#556f9b",
+              "#614c3f",
+              "#383e5d",
+              "#4a3e61"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-58",
@@ -2545,10 +4520,14 @@ window.DATA = {
           "evidence": "人工类比：沿用图鉴角色范围与常见世界设定，未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://assets.st-note.com/production/uploads/images/133968772/rectangle_large_type_2_1b0b2d905a6cb37edac5a03030ecf795.png?fit=bounds&quality=85&width=1280"
+              "src": "assets/images/palette-g-58.webp",
+              "url": "https://assets.st-note.com/production/uploads/images/133968772/rectangle_large_type_2_1b0b2d905a6cb37edac5a03030ecf795.png?fit=bounds&quality=85&width=1280",
+              "width": 1200,
+              "height": 628,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -2558,7 +4537,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://note.com/zenzero_usagi/n/nd3d90914a6e2"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#f8889b",
+            "text": "#000000",
+            "contrast": 9.02,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-58.webp",
+                "url": "https://assets.st-note.com/production/uploads/images/133968772/rectangle_large_type_2_1b0b2d905a6cb37edac5a03030ecf795.png?fit=bounds&quality=85&width=1280",
+                "page": "https://note.com/zenzero_usagi/n/nd3d90914a6e2",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 628
+                },
+                "sha256": "4f805c99375abcdd26e569d1fb80aefa1a9ec89213dab3400e4b77c08d20003e"
+              }
+            ],
+            "candidates": [
+              "#f8889b",
+              "#eab596",
+              "#a15e56",
+              "#d98a7d",
+              "#673a34"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-59",
@@ -2588,10 +4597,14 @@ window.DATA = {
           "evidence": "人工类比：沿用图鉴角色范围与常见世界设定，未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://img2.tapimg.com/moment/etag/FomJ2dM5cySZctxKnefBhyfK4FJJ.jpeg"
+              "src": "assets/images/palette-g-59.webp",
+              "url": "https://img2.tapimg.com/moment/etag/FomJ2dM5cySZctxKnefBhyfK4FJJ.jpeg",
+              "width": 1200,
+              "height": 900,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -2601,7 +4614,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://game.3loumao.org/743900435"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#37465f",
+            "text": "#ffffff",
+            "contrast": 9.51,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-59.webp",
+                "url": "https://img2.tapimg.com/moment/etag/FomJ2dM5cySZctxKnefBhyfK4FJJ.jpeg",
+                "page": "https://game.3loumao.org/743900435",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 900
+                },
+                "sha256": "cec02933dd64ab216b5f0c7c3bf3f81896e055f35ee75c4afea6e2cd8543a46a"
+              }
+            ],
+            "candidates": [
+              "#37465f",
+              "#627598",
+              "#3e435c",
+              "#a26b65",
+              "#334d5f"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-60",
@@ -2631,10 +4674,14 @@ window.DATA = {
           "evidence": "人工类比：沿用图鉴角色范围与常见世界设定，未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://lwi.nexon.com/m_ba/brand/media/illust_m_02.png"
+              "src": "assets/images/palette-g-60.webp",
+              "url": "https://lwi.nexon.com/m_ba/brand/media/illust_m_02.png",
+              "width": 628,
+              "height": 600,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -2644,7 +4691,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://bluearchive.nexon.com/home"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#54ace8",
+            "text": "#000000",
+            "contrast": 8.44,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-60.webp",
+                "url": "https://lwi.nexon.com/m_ba/brand/media/illust_m_02.png",
+                "page": "https://bluearchive.nexon.com/home",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 628,
+                  "height": 600
+                },
+                "sha256": "26129eea0598d8b5c2262930dccbf5f82c62002da1984e30e8d29054ee84e3ea"
+              }
+            ],
+            "candidates": [
+              "#54ace8",
+              "#4287d5",
+              "#6d77a1",
+              "#87e1f7",
+              "#6177a3"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-61",
@@ -2674,10 +4751,14 @@ window.DATA = {
           "evidence": "人工类比：沿用图鉴角色范围与常见世界设定，未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://static.tvtropes.org/pmwiki/pub/images/r1999_character_roster_1.PNG"
+              "src": "assets/images/palette-g-61.webp",
+              "url": "https://static.tvtropes.org/pmwiki/pub/images/r1999_character_roster_1.PNG",
+              "width": 1200,
+              "height": 834,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -2687,7 +4768,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://tvtropes.org/pmwiki/pmwiki.php/Characters/Reverse1999"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#5c4739",
+            "text": "#ffffff",
+            "contrast": 8.72,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-61.webp",
+                "url": "https://static.tvtropes.org/pmwiki/pub/images/r1999_character_roster_1.PNG",
+                "page": "https://tvtropes.org/pmwiki/pmwiki.php/Characters/Reverse1999",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 834
+                },
+                "sha256": "0f9b70c91f54e04b4adab356d0945ba7c93a04372dae303ee15d0fd3c1bde8f0"
+              }
+            ],
+            "candidates": [
+              "#5c4739",
+              "#63543f",
+              "#978263",
+              "#99745d",
+              "#5c3d38"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-62",
@@ -2717,10 +4828,14 @@ window.DATA = {
           "evidence": "人工类比：沿用图鉴角色范围与常见世界设定，未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://www.creativeuncut.com/gallery-37/art/feth-characters-lineup.jpg"
+              "src": "assets/images/palette-g-62.webp",
+              "url": "https://www.creativeuncut.com/gallery-37/art/feth-characters-lineup.jpg",
+              "width": 1200,
+              "height": 542,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -2730,7 +4845,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://www.creativeuncut.com/gallery-37/feth-characters-lineup.html"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#d7c299",
+            "text": "#000000",
+            "contrast": 12.05,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-62.webp",
+                "url": "https://www.creativeuncut.com/gallery-37/art/feth-characters-lineup.jpg",
+                "page": "https://www.creativeuncut.com/gallery-37/feth-characters-lineup.html",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 542
+                },
+                "sha256": "cdcc483312a5a4fb2325dd625bed3c1ed00b32984e49231304a367aea01230a4"
+              }
+            ],
+            "candidates": [
+              "#d7c299",
+              "#e1a076",
+              "#a09274",
+              "#645b48",
+              "#5b563f"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-63",
@@ -2760,10 +4905,14 @@ window.DATA = {
           "evidence": "人工类比：沿用图鉴角色范围与常见世界设定，未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://cdn.mos.cms.futurecdn.net/tU7udiD9gQw2zTkDeov78o.jpg"
+              "src": "assets/images/palette-g-63.webp",
+              "url": "https://cdn.mos.cms.futurecdn.net/tU7udiD9gQw2zTkDeov78o.jpg",
+              "width": 1200,
+              "height": 675,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -2773,7 +4922,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://www.imore.com/gaming/nintendo-switch/xenoblade-chronicles-3-all-characters-and-recruitable-heroes"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#7956a0",
+            "text": "#ffffff",
+            "contrast": 5.75,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-63.webp",
+                "url": "https://cdn.mos.cms.futurecdn.net/tU7udiD9gQw2zTkDeov78o.jpg",
+                "page": "https://www.imore.com/gaming/nintendo-switch/xenoblade-chronicles-3-all-characters-and-recruitable-heroes",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 675
+                },
+                "sha256": "00069a9899a7373210d1aa45648a9333237476a9f73ca773c1203978d55f0d3d"
+              }
+            ],
+            "candidates": [
+              "#7956a0",
+              "#46325d",
+              "#2d3151",
+              "#7c569e",
+              "#513869"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-64",
@@ -2803,10 +4982,14 @@ window.DATA = {
           "evidence": "人工类比：沿用图鉴角色范围与常见世界设定，未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://www.creativeuncut.com/social/tales-of-arise.jpg"
+              "src": "assets/images/palette-g-64.webp",
+              "url": "https://www.creativeuncut.com/social/tales-of-arise.jpg",
+              "width": 900,
+              "height": 500,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -2816,7 +4999,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://www.creativeuncut.com/art_tales-of-arise_a.html"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#9d7860",
+            "text": "#000000",
+            "contrast": 5.27,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-64.webp",
+                "url": "https://www.creativeuncut.com/social/tales-of-arise.jpg",
+                "page": "https://www.creativeuncut.com/art_tales-of-arise_a.html",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 900,
+                  "height": 500
+                },
+                "sha256": "c9c8a5a1dc2938ad81e40c8abad26d7b4e6b4c8b81ea7a3ca1dd979456ed9d4e"
+              }
+            ],
+            "candidates": [
+              "#9d7860",
+              "#e1b59a",
+              "#644641",
+              "#694938",
+              "#e3be8f"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-65",
@@ -2846,10 +5059,14 @@ window.DATA = {
           "evidence": "人工类比：沿用图鉴角色范围与常见世界设定，未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://images.rpgsite.net/image/da49c9a1/133017/original/Granblue-Fantasy-Relink_20231222_06.jpg"
+              "src": "assets/images/palette-g-65.webp",
+              "url": "https://images.rpgsite.net/image/da49c9a1/133017/original/Granblue-Fantasy-Relink_20231222_06.jpg",
+              "width": 1200,
+              "height": 675,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -2859,7 +5076,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://www.rpgsite.net/guide/15421-granblue-fantasy-relink-tips"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#9f765c",
+            "text": "#000000",
+            "contrast": 5.2,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-65.webp",
+                "url": "https://images.rpgsite.net/image/da49c9a1/133017/original/Granblue-Fantasy-Relink_20231222_06.jpg",
+                "page": "https://www.rpgsite.net/guide/15421-granblue-fantasy-relink-tips",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 675
+                },
+                "sha256": "3cc2a8458b5fc307baf872126af7006896f7da79a28e3d908149252831a4614e"
+              }
+            ],
+            "candidates": [
+              "#9f765c",
+              "#daba87",
+              "#614333",
+              "#d9ad90",
+              "#52739f"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-66",
@@ -2889,10 +5136,14 @@ window.DATA = {
           "evidence": "人工类比：沿用图鉴角色范围与常见世界设定，未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://cdn.mos.cms.futurecdn.net/v2/t%3A0%2Cl%3A458%2Ccw%3A2924%2Cch%3A1645%2Cq%3A80%2Cw%3A2560/kyqiAT5SLJBE8VLz5zmbyB.jpg"
+              "src": "assets/images/palette-g-66.webp",
+              "url": "https://cdn.mos.cms.futurecdn.net/v2/t%3A0%2Cl%3A458%2Ccw%3A2924%2Cch%3A1645%2Cq%3A80%2Cw%3A2560/kyqiAT5SLJBE8VLz5zmbyB.jpg",
+              "width": 1200,
+              "height": 675,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -2902,7 +5153,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://www.tomsguide.com/gaming/metaphor-refantazio-review"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#aba67b",
+            "text": "#000000",
+            "contrast": 8.45,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-66.webp",
+                "url": "https://cdn.mos.cms.futurecdn.net/v2/t%3A0%2Cl%3A458%2Ccw%3A2924%2Cch%3A1645%2Cq%3A80%2Cw%3A2560/kyqiAT5SLJBE8VLz5zmbyB.jpg",
+                "page": "https://www.tomsguide.com/gaming/metaphor-refantazio-review",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 675
+                },
+                "sha256": "3b1ca991fc30c2916b9b0aee99ef02dc3312162cf507e5abb721780130c48da5"
+              }
+            ],
+            "candidates": [
+              "#aba67b",
+              "#37656b",
+              "#2a5062",
+              "#cbc293",
+              "#9f8c6a"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-67",
@@ -2932,10 +5213,14 @@ window.DATA = {
           "evidence": "依据作品常见背景分档；此前未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://images.nintendolife.com/6c64cf91e956a/large.jpg"
+              "src": "assets/images/palette-g-67.webp",
+              "url": "https://www.nintendo.com/sg/switch/am78/img/hero.jpg",
+              "width": 1200,
+              "height": 571,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "本次补充的取色参考图，详见“取色参考来源”；原图鉴链接仍保留。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -2944,8 +5229,42 @@ window.DATA = {
             {
               "label": "图像来源",
               "url": "https://www.nintendolife.com/news/2025/06/the-world-ends-with-you-director-leaves-square-enix-after-29-years"
+            },
+            {
+              "label": "取色参考来源",
+              "url": "https://www.nintendo.com/sg/switch/am78/index.html"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#9d6f68",
+            "text": "#000000",
+            "contrast": 4.92,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-67.webp",
+                "url": "https://www.nintendo.com/sg/switch/am78/img/hero.jpg",
+                "page": "https://www.nintendo.com/sg/switch/am78/index.html",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 571
+                },
+                "sha256": "f4781aec1eef5d8d6c22659e355d2af8d0852741774b0fb18118ca8295fb92da"
+              }
+            ],
+            "candidates": [
+              "#9d6f68",
+              "#664643",
+              "#9e7761",
+              "#62563f",
+              "#a0986e"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-68",
@@ -2972,10 +5291,14 @@ window.DATA = {
           "evidence": "不作确定年代判断；参考对象见原图鉴。",
           "images": [
             {
-              "src": "https://images.khinsider.com/Kingdom%20Hearts%20II/Artwork/Promotional%20Artwork/KH2FM%2B%20Artwork02.png"
+              "src": "assets/images/palette-g-68.webp",
+              "url": "https://images.khinsider.com/Kingdom%20Hearts%20II/Artwork/Promotional%20Artwork/KH2FM%2B%20Artwork02.png",
+              "width": 1200,
+              "height": 848,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -2985,7 +5308,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://www.khinsider.com/dark-seeker-saga/kingdom-hearts-2/images/artwork"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#9f6849",
+            "text": "#ffffff",
+            "contrast": 4.6,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-68.webp",
+                "url": "https://images.khinsider.com/Kingdom%20Hearts%20II/Artwork/Promotional%20Artwork/KH2FM%2B%20Artwork02.png",
+                "page": "https://www.khinsider.com/dark-seeker-saga/kingdom-hearts-2/images/artwork",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 848
+                },
+                "sha256": "13feb144554b359df9376b2a96c2351874f291b74c7435a3ab54248d708ef5dc"
+              }
+            ],
+            "candidates": [
+              "#9f6849",
+              "#5f3530",
+              "#3a4559",
+              "#e09565",
+              "#e6ba76"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-69",
@@ -3015,10 +5368,14 @@ window.DATA = {
           "evidence": "依据作品常见背景分档；此前未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://images.squarespace-cdn.com/content/v1/5e63720415b8f434bc5652ca/1686156738286-JPSG48WI797K2IL10FM6/street_fighter_6_03.jpeg"
+              "src": "assets/images/palette-g-69.webp",
+              "url": "https://images.squarespace-cdn.com/content/v1/5e63720415b8f434bc5652ca/1686156738286-JPSG48WI797K2IL10FM6/street_fighter_6_03.jpeg",
+              "width": 1200,
+              "height": 960,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -3028,7 +5385,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://www.ps-esports.com/articles/2023-capcom-street-fighter-6-worldwide-release-creating-headlines"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#603b25",
+            "text": "#ffffff",
+            "contrast": 9.77,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-69.webp",
+                "url": "https://images.squarespace-cdn.com/content/v1/5e63720415b8f434bc5652ca/1686156738286-JPSG48WI797K2IL10FM6/street_fighter_6_03.jpeg",
+                "page": "https://www.ps-esports.com/articles/2023-capcom-street-fighter-6-worldwide-release-creating-headlines",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 960
+                },
+                "sha256": "72a1034d630d44b9c1ef56332d86e251c963ae3c807adca316499480bd4336ad"
+              }
+            ],
+            "candidates": [
+              "#603b25",
+              "#9e6442",
+              "#193767",
+              "#284f91",
+              "#4a1668"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-70",
@@ -3058,10 +5445,14 @@ window.DATA = {
           "evidence": "人工类比：沿用图鉴角色范围与常见世界设定，未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://wallpapercg.com/download/tekken-8-3840x2160-20545.jpeg"
+              "src": "assets/images/palette-g-70.webp",
+              "url": "https://wallpapercg.com/download/tekken-8-3840x2160-20545.jpeg",
+              "width": 1200,
+              "height": 675,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -3071,7 +5462,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://wallpapercg.com/tekken-8-wallpapers"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#a07661",
+            "text": "#000000",
+            "contrast": 5.27,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-70.webp",
+                "url": "https://wallpapercg.com/download/tekken-8-3840x2160-20545.jpeg",
+                "page": "https://wallpapercg.com/tekken-8-wallpapers",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 675
+                },
+                "sha256": "2238d35eb31057362a316e7595e9e7d11a3db7fbd23f0a256b502fa71fd92226"
+              }
+            ],
+            "candidates": [
+              "#a07661",
+              "#27626d",
+              "#604435",
+              "#162d54",
+              "#ddad91"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-71",
@@ -3101,10 +5522,14 @@ window.DATA = {
           "evidence": "人工类比：沿用图鉴角色范围与常见世界设定，未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://image.gcores.com/706bfa32-02ad-4167-af2a-fcdbf449308a.jpg?x-oss-process=image%2Fresize%2Climit_1%2Cm_lfit%2Cw_3000%2Ch_5250%2Fquality%2Cq_90%2Fformat%2Cwebp"
+              "src": "assets/images/palette-g-71.webp",
+              "url": "https://image.gcores.com/706bfa32-02ad-4167-af2a-fcdbf449308a.jpg?x-oss-process=image%2Fresize%2Climit_1%2Cm_lfit%2Cw_3000%2Ch_5250%2Fquality%2Cq_90%2Fformat%2Cwebp",
+              "width": 1200,
+              "height": 675,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -3114,7 +5539,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://www.gcores.com/articles/96371"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#e3b265",
+            "text": "#000000",
+            "contrast": 10.77,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-71.webp",
+                "url": "https://image.gcores.com/706bfa32-02ad-4167-af2a-fcdbf449308a.jpg?x-oss-process=image%2Fresize%2Climit_1%2Cm_lfit%2Cw_3000%2Ch_5250%2Fquality%2Cq_90%2Fformat%2Cwebp",
+                "page": "https://www.gcores.com/articles/96371",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 675
+                },
+                "sha256": "6dd6184c56d0eb3792388c7d7ff9fb515a54746a1418846a8cc00d307860b740"
+              }
+            ],
+            "candidates": [
+              "#e3b265",
+              "#dd8850",
+              "#a4643b",
+              "#e4d483",
+              "#9e85d9"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-72",
@@ -3144,10 +5599,14 @@ window.DATA = {
           "evidence": "人工类比：沿用图鉴角色范围与常见世界设定，未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://fightersgeneration.com/nx5/game/skullgirls-conceptart2.jpg"
+              "src": "assets/images/palette-g-72.webp",
+              "url": "https://fightersgeneration.com/nx5/game/skullgirls-conceptart2.jpg",
+              "width": 1200,
+              "height": 471,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -3157,7 +5616,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://fightersgeneration.com/games/skullgirls-p3.html"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#8f3c2c",
+            "text": "#ffffff",
+            "contrast": 7.35,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-72.webp",
+                "url": "https://fightersgeneration.com/nx5/game/skullgirls-conceptart2.jpg",
+                "page": "https://fightersgeneration.com/games/skullgirls-p3.html",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 471
+                },
+                "sha256": "b94b9f3a29edb73a7cfc77aa5e9e989110a898199b58d4b26785d0de027a873d"
+              }
+            ],
+            "candidates": [
+              "#8f3c2c",
+              "#66362f",
+              "#2c5a5f",
+              "#4aa19a",
+              "#65ddd1"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-73",
@@ -3187,10 +5676,14 @@ window.DATA = {
           "evidence": "人工类比：沿用图鉴角色范围与常见世界设定，未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://i0.wp.com/bloody-disgusting.com/wp-content/uploads/2023/07/darkstalkers.jpg?fit=1920%2C1080&ssl=1"
+              "src": "assets/images/palette-g-73.webp",
+              "url": "https://i0.wp.com/bloody-disgusting.com/wp-content/uploads/2023/07/darkstalkers.jpg?fit=1920%2C1080&ssl=1",
+              "width": 1200,
+              "height": 675,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -3200,7 +5693,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://bloody-disgusting.com/editorials/3770949/darkstalkers-the-monster-movie-origins-of-capcoms-fighting-game/"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#462462",
+            "text": "#ffffff",
+            "contrast": 12.45,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-73.webp",
+                "url": "https://i0.wp.com/bloody-disgusting.com/wp-content/uploads/2023/07/darkstalkers.jpg?fit=1920%2C1080&ssl=1",
+                "page": "https://bloody-disgusting.com/editorials/3770949/darkstalkers-the-monster-movie-origins-of-capcoms-fighting-game/",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 675
+                },
+                "sha256": "0c465a25cf3b6a3c2cc224242e784f13c418b5afd5d07b3672aaa767824a4ab4"
+              }
+            ],
+            "candidates": [
+              "#462462",
+              "#773ba0",
+              "#e5ae51",
+              "#594f9f",
+              "#412666"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-74",
@@ -3230,10 +5753,14 @@ window.DATA = {
           "evidence": "人工类比：沿用图鉴角色范围与常见世界设定，未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://assets.doublefine.com/images/screenshots/Psychonauts-2/Psychonauts2-screenshots-071521-Previews-4k-17.jpg"
+              "src": "assets/images/palette-g-74.webp",
+              "url": "https://assets.doublefine.com/images/screenshots/Psychonauts-2/Psychonauts2-screenshots-071521-Previews-4k-17.jpg",
+              "width": 1200,
+              "height": 675,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -3243,7 +5770,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://www.doublefine.com/games/psychonauts-2"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#1a4b50",
+            "text": "#ffffff",
+            "contrast": 9.68,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-74.webp",
+                "url": "https://assets.doublefine.com/images/screenshots/Psychonauts-2/Psychonauts2-screenshots-071521-Previews-4k-17.jpg",
+                "page": "https://www.doublefine.com/games/psychonauts-2",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 675
+                },
+                "sha256": "29da8b4a7c1c56b232ad3d64656870b5ea97463416a0a0d7d9f92bd7151ffa91"
+              }
+            ],
+            "candidates": [
+              "#1a4b50",
+              "#235e5a",
+              "#13373c",
+              "#314d5a",
+              "#305548"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-75",
@@ -3273,10 +5830,14 @@ window.DATA = {
           "evidence": "人工类比：沿用图鉴角色范围与常见世界设定，未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://www.creativeuncut.com/social/dishonored-2.jpg"
+              "src": "assets/images/palette-g-75.webp",
+              "url": "https://www.creativeuncut.com/social/dishonored-2.jpg",
+              "width": 1200,
+              "height": 660,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -3286,7 +5847,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://www.creativeuncut.com/art_dishonored-2_a.html"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#5a2f27",
+            "text": "#ffffff",
+            "contrast": 11.27,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-75.webp",
+                "url": "https://www.creativeuncut.com/social/dishonored-2.jpg",
+                "page": "https://www.creativeuncut.com/art_dishonored-2_a.html",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 660
+                },
+                "sha256": "dac427685d93d0033b5ceb807b5da5e8132345e5da7f9c0a076ebba72980a532"
+              }
+            ],
+            "candidates": [
+              "#5a2f27",
+              "#a0765f",
+              "#5f4335",
+              "#d8aa8e",
+              "#955445"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-76",
@@ -3316,10 +5907,14 @@ window.DATA = {
           "evidence": "人工类比：沿用图鉴角色范围与常见世界设定，未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://blogs-images.forbes.com/erikkain/files/2018/04/Sea-of-Thieves-16.jpg"
+              "src": "assets/images/palette-g-76.webp",
+              "url": "https://blogs-images.forbes.com/erikkain/files/2018/04/Sea-of-Thieves-16.jpg",
+              "width": 1200,
+              "height": 720,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -3329,7 +5924,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://www.forbes.com/sites/erikkain/2018/04/20/this-is-why-more-video-games-should-do-co-op-like-far-cry-5/"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#305d4c",
+            "text": "#ffffff",
+            "contrast": 7.53,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-76.webp",
+                "url": "https://blogs-images.forbes.com/erikkain/files/2018/04/Sea-of-Thieves-16.jpg",
+                "page": "https://www.forbes.com/sites/erikkain/2018/04/20/this-is-why-more-video-games-should-do-co-op-like-far-cry-5/",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 720
+                },
+                "sha256": "219c868761c265fa27277deb3e103adba63dffb10f9f4040192c19f55aa62bdf"
+              }
+            ],
+            "candidates": [
+              "#305d4c",
+              "#2b544d",
+              "#554f32",
+              "#50997e",
+              "#5d4d30"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-77",
@@ -3359,10 +5984,14 @@ window.DATA = {
           "evidence": "依据作品常见背景分档；此前未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://www.denofgeek.com/wp-content/uploads/2021/06/Ratcher-tand-Clank-Rift-Apart.jpg?fit=2000%2C1125"
+              "src": "assets/images/palette-g-77.webp",
+              "url": "https://www.denofgeek.com/wp-content/uploads/2021/06/Ratcher-tand-Clank-Rift-Apart.jpg?fit=2000%2C1125",
+              "width": 1200,
+              "height": 675,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -3372,7 +6001,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://www.denofgeek.com/games/ratchet-and-clank-rift-apart-every-planet-level-world-guide/"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#1c3969",
+            "text": "#ffffff",
+            "contrast": 11.39,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-77.webp",
+                "url": "https://www.denofgeek.com/wp-content/uploads/2021/06/Ratcher-tand-Clank-Rift-Apart.jpg?fit=2000%2C1125",
+                "page": "https://www.denofgeek.com/games/ratchet-and-clank-rift-apart-every-planet-level-world-guide/",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 675
+                },
+                "sha256": "a33f6b082f77d98567cbd37af8f9fda7c95dbaedb05ace1c37c394d97b2d54b4"
+              }
+            ],
+            "candidates": [
+              "#1c3969",
+              "#2e599c",
+              "#3575d0",
+              "#d66fe5",
+              "#b362e2"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-78",
@@ -3399,10 +6058,14 @@ window.DATA = {
           "evidence": "不作确定年代判断；参考对象见原图鉴。",
           "images": [
             {
-              "src": "https://mail.creativeuncut.com/gallery-40/art/cb4-key-art.jpg"
+              "src": "assets/images/palette-g-78.webp",
+              "url": "https://mail.creativeuncut.com/gallery-40/art/cb4-key-art.jpg",
+              "width": 1200,
+              "height": 674,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -3412,7 +6075,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://mail.creativeuncut.com/gallery-40/cb4-key-art.html"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#de8751",
+            "text": "#000000",
+            "contrast": 7.72,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-78.webp",
+                "url": "https://mail.creativeuncut.com/gallery-40/art/cb4-key-art.jpg",
+                "page": "https://mail.creativeuncut.com/gallery-40/cb4-key-art.html",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 674
+                },
+                "sha256": "dfa2a6658b9c5babd8fbdb0c3b9d07898a6ad3e27423404e4bb84dd848380ae1"
+              }
+            ],
+            "candidates": [
+              "#de8751",
+              "#e4ad58",
+              "#7cb8dd",
+              "#a2633d",
+              "#5484a4"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-79",
@@ -3442,10 +6135,14 @@ window.DATA = {
           "evidence": "人工类比：沿用图鉴角色范围与常见世界设定，未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://images.squarespace-cdn.com/content/v1/59f60ac28a02c7be42f00d3e/1542139865496-T5X0HDM27OK4LCENPIE9/IMG_8621.jpg?format=2500w"
+              "src": "assets/images/palette-g-79.webp",
+              "url": "https://images.squarespace-cdn.com/content/v1/59f60ac28a02c7be42f00d3e/1542139865496-T5X0HDM27OK4LCENPIE9/IMG_8621.jpg?format=2500w",
+              "width": 1200,
+              "height": 857,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -3455,7 +6152,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://www.nicholaskole.art/"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#e7b76e",
+            "text": "#000000",
+            "contrast": 11.36,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-79.webp",
+                "url": "https://images.squarespace-cdn.com/content/v1/59f60ac28a02c7be42f00d3e/1542139865496-T5X0HDM27OK4LCENPIE9/IMG_8621.jpg?format=2500w",
+                "page": "https://www.nicholaskole.art/",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 857
+                },
+                "sha256": "90d9c283e8f72902218cc3b8bb591f91f3613f8904c0e6c1d835df352589a24e"
+              }
+            ],
+            "candidates": [
+              "#e7b76e",
+              "#dc8d5d",
+              "#df7464",
+              "#aa6f48",
+              "#aa8552"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-80",
@@ -3485,10 +6212,14 @@ window.DATA = {
           "evidence": "人工类比：沿用图鉴角色范围与常见世界设定，未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://mail.creativeuncut.com/gallery-44/art/sf-characters.jpg"
+              "src": "assets/images/palette-g-80.webp",
+              "url": "https://mail.creativeuncut.com/gallery-44/art/sf-characters.jpg",
+              "width": 1200,
+              "height": 840,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -3498,7 +6229,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://mail.creativeuncut.com/gallery-44/sf-characters.html"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#1a3350",
+            "text": "#ffffff",
+            "contrast": 12.8,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-80.webp",
+                "url": "https://mail.creativeuncut.com/gallery-44/art/sf-characters.jpg",
+                "page": "https://mail.creativeuncut.com/gallery-44/sf-characters.html",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 840
+                },
+                "sha256": "c513e8ffadfd943e84c81837cec2674c944421f18d321210e47c2cf3addfe0b1"
+              }
+            ],
+            "candidates": [
+              "#1a3350",
+              "#31506a",
+              "#e1b562",
+              "#a5171d",
+              "#4a6c87"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-81",
@@ -3528,10 +6289,14 @@ window.DATA = {
           "evidence": "人工类比：沿用图鉴角色范围与常见世界设定，未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://www.mariowiki.com/images/thumb/2/23/Main_Crew_Artwork_-_Super_Mario_3D_World.png/1200px-Main_Crew_Artwork_-_Super_Mario_3D_World.png"
+              "src": "assets/images/palette-g-81.webp",
+              "url": "https://www.mariowiki.com/images/thumb/2/23/Main_Crew_Artwork_-_Super_Mario_3D_World.png/1200px-Main_Crew_Artwork_-_Super_Mario_3D_World.png",
+              "width": 1200,
+              "height": 861,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -3541,7 +6306,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://www.mariowiki.com/File%3AMain_Crew_Artwork_-_Super_Mario_3D_World.png"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#317ae5",
+            "text": "#000000",
+            "contrast": 5.05,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-81.webp",
+                "url": "https://www.mariowiki.com/images/thumb/2/23/Main_Crew_Artwork_-_Super_Mario_3D_World.png/1200px-Main_Crew_Artwork_-_Super_Mario_3D_World.png",
+                "page": "https://www.mariowiki.com/File%3AMain_Crew_Artwork_-_Super_Mario_3D_World.png",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 861
+                },
+                "sha256": "c5352586cffe2c3dccefcd672afb4b1b8072fa6ab423d433cc012a522673d249"
+              }
+            ],
+            "candidates": [
+              "#317ae5",
+              "#345da0",
+              "#e3444e",
+              "#a37255",
+              "#e9b091"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-82",
@@ -3568,10 +6363,14 @@ window.DATA = {
           "evidence": "不作确定年代判断；参考对象见原图鉴。",
           "images": [
             {
-              "src": "https://assets.topics.apps-jp.nintendo.com/image/2019/09/02083013446644/0/00001039_820_461.jpg"
+              "src": "assets/images/palette-g-82.webp",
+              "url": "https://assets.topics.apps-jp.nintendo.com/image/2019/09/02083013446644/0/00001039_820_461.jpg",
+              "width": 820,
+              "height": 461,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -3581,7 +6380,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://www.nintendo.com/jp/topics/article/82f01b08-1de5-11e8-a129-063b7ac45a6d"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#323e92",
+            "text": "#ffffff",
+            "contrast": 9.39,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-82.webp",
+                "url": "https://assets.topics.apps-jp.nintendo.com/image/2019/09/02083013446644/0/00001039_820_461.jpg",
+                "page": "https://www.nintendo.com/jp/topics/article/82f01b08-1de5-11e8-a129-063b7ac45a6d",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 820,
+                  "height": 461
+                },
+                "sha256": "971566c62b8336b2fe72590890f5e82728f3c64c6554d6309e168a47b6e92af4"
+              }
+            ],
+            "candidates": [
+              "#323e92",
+              "#272070",
+              "#1f2672",
+              "#392d94",
+              "#311171"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-83",
@@ -3611,10 +6440,14 @@ window.DATA = {
           "evidence": "人工类比：沿用图鉴角色范围与常见世界设定，未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://luigismansion3.nintendo.com/assets/img/home/luigi-gooigi-2x.png"
+              "src": "assets/images/palette-g-83.webp",
+              "url": "https://luigismansion3.nintendo.com/assets/img/home/luigi-gooigi-2x.png",
+              "width": 1100,
+              "height": 851,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -3624,7 +6457,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://luigismansion3.nintendo.com/"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#179d19",
+            "text": "#000000",
+            "contrast": 5.88,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-83.webp",
+                "url": "https://luigismansion3.nintendo.com/assets/img/home/luigi-gooigi-2x.png",
+                "page": "https://luigismansion3.nintendo.com/",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1100,
+                  "height": 851
+                },
+                "sha256": "4fb61832e9d00e40cbb4087c9a2ffdba08bf0ed14b7371790c640d5fa04898ac"
+              }
+            ],
+            "candidates": [
+              "#179d19",
+              "#22a31e",
+              "#107012",
+              "#24d02e",
+              "#2b4062"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-84",
@@ -3654,10 +6517,14 @@ window.DATA = {
           "evidence": "已查阅下列官方资料；资料支持背景或灵感，数值位置与跨度仍是本图人工判断。",
           "images": [
             {
-              "src": "https://www.creativeuncut.com/social/pokemon-legends-arceus.jpg"
+              "src": "assets/images/palette-g-84.webp",
+              "url": "https://www.creativeuncut.com/social/pokemon-legends-arceus.jpg",
+              "width": 900,
+              "height": 500,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -3671,7 +6538,37 @@ window.DATA = {
               "label": "宝可梦官方：洗翠的过去",
               "url": "https://www.pokemon.com/us/pokemon-video-games/pokemon-legends-arceus/"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#344159",
+            "text": "#ffffff",
+            "contrast": 10.32,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-84.webp",
+                "url": "https://www.creativeuncut.com/social/pokemon-legends-arceus.jpg",
+                "page": "https://www.creativeuncut.com/art_pokemon-legends-arceus_a.html",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 900,
+                  "height": 500
+                },
+                "sha256": "a0cea14a40da1dcf5dc90a267b157e6e02983ef2e778295aa2db0200435728be"
+              }
+            ],
+            "candidates": [
+              "#344159",
+              "#996e54",
+              "#aa5a55",
+              "#644a3b",
+              "#c96760"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-85",
@@ -3701,10 +6598,14 @@ window.DATA = {
           "evidence": "人工类比：沿用图鉴角色范围与常见世界设定，未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://image.api.playstation.com/vulcan/ap/rnd/202512/1518/96db93313e2e9f0cec620f08d93f64123eba62a3a88b10f9.png"
+              "src": "assets/images/palette-g-85.webp",
+              "url": "https://image.api.playstation.com/vulcan/ap/rnd/202512/1518/96db93313e2e9f0cec620f08d93f64123eba62a3a88b10f9.png",
+              "width": 1200,
+              "height": 900,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -3714,7 +6615,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://store.playstation.com/en-us/concept/10004484"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#e63439",
+            "text": "#000000",
+            "contrast": 4.94,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-85.webp",
+                "url": "https://image.api.playstation.com/vulcan/ap/rnd/202512/1518/96db93313e2e9f0cec620f08d93f64123eba62a3a88b10f9.png",
+                "page": "https://store.playstation.com/en-us/concept/10004484",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 900
+                },
+                "sha256": "4a0ede18c46901c5ced88e92ba8ee75bbdf6f7d1b6e0125d7e3cd5f18242f52d"
+              }
+            ],
+            "candidates": [
+              "#e63439",
+              "#a15e5a",
+              "#d8807a",
+              "#67403d",
+              "#a63134"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-86",
@@ -3744,10 +6675,14 @@ window.DATA = {
           "evidence": "依据作品常见背景分档；此前未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://pixelpoppers.com/review/night-in-the-woods/night-in-the-woods.jpg"
+              "src": "assets/images/palette-g-86.webp",
+              "url": "https://pixelpoppers.com/review/night-in-the-woods/night-in-the-woods.jpg",
+              "width": 1000,
+              "height": 1000,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -3757,7 +6692,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://pixelpoppers.com/review/night-in-the-woods/"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#5e2e22",
+            "text": "#ffffff",
+            "contrast": 11.14,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-86.webp",
+                "url": "https://pixelpoppers.com/review/night-in-the-woods/night-in-the-woods.jpg",
+                "page": "https://pixelpoppers.com/review/night-in-the-woods/",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1000,
+                  "height": 1000
+                },
+                "sha256": "a2e950f166efb708bd87ae8bb54c909414c3370aecd775cd3138fb4e2ae7b1e9"
+              }
+            ],
+            "candidates": [
+              "#5e2e22",
+              "#986d61",
+              "#a07463",
+              "#d39d88",
+              "#5e3e30"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-87",
@@ -3787,10 +6752,14 @@ window.DATA = {
           "evidence": "人工类比：沿用图鉴角色范围与常见世界设定，未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://image.api.playstation.com/vulcan/ap/rnd/202006/1917/1lbOO1nn1Bjr5srlmyH2DGaf.png"
+              "src": "assets/images/palette-g-87.webp",
+              "url": "https://image.api.playstation.com/vulcan/ap/rnd/202006/1917/1lbOO1nn1Bjr5srlmyH2DGaf.png",
+              "width": 1200,
+              "height": 1200,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -3800,7 +6769,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://store.playstation.com/fr-fr/product/EP2104-PPSA01503_00-BSNAX60962576975"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#309da1",
+            "text": "#000000",
+            "contrast": 6.47,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-87.webp",
+                "url": "https://image.api.playstation.com/vulcan/ap/rnd/202006/1917/1lbOO1nn1Bjr5srlmyH2DGaf.png",
+                "page": "https://store.playstation.com/fr-fr/product/EP2104-PPSA01503_00-BSNAX60962576975",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 1200
+                },
+                "sha256": "309ca4b8ddc06d42b16d09d60204a4aa7d7705bdb80ccbc8ba86929302defeaa"
+              }
+            ],
+            "candidates": [
+              "#309da1",
+              "#1b666a",
+              "#19615b",
+              "#9e8754",
+              "#6cd8d9"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-88",
@@ -3830,10 +6829,14 @@ window.DATA = {
           "evidence": "依据作品常见背景分档；此前未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://www.pjsgames.com/cdn/shop/files/card-slime-rancher-pc-mac-linux-gog-digital-download.jpg?v=1761256429&width=1920"
+              "src": "assets/images/palette-g-88.webp",
+              "url": "https://www.pjsgames.com/cdn/shop/files/card-slime-rancher-pc-mac-linux-gog-digital-download.jpg?v=1761256429&width=1920",
+              "width": 1200,
+              "height": 675,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -3843,7 +6846,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://www.pjsgames.com/en-ch/products/slime-rancher-pc-mac-linux-gog-digital-download"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#5fb4dd",
+            "text": "#000000",
+            "contrast": 9.07,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-88.webp",
+                "url": "https://www.pjsgames.com/cdn/shop/files/card-slime-rancher-pc-mac-linux-gog-digital-download.jpg?v=1761256429&width=1920",
+                "page": "https://www.pjsgames.com/en-ch/products/slime-rancher-pc-mac-linux-gog-digital-download",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 675
+                },
+                "sha256": "9cfd112055eb80a41563151660a9aaa9e4c042a201f1b2430e5f400da93d6a26"
+              }
+            ],
+            "candidates": [
+              "#5fb4dd",
+              "#67c5d5",
+              "#dd4661",
+              "#ec5a8b",
+              "#2c7aa7"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-89",
@@ -3873,10 +6906,14 @@ window.DATA = {
           "evidence": "依据作品常见背景分档；此前未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://i0.wp.com/mynintendonews.com/wp-content/uploads/2022/09/it_takes_two.jpg?fit=1280%2C720&ssl=1"
+              "src": "assets/images/palette-g-89.webp",
+              "url": "https://i0.wp.com/mynintendonews.com/wp-content/uploads/2022/09/it_takes_two.jpg?fit=1280%2C720&ssl=1",
+              "width": 1200,
+              "height": 675,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -3886,7 +6923,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://mynintendonews.com/2025/10/26/it-takes-two-team-looked-at-nintendo-for-inspiration-on-their-hit-game/"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#e2af8c",
+            "text": "#000000",
+            "contrast": 10.7,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-89.webp",
+                "url": "https://i0.wp.com/mynintendonews.com/wp-content/uploads/2022/09/it_takes_two.jpg?fit=1280%2C720&ssl=1",
+                "page": "https://mynintendonews.com/2025/10/26/it-takes-two-team-looked-at-nintendo-for-inspiration-on-their-hit-game/",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 675
+                },
+                "sha256": "bef3296668184539a4723bfcbba9dd7c211d1618504ac3a0863be921064f94ba"
+              }
+            ],
+            "candidates": [
+              "#e2af8c",
+              "#f0ca87",
+              "#f8dd6a",
+              "#9a2a1f",
+              "#a65f34"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-90",
@@ -3913,10 +6980,14 @@ window.DATA = {
           "evidence": "不作确定年代判断；参考对象见原图鉴。",
           "images": [
             {
-              "src": "https://i0.wp.com/mynintendonews.com/wp-content/uploads/2019/02/yoshis_crafted_world_artwork.jpg?fit=1372%2C772&ssl=1"
+              "src": "assets/images/palette-g-90.webp",
+              "url": "https://i0.wp.com/mynintendonews.com/wp-content/uploads/2019/02/yoshis_crafted_world_artwork.jpg?fit=1372%2C772&ssl=1",
+              "width": 1200,
+              "height": 675,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -3926,7 +6997,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://mynintendonews.com/2019/03/27/review-yoshis-crafted-world-for-nintendo-switch/"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#e1cd5b",
+            "text": "#000000",
+            "contrast": 13.11,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-90.webp",
+                "url": "https://i0.wp.com/mynintendonews.com/wp-content/uploads/2019/02/yoshis_crafted_world_artwork.jpg?fit=1372%2C772&ssl=1",
+                "page": "https://mynintendonews.com/2019/03/27/review-yoshis-crafted-world-for-nintendo-switch/",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 675
+                },
+                "sha256": "b90c2184a3f57d074ee2b1bbf45b9ad471053ab2cd63427dbcf8f441d44b68a9"
+              }
+            ],
+            "candidates": [
+              "#e1cd5b",
+              "#e65f4f",
+              "#e8ac44",
+              "#e67b3a",
+              "#e46d74"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-91",
@@ -3953,10 +7054,14 @@ window.DATA = {
           "evidence": "不作确定年代判断；参考对象见原图鉴。",
           "images": [
             {
-              "src": "https://m.media-amazon.com/images/M/MV5BMzU3MjQwZmYtMTVlZS00YzNlLWEzZGEtZjQ4ZjhiOGU0NTcxXkEyXkFqcGc%40._V1_.jpg"
+              "src": "assets/images/palette-g-91.webp",
+              "url": "https://m.media-amazon.com/images/M/MV5BMzU3MjQwZmYtMTVlZS00YzNlLWEzZGEtZjQ4ZjhiOGU0NTcxXkEyXkFqcGc%40._V1_.jpg",
+              "width": 1100,
+              "height": 1100,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -3966,7 +7071,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://www.imdb.com/title/tt2409476/"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#e0a77a",
+            "text": "#000000",
+            "contrast": 9.96,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-91.webp",
+                "url": "https://m.media-amazon.com/images/M/MV5BMzU3MjQwZmYtMTVlZS00YzNlLWEzZGEtZjQ4ZjhiOGU0NTcxXkEyXkFqcGc%40._V1_.jpg",
+                "page": "https://www.imdb.com/title/tt2409476/",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1100,
+                  "height": 1100
+                },
+                "sha256": "d3e44b29cdd92eb6b1a0ee672cacfcefd4bea319dc09fe609f525d27a4a13c98"
+              }
+            ],
+            "candidates": [
+              "#e0a77a",
+              "#a7643c",
+              "#316746",
+              "#f1c895",
+              "#075c52"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-92",
@@ -3996,10 +7131,14 @@ window.DATA = {
           "evidence": "已查阅下列官方资料；资料支持背景或灵感，数值位置与跨度仍是本图人工判断。",
           "images": [
             {
-              "src": "https://d1079ywfijtdjs.cloudfront.net/images/pentiment/v1/screenshots/1009_173248.jpg"
+              "src": "assets/images/palette-g-92.webp",
+              "url": "https://d1079ywfijtdjs.cloudfront.net/images/pentiment/v1/screenshots/1009_173248.jpg",
+              "width": 1200,
+              "height": 675,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -4013,7 +7152,37 @@ window.DATA = {
               "label": "开发商：16世纪背景",
               "url": "https://pentiment.obsidian.net/"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#d7be9c",
+            "text": "#000000",
+            "contrast": 11.76,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-92.webp",
+                "url": "https://d1079ywfijtdjs.cloudfront.net/images/pentiment/v1/screenshots/1009_173248.jpg",
+                "page": "https://pentiment.obsidian.net/",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 675
+                },
+                "sha256": "ce372fee2a613c675fffda8a17fd3aa2b8d0fd3fb90898019408a12191273473"
+              }
+            ],
+            "candidates": [
+              "#d7be9c",
+              "#9d6d4b",
+              "#9f886c",
+              "#869ab3",
+              "#558c65"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-93",
@@ -4040,10 +7209,14 @@ window.DATA = {
           "evidence": "不作确定年代判断；参考对象见原图鉴。",
           "images": [
             {
-              "src": "https://pbs.twimg.com/media/DshxB37X4AAtMtJ.jpg"
+              "src": "assets/images/palette-g-93.webp",
+              "url": "https://pbs.twimg.com/media/DshxB37X4AAtMtJ.jpg",
+              "width": 1080,
+              "height": 1080,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -4053,7 +7226,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://x.com/nomadastudiobcn/status/1065225594441555968"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#6f3c45",
+            "text": "#ffffff",
+            "contrast": 8.76,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-93.webp",
+                "url": "https://pbs.twimg.com/media/DshxB37X4AAtMtJ.jpg",
+                "page": "https://x.com/nomadastudiobcn/status/1065225594441555968",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1080,
+                  "height": 1080
+                },
+                "sha256": "a3995d8a2fe8dc2a48b20328de67d060374df38f9e4ab274c6c3fedfcfe106d9"
+              }
+            ],
+            "candidates": [
+              "#6f3c45",
+              "#8f6774",
+              "#91696f",
+              "#a3d5d0",
+              "#7ab19d"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-94",
@@ -4083,10 +7286,14 @@ window.DATA = {
           "evidence": "2026-11-10复核官方平台资料，修正先前的近代早期定位。Y=40来自本图19世纪档位，区间包含童话世界的时代类比。",
           "images": [
             {
-              "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd_webp/f3d71214506365.562a9806da667.jpg"
+              "src": "assets/images/palette-g-94.webp",
+              "url": "https://mir-s3-cdn-cf.behance.net/project_modules/hd_webp/f3d71214506365.562a9806da667.jpg",
+              "width": 1175,
+              "height": 855,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -4104,7 +7311,37 @@ window.DATA = {
               "label": "Xbox官方：1895年复活节地震前的故事",
               "url": "https://news.xbox.com/en-us/2014/05/01/games-child-of-light-available-now/"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#3e5c58",
+            "text": "#ffffff",
+            "contrast": 7.28,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-94.webp",
+                "url": "https://mir-s3-cdn-cf.behance.net/project_modules/hd_webp/f3d71214506365.562a9806da667.jpg",
+                "page": "https://www.behance.net/gallery/14506365/CHILD-OF-LIGHT-VIDEO-GAME-MAIN-CHARACTER-DESIGN",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1175,
+                  "height": 855
+                },
+                "sha256": "1ac2578bc1ec04895de4b44e9725e88fababd9042d3ce6c126a70c87580015fe"
+              }
+            ],
+            "candidates": [
+              "#3e5c58",
+              "#324f52",
+              "#a43f51",
+              "#739f8c",
+              "#4a6b5f"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-95",
@@ -4134,10 +7371,14 @@ window.DATA = {
           "evidence": "人工类比：沿用图鉴角色范围与常见世界设定，未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://images.squarespace-cdn.com/content/v1/56ca5115356fb0ec8c2bed9b/1492897213285-X55U0TF2EUYGK3S2M7XW/Battle%2BChef%2BBrigade%2BPreview%2B5.png"
+              "src": "assets/images/palette-g-95.webp",
+              "url": "https://images.squarespace-cdn.com/content/v1/56ca5115356fb0ec8c2bed9b/1492897213285-X55U0TF2EUYGK3S2M7XW/Battle%2BChef%2BBrigade%2BPreview%2B5.png",
+              "width": 1200,
+              "height": 725,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -4147,7 +7388,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://www.marielumart.com/professional-projects"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#9d221e",
+            "text": "#ffffff",
+            "contrast": 7.81,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-95.webp",
+                "url": "https://images.squarespace-cdn.com/content/v1/56ca5115356fb0ec8c2bed9b/1492897213285-X55U0TF2EUYGK3S2M7XW/Battle%2BChef%2BBrigade%2BPreview%2B5.png",
+                "page": "https://www.marielumart.com/professional-projects",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 725
+                },
+                "sha256": "04e2c8039c213f07672e309cbcd2fe1f35fa83379ac9c3f97135834ef4f09608"
+              }
+            ],
+            "candidates": [
+              "#9d221e",
+              "#60221d",
+              "#686314",
+              "#e0b464",
+              "#982127"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-96",
@@ -4177,10 +7448,14 @@ window.DATA = {
           "evidence": "人工类比：沿用图鉴角色范围与常见世界设定，未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://cdn.mos.cms.futurecdn.net/v2/t%3A0%2Cl%3A420%2Ccw%3A1080%2Cch%3A1080%2Cq%3A80%2Cw%3A1080/6Y5ouFKiFAi7zqoLDZBg8m.png"
+              "src": "assets/images/palette-g-96.webp",
+              "url": "https://cdn.mos.cms.futurecdn.net/v2/t%3A0%2Cl%3A420%2Ccw%3A1080%2Cch%3A1080%2Cq%3A80%2Cw%3A1080/6Y5ouFKiFAi7zqoLDZBg8m.png",
+              "width": 1080,
+              "height": 1080,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -4190,7 +7465,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://www.laptopmag.com/news/sea-of-stars"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#248e93",
+            "text": "#000000",
+            "contrast": 5.39,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-96.webp",
+                "url": "https://cdn.mos.cms.futurecdn.net/v2/t%3A0%2Cl%3A420%2Ccw%3A1080%2Cch%3A1080%2Cq%3A80%2Cw%3A1080/6Y5ouFKiFAi7zqoLDZBg8m.png",
+                "page": "https://www.laptopmag.com/news/sea-of-stars",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1080,
+                  "height": 1080
+                },
+                "sha256": "95dc3d9c5e1dea34ca6388b379195c589515773a8a42deaa4a762e7b784f6491"
+              }
+            ],
+            "candidates": [
+              "#248e93",
+              "#244359",
+              "#295e66",
+              "#2b9b96",
+              "#25394f"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-97",
@@ -4220,10 +7525,14 @@ window.DATA = {
           "evidence": "依据作品常见背景分档；此前未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://www.pngitem.com/pimgs/m/163-1639954_stardew-valley-villagers-names-hd-png-download.png"
+              "src": "assets/images/palette-g-97.webp",
+              "url": "https://www.pngitem.com/pimgs/m/163-1639954_stardew-valley-villagers-names-hd-png-download.png",
+              "width": 860,
+              "height": 841,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -4233,7 +7542,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://www.pngitem.com/middle/iRJbxww_stardew-valley-villagers-names-hd-png-download/"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#e1a07c",
+            "text": "#000000",
+            "contrast": 9.51,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-97.webp",
+                "url": "https://www.pngitem.com/pimgs/m/163-1639954_stardew-valley-villagers-names-hd-png-download.png",
+                "page": "https://www.pngitem.com/middle/iRJbxww_stardew-valley-villagers-names-hd-png-download/",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 860,
+                  "height": 841
+                },
+                "sha256": "cfe7644aaf92b4e978d97fe1348f08fbb36891010b9e298e78fd0ab608ca7e44"
+              }
+            ],
+            "candidates": [
+              "#e1a07c",
+              "#a14e43",
+              "#d58579",
+              "#a95b33",
+              "#a44e58"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-98",
@@ -4263,10 +7602,14 @@ window.DATA = {
           "evidence": "人工类比：沿用图鉴角色范围与常见世界设定，未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://twinfinite.net/wp-content/uploads/2021/02/20210202203601_1-min.jpg?resize=1000%2C563"
+              "src": "assets/images/palette-g-98.webp",
+              "url": "https://twinfinite.net/wp-content/uploads/2021/02/20210202203601_1-min.jpg?resize=1000%2C563",
+              "width": 1000,
+              "height": 563,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -4276,7 +7619,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://twinfinite.net/guides/dead-cells-fatal-falls-new-biomes-locations-how/"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#1d2e4c",
+            "text": "#ffffff",
+            "contrast": 13.56,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-98.webp",
+                "url": "https://twinfinite.net/wp-content/uploads/2021/02/20210202203601_1-min.jpg?resize=1000%2C563",
+                "page": "https://twinfinite.net/guides/dead-cells-fatal-falls-new-biomes-locations-how/",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1000,
+                  "height": 563
+                },
+                "sha256": "e6cff144a78e4a6a6f8ba9d127e38f20f7b19f8306bf32dcb1ff863d4fd1b477"
+              }
+            ],
+            "candidates": [
+              "#1d2e4c",
+              "#282e49",
+              "#20445e",
+              "#1b273d",
+              "#2d2a46"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-99",
@@ -4306,10 +7679,14 @@ window.DATA = {
           "evidence": "人工类比：沿用图鉴角色范围与常见世界设定，未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://img.zeit.de/digital/games/2016-04/hyper-light-drifter/standard__1120x840"
+              "src": "assets/images/palette-g-99.webp",
+              "url": "https://img.zeit.de/digital/games/2016-04/hyper-light-drifter/standard__1120x840",
+              "width": 1120,
+              "height": 840,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -4319,7 +7696,37 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://www.zeit.de/digital/games/2016-04/hyper-light-drifter-spiel-test"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#672331",
+            "text": "#ffffff",
+            "contrast": 11.27,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-99.webp",
+                "url": "https://img.zeit.de/digital/games/2016-04/hyper-light-drifter/standard__1120x840",
+                "page": "https://www.zeit.de/digital/games/2016-04/hyper-light-drifter-spiel-test",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1120,
+                  "height": 840
+                },
+                "sha256": "5da682d8f9cb32d71667eeb454cbc122051e723dd0d9d40bdb6ca7fadbf1c82c"
+              }
+            ],
+            "candidates": [
+              "#672331",
+              "#9b5f38",
+              "#704328",
+              "#6a332a",
+              "#a94b3f"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         },
         {
           "key": "g-100",
@@ -4349,10 +7756,14 @@ window.DATA = {
           "evidence": "依据作品常见背景分档；此前未逐项核验官方年表。",
           "images": [
             {
-              "src": "https://cdn.mos.cms.futurecdn.net/27cb91bab9219eab6d40df3d2fccf3fd-2560-80.jpg"
+              "src": "assets/images/palette-g-100.webp",
+              "url": "https://cdn.mos.cms.futurecdn.net/27cb91bab9219eab6d40df3d2fccf3fd-2560-80.jpg",
+              "width": 1200,
+              "height": 686,
+              "mime": "image/webp"
             }
           ],
-          "imageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。",
+          "imageNote": "沿用原图鉴参考，现提供本地副本，可离线查看。设定、宣传与实机截图的用途不同；底板色仅代表当前参考。",
           "sources": [
             {
               "label": "角色图鉴",
@@ -4362,10 +7773,40 @@ window.DATA = {
               "label": "图像来源",
               "url": "https://www.gamesradar.com/transistor-review/"
             }
-          ]
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#5f4823",
+            "text": "#ffffff",
+            "contrast": 8.6,
+            "method": "reference-full-dominant-hue-v2",
+            "note": "从下方设定或宣传参考图提取主要色相簇；彩色像素占比超过4%时优先选择彩色，减少设定稿白底的干扰。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/palette-g-100.webp",
+                "url": "https://cdn.mos.cms.futurecdn.net/27cb91bab9219eab6d40df3d2fccf3fd-2560-80.jpg",
+                "page": "https://www.gamesradar.com/transistor-review/",
+                "crop": {
+                  "left": 0,
+                  "top": 0,
+                  "width": 1200,
+                  "height": 686
+                },
+                "sha256": "5e89595a15fe2b8e6ec1db3730bd0fd1a8efb5439e87c8ec7af0bcb9573c7864"
+              }
+            ],
+            "candidates": [
+              "#5f4823",
+              "#59361c",
+              "#9b712d",
+              "#20a394",
+              "#09505a"
+            ]
+          },
+          "originalImageNote": "原图鉴参考图，需联网从原站加载；不等同于统一版本的实机截图。"
         }
       ],
-      "note": "沿用原100款角色案例及已校准坐标；其中8款无统一年代。旧版混入材质的写实度不再作为轴选项。游戏图像沿用原站参考，加载失败时可查看图鉴或来源。"
+      "note": "沿用原100款角色案例及已校准坐标；其中8款无统一年代。参考图提供本地副本，底板使用对应参考图取色；替换的图源在详情中注明。颜色不改变既有评分。"
     },
     "styles": {
       "name": "40个风格方向",
@@ -5924,20 +9365,127 @@ window.DATA = {
       "note": "风格点仅是现有游戏样本的摘要；未定年代样本不计入年代中心。风格均值不能当作固定边界或真实历史年份。"
     },
     "casual": {
-      "name": "美国休闲榜100款",
-      "short": "US CASUAL TOP 100",
+      "name": "休闲榜",
+      "short": "CASUAL COLLECTION",
       "colors": {
         "角色": "#cb704d",
         "物件": "#287b87",
         "场景": "#4c6dba",
         "抽象/界面": "#9065a6",
-        "合集/混合": "#847754"
+        "合集/混合": "#847754",
+        "桌游与社交建造": "#8270aa"
       },
       "axes": [
         "form",
         "expression"
       ],
       "items": [
+        {
+          "key": "a-extra-monopoly-go",
+          "plotNumber": 101,
+          "code": "补001",
+          "name": "MONOPOLY GO!",
+          "style": "明快卡通桌游与城市建造",
+          "family": "桌游与社交建造",
+          "color": "#8270aa",
+          "entryType": "supplement",
+          "originalRank": null,
+          "addedOn": "2026-11-11",
+          "scope": "补充收录 · 官方图集中的棋盘、地标与大富翁角色；非原Casual榜单名次",
+          "values": {
+            "form": 20,
+            "expression": 60,
+            "complexity": null,
+            "era": null
+          },
+          "description": "把大富翁棋盘、城市地标和角色做成圆润的玩具式3D造型。人物的大头、胡须、礼帽和表情被明显夸张，建筑结构简化；鲜明的紫、蓝、绿、金色与柔和体积明暗构成轻松的社交桌游视觉。",
+          "formReason": "根据Scopely官方图集人工建议：形体20，地标和人物明显缩短、圆润化，轮廓接近玩具；表现60，保留3D明暗与材质，但高饱和配色与图形化界面显著风格化。评分仅作同图比较，可调整，未评估年代与复杂度。",
+          "imageNote": "Scopely官网Game Gallery宣传参考图；不代表所有棋盘和活动的配色。",
+          "warning": "用户指定补充收录；App Store分类为Board，不赋予原Casual榜单排名。两轴为本次人工建议值。",
+          "images": [
+            {
+              "src": "assets/images/monopoly-go-1.webp",
+              "url": "https://scopely-website.s3.eu-west-2.amazonaws.com/_resized/x3OfM644gzAXrXcT8seitFj1XGg55uW5lERIuKda-w2000-q75.webp",
+              "width": 1000,
+              "height": 1523,
+              "mime": "image/webp"
+            },
+            {
+              "src": "assets/images/monopoly-go-2.webp",
+              "url": "https://scopely-website.s3.eu-west-2.amazonaws.com/_resized/7a8AK3A3ePKIZVB0Gu8FEUf4KN2NA75l0suBNpd3-w2000-q75.webp",
+              "width": 1000,
+              "height": 1523,
+              "mime": "image/webp"
+            },
+            {
+              "src": "assets/images/monopoly-go-3.webp",
+              "url": "https://scopely-website.s3.eu-west-2.amazonaws.com/_resized/qBPZzew4SpGiDxXGWsKoCntkL3Iq0pahpdO7nnyv-w2000-q75.webp",
+              "width": 1000,
+              "height": 1523,
+              "mime": "image/webp"
+            }
+          ],
+          "sources": [
+            {
+              "label": "Scopely官方游戏图集",
+              "url": "https://www.scopely.com/en/games/monopoly-go"
+            },
+            {
+              "label": "美国App Store条目",
+              "url": "https://apps.apple.com/us/app/monopoly-go/id1621328561"
+            }
+          ],
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#58acd9",
+            "text": "#000000",
+            "contrast": 8.31,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/monopoly-go-1.webp",
+                "url": "https://scopely-website.s3.eu-west-2.amazonaws.com/_resized/x3OfM644gzAXrXcT8seitFj1XGg55uW5lERIuKda-w2000-q75.webp",
+                "crop": {
+                  "left": 100,
+                  "top": 335,
+                  "width": 800,
+                  "height": 1005
+                },
+                "sha256": "e7c98f440a44a058ef04457635433be3361e8f7dc59f43800812115b0274065e"
+              },
+              {
+                "image": "assets/images/monopoly-go-2.webp",
+                "url": "https://scopely-website.s3.eu-west-2.amazonaws.com/_resized/7a8AK3A3ePKIZVB0Gu8FEUf4KN2NA75l0suBNpd3-w2000-q75.webp",
+                "crop": {
+                  "left": 100,
+                  "top": 335,
+                  "width": 800,
+                  "height": 1005
+                },
+                "sha256": "d1d43f744af1efefc43ec165eb1e0218bb3cc752598d35c29cd1c680e04cdee1"
+              },
+              {
+                "image": "assets/images/monopoly-go-3.webp",
+                "url": "https://scopely-website.s3.eu-west-2.amazonaws.com/_resized/qBPZzew4SpGiDxXGWsKoCntkL3Iq0pahpdO7nnyv-w2000-q75.webp",
+                "crop": {
+                  "left": 100,
+                  "top": 335,
+                  "width": 800,
+                  "height": 1005
+                },
+                "sha256": "643e8c177b49f500e8f037bc0b8b9fabef0c96a43ca55145f2a0f076cf3adafb"
+              }
+            ],
+            "candidates": [
+              "#58acd9",
+              "#e7cc36",
+              "#4e85a0",
+              "#a1901a",
+              "#43bad9"
+            ]
+          }
+        },
         {
           "key": "a-1",
           "code": "#001",
@@ -5995,7 +9543,70 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.oakever.meowdoku&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 1,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#f9cd6a",
+            "text": "#000000",
+            "contrast": 13.94,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/bb8b79d9c1cac2ca61bb.webp",
+                "url": "https://play-lh.googleusercontent.com/qsGiOZrr0qmnA9hPmwRv79Qq_xnta6onx8aaf_RGat7b-8sQK269EyS4CIkFbisjEQpfIxmfBXnPYOm5t87uSA=w526-h296-rw",
+                "crop": {
+                  "left": 53,
+                  "top": 65,
+                  "width": 421,
+                  "height": 195
+                },
+                "sha256": "bb8b79d9c1cac2ca61bb8fad19feec620716d16cf03dc4cb545f5d051a24e434"
+              },
+              {
+                "image": "assets/images/62b290b6f4f3aee59454.webp",
+                "url": "https://play-lh.googleusercontent.com/YXx6a9mEaDZGBmzyJtpLIhjeMov2nf38c11z_DqAOWfGZBJcI3K8h0Wg9aZ_RjE-vcWsn4wT8UDLjlQ5T-mcHQ=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "62b290b6f4f3aee594548780689e68341cd73156f87f823e536d5f65adb67292"
+              },
+              {
+                "image": "assets/images/2701d7ad866ea01508e6.webp",
+                "url": "https://play-lh.googleusercontent.com/Za1xf69AfQhjsFuW9iYfd49gq6YS9EKjzUXcmqEcCLcMMr1la2AroigZ8KkAI3Leg1qwpAavaobzrDhaFlAX8A=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "2701d7ad866ea01508e66887d4888f9f01d5aeead80c60b260607c5813eed830"
+              },
+              {
+                "image": "assets/images/de1f0f27ad2cb40ddb5b.webp",
+                "url": "https://play-lh.googleusercontent.com/YXx6a9mEaDZGBmzyJtpLIhjeMov2nf38c11z_DqAOWfGZBJcI3K8h0Wg9aZ_RjE-vcWsn4wT8UDLjlQ5T-mcHQ=w2560-h1440-rw",
+                "crop": {
+                  "left": 81,
+                  "top": 317,
+                  "width": 648,
+                  "height": 950
+                },
+                "sha256": "de1f0f27ad2cb40ddb5b7f2d6addaaaaec6d1405609761ed57ebe6e4fa257357"
+              }
+            ],
+            "candidates": [
+              "#f9cd6a",
+              "#92c5e8",
+              "#f483a2",
+              "#987f47",
+              "#efda8e"
+            ]
+          }
         },
         {
           "key": "a-2",
@@ -6054,7 +9665,70 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://foxdata.com/en/app-marketing-analytics/6752672568/as/HK/block-out-color-sort-puzzle/"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 2,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#463aa2",
+            "text": "#ffffff",
+            "contrast": 8.74,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/82d610da845dc15a79c2.webp",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/70/38/e5/7038e5dc-5fcf-26ab-6b29-69547f7a46aa/CLEARTHEBOARD.jpg/460x0w.png",
+                "crop": {
+                  "left": 46,
+                  "top": 220,
+                  "width": 368,
+                  "height": 659
+                },
+                "sha256": "82d610da845dc15a79c203919233cf84062e7fb83f7ea55b4c51293388b2feda"
+              },
+              {
+                "image": "assets/images/22f2385631b1eebf1bdb.webp",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a1/cd/b4/a1cdb409-726b-09db-fb67-e9131c9e5c46/CHALLENGEYOURSELF.jpg/460x0w.png",
+                "crop": {
+                  "left": 46,
+                  "top": 220,
+                  "width": 368,
+                  "height": 659
+                },
+                "sha256": "22f2385631b1eebf1bdb3948f8875403261e39fad462cb8d967afec5670f55a8"
+              },
+              {
+                "image": "assets/images/acb1c53f17d3902848d5.webp",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ac/fc/e7/acfce70d-5909-4a58-5f92-76493de32eb5/ACTIVATEBOOSTERS.jpg/460x0w.png",
+                "crop": {
+                  "left": 46,
+                  "top": 220,
+                  "width": 368,
+                  "height": 659
+                },
+                "sha256": "acb1c53f17d3902848d5d33b6e67fae3115ea1c26dca8013863f8406f1d6f4be"
+              },
+              {
+                "image": "assets/images/454211a602936f71460b.webp",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b1/0f/17/b10f173c-189c-6537-af3a-9c046b5e18d5/UNIQUEOBSTACLES.jpg/460x0w.png",
+                "crop": {
+                  "left": 46,
+                  "top": 220,
+                  "width": 368,
+                  "height": 659
+                },
+                "sha256": "454211a602936f71460b4bae8ad22852a43682d3e6d6aa890829965e39cf99a3"
+              }
+            ],
+            "candidates": [
+              "#463aa2",
+              "#2a2562",
+              "#e69e11",
+              "#0756e6",
+              "#e33327"
+            ]
+          }
         },
         {
           "key": "a-3",
@@ -6113,7 +9787,70 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.grandgames.magicsort&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 3,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#e4a43c",
+            "text": "#000000",
+            "contrast": 9.68,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/fcb4967682c7a93ca0e7.webp",
+                "url": "https://play-lh.googleusercontent.com/iEUZV1kLcQW2_YSPSKK_soEZuzJxkLItyhE6Y1CbV0uSzvyj6nmtk_1hvjuWDPBXXbEO3K-YdEGpXXdkjdkk=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "fcb4967682c7a93ca0e79d5a79f648323e33a02bdef1e47058621350bb631094"
+              },
+              {
+                "image": "assets/images/0d037761a0e626becb13.webp",
+                "url": "https://play-lh.googleusercontent.com/bMX8E6MfcISLL8A-NJ4EXOcJDCtHJJHGOM2d_LjvwFkinjiLN3emhsG9h5rHKUKGqv0ZcZxRFrbvjIbKFnGaP9A=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "0d037761a0e626becb130b1403bb0a4842e9226e3a4ed072249f68632a04fdd4"
+              },
+              {
+                "image": "assets/images/b1eaa7b880ab8313f8d9.webp",
+                "url": "https://play-lh.googleusercontent.com/QuUg9Jju_OCoUsed8KBwbf6h8wmoLYziMy_ehJUFD5VKP0_tDGJJt9EbO4CX_H1vS6TlTwLhpDACfXI1DiTrrNE=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "b1eaa7b880ab8313f8d91e57f83890c19f8869e8ff05b2f345e22a7544276b86"
+              },
+              {
+                "image": "assets/images/8172799b5ee41e2e0780.webp",
+                "url": "https://play-lh.googleusercontent.com/Sfjf17zKf3Bmn3adCl7c-URmELzpW7lDWxiJ8Tfz-_VAIPUo0F5eP3HIgJ2_GO7KmHtvTR8zQ4F8p2ZJ29sOMvk=w526-h296-rw",
+                "crop": {
+                  "left": 53,
+                  "top": 65,
+                  "width": 421,
+                  "height": 195
+                },
+                "sha256": "8172799b5ee41e2e078040137110f7452e307600c79cafcb7b8357d84c40705c"
+              }
+            ],
+            "candidates": [
+              "#e4a43c",
+              "#e1894f",
+              "#7c3adb",
+              "#6399ee",
+              "#42a2dc"
+            ]
+          }
         },
         {
           "key": "a-4",
@@ -6172,7 +9909,70 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.block.juggle&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 4,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#262f56",
+            "text": "#ffffff",
+            "contrast": 12.94,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/14eb9dda835d6dcfef67.webp",
+                "url": "https://play-lh.googleusercontent.com/Kk0zhxkemu6XOoTOdnfwuav6SqhCF0x2sNf2ZAllenVz_0vCcZT3K1_cTLuGBNm_qH2yAElbT61Lc3FS8fezZMA=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "14eb9dda835d6dcfef67b1e16fb38aa9f0798142f2e2fd95cebaa244c2bd2195"
+              },
+              {
+                "image": "assets/images/02636f77e125abf8fab9.webp",
+                "url": "https://play-lh.googleusercontent.com/dnreoc3iLNyiTjYehzbmPXs1prYXFABNSJfSJqSStPCnuyCzltw4MGdd53-H1te8MzH8hcSZhuoPRhuy5SbeGA=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "02636f77e125abf8fab90b143b9586ca8137ca2a6c1771dd16f00c06f2413b52"
+              },
+              {
+                "image": "assets/images/575ef6535ea1277a154d.webp",
+                "url": "https://play-lh.googleusercontent.com/sogNkRq2d8VqbVUlTdHi-Ni1m5DkHQmWYlvG44CJ5pD6kmtBnkX_gk3xcL1RpOPV3Q4QrQEbt_lWTbo409Wh=w526-h296-rw",
+                "crop": {
+                  "left": 53,
+                  "top": 65,
+                  "width": 421,
+                  "height": 195
+                },
+                "sha256": "575ef6535ea1277a154d262132c4834831c7b489725f8ed7f9519856a37f8f87"
+              },
+              {
+                "image": "assets/images/79d4982c0261004ad920.webp",
+                "url": "https://play-lh.googleusercontent.com/ZK1wgRgPHI7KcH8Onn73cxtrpxn2K5lWxASSxLFRVHG54VYF5aICrpGODO0hTgX-bl5rEqnHkLa-3TndPSdS0A=w526-h296-rw",
+                "crop": {
+                  "left": 53,
+                  "top": 65,
+                  "width": 421,
+                  "height": 195
+                },
+                "sha256": "79d4982c0261004ad9207c05706e37cd793f875223e7a918f957eb991de96f62"
+              }
+            ],
+            "candidates": [
+              "#262f56",
+              "#425bd3",
+              "#4875d6",
+              "#eebc50",
+              "#33a1ee"
+            ]
+          }
         },
         {
           "key": "a-5",
@@ -6231,7 +10031,70 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.nebula.rotaterings&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 5,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#f2cc83",
+            "text": "#000000",
+            "contrast": 13.69,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/a57d69eda5ca2ae54177.webp",
+                "url": "https://play-lh.googleusercontent.com/ypQoZEv0K2uztBWtNKEu6koGobEXEqkcH6dGoA0fRDjU0CyiYTjIAMEpJqZT2_lUUiA47PdHLDsEKfOHfSx83MA=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "a57d69eda5ca2ae54177ce5b8814e4f01baea10fe00b9d834ebff916632b3817"
+              },
+              {
+                "image": "assets/images/a6f4ed906c7b023dc504.webp",
+                "url": "https://play-lh.googleusercontent.com/-I9RvqaUV3K2ZbAUySCY_93TVtGzuQ3_RA1ZN1TpVkbIxQMHhQFjZCndLb1aw3ric5zIlrYInO_xxs-zan6YgQ=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "a6f4ed906c7b023dc5043798f76b4f01a18534c3271242a1dee5a908f07f9fb5"
+              },
+              {
+                "image": "assets/images/91d16fd0d9b4b93c1eb8.webp",
+                "url": "https://play-lh.googleusercontent.com/wvlwqK74K0lNezofxYssMoNnKfR-wM_qOZ1h47pa898Rwp6xEHNxM4VpTlOLRnaAFlkN_cf5NPXV44b_-DPm4Q=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "91d16fd0d9b4b93c1eb8e878db4da44fee5b251b718de4e17c1695749061b781"
+              },
+              {
+                "image": "assets/images/9905cef4848894e275fd.webp",
+                "url": "https://play-lh.googleusercontent.com/uui1OaGo5q8DUkqxxPyKGot15emaz7ZaBrg90-lTw7yzmolfgt-XYqXuoTS-utbSD5fZE1hfrMCKLIG0MKdndw=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "9905cef4848894e275fd1cc86f8f79010e3ea4719bbd3766abdb43caf253b799"
+              }
+            ],
+            "candidates": [
+              "#f2cc83",
+              "#f5d86c",
+              "#e49b66",
+              "#db7363",
+              "#d496dc"
+            ]
+          }
         },
         {
           "key": "a-6",
@@ -6283,7 +10146,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.brain.crazy.joygame&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 6,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#a27455",
+            "text": "#000000",
+            "contrast": 5.18,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/28d27de1f3e51b15c671.webp",
+                "url": "https://play-lh.googleusercontent.com/x1Wu0MolbbgRrG_cU0b_Eo1PICnGDHqvVlK60bfnhVUwEGmB-IiWEr3nx5TDhRAe_BEPYvNnQC-TYcvIgpHzK1k=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "28d27de1f3e51b15c671b75019f033b3e961cbe4d4a15704cab2ee53f357ad57"
+              },
+              {
+                "image": "assets/images/d3d93fecb23c55f2c98f.webp",
+                "url": "https://play-lh.googleusercontent.com/UsHhTmnAQeWaabW47Z5WeqVs3xEufjtuCFrFp2lPBYzti5fCHzWs6b_XLuRsjXNxMMTioN1-rgXjXM_G14JkiQ=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "d3d93fecb23c55f2c98f11910657043c4d6dc7e23d1d75a1c5ea533fddc8da67"
+              },
+              {
+                "image": "assets/images/15a133f3e425d2b9278e.webp",
+                "url": "https://play-lh.googleusercontent.com/PVhxY5MaQtQYDujBTsLdz3ncl_tnP6m_m-60GR6fwTxRk1hf3VVSXXECM3c0DdCEKXe7dye_A2PqIHW3RccS=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "15a133f3e425d2b9278e779a2ff7a9a835e3c45f74de7c11f5cdb5237e2fdbe3"
+              }
+            ],
+            "candidates": [
+              "#a27455",
+              "#dda882",
+              "#6e4a35",
+              "#dbb986",
+              "#a48960"
+            ]
+          }
         },
         {
           "key": "a-7",
@@ -6342,7 +10257,70 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.playrix.township&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 7,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#dfaf51",
+            "text": "#000000",
+            "contrast": 10.43,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/faa1cba2234120f9abf3.webp",
+                "url": "https://play-lh.googleusercontent.com/-aCA3a-E031C4Hh9OZ_BO74aUvgbpBcz-sJuSZgEg1nf09p1KIVlq1TV7IS05wDzViIM89VHJmuY7mRaobnEnQ=w526-h296-rw",
+                "crop": {
+                  "left": 53,
+                  "top": 65,
+                  "width": 421,
+                  "height": 195
+                },
+                "sha256": "faa1cba2234120f9abf3e584f20127d4da2a65106c6b271ff328d592cdabc9d9"
+              },
+              {
+                "image": "assets/images/dc854eb523d4c924d9df.webp",
+                "url": "https://play-lh.googleusercontent.com/VJV08rKAgDOtdzK8AN3lHcmV7wL7yqgzKG6lNi7N-C_SD5r1eTm_ya_sUZJuMUzC0ZeIxVj2f8c2TdPbfB1Vjw=w526-h296-rw",
+                "crop": {
+                  "left": 53,
+                  "top": 65,
+                  "width": 421,
+                  "height": 195
+                },
+                "sha256": "dc854eb523d4c924d9dfcdf04171b4d48d2f9f88d6e3ae5999e58e92f8d18e92"
+              },
+              {
+                "image": "assets/images/fa2b264b8018331b0c7b.webp",
+                "url": "https://play-lh.googleusercontent.com/6fBmvnzdFvguJDSgomIDShSwjyXxto76X5Glid2HSYCERMnDTfb15Q1jZQ5NDMnojWqy1CXCt6ImuFgzjK1XKzA=w526-h296-rw",
+                "crop": {
+                  "left": 53,
+                  "top": 65,
+                  "width": 421,
+                  "height": 195
+                },
+                "sha256": "fa2b264b8018331b0c7b66e4b363aa9297fbaa9cdc01e3ee81d06873920097b9"
+              },
+              {
+                "image": "assets/images/799ea86635352c27cde9.webp",
+                "url": "https://play-lh.googleusercontent.com/Hq4gg_lqgUO-NZLGHdis-olfGBeRWT0sMWit95bOGt3h44xUXDdiFDFyJHd0TfB_r1H0K3fXYAJYYmMKQuh5=w526-h296-rw",
+                "crop": {
+                  "left": 53,
+                  "top": 65,
+                  "width": 421,
+                  "height": 195
+                },
+                "sha256": "799ea86635352c27cde9d81d7748034a3af5c0a552cf3b415f32df62a1f9211c"
+              }
+            ],
+            "candidates": [
+              "#dfaf51",
+              "#6f9f26",
+              "#e9d256",
+              "#599e2d",
+              "#9b623b"
+            ]
+          }
         },
         {
           "key": "a-8",
@@ -6394,7 +10372,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=jp.co.goodroid.hyper.busflow&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 8,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#6f7798",
+            "text": "#000000",
+            "contrast": 4.75,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/5f3b6121e8806fdd70f1.webp",
+                "url": "https://play-lh.googleusercontent.com/vca8Iw1F0ERcbF1osIH0K3Px7iiJdz5LT98G8ScNPnldD3BnmyeRbYArR8gxIY_qurE5AWfs0Jn85d1dgHFwCA=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "5f3b6121e8806fdd70f12a160dd607f426ea5be59805b080609e936ba70a711f"
+              },
+              {
+                "image": "assets/images/c6fdfa5f1a118783228c.webp",
+                "url": "https://play-lh.googleusercontent.com/kUQqWbA910FD2qxMYo4w1NzA-uBf4GxHsUuPkZanX-9IKTTDqEUWA3HWTtQ3mt37eSuBYGQvt5F8x5o9OFOwFT0=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "c6fdfa5f1a118783228c69fcc8ef8a90815b7724ef69ada26613b5deec78364c"
+              },
+              {
+                "image": "assets/images/e85ba1672aea77c95e25.webp",
+                "url": "https://play-lh.googleusercontent.com/QnrOGchibp6vbJC6CBmJ4ZVhGedR-FkVs1lnReWTbrQ3ihoc4htJyzw4lLoJC5h41RbfIz5vVhdmuPyUiwwe=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "e85ba1672aea77c95e25a33045a3071db36cd6087e4afd14fedd90e9cb820f4d"
+              }
+            ],
+            "candidates": [
+              "#6f7798",
+              "#3f80da",
+              "#516fa1",
+              "#e4c551",
+              "#e5b84e"
+            ]
+          }
         },
         {
           "key": "a-9",
@@ -6446,7 +10476,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=gridplus.busjam.carpuzzle&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 9,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#679be0",
+            "text": "#000000",
+            "contrast": 7.35,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/dad785192ad303fa8562.webp",
+                "url": "https://play-lh.googleusercontent.com/Y8o_aXb8tfVFjYJiCdz3qAf4pXJGgxSorXDSKqw9AMVpdzv98hpL4-SiKxyfODjaPOtU1HY6_dGg28u--akF=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "dad785192ad303fa8562d4eee19b8f74ffc7088dad80e7380c7e97baf0ffc1d8"
+              },
+              {
+                "image": "assets/images/4abae950245fe8f5a0f6.webp",
+                "url": "https://play-lh.googleusercontent.com/yz0Qa5YEn5VVXZ2PmB74ZCMnJ6FRNFTsYRH-9es617SGcDqZVdFF03c-5gD6XIr_s6FNWTIiffmyicPeHWae=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "4abae950245fe8f5a0f6373380e5a2721a953186a99a3572b9107119ecbc5e5f"
+              },
+              {
+                "image": "assets/images/76beba7b680f2db1391e.webp",
+                "url": "https://play-lh.googleusercontent.com/gLRbwS_5wESuJV263HjWZ9GAYkrSbh3qUkGpqAdKpCNpB7oWTvKvR3qOtto1WaLBQla-R97eWMFc_NSJNP8zDec=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "76beba7b680f2db1391e4008bbf6a52ed9b0e38558c348dc85b1841d26015e97"
+              }
+            ],
+            "candidates": [
+              "#679be0",
+              "#e060b5",
+              "#d9ad4f",
+              "#eaca4e",
+              "#66b1eb"
+            ]
+          }
         },
         {
           "key": "a-10",
@@ -6498,7 +10580,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.oakever.arrows&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 10,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#f3ead8",
+            "text": "#000000",
+            "contrast": 17.55,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/a8d58ef6d79fe00231a0.webp",
+                "url": "https://play-lh.googleusercontent.com/CP0P_f0vGa_Zs0TzqFHXPWXKoekUqj3T1X0tT1ZJ8GCxb41ex8rYaBIkKwtIkbI9ZbiXcqh4a_fC0GM00cEhuw=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "a8d58ef6d79fe00231a0bec5bd81d3c253e67b9ad53e17c9f04dbe23bce5b6ca"
+              },
+              {
+                "image": "assets/images/113ebd870473cd0e3b7c.webp",
+                "url": "https://play-lh.googleusercontent.com/mTHQQKdlE833qjxl6-NEj13Uh0N-DlksiINnk007WCUn6a64odva8vtTHJ-_mGXJ8hGrPmHhe1Tw2uJPJOImTbI=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "113ebd870473cd0e3b7cb025798e2c51794de026beed745b8ed07b64e08873a3"
+              },
+              {
+                "image": "assets/images/03e4f02e25035ac30c0d.webp",
+                "url": "https://play-lh.googleusercontent.com/Z-c_KF2YXzpSw8D15uQ7jIlV0v3HNPTR--ifUTLQSSk79efRLIgcord81sP3rXxzaYT-QPkjaoVfoiQbnXNS8i4=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "03e4f02e25035ac30c0d27c09001ecacac7d37fce704f4448bc091086a182e50"
+              }
+            ],
+            "candidates": [
+              "#f3ead8",
+              "#d1c6b5",
+              "#dac4a3",
+              "#b2a797",
+              "#af9572"
+            ]
+          }
         },
         {
           "key": "a-11",
@@ -6550,7 +10684,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.mergegames.gossipharbor&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 11,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#516e9c",
+            "text": "#ffffff",
+            "contrast": 5.15,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/488f7c35b8d815017f1d.webp",
+                "url": "https://play-lh.googleusercontent.com/1dofeIFKvycMzQnQP7eZ06hufLJmQUu7miEhCNSAsQiyrX8ImszsCgUfRqe1Skoi_SMe1YoFBlMfcAk8stdPDw=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "488f7c35b8d815017f1dda51c532ee1e1f26b6586204b5dc258a92054cd45d89"
+              },
+              {
+                "image": "assets/images/eed42e7527ee373270c9.webp",
+                "url": "https://play-lh.googleusercontent.com/jwuDLhQpOxDqPLj2Xz2JDv2NErnlVjLC6sImkrUpIIyT-j8vGCLGLMMH32qzRj_FzhPxCFpulEk621F_2TT0=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "eed42e7527ee373270c91f6e068ac8ddd53e0e4763d7298a3816cdf00a6c10e9"
+              },
+              {
+                "image": "assets/images/0eb38f29d927e264ab20.webp",
+                "url": "https://play-lh.googleusercontent.com/n8MYQ9sOjyEOzM2gw1Sqqr0bLPTgycvYKezDH68zphPOlxAmcOZsmN1Ifyw73fed5PuBlNBNkcLPsZgUE0sD=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "0eb38f29d927e264ab20abbd80f03cc66285a6c573d0c9ab18c27c5ad7b99244"
+              }
+            ],
+            "candidates": [
+              "#516e9c",
+              "#304465",
+              "#e9976a",
+              "#9d524a",
+              "#e28776"
+            ]
+          }
         },
         {
           "key": "a-12",
@@ -6602,7 +10788,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.fatmerge.global&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 12,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#efc47e",
+            "text": "#000000",
+            "contrast": 12.85,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/8535a2afa63fc2ff9ca5.webp",
+                "url": "https://play-lh.googleusercontent.com/oFug23yj9dYxtko9zEURKoVFgatMfKy_cNixw7N79KT3tZbJIhEi6IAumOAkwe58G1AxFGDWCoFWgUBD1ahq8fg=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "8535a2afa63fc2ff9ca561663b6c76f9b760894e9f68c210cf69f888b6276f3a"
+              },
+              {
+                "image": "assets/images/1b4067d9c977cf337657.webp",
+                "url": "https://play-lh.googleusercontent.com/u4TyCe51jZpgpQkBJb1jq5KDMN4fzahOQBzjtaMIhdaW66PnYwM7LbE5jYHvNR357YzEWaH3pg1z-KUxaV_WJVA=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "1b4067d9c977cf337657bc0d17e6e81deda31bc41854722409f093834c78a504"
+              },
+              {
+                "image": "assets/images/06af7cf56faced1038a5.webp",
+                "url": "https://play-lh.googleusercontent.com/YBI0J2NIjCEoxHtD-PsANkXi5q6clQnu6gA2-kvr0ggd7WVvsVLTFOIaf2YO1PFqaqduccmnxo7pcdp_JQqyow=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "06af7cf56faced1038a575a5a3655f81dae741c2e21b60b8c5c92048dce9ee4f"
+              }
+            ],
+            "candidates": [
+              "#efc47e",
+              "#ec8f4c",
+              "#f0dc7a",
+              "#5eb5eb",
+              "#96e3ef"
+            ]
+          }
         },
         {
           "key": "a-13",
@@ -6654,7 +10892,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=io.heseri.car&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 13,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#aad15a",
+            "text": "#000000",
+            "contrast": 12.01,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/d007828811611d348bd9.webp",
+                "url": "https://play-lh.googleusercontent.com/ETS0uL27fR5D7sZRcWJ9SlGLjXXPWoKyC52OFN3VAIuoMbnXM-8k9A2M1j8eHQDp1u1LzRt7gw4HaXwccerT2A=w526-h296-rw",
+                "crop": {
+                  "left": 14,
+                  "top": 65,
+                  "width": 110,
+                  "height": 195
+                },
+                "sha256": "d007828811611d348bd961b1cc61ad437bcb40ae1c891c07f4611d4fdc950773"
+              },
+              {
+                "image": "assets/images/843e2b34589098b461ac.webp",
+                "url": "https://play-lh.googleusercontent.com/vB12IYziqvOdpxWc03riZ5yTJyVMeigchQxuQ4UXzonxmSUxcu7RnF9INMr2Qjmu-sXpuqLEFMVSpIelizAdvA=w526-h296-rw",
+                "crop": {
+                  "left": 14,
+                  "top": 65,
+                  "width": 110,
+                  "height": 195
+                },
+                "sha256": "843e2b34589098b461ac1f55414a4c9e8e75523c608e8fd6e28ceddbcdd75f95"
+              },
+              {
+                "image": "assets/images/ab1ae92b071550631ccd.webp",
+                "url": "https://play-lh.googleusercontent.com/AzjgEO_2mu2_HkxPBDoI2q10eSGbNaxmvH8QNKE4Btbu0EwrwoZ5vQ9lJ_ZtX0XFrzYv-fYwbHDmEkpZ9YEQ2g=w526-h296-rw",
+                "crop": {
+                  "left": 14,
+                  "top": 65,
+                  "width": 110,
+                  "height": 195
+                },
+                "sha256": "ab1ae92b071550631ccd75785401e8095d57cd5842e86d00cdc50ec5819028fb"
+              }
+            ],
+            "candidates": [
+              "#aad15a",
+              "#90dfec",
+              "#1d2c4c",
+              "#e7d159",
+              "#4889a4"
+            ]
+          }
         },
         {
           "key": "a-14",
@@ -6706,7 +10996,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.vigafun.funfinity.foodhunt&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 14,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#f3bf93",
+            "text": "#000000",
+            "contrast": 12.68,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/f84812f35c3eb93bd26b.webp",
+                "url": "https://play-lh.googleusercontent.com/mbUcYy64eridoFcbm3C4FaqgmWA3ABtDmi_gVw-VryCGddWiwQRlZd5rAu26iXFien9P9tS_dugrVN1jJUe2L2Q=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "f84812f35c3eb93bd26b972d3070e38853add03b958517975570cadd5718e218"
+              },
+              {
+                "image": "assets/images/3871702863c45b8411de.webp",
+                "url": "https://play-lh.googleusercontent.com/6VfdBGWRwScOSJOSzHH7UL_ZUalkOaOmRBPmPk-jX98pi0R3l6q_7gdLfwZd0wv-flH5alWkLlotpGslW6HitQ=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "3871702863c45b8411de70227b621ce4da150308401771da5efae5cd110eb988"
+              },
+              {
+                "image": "assets/images/360ef404cd9c3824afd9.webp",
+                "url": "https://play-lh.googleusercontent.com/7gnquddRJM_Cxk3eVil6LOcqdtk-Rp7hS9Ni9GoDZ9LBqJB3LddGwC_coLTcJgTHlj2QM7gqV83qm-6XvAK0fA=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "360ef404cd9c3824afd9863ae7b52fc245eb4b6c22f97aec2f47963498071897"
+              }
+            ],
+            "candidates": [
+              "#f3bf93",
+              "#f1c58e",
+              "#e66879",
+              "#74d7e7",
+              "#4c92e6"
+            ]
+          }
         },
         {
           "key": "a-15",
@@ -6758,7 +11100,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.youmusic.magictiles&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 15,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#5e3ca2",
+            "text": "#ffffff",
+            "contrast": 7.94,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/a4eae97366dc7c4e8058.webp",
+                "url": "https://play-lh.googleusercontent.com/g71P25wh0ovS22Mzkjwh0sYBFK3cp23CKCN_At1gAn-G3t3g2wRJYgR5nuejMv-lw0rLqYZ9EnCN2VHpySQFBA=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "a4eae97366dc7c4e8058cc2ad4b6876ff5ebea985b12e4466afcec48b9d6b72c"
+              },
+              {
+                "image": "assets/images/e4aa711d1943fd48471f.webp",
+                "url": "https://play-lh.googleusercontent.com/dzYcd9cSI47lEby01bi84Uf2aGMIgEAngRJLmOysEZWOvUfBeiLdusyyiIvHhnB6HDhX2zqFnUR99JJMkbFUmg=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "e4aa711d1943fd48471ffb617c957752c6f018e0be3f15e4d8eeb9fbd8e09b2a"
+              },
+              {
+                "image": "assets/images/aca2bdc14f8b31e80bbd.webp",
+                "url": "https://play-lh.googleusercontent.com/K308szuXS0oVALJXlpE5kMd9wr7jv-Hbf6e42su5pB_yHsDyJDJaNxEDhwve_kmBP-e9HWYfFy86npKhYzucI1w=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "aca2bdc14f8b31e80bbd4fc5dee1cbfed71084a7b3b60cbfc48f72ed4b6f4f0b"
+              }
+            ],
+            "candidates": [
+              "#5e3ca2",
+              "#f3c47b",
+              "#78dd81",
+              "#9668da",
+              "#98d1f2"
+            ]
+          }
         },
         {
           "key": "a-16",
@@ -6817,7 +11211,70 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://foxdata.com/en/app-marketing-analytics/1608987929/as/US/triumph-play-for-cash/"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 16,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#f86b0f",
+            "text": "#000000",
+            "contrast": 7.13,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/9cde1ee476477bd195c1.webp",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7a/f4/d0/7af4d068-0037-2e0a-2d7f-79e9566874e5/1242x2688_2.jpg/720x0w.png",
+                "crop": {
+                  "left": 72,
+                  "top": 343,
+                  "width": 576,
+                  "height": 1028
+                },
+                "sha256": "9cde1ee476477bd195c179e28069eb31335eb31dd69f36f326be2c86f4583c61"
+              },
+              {
+                "image": "assets/images/32c890395e55c0ca48d9.webp",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e7/c6/dd/e7c6dd1e-4a49-6c3e-ba4a-93cd7883eb48/1242x2688_1.jpg/720x0w.png",
+                "crop": {
+                  "left": 72,
+                  "top": 343,
+                  "width": 576,
+                  "height": 1028
+                },
+                "sha256": "32c890395e55c0ca48d973f8cb5b324455be7dedbde7446f5306f45e552fd55e"
+              },
+              {
+                "image": "assets/images/366b1a39606c9aadd841.webp",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/df/18/32/df183210-5a0c-687c-ad34-54e6d6ffab4a/1242x2688_3.jpg/720x0w.png",
+                "crop": {
+                  "left": 72,
+                  "top": 343,
+                  "width": 576,
+                  "height": 1028
+                },
+                "sha256": "366b1a39606c9aadd841e23c8083097a9c3e560b00fc8a6071e4c6f329e30a76"
+              },
+              {
+                "image": "assets/images/14e76d9005d2e7eb10da.webp",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/35/e9/5c/35e95c27-637d-19cc-555c-276f9d79baed/1242x2688_4.jpg/720x0w.png",
+                "crop": {
+                  "left": 72,
+                  "top": 343,
+                  "width": 576,
+                  "height": 1028
+                },
+                "sha256": "14e76d9005d2e7eb10da1724319cc1e85a2aae0f955cde2a173cb29bfc60b1c9"
+              }
+            ],
+            "candidates": [
+              "#f86b0f",
+              "#672c05",
+              "#46712a",
+              "#34455e",
+              "#98420a"
+            ]
+          }
         },
         {
           "key": "a-17",
@@ -6869,7 +11326,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=triple.sorting.bubble.fish.match&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 17,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#1e3863",
+            "text": "#ffffff",
+            "contrast": 11.69,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/8751757843f7236ee52c.webp",
+                "url": "https://play-lh.googleusercontent.com/HN1rJavYcjWbREnhBr_GnatnoRXXjCLiXDu2ONf17Knh0IHpy6WGnDTIXiSIpW8_CTGPH16vVuSMNTpixbmQlw=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "8751757843f7236ee52c9813a0140ea0e12b9d5222536756d819213f245f1acf"
+              },
+              {
+                "image": "assets/images/592cc682018b76ebe3fc.webp",
+                "url": "https://play-lh.googleusercontent.com/1mFYE7Lnhh3tepjSUrQxA3RX9IuxpRshR-H4tFsA_Z0lyThccBLss3jV753kfl2dEgKJUuI_gtjUmHKgCF0k=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "592cc682018b76ebe3fc00a5802b6efd90addfc20b586b88b72997cff719ab06"
+              },
+              {
+                "image": "assets/images/768521d7b879dca7aab4.webp",
+                "url": "https://play-lh.googleusercontent.com/BLtDnwp6H1FldsCsrJ9gP07Ejh1bhtQHpOX6bdyQA5BByJI6tErC6gm0dKdV801L9prVEc3Ff2CDtZtaUJGoSw=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "768521d7b879dca7aab4db0b29c562dade06900b9aaccd25548c627bc86b39fd"
+              }
+            ],
+            "candidates": [
+              "#1e3863",
+              "#4da8dc",
+              "#496a9d",
+              "#76ccdb",
+              "#3f7ea4"
+            ]
+          }
         },
         {
           "key": "a-18",
@@ -6921,7 +11430,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.cyphergames.royalsmash&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 18,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#e8af41",
+            "text": "#000000",
+            "contrast": 10.6,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/c468c520ddd332954cfb.webp",
+                "url": "https://play-lh.googleusercontent.com/gyE0rrS_jX4KQxjVSFVeWse7odrbBxV2PfSAt7v-DKfzHfEr3czuREUIoyX1DohEjbkZQT13tNLZChxoa4CJ=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "c468c520ddd332954cfb4852ed7c7a2e91e871676db9a2742e1b2ee13c152677"
+              },
+              {
+                "image": "assets/images/9f1107669f51a844258c.webp",
+                "url": "https://play-lh.googleusercontent.com/zDpfWchpN1b97nhoKS862e9a0gEJ-MoVWj41bITiPmzeqkndlgCm2fMoNXORfBErpEg9p4e4rp6OpfY_ewMi=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "9f1107669f51a844258cf132cb23c34b401fd14a06076b4b5fde7b19dfba47bc"
+              },
+              {
+                "image": "assets/images/28e80dbe339df8b8256d.webp",
+                "url": "https://play-lh.googleusercontent.com/2YoMl_KYN7iUoMphPP5E39seq7O-Raegd55hfgcq0CRcp_r9e67hPaQc4N2KHEFHg1b55WAj5cBki6KWbsp1=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "28e80dbe339df8b8256d479bf08bb926a9346613eac996d567ad8fc44b161b7a"
+              }
+            ],
+            "candidates": [
+              "#e8af41",
+              "#59b7e8",
+              "#edc934",
+              "#e12f3d",
+              "#5dc7e2"
+            ]
+          }
         },
         {
           "key": "a-19",
@@ -6973,7 +11534,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=io.voodoo.paper2&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 19,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#fcd518",
+            "text": "#000000",
+            "contrast": 14.64,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/629d4cca800faa7eb461.webp",
+                "url": "https://play-lh.googleusercontent.com/qseziZ-Sb4IV__KJ4KZYNXTIlsX6rjSzK5OoDkSHz64HN3BgBsG16VTiyFYIjDBN217c55UjdbilvW--iN7F-mk=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "629d4cca800faa7eb4611fc2d328793403de715fb58b24c9c17b1163011d7e4e"
+              },
+              {
+                "image": "assets/images/8814dec544448b517cae.webp",
+                "url": "https://play-lh.googleusercontent.com/oGedj4cO0FDwy7ypWWXi7rlm-n6RrJL_6DxiVtDp0elNJualZJn2WceHu638bGCt4pWc5nwtPNCWvy2m6DMbaZY=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "8814dec544448b517cae4f28983ac4224bbbed53fb2e5369cace35307cdee629"
+              },
+              {
+                "image": "assets/images/b4d5d8ec6fccc29aa432.webp",
+                "url": "https://play-lh.googleusercontent.com/bGiaAxqx2eF2s0iyO7NcG4yQ9rsGI5Mwg4aEAkfkBNDDUF6NFW6O2oWlcP2cY-hefnoNHpv3VnZf_EnDSqQWyA=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "b4d5d8ec6fccc29aa432e0c51ad9c061c4d20ab921e4691d92734297106f78e4"
+              }
+            ],
+            "candidates": [
+              "#fcd518",
+              "#14e2fb",
+              "#faaddb",
+              "#f1b83d",
+              "#f9b0cd"
+            ]
+          }
         },
         {
           "key": "a-20",
@@ -7025,7 +11638,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.playrix.gardenscapes&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 20,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#efbc71",
+            "text": "#000000",
+            "contrast": 12.11,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/46922419ff7e8092c16b.webp",
+                "url": "https://play-lh.googleusercontent.com/35B0ljIOTAB3oBRgQYMwhlBp4MBR1T2YsIzxdXWIZVCOQv5OyQkQFxDJGK9wVOabMG9bL8SDMt4iCFvLk4iQGnY=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "46922419ff7e8092c16bade3b13819dc8ce371302a7ec3719c97695c147bc1ca"
+              },
+              {
+                "image": "assets/images/58a69006f0c034cc9e41.webp",
+                "url": "https://play-lh.googleusercontent.com/uHoccSaatOMEv2DhLPnu1uEUd44BmZrsffPt-On_rCxb5kF8sulFv76jdD29AzByYaKPMnqqQprzDgvMIb1m0A=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "58a69006f0c034cc9e41ecbf687d961474a7b9d3320829af3915735783bcdb85"
+              },
+              {
+                "image": "assets/images/4a28a0eff54096352b32.webp",
+                "url": "https://play-lh.googleusercontent.com/OePdUeeTsnqOncqmG6TIwY3BuuadQR09AzlKyYIPeZk6StZfpyu2zhJ27KKbxrBXAHyc-2IwQ98M3eNZ8KpDkw=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "4a28a0eff54096352b3285084342d3aaf09d99d67a1123edbca76a09d4f19a5f"
+              }
+            ],
+            "candidates": [
+              "#efbc71",
+              "#e8a06d",
+              "#a36948",
+              "#75a52f",
+              "#e05647"
+            ]
+          }
         },
         {
           "key": "a-21",
@@ -7077,7 +11742,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=jigsaw.solitaire.match.games.free&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 21,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#245ba7",
+            "text": "#ffffff",
+            "contrast": 6.68,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/df957f37a9a84e8e0ebe.webp",
+                "url": "https://play-lh.googleusercontent.com/Kyl1yQMYO53npaywuGfe2UZRVEA2zoB1O99nCTwPxMo_omltToMmrsUgM_cZbnbvir-933OkuzQgANL7F_Mq6g=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "df957f37a9a84e8e0ebef24711acfb84a6f41650062bec4dc905ce0925da64ab"
+              },
+              {
+                "image": "assets/images/9646f22af791055557b5.webp",
+                "url": "https://play-lh.googleusercontent.com/3Y9oH0gGXOQf0EMev44oLarKOuYqJ8e6PHTaSJBlDM58wJc1N2ZaSIqi9w-iD3PjRrjY35rBKdECyFmJT4Uo=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "9646f22af791055557b5b9971b86cd50dee43e6230f9f6aa24727357013241ea"
+              },
+              {
+                "image": "assets/images/f422eefd523e503e9dd3.webp",
+                "url": "https://play-lh.googleusercontent.com/SZREF2_cVRAFki-hl1UbOYgIHG-t4hsxGi9yQ9rVwcoFFiwfEOwl9tOazKpQGY23rC_E7QXVUcJ0o6_0-gQpUQ=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "f422eefd523e503e9dd3cd1d11986160f174b523cf69480c45cb65e7d6bb74fd"
+              }
+            ],
+            "candidates": [
+              "#245ba7",
+              "#367bd2",
+              "#e1765c",
+              "#e5b65d",
+              "#a08357"
+            ]
+          }
         },
         {
           "key": "a-22",
@@ -7129,7 +11846,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.nebula.arrows&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 22,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#d0d0d0",
+            "text": "#000000",
+            "contrast": 13.56,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/607fa4a56c3ef8a96682.webp",
+                "url": "https://play-lh.googleusercontent.com/80Q0xkUeU2DvLIie6d2d0eDCNxb2m37_CM6GFTTmeN0vKi8hEhzSiF7ynJ3RsI1JvjxFzCixp82xduA4F3dM2A=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "607fa4a56c3ef8a96682a2459e01c15119f622703aba3f52d74ad9ac130cb641"
+              },
+              {
+                "image": "assets/images/3a05ba4042d4722348f8.webp",
+                "url": "https://play-lh.googleusercontent.com/jYxFwoGmlPA84oCec_ov8coY0zDfAU-mKIUEiEYpBmm0PxkqAlkyPmxQ50jFkmRwzqmy8sZjS3vvtq8OHjXqABE=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "3a05ba4042d4722348f89c7e3ac501827d3ab563d4bd5dc9690f9205885e0d87"
+              },
+              {
+                "image": "assets/images/8a5a25bea554b63c4f2a.webp",
+                "url": "https://play-lh.googleusercontent.com/RpALciJFptB-15THdtdUvtdNKr-I3mE7-hAZoI6OzYGnr8Lg4B22_KDiSoW2sfj0EFF01_7hYDwsMQMB5fo2tTQ=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "8a5a25bea554b63c4f2a3fdd7fb0c1f029fbe6449be83c339372d783861cf6e0"
+              }
+            ],
+            "candidates": [
+              "#d0d0d0",
+              "#afafb0",
+              "#8f8f8f",
+              "#737373",
+              "#e7e5e6"
+            ]
+          }
         },
         {
           "key": "a-23",
@@ -7181,7 +11950,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.combo.yarnflow&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 23,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#462957",
+            "text": "#ffffff",
+            "contrast": 12.29,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/e5ffb78d6bb11a7b8ce6.webp",
+                "url": "https://play-lh.googleusercontent.com/F4vvMs-eBinjDwV6b3LE3svi9lb02JmIy2ANEXJmLMCPQElB061ciqDtRk_iSfZXSBDD7yl321-mLjBwtjQ=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "e5ffb78d6bb11a7b8ce62ade5a5236e7dd9c80e075b79207bee7d62ea21b087c"
+              },
+              {
+                "image": "assets/images/ec185d96f5b9c35c11dd.webp",
+                "url": "https://play-lh.googleusercontent.com/SWy-aECm1UHJ1NbUqGzY6bAofBvo6jQAXdUU_NQk-kks40oyIs3_WRBa-YQN1_b2e4-XjxGswxext0QWfMX2LQ=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "ec185d96f5b9c35c11dd27e4d05adc1b55f3f62e01d184927ac48c9dbac29464"
+              },
+              {
+                "image": "assets/images/7ac6e3b1ea5ddb658222.webp",
+                "url": "https://play-lh.googleusercontent.com/XISfU80eQCm4mbdpvlAwMHi16eB8W52-yYDOucs91uyUxRsHOk3XYxDjB26fy2S4rthEhUOIyhshG1nRGSJUmMY=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "7ac6e3b1ea5ddb6582221bcd10146e4ac18b84a68e411cdd29720309d8d33a51"
+              }
+            ],
+            "candidates": [
+              "#462957",
+              "#381666",
+              "#e47b32",
+              "#edaa3d",
+              "#a372e1"
+            ]
+          }
         },
         {
           "key": "a-24",
@@ -7233,7 +12054,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.oakever.gemcoloring&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 24,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#e9a572",
+            "text": "#000000",
+            "contrast": 10.08,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/878bf770b770634e4e60.webp",
+                "url": "https://play-lh.googleusercontent.com/wpemQxAL-O9239ef4BL2yuuU6SkVrXjJDjQE5NXnEroySAETYnHle9NxnQZ1r9YDd-Ap4W-pnLYOsY-dp0t4Wg=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "878bf770b770634e4e60ebc976ab486a57367a611eef21566d5695d7e023f9db"
+              },
+              {
+                "image": "assets/images/14f01fc3e2aa1870725e.webp",
+                "url": "https://play-lh.googleusercontent.com/ppGg690srDpj0cDOOVMRs4Ypb6EIMDEE9M2P9zk5ZTAYUdzoLGXJrajz9o55XFIGGGv2GMqpiCsyFjb0pYoH_Q=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "14f01fc3e2aa1870725e2b9bef6c8653b7632a6b0ed77408e834e96b9e0393af"
+              },
+              {
+                "image": "assets/images/240eb4027c869372c36e.webp",
+                "url": "https://play-lh.googleusercontent.com/A4pM5JKEa-6bqFbje6KmBQLOeaAEPiv--t396pFdyEQ838S9dGxAWwENxk0k8pJeIgGBAd5Txu5YV-nY07b2cg=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "240eb4027c869372c36ee082e930bb9b81bb74345da1e227bc466355b5ff14f9"
+              }
+            ],
+            "candidates": [
+              "#e9a572",
+              "#64e1f9",
+              "#edd03d",
+              "#e8b45f",
+              "#e58696"
+            ]
+          }
         },
         {
           "key": "a-25",
@@ -7285,7 +12158,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.kiloo.subwaysurf&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 25,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#66dfee",
+            "text": "#000000",
+            "contrast": 13.4,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/a40dcf57093c71c8cc4b.webp",
+                "url": "https://play-lh.googleusercontent.com/0WDSfcGVkNLrbllx6z5GaNVA5ubkuBy5xBxfD8se188KrSqO2c-AJMRguiJMyacj5nx58-sIlJU7IXbYz18CyA=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "a40dcf57093c71c8cc4bd6263a17fd1c2e458855333afdbda0130233216e5d1f"
+              },
+              {
+                "image": "assets/images/de662ace0e12656ff95f.webp",
+                "url": "https://play-lh.googleusercontent.com/r1EF2Yo2IQUeXIvAB-ZQe6-7PNGc_sIEeUKMhcpGi7AUpvtiZruKU5EVoSQj0JeAZ5nt4AXAp5J692rX1qS54A=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "de662ace0e12656ff95fb055d763b3b2966b580a33d35b1273052e5ed260b60e"
+              },
+              {
+                "image": "assets/images/390fbd079cf3ecf54709.webp",
+                "url": "https://play-lh.googleusercontent.com/LR8_LkjuVSenDQi1AIhZQVpNXXvdWb5eRWoza8OrpxM0I4iT6-MH7GeZA9_k1ngB7j8wEZaoT76Lsh4nA4CaYw=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "390fbd079cf3ecf547097731dc89db7e1be34014f93304101cff083fdfb33a07"
+              }
+            ],
+            "candidates": [
+              "#66dfee",
+              "#a34b42",
+              "#692f28",
+              "#d02f60",
+              "#a73057"
+            ]
+          }
         },
         {
           "key": "a-26",
@@ -7337,7 +12262,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.gamespark.topking.gp&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 26,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#397cd6",
+            "text": "#000000",
+            "contrast": 5.03,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/49758d14817d3457e755.webp",
+                "url": "https://play-lh.googleusercontent.com/e0_l53JnLo6AzKEtEuZT2U-Svm9vmOz7srWMolS7h3CA27l-296_IqmGgSBd1ZbmpIbFXsUYLapMm1ajugiSJw=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "49758d14817d3457e755c122db4d9ce79a453797fe390cfc10820c42bc8f89d8"
+              },
+              {
+                "image": "assets/images/cfad1e3acf2bcb001455.webp",
+                "url": "https://play-lh.googleusercontent.com/AaKZ2NFZiwdasZ61OLzwz4WHiQH9Ky-0D3PPMjYU6XC0R1ROIBxBQW8ECRi1clCbrn1-5jt-BT75BY8BApn1hg=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "cfad1e3acf2bcb0014551fa0c0e4675274c8c436b9aa42d80d4f83085de97e7d"
+              },
+              {
+                "image": "assets/images/71ef442d6199269a9deb.webp",
+                "url": "https://play-lh.googleusercontent.com/6jnzl8dbhLHXbO_TVVVIyvmLbmUDLV3RfbqBB8mONx2AFpz6jzzPj2yKSyLghFzC4z2P0k2DhS1KBhcep-BV=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "71ef442d6199269a9deb7bf6597bc6b46853e6b52116ac5c3b95938e74d553f8"
+              }
+            ],
+            "candidates": [
+              "#397cd6",
+              "#3566af",
+              "#d7baa3",
+              "#a18068",
+              "#dec2a0"
+            ]
+          }
         },
         {
           "key": "a-27",
@@ -7389,7 +12366,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.king.candycrushsaga&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 27,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#6ac7f0",
+            "text": "#000000",
+            "contrast": 11,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/be161df06a47f368c7bd.webp",
+                "url": "https://play-lh.googleusercontent.com/xpUmpGTgfd8L2MIm_WOSAe23Kh6QtarIiMHneZeSbcbBakGqPGqumARHPaf4slct7VdB8k4SVzMhVRouojCS=w526-h296-rw",
+                "crop": {
+                  "left": 18,
+                  "top": 65,
+                  "width": 142,
+                  "height": 195
+                },
+                "sha256": "be161df06a47f368c7bd144dd59a3ae2c9de802921a856ac8689bf47e329b2ed"
+              },
+              {
+                "image": "assets/images/93acb6307655335bf126.webp",
+                "url": "https://play-lh.googleusercontent.com/DTiz3ODN6Hi8dfqdaNOPm_rOk4j9vwbQBn0Wpx7I6w9Hmuh7DYpjOKBV977tQgIkcpUnbXopHqvncuRKSn0yplE=w526-h296-rw",
+                "crop": {
+                  "left": 18,
+                  "top": 65,
+                  "width": 142,
+                  "height": 195
+                },
+                "sha256": "93acb6307655335bf126021dcbcb11cd281d84e2ed691766d904bd1cbcd54241"
+              },
+              {
+                "image": "assets/images/85848f38e4be2be91667.webp",
+                "url": "https://play-lh.googleusercontent.com/xdO4K6fRIzlShYIDhMS4wEKkdkejl44CYyGq9XGMSxEa-_ZmBCuUwDUAkpDvpxylbGfslj9FjMnTi4dXIJ3rSQ=w526-h296-rw",
+                "crop": {
+                  "left": 18,
+                  "top": 65,
+                  "width": 142,
+                  "height": 195
+                },
+                "sha256": "85848f38e4be2be9166769a0a74ec9e1ef10ab7193195209369614325b3d08e4"
+              }
+            ],
+            "candidates": [
+              "#6ac7f0",
+              "#91dff5",
+              "#598fdc",
+              "#4368a4",
+              "#ca40ec"
+            ]
+          }
         },
         {
           "key": "a-28",
@@ -7441,7 +12470,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.dreamgames.royalkingdom&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 28,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#e98f5d",
+            "text": "#000000",
+            "contrast": 8.58,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/b7dc505a94f6b15a04e7.webp",
+                "url": "https://play-lh.googleusercontent.com/jBWwSlaYdGB_hQEUuNv8r3TOjPNWYFuB3oM6H-kgPr4qlE6UJMn7I86VV38kf5Yt8o3wjHNx5eKBDGucZZnx=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "b7dc505a94f6b15a04e7ae701cd6112e48b48d7ac17a223f073c0e5f045333b0"
+              },
+              {
+                "image": "assets/images/836bbb51143e112e64c3.webp",
+                "url": "https://play-lh.googleusercontent.com/vKYvRloDkySk-r2g_yOXINauv2jUrxX5p-wzjjjT47nx5Ayk6CScGz2lFfLeY_mnBECh2UBz3h_buKCFQnG-FQ=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "836bbb51143e112e64c3067bf11ed758ab74a9066fe3b14fba02d5253bcaf5fa"
+              },
+              {
+                "image": "assets/images/999798dafb346640c06e.webp",
+                "url": "https://play-lh.googleusercontent.com/l8Y0-DfuKpmmmDjgxvbSQvIxXessx5iA29CZEGQU60ISEDrAkZQ-HsQ52aqh_rx_PXaTG-Th1wFC2EYjiXgo0w=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "999798dafb346640c06e501bf7308803e6b2928fb10d2af70bdc0e9565612c43"
+              }
+            ],
+            "candidates": [
+              "#e98f5d",
+              "#5e759a",
+              "#e8ae4b",
+              "#a66a46",
+              "#a72437"
+            ]
+          }
         },
         {
           "key": "a-29",
@@ -7493,7 +12574,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.vincentb.MobControl&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 29,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#f2c269",
+            "text": "#000000",
+            "contrast": 12.7,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/663a8c99cd1d877e02d4.webp",
+                "url": "https://play-lh.googleusercontent.com/cUHyJgHSwHNORl8d-pOTXS-dz5h8qkLvkfHpwft4O_vwq2-RtNric2_KkGfpkDbWGsfuMO2Aejaf1LCqSzPC5g=w526-h296-rw",
+                "crop": {
+                  "left": 14,
+                  "top": 65,
+                  "width": 110,
+                  "height": 195
+                },
+                "sha256": "663a8c99cd1d877e02d4b3d365e043349cee9d4ea9e11de453d3394e702aaca6"
+              },
+              {
+                "image": "assets/images/bf8c81361f90fa1f5e6e.webp",
+                "url": "https://play-lh.googleusercontent.com/4DqsFTixosRJyzV9DLWYbUcjSRgtqlJAv_-TfPZjM7691OnR-C6jb1be8Fy7x_fpRy0xBnnft_bF_BIsvmawgA=w526-h296-rw",
+                "crop": {
+                  "left": 14,
+                  "top": 65,
+                  "width": 110,
+                  "height": 195
+                },
+                "sha256": "bf8c81361f90fa1f5e6ec677a804ff626d52462baaca244e94502bbc2e80cf21"
+              },
+              {
+                "image": "assets/images/644e0cc1ed6ad21a85f8.webp",
+                "url": "https://play-lh.googleusercontent.com/9Q54fpbvSg24eCEr5eSupei-zL5wXyP_ZE8_5Dz_JndQGvTHSXKYMcJiekW-G-vqepyrdWn3CGV14tT84tE6WA=w526-h296-rw",
+                "crop": {
+                  "left": 14,
+                  "top": 65,
+                  "width": 110,
+                  "height": 195
+                },
+                "sha256": "644e0cc1ed6ad21a85f8c700832612dd14d8e0fb03d00cfae952785f3583a6e3"
+              }
+            ],
+            "candidates": [
+              "#f2c269",
+              "#e62b35",
+              "#2fa1ea",
+              "#a46842",
+              "#d79568"
+            ]
+          }
         },
         {
           "key": "a-30",
@@ -7545,7 +12678,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.hollywood.merge&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 30,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#e1b157",
+            "text": "#000000",
+            "contrast": 10.6,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/b87e3ebd30a473922142.webp",
+                "url": "https://play-lh.googleusercontent.com/-WNv7BEzwP_A52vXqfnyJG5rrp7DBStiIPmNtCZq0isjztorgdPghxcjaDhk2gegC9-F2E7FwX13sCWlMj6H=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "b87e3ebd30a47392214208933623a2c9b03424ce85ab004ff5ff4f6bdf66ac31"
+              },
+              {
+                "image": "assets/images/620bcbb73833d4877524.webp",
+                "url": "https://play-lh.googleusercontent.com/gVNB8WHQ63hJjKLjBegdjcC-awUjTb3MRaI6szvsrywSAJxXnDhuFdp1GO4bWBU0myVxN25tT0CMuW67lZul=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "620bcbb73833d4877524fbb9ce5b214b2311cc3c81feee2cb93e4bd2369397fa"
+              },
+              {
+                "image": "assets/images/a67bbcb36ea6160f2135.webp",
+                "url": "https://play-lh.googleusercontent.com/zIe35I7Uz4jAqh6X4NKjp6fIno_MSVRX9l5Rle-7ArIAxwJw4ZTlvw8h5AgcgsVgeXMqLHUVgL5kJBcHgD7uVUw=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "a67bbcb36ea6160f2135c906cd7d286e69ea78f14c678eadff9f228fc998307f"
+              }
+            ],
+            "candidates": [
+              "#e1b157",
+              "#e24c3f",
+              "#9e453c",
+              "#a06a49",
+              "#dfa47d"
+            ]
+          }
         },
         {
           "key": "a-31",
@@ -7604,7 +12789,70 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://foxdata.com/en/app-marketing-analytics/6787414784/as/US/water-sort-puzzle-challenge/"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 31,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#6cb7e8",
+            "text": "#000000",
+            "contrast": 9.59,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/65db976b5965a1b066a7.webp",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bd/95/da/bd95da28-7525-945f-02c2-ef0827d8dd57/Level001_1242x2688.png/720x0w.png",
+                "crop": {
+                  "left": 72,
+                  "top": 343,
+                  "width": 576,
+                  "height": 1028
+                },
+                "sha256": "65db976b5965a1b066a73210b852815bbac56cd64fc32d34445eebf8ba5fee1f"
+              },
+              {
+                "image": "assets/images/5fe88e727c9f4f6880c3.webp",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/57/31/03/57310324-dfa3-8ca3-5394-718ff59b9660/Level040_1242x2688.png/720x0w.png",
+                "crop": {
+                  "left": 72,
+                  "top": 343,
+                  "width": 576,
+                  "height": 1028
+                },
+                "sha256": "5fe88e727c9f4f6880c3c333674c9f658a8c4167de62c948ae1ab301bf92e36d"
+              },
+              {
+                "image": "assets/images/bcb8d25c510b8932e625.webp",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f4/66/f6/f466f6a0-021c-ad90-01e4-e8563bf46a7b/Level093_1242x2688.png/720x0w.png",
+                "crop": {
+                  "left": 72,
+                  "top": 343,
+                  "width": 576,
+                  "height": 1028
+                },
+                "sha256": "bcb8d25c510b8932e62514ff1550f529c9f014ab625aab753bfd1caa85dc7f68"
+              },
+              {
+                "image": "assets/images/122a9f5be1558a02084f.webp",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a1/57/94/a157945d-9c76-6b4d-fe77-4e3962657589/Level073_1242x2688.png/720x0w.png",
+                "crop": {
+                  "left": 72,
+                  "top": 343,
+                  "width": 576,
+                  "height": 1028
+                },
+                "sha256": "122a9f5be1558a02084f11bfe0f91a48f7a9c0e8306e225f8860d3a11e11d0d3"
+              }
+            ],
+            "candidates": [
+              "#6cb7e8",
+              "#22355b",
+              "#242d55",
+              "#f476de",
+              "#d43238"
+            ]
+          }
         },
         {
           "key": "a-32",
@@ -7656,7 +12904,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.fatr.global&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 32,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#e6a87d",
+            "text": "#000000",
+            "contrast": 10.27,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/53200bfc4346fcfcbe72.webp",
+                "url": "https://play-lh.googleusercontent.com/cEw_edZs-ZM3mPPBUK0BsZD_U3fAAJnZwT2PFxB1vUodNefRL8J2DaFNAJKwcOAPZDUgDl5ssVEHsK3IbTriOzQ=w526-h296-rw",
+                "crop": {
+                  "left": 14,
+                  "top": 65,
+                  "width": 110,
+                  "height": 195
+                },
+                "sha256": "53200bfc4346fcfcbe72778cdeabbd8a39cd9fb4bf3151d8d9f82072467561b3"
+              },
+              {
+                "image": "assets/images/a3299c7fab9633073817.webp",
+                "url": "https://play-lh.googleusercontent.com/uJaHfpGSMXPLbGXlCsWurf_BIqeOCE-beQz1uEsEVfBCgimdBUyxpOnXRnBUQjjCUVNLILmxLvMYsXAUi6HZrQ=w526-h296-rw",
+                "crop": {
+                  "left": 14,
+                  "top": 65,
+                  "width": 110,
+                  "height": 195
+                },
+                "sha256": "a3299c7fab9633073817b95098cfacea83910b695dd19a9628914d0d80159a5c"
+              },
+              {
+                "image": "assets/images/398d92c1c0ddf8de58db.webp",
+                "url": "https://play-lh.googleusercontent.com/AkWXWAuKBRRnTORUPWMRdJyNhuSewypOQOYiFf9rm9MtAJrjaBymcAq6VG2u_vjlLf27pRQi-cni8j6ASba3-Q=w526-h296-rw",
+                "crop": {
+                  "left": 14,
+                  "top": 65,
+                  "width": 110,
+                  "height": 195
+                },
+                "sha256": "398d92c1c0ddf8de58dbd7d69916be60b587111f51a642c9ee865f37889383ac"
+              }
+            ],
+            "candidates": [
+              "#e6a87d",
+              "#d95b4f",
+              "#e8c18b",
+              "#a96840",
+              "#a74033"
+            ]
+          }
         },
         {
           "key": "a-33",
@@ -7708,7 +13008,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.ecffri.arrows&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 33,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#cececf",
+            "text": "#000000",
+            "contrast": 13.4,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/bbcbef6d72fb6f714d26.webp",
+                "url": "https://play-lh.googleusercontent.com/GO4zvWXMW_233SRh_QxiInCUn3hQTMQhOOXPj0J9ITETIKBPlBU1ATJYZSfkMFFnGG_m6QofkkPP5Fil4PAlUA=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "bbcbef6d72fb6f714d26d2ff0b1dcf8ff742345b7a458da80827b0bb89d86fa0"
+              },
+              {
+                "image": "assets/images/bf2e4b9ec6954f2d68eb.webp",
+                "url": "https://play-lh.googleusercontent.com/vKfqE3j1VtI_GYgQDG6XpBuoyT0y7O7urEAz5_93FIsrWLY43p8ggQkUrmceP6pVnogixwKZJ2TR0eEVmob6Cg=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "bf2e4b9ec6954f2d68eb80ccecf5ea73c39c8bf4327661fc68eedacb3cb18eb0"
+              },
+              {
+                "image": "assets/images/d254e5db101f6300597a.webp",
+                "url": "https://play-lh.googleusercontent.com/EJiLj8YmrRFw3ElJ0rE8kozfdDqVNKaMC_4FETYcuGQUw2cJ9ZrJ0apEc5A9agnrMix3hpz7uItsNwH_dQQX=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "d254e5db101f6300597a86155242b63abcb380f043b40a45d965ff0714d50551"
+              }
+            ],
+            "candidates": [
+              "#cececf",
+              "#b0b0b1",
+              "#8d8d90",
+              "#e5e5e6",
+              "#707072"
+            ]
+          }
         },
         {
           "key": "a-34",
@@ -7767,7 +13119,70 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://foxdata.com/en/app-marketing-analytics/6760530627/as/US/mahjong-clash-win-real-cash/"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 34,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#0f9b6c",
+            "text": "#000000",
+            "contrast": 5.91,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/5ddc875c2462cef480cb.webp",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/79/e7/3d/79e73d33-86f3-ab48-9301-2957d0604d54/1.png/720x0w.png",
+                "crop": {
+                  "left": 72,
+                  "top": 343,
+                  "width": 576,
+                  "height": 1028
+                },
+                "sha256": "5ddc875c2462cef480cb66871cb771a4c4a0b38bda206cf63d9de7b0089ec7af"
+              },
+              {
+                "image": "assets/images/71a1700d9cc4928e7f74.webp",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/50/b0/5a/50b05a05-7321-d698-74a6-7c1eb20f7f8e/2.png/720x0w.png",
+                "crop": {
+                  "left": 72,
+                  "top": 343,
+                  "width": 576,
+                  "height": 1028
+                },
+                "sha256": "71a1700d9cc4928e7f745a9b377cc01b04e1fbe44aa04b63b2e43444efe3434b"
+              },
+              {
+                "image": "assets/images/c644c4b06b258dc04eab.webp",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/97/01/54/9701546a-89f4-be91-5285-d5b3a255a825/3.png/720x0w.png",
+                "crop": {
+                  "left": 72,
+                  "top": 343,
+                  "width": 576,
+                  "height": 1028
+                },
+                "sha256": "c644c4b06b258dc04eaba67141ea60197564cc5f8f2a85fd8dfdf14b25ab58b0"
+              },
+              {
+                "image": "assets/images/3200403365309854b1cd.webp",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e1/c9/21/e1c921e6-24be-27ea-8367-989ac15315b5/4.png/720x0w.png",
+                "crop": {
+                  "left": 72,
+                  "top": 343,
+                  "width": 576,
+                  "height": 1028
+                },
+                "sha256": "3200403365309854b1cd3e3966711dfcd7efc60c680854d353871a5317510e63"
+              }
+            ],
+            "candidates": [
+              "#0f9b6c",
+              "#086a4a",
+              "#27ce91",
+              "#e6d03e",
+              "#53a070"
+            ]
+          }
         },
         {
           "key": "a-35",
@@ -7819,7 +13234,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.superplaystudios.dicedreams&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 35,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#f5bc52",
+            "text": "#000000",
+            "contrast": 12.2,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/d968340423860b989fa2.webp",
+                "url": "https://play-lh.googleusercontent.com/2R1GdlZ-ks6gHQjjte5Krdnqxmk6i_Bn8DCy18iY72X4gBwfT2BhwVhWtJ7RQ7bAVesMq5wx_OBv7iX5Pw3hfg=w526-h296-rw",
+                "crop": {
+                  "left": 14,
+                  "top": 65,
+                  "width": 110,
+                  "height": 195
+                },
+                "sha256": "d968340423860b989fa21acad56ca86a53771891c2f019f61945a53db77e4bb3"
+              },
+              {
+                "image": "assets/images/08ad8b42152af60ffbdb.webp",
+                "url": "https://play-lh.googleusercontent.com/nGxDBKERWswITWcGRAGuTgWVsdS6jyVZHHGfGaByaBc7cOz6zxA6QozgXrIGI2g8E3eP7zAgMLaYrLy5iR7pcew=w526-h296-rw",
+                "crop": {
+                  "left": 14,
+                  "top": 65,
+                  "width": 110,
+                  "height": 195
+                },
+                "sha256": "08ad8b42152af60ffbdb595f219f10bdabf9f8d374575a7f330905548a97d592"
+              },
+              {
+                "image": "assets/images/881276946527a06dafa2.webp",
+                "url": "https://play-lh.googleusercontent.com/JuJytfFvfEf8HPYrlcbxvMXQ7Q3O0nmCvMnPeHN3fMUN3rSYjp1SM2Dn7EAg45m9nxiXgq738UyQtdD31PoD=w526-h296-rw",
+                "crop": {
+                  "left": 14,
+                  "top": 65,
+                  "width": 110,
+                  "height": 195
+                },
+                "sha256": "881276946527a06dafa2361102d639ae1d35801ca3ccc8b3be054b18430f31d2"
+              }
+            ],
+            "candidates": [
+              "#f5bc52",
+              "#e34737",
+              "#2f1b9b",
+              "#e77e3f",
+              "#7de0f4"
+            ]
+          }
         },
         {
           "key": "a-36",
@@ -7871,7 +13338,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.matryoshka.cooking.vibes&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 36,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#a36845",
+            "text": "#000000",
+            "contrast": 4.62,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/73a2ce698b624ed0810c.webp",
+                "url": "https://play-lh.googleusercontent.com/Gx1uwmy1r5CyE2V6ngpvTb7IWMZMP7h2TcICJKhco007C-xCXF1HIcA5tT0kLRnpshHXrxxID4j6sd4jCZuDKA=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "73a2ce698b624ed0810c8ae258d3dc0f06cbff5b1ac92fe0729b9618beaaa4cf"
+              },
+              {
+                "image": "assets/images/aa6da7e404606ebea29b.webp",
+                "url": "https://play-lh.googleusercontent.com/Nnyv6Kcujr7ubAmVHLGmqarrFl-3M3hFy6eFfOC2PfWbybRhR8QMynpLkYbRcEdcB_TBREiaqezGZ7PI89Q2=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "aa6da7e404606ebea29bbe453515f4661223e946790f0c746addc8b2fc175f65"
+              },
+              {
+                "image": "assets/images/dda5de9f5cfc402316f1.webp",
+                "url": "https://play-lh.googleusercontent.com/B9W8_olMUhZQSPbh6mUljc4Qky0TAJRnu2m7kBYs4q_AMUZ8LVPMqCqYK-48PASUDAUchSTTUVB8cUwhN_Xt4Qg=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "dda5de9f5cfc402316f1aba4aaf8d781f34fdfa071cc98be288f490b9c35108f"
+              }
+            ],
+            "candidates": [
+              "#a36845",
+              "#ecb969",
+              "#df5340",
+              "#e28955",
+              "#6c4734"
+            ]
+          }
         },
         {
           "key": "a-37",
@@ -7923,7 +13442,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.crazylabs.fashion.squad&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 37,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#deaa8b",
+            "text": "#000000",
+            "contrast": 10.25,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/67b9f38f7308d74ce073.webp",
+                "url": "https://play-lh.googleusercontent.com/V1vytOYaTOLtS0BEK157LS0ousnbkxx43h3T3X_wRwVC_Ryh59TJSYBVFWNw5HC4uc_V7U1QV6oApAJjemJiek0=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "67b9f38f7308d74ce073dde2374ee55e37059cbc6856648ecb9768370fcbaf01"
+              },
+              {
+                "image": "assets/images/85efffc104a03ef940c3.webp",
+                "url": "https://play-lh.googleusercontent.com/LGEQye1HA_-FDD59LZ3DX6RBRxlL22l4iZp-GPOVnK9JuCRfqe1vLfCLfVzk04IsgULXWlNON-hOOxGC8-Z2=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "85efffc104a03ef940c3843fd25d7df83a70ffacfd8f66c67d03654a3431a6c0"
+              },
+              {
+                "image": "assets/images/4c3d10554fa83a5468a1.webp",
+                "url": "https://play-lh.googleusercontent.com/U8uCKBaoz9xwwlF0JZoN_01Qp3Gk3n_jb9prkeWMGFNGpF1K-1Nu8DrRM_mN6tW_CCP9CZPME0B2ctQRnfjM=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "4c3d10554fa83a5468a1332d6062bb6fb0275f46b97ce543eb17a4b8feeb0593"
+              }
+            ],
+            "candidates": [
+              "#deaa8b",
+              "#a87960",
+              "#60402f",
+              "#e3c19a",
+              "#df9d8b"
+            ]
+          }
         },
         {
           "key": "a-38",
@@ -7975,7 +13546,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.moonactive.coinmaster&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 38,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#ebb14b",
+            "text": "#000000",
+            "contrast": 10.9,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/ff4f2e72338ccec5a235.webp",
+                "url": "https://play-lh.googleusercontent.com/Si1HS4WdCWDsg_5PkC-2B2tTr1IoiXXkxhi1Oxmr_fRwoDmCLHILpnBoCDAMH8KKNEhmO02Go6VcCSuPyme4=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "ff4f2e72338ccec5a235da582e542baf9cb4bbff8e13f871c29e30fe1bc04d99"
+              },
+              {
+                "image": "assets/images/69f2d607c33257726612.webp",
+                "url": "https://play-lh.googleusercontent.com/NGTnD-1-dDNkXbCCcLZPA__hUFnalmxyKKZyybEc3YO3x6mfZN1-etxUPi8SGRswsIiTW6iXc8SbNInwsD-S=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "69f2d607c33257726612f3d68b8b8b1df63695fd2f870e42faa2ad52a5eb7771"
+              },
+              {
+                "image": "assets/images/2baefc61783924f8751d.webp",
+                "url": "https://play-lh.googleusercontent.com/6bQZF2XzerCebJ7ab2MPn-qZBL3u9t5E-yCUZScTvfwhKgGhM1wk5RCN6xED43cKBVfqESUe7jZgyMmHoB6Vrw=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "2baefc61783924f8751d1ddc0089af71afcbf339f04b5e139f60e7929cf0e747"
+              }
+            ],
+            "candidates": [
+              "#ebb14b",
+              "#f4da63",
+              "#dc9461",
+              "#a45d30",
+              "#2139d0"
+            ]
+          }
         },
         {
           "key": "a-39",
@@ -8027,7 +13650,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=net.peakgames.match&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 39,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#9b5b3d",
+            "text": "#ffffff",
+            "contrast": 5.3,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/615f337284f05de356e4.webp",
+                "url": "https://play-lh.googleusercontent.com/Inb_iWkRPbf8OpEKeu32rZrj2W_5W6hka8n-KTd7LeGSU-nmz9cIw8wKD0t0jZ4Z2wo_7hsRoR7TDJ2ktLfhQUw=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "615f337284f05de356e4c298cdaa70471092dc769413f681580395d10484edd1"
+              },
+              {
+                "image": "assets/images/8c66fa5cfa30064a7520.webp",
+                "url": "https://play-lh.googleusercontent.com/lVmYvkVdpRORXX_6dN33x6SjrfrqR4aE_otlZyDMUheELXSeQNTODRXRjgF6URXbf6EZFj1tBHdubW5JQ8Bk=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "8c66fa5cfa30064a7520e5bfe4ea02663f0081fecf65f99af4916417df3b80fd"
+              },
+              {
+                "image": "assets/images/2db417f0c5114a816d44.webp",
+                "url": "https://play-lh.googleusercontent.com/U22WRC3MIzSTuzlJrWjzCyNdCPeIuYajdKt4NAB5aeymFFzqThT-W5FzVFXEn-qWrf3kgpS1QeCSJLZ_4LuJMQ4=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "2db417f0c5114a816d440db8f1bd636660a5ad2bc23c1fa377c170573f469e60"
+              }
+            ],
+            "candidates": [
+              "#9b5b3d",
+              "#e28a49",
+              "#97c2de",
+              "#e2a244",
+              "#e8cd47"
+            ]
+          }
         },
         {
           "key": "a-40",
@@ -8079,7 +13754,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.dreamgames.royalmatch&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 40,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#e8b756",
+            "text": "#000000",
+            "contrast": 11.3,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/b61cbdfd2aa337c87f67.webp",
+                "url": "https://play-lh.googleusercontent.com/3DKrw93wnfUX3QR1diWf-Rf4lV8RPnZQKKC2UTwJjBN5pNK9geeRm-82zVljc8WH48xp90zjHmxEtaSO_L1V_Q=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "b61cbdfd2aa337c87f67925eaabf5845c151a3e7ed727890d4b7cc39081af895"
+              },
+              {
+                "image": "assets/images/94fa528a86a57fc4e896.webp",
+                "url": "https://play-lh.googleusercontent.com/eEvKqfL4_0fHSBImq_tQwGReEacMiqZ2vd_SIa_L0W3Pb69_sI31u1u0fq5SLIp8THUz07GL8mJwRWakvDIt=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "94fa528a86a57fc4e89659a850cba3573ac8426da36096e2d24d20ecc9574420"
+              },
+              {
+                "image": "assets/images/08202f8f7b84efde7edc.webp",
+                "url": "https://play-lh.googleusercontent.com/_7cwj62R45aFAij07Hhrk-GogjsBwCotMxahAMhrzdjivO2NSdJZfirj8nLGd-R-ye_b9OVm1otWYSIWSlMxmg=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "08202f8f7b84efde7edcf1896be81179c2bbf2b7e7b6b0e4a631d1b4a01ed5d9"
+              }
+            ],
+            "candidates": [
+              "#e8b756",
+              "#4078e0",
+              "#f6cd1d",
+              "#e03832",
+              "#315da1"
+            ]
+          }
         },
         {
           "key": "a-41",
@@ -8131,7 +13858,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.moonactive.holestars&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 41,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#e7bf73",
+            "text": "#000000",
+            "contrast": 12.13,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/f3173e11e5f70f46cbfc.webp",
+                "url": "https://play-lh.googleusercontent.com/rq8oTHhlGuRZMgvUVc4WymTqICp8xrTSDjghk1mAOYIwFoN0VeEU5NIiCfn-hPFaR6eflmhKxZsvuI8uVlgpl2Y=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "f3173e11e5f70f46cbfce359b7bc4854066d93bb697b3779ef4f5ca53482746e"
+              },
+              {
+                "image": "assets/images/44b29777dcf04f3c2d6a.webp",
+                "url": "https://play-lh.googleusercontent.com/YFQi4aHDGHP2fbci4c5L0E73h2MfCqvpTD6r1sFtFe2WoN6oYJJxkaw4XQltObUe2DO_kd4PZwu2JlTzQP8B=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "44b29777dcf04f3c2d6a54f8737924318d82bbb02b82053737d8940c520f5810"
+              },
+              {
+                "image": "assets/images/cbc62179b4d89758a1d0.webp",
+                "url": "https://play-lh.googleusercontent.com/geaxIVV3EGI0PtUvyPwFOcI2jH0yVHgUsaDInwrhh1ahB2OoRJUyiQZ6mWlR2QrThkkoCIUZ54FayppEtN6qQw=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "cbc62179b4d89758a1d0e18ea2fda84db65e0272da1aa43e91f4da5df23ec031"
+              }
+            ],
+            "candidates": [
+              "#e7bf73",
+              "#ebcd4c",
+              "#74b10b",
+              "#e19365",
+              "#e86b55"
+            ]
+          }
         },
         {
           "key": "a-42",
@@ -8190,7 +13969,70 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://foxdata.com/en/app-marketing-analytics/6786206777/as/VE/cube-smash-puzzle-game/"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 42,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#e38642",
+            "text": "#000000",
+            "contrast": 7.77,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/85c37e96bdc4b83547b2.webp",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/05/29/40/052940a6-558a-d006-ce8b-b65326b7f688/1320x2868-2.jpg/460x0w.png",
+                "crop": {
+                  "left": 46,
+                  "top": 220,
+                  "width": 368,
+                  "height": 659
+                },
+                "sha256": "85c37e96bdc4b83547b21d8f525aeae584b2da456364ffbdfc00d92cfcc832ae"
+              },
+              {
+                "image": "assets/images/ee3fab7117158d243ffd.webp",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4e/97/1d/4e971dd8-b62d-3a46-9405-e261bd06d640/1320x2868-4.jpg/460x0w.png",
+                "crop": {
+                  "left": 46,
+                  "top": 220,
+                  "width": 368,
+                  "height": 659
+                },
+                "sha256": "ee3fab7117158d243ffddad31e5e13c589728d03889703e01f1d2b155c61195b"
+              },
+              {
+                "image": "assets/images/ea3ac4308ab72517b73b.webp",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/db/a8/04/dba804e3-917a-5852-a6b6-8d3e6091d656/1320x2868-3.jpg/460x0w.png",
+                "crop": {
+                  "left": 46,
+                  "top": 220,
+                  "width": 368,
+                  "height": 659
+                },
+                "sha256": "ea3ac4308ab72517b73be5eec5a3cbd58c462dfdf69785e33dd6e1ad6fc2fcb1"
+              },
+              {
+                "image": "assets/images/a0be04e6ddb669f03eeb.webp",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/df/3d/fd/df3dfd2c-c2a4-53f7-d595-ac9a8fd79f64/1320x2868-5.jpg/460x0w.png",
+                "crop": {
+                  "left": 46,
+                  "top": 220,
+                  "width": 368,
+                  "height": 659
+                },
+                "sha256": "a0be04e6ddb669f03eeb5c9a07e6f1c5fdd22b1299b455bdb60154720efeadfa"
+              }
+            ],
+            "candidates": [
+              "#e38642",
+              "#9f603b",
+              "#f4a843",
+              "#633e29",
+              "#3c60e7"
+            ]
+          }
         },
         {
           "key": "a-43",
@@ -8242,7 +14084,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.oakever.jigsawcard&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 43,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#a26f53",
+            "text": "#000000",
+            "contrast": 4.94,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/e8f08fac24b16d5fd643.webp",
+                "url": "https://play-lh.googleusercontent.com/dKypL5Om6m76ug1yZ6sMWePkEKDS7rc1anz_7MDqX6yk-CmVfa1fzzJZa3mT7CCdBV1sLCRZgNK2Ul5_0BYWLQ=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "e8f08fac24b16d5fd6433ba6b47430fb053387a927f62c96d9fd7fe5573e6442"
+              },
+              {
+                "image": "assets/images/82c60e03c4f0b4205047.webp",
+                "url": "https://play-lh.googleusercontent.com/s6SOQ6HBu_-tzMHInz9El7sc9jgEDGDaQdNehKCjCMktmxWO68W9QAqWVUmNizwF8_kZrmB_n0q1k5OALaWbTQ=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "82c60e03c4f0b4205047b6f17d221b83bcb9663495642171a2f8d2a82781fa90"
+              },
+              {
+                "image": "assets/images/940c9ae085d76627e15d.webp",
+                "url": "https://play-lh.googleusercontent.com/Py-25wzi9ztrq2M3GOFQ19SsT8D7C-XeIooafeZJe0SvISIemh-xVfNix-HDid2SMx9D-jfecOrDJIu4QfwsQw=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "940c9ae085d76627e15d06df0a4cab2f1bc7e892b8aa43c896cf9c2b42e1057a"
+              }
+            ],
+            "candidates": [
+              "#a26f53",
+              "#1775e3",
+              "#55a3d8",
+              "#d7a383",
+              "#633d29"
+            ]
+          }
         },
         {
           "key": "a-44",
@@ -8294,7 +14188,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.fc.goods.sort.matching.puzzle.triplemaster&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 44,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#a67451",
+            "text": "#000000",
+            "contrast": 5.21,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/7d1334d79264acf419dd.webp",
+                "url": "https://play-lh.googleusercontent.com/97prtjb_320xPsin6Z0pKkiIW9oYnlki7GwhCJZc5VjWHvkyb7n3HKqLsg7qgbzB_hpmM1xrJqE4vAjN925sb0M=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "7d1334d79264acf419dd7b7098fb8aa1c471e576db0a8937d5f1c4ab62e5132e"
+              },
+              {
+                "image": "assets/images/9b38dc2940e404dd9f5b.webp",
+                "url": "https://play-lh.googleusercontent.com/qD6kHbuD1ZMLFJxHfQ_g7W0ibnMizVnjuEVlNb8HOk-vgugUrE0N8yTsheJ5y6WLytNbbuOKZlTnqfj88B3LMRE=w526-h296-rw",
+                "crop": {
+                  "left": 53,
+                  "top": 65,
+                  "width": 421,
+                  "height": 195
+                },
+                "sha256": "9b38dc2940e404dd9f5b074927acb69686b13b661fe8a73618655f3adb27972b"
+              },
+              {
+                "image": "assets/images/9bd5e1cb132174b27343.webp",
+                "url": "https://play-lh.googleusercontent.com/ZatOysR0k2N_MQ6hjO5evZBbafj1LDaN9kJai1WIpwuM6pjuMnxFKZqHsgn-mCaXAi0aaS3Cg212Or9a-Hz2dQ=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "9bd5e1cb132174b273430d958125a385d0cbb944a1aee51fbdfadf3526f0e1a1"
+              }
+            ],
+            "candidates": [
+              "#a67451",
+              "#dd9f74",
+              "#623a22",
+              "#e1ac5d",
+              "#a5804e"
+            ]
+          }
         },
         {
           "key": "a-45",
@@ -8346,7 +14292,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.make.it.fit.packingpuzzle&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 45,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#e8aa7c",
+            "text": "#000000",
+            "contrast": 10.5,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/108409a3c433514ee761.webp",
+                "url": "https://play-lh.googleusercontent.com/DRQdk9vjMTQXuw5Hk5Mg8af673nZdUhgxwvkFNfURzx8grcnWw_9yMwywsGkATkPFllr3EVezOJLk6rCropI=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "108409a3c433514ee7612ba9595af7f68333ba4a089256b271e3ea5e8bd81fb9"
+              },
+              {
+                "image": "assets/images/fbd85b887985f307aa2d.webp",
+                "url": "https://play-lh.googleusercontent.com/Geqx9KCPgMkkTok7jzW936h6EjfjwTR10TZtfIVBxr3ece39qCnBdy7kL0kKnxQ9E_j3Iuu_etG-0lx6pHBn=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "fbd85b887985f307aa2d7dc72474c8da6f9cee47039fc311ee68668853856ceb"
+              },
+              {
+                "image": "assets/images/3404e9503e0cf5ee57ec.webp",
+                "url": "https://play-lh.googleusercontent.com/PipwWwTEHuoO5ZsayBEa79sppaEnfPSEssweHPY3cwdsUzmLPQhE_gqKa4dspgQ7J-RWbKXIMN7zqul5MGyezA=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "3404e9503e0cf5ee57ec1163c638f7635a84867b630bb9135f864a018d00128f"
+              }
+            ],
+            "candidates": [
+              "#e8aa7c",
+              "#e6ba7f",
+              "#e99f96",
+              "#eb919e",
+              "#a87871"
+            ]
+          }
         },
         {
           "key": "a-46",
@@ -8391,7 +14389,48 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.supercell.brawlstars&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 46,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#236de5",
+            "text": "#ffffff",
+            "contrast": 4.77,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/5b07afd8a489db1d7f85.webp",
+                "url": "https://play-lh.googleusercontent.com/wcQjY9Ga0gt2hs6c68-dehkeEPbG99pa9InPN2_2T6Tj0cdzUvslvjsHEnNHRgAeQSzImVueMvRKl6Or5tWkPA=w526-h296-rw",
+                "crop": {
+                  "left": 53,
+                  "top": 65,
+                  "width": 421,
+                  "height": 195
+                },
+                "sha256": "5b07afd8a489db1d7f857a861edb0a77f149683ffc9caa6dfe642287480b8b45"
+              },
+              {
+                "image": "assets/images/a21946209ad74e902d0f.webp",
+                "url": "https://play-lh.googleusercontent.com/Hzq-rp_7FogcOBeH8iLI0dnUSr4abKO0nRX_7AOiYiDUAZVvmvxcDjkRioYE3jLxE4fhrhIwkpWzHp5lK1c85wU=w526-h296-rw",
+                "crop": {
+                  "left": 53,
+                  "top": 65,
+                  "width": 421,
+                  "height": 195
+                },
+                "sha256": "a21946209ad74e902d0f313e550e6eb16d164691154d5c6632dc27065a0db4cf"
+              }
+            ],
+            "candidates": [
+              "#236de5",
+              "#d479df",
+              "#2e9de5",
+              "#f4d431",
+              "#e8a42e"
+            ]
+          }
         },
         {
           "key": "a-47",
@@ -8443,7 +14482,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.ig.screwdom&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 47,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#f1bf77",
+            "text": "#000000",
+            "contrast": 12.46,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/e6c1dc5815052ee7b6ca.webp",
+                "url": "https://play-lh.googleusercontent.com/IwIuIboxyJIgsghNtAsFwLLSpAI0zAORTzsuPFW8u0VmfXlCXxb-wToOtVRCikT8kuXBmiNwII6obVyEgqnY3A=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "e6c1dc5815052ee7b6ca255520121428c50d316e66274de7cf93e88fa4b2d867"
+              },
+              {
+                "image": "assets/images/dcf7c67cae2aa4c44794.webp",
+                "url": "https://play-lh.googleusercontent.com/4lx2NTIdJia09Etq3Zzq3ejjTuDbzGOL-yz1hEPeMvRKRE-tANUW6Lkef5tnD4qgbv26eHLE47ul6Srgro3Ufgo=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "dcf7c67cae2aa4c447947344aca621000934f40c0950e8efd51e5ab48876510f"
+              },
+              {
+                "image": "assets/images/e644ca5a16ec8a524c94.webp",
+                "url": "https://play-lh.googleusercontent.com/oMDr1rpeCS-W5hIni4JiYaObUd4mkos5otEp6NrTdQtl_ZROV0Dn9EtSyZ7oxq36xkNQcYOd9KM0YNNL-eDtfkY=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "e644ca5a16ec8a524c944033894321ed144d997020546aa5da7c9490eb634628"
+              }
+            ],
+            "candidates": [
+              "#f1bf77",
+              "#40cbec",
+              "#9d704f",
+              "#dca379",
+              "#d6c983"
+            ]
+          }
         },
         {
           "key": "a-48",
@@ -8495,7 +14586,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.yolo.hiddenobjects&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 48,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#9e7155",
+            "text": "#000000",
+            "contrast": 4.96,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/e94a622243742579b4da.webp",
+                "url": "https://play-lh.googleusercontent.com/uqi6x_JGNSW7S703zYOoamMaSIdZQs5JDmxeCMxpDJnloL7Lm5WIc9Pr_ovhGcyuE2v8MWVYBi7sW-UJuh08=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "e94a622243742579b4da7421670483d2b30229af05b789c6b3af8c3803d78293"
+              },
+              {
+                "image": "assets/images/e967b20e2895812e73af.webp",
+                "url": "https://play-lh.googleusercontent.com/q0dQXmlXH6MMYVPvoHwMBZFPa0Mw-oZBVJe3CeFlQE6aFqf8v_8LfPQXu25D1AUa0Fn48k3DShOXI4L7mmssJA=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "e967b20e2895812e73afb732e0933a4116e7f434e1875bbfaedbe6db67d2f892"
+              },
+              {
+                "image": "assets/images/14bebb3b52d324947aee.webp",
+                "url": "https://play-lh.googleusercontent.com/VzJKfxp-bEji0kJ0ef8zd57VB5iyH-PYWDR4q1QXr8QQQCEZS7sos2KFbaYJOjTGZYOzEEWJYiNu6_y_h77ZCN0=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "14bebb3b52d324947aee36424bda6b3ce6421f7be2ebc77da8f98d02089ec072"
+              }
+            ],
+            "candidates": [
+              "#9e7155",
+              "#674432",
+              "#d99260",
+              "#623b34",
+              "#ddb16e"
+            ]
+          }
         },
         {
           "key": "a-49",
@@ -8547,7 +14690,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.oakever.tiletrip&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 49,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#5bb1e3",
+            "text": "#000000",
+            "contrast": 8.84,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/5206950403324333dac2.webp",
+                "url": "https://play-lh.googleusercontent.com/466hpYrzeVWrblJOfLzwC5L2dc45L40GO44vH_8A_vJUowWFb9aUpuc9-xUys0g6RzkNoE0m2B1SbOZO14MROg=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "5206950403324333dac2e4980b51e337ca026d3fdc8e8ca66d16a842d5ab95bd"
+              },
+              {
+                "image": "assets/images/09d3533dfa20d8261804.webp",
+                "url": "https://play-lh.googleusercontent.com/3CZKGkJJAH5A7Zs7795HDaZ_7ePpamCJYe32gBa7B_Urk1w_xgydKB7g_tdbPMthCpd7nnRJevmTrPScE_D6CA=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "09d3533dfa20d8261804ce645ea29b01bb31cd4463e6e576b06d43bcacb97101"
+              },
+              {
+                "image": "assets/images/ca9cebd3f3c3422fad5c.webp",
+                "url": "https://play-lh.googleusercontent.com/MGHLxWYmuVH3TcBqWBnOpRxzssXNF4K2viOgi6Q1vTx-q88ueb_uYNL7ajCH-1XsGusvRma4Xh525SmA2AdW=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "ca9cebd3f3c3422fad5cc14286b66c5eed892af426d9db5b5141ba34aab25370"
+              }
+            ],
+            "candidates": [
+              "#5bb1e3",
+              "#dcc655",
+              "#5b6527",
+              "#a4964b",
+              "#dfb97b"
+            ]
+          }
         },
         {
           "key": "a-50",
@@ -8599,7 +14794,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.roomperfect.global&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 50,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#efc983",
+            "text": "#000000",
+            "contrast": 13.4,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/3ca18f053f756d78d752.webp",
+                "url": "https://play-lh.googleusercontent.com/4w9r1_12Wt1D5KlKFX_qGlp0fNSI24WxjJ5TqHWUHAJiGDHIPoy67At0yDYBIU9hv0JlaKllBX4emNDlxGIBkw=w526-h296-rw",
+                "crop": {
+                  "left": 14,
+                  "top": 65,
+                  "width": 110,
+                  "height": 195
+                },
+                "sha256": "3ca18f053f756d78d752cc7c48537cea4237fd7bedcd651d2171b1070f09a100"
+              },
+              {
+                "image": "assets/images/4eb542d93a2952bc03f1.webp",
+                "url": "https://play-lh.googleusercontent.com/xZY66JtAFONsleIRyVGr1ovuAQEuqQOPQEJurVU7F5zGgpmvM8hQzvm6JcAkABn56V-TFSuCqP-VgrMUspFJbw=w526-h296-rw",
+                "crop": {
+                  "left": 14,
+                  "top": 65,
+                  "width": 110,
+                  "height": 195
+                },
+                "sha256": "4eb542d93a2952bc03f140df6a3925684b25170d3aa16d362b95c0e2e29a6184"
+              },
+              {
+                "image": "assets/images/8aea8805464ba2d7f406.webp",
+                "url": "https://play-lh.googleusercontent.com/Dm4GeR-L1cWf_wPuAyEao_09672EMEZo6NEeWXCvpYjL8PxmdYrHcTMJnmJFLNopPf6RsyPcqargkbyz8A7vfu4=w526-h296-rw",
+                "crop": {
+                  "left": 14,
+                  "top": 65,
+                  "width": 110,
+                  "height": 195
+                },
+                "sha256": "8aea8805464ba2d7f40613737a319c23277215eb4e1e6fa3b224cea46d0d019f"
+              }
+            ],
+            "candidates": [
+              "#efc983",
+              "#48ade2",
+              "#e0996a",
+              "#ebd986",
+              "#2d84af"
+            ]
+          }
         },
         {
           "key": "a-51",
@@ -8651,7 +14898,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=io.voodoo.holeio&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 51,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#5eb4ed",
+            "text": "#000000",
+            "contrast": 9.21,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/71f47670316ffd6e4eaa.webp",
+                "url": "https://play-lh.googleusercontent.com/gV9VY5kIOXfyICIA74XJbYyaxEGgxaZrMXyLdThnkRHGtHBXc8ooEYLAH-B5oIvLDETpjVP0e5DVdloDotXi0A=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "71f47670316ffd6e4eaa344332860f076063ace206188785cc200886093cddde"
+              },
+              {
+                "image": "assets/images/c7f463042e241041075f.webp",
+                "url": "https://play-lh.googleusercontent.com/WyE8FWBSYYOYtv7W_K6He1qUjPBG5kZGdXV1NYve9Z19mU6a8Z4it5qgGbT60TuDfPnU--NHujwk6IUbvKcn=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "c7f463042e241041075f7b70e8d7ed72ea767ac1787379d5a56c68e26fc7d1d6"
+              },
+              {
+                "image": "assets/images/ff6d3c109c422e2bf677.webp",
+                "url": "https://play-lh.googleusercontent.com/you_YfhnnJrqBKl0C-OYmNMNFU0MiUUA1ztJXxHDm7PtQwK4soVn8VNhZsIPHvRfs8TmB3pWfga2SXTrK6RPSA=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "ff6d3c109c422e2bf677aa58a994d1a95f6c4bfb720b32ce82be4903455b74d9"
+              }
+            ],
+            "candidates": [
+              "#5eb4ed",
+              "#5d95de",
+              "#32d5de",
+              "#3e68a8",
+              "#60599b"
+            ]
+          }
         },
         {
           "key": "a-52",
@@ -8703,7 +15002,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=color.number.paint.pixle.art.sort.jigsaw&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 52,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#39afe7",
+            "text": "#000000",
+            "contrast": 8.49,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/71f16bffc8416c1b22ad.webp",
+                "url": "https://play-lh.googleusercontent.com/_M4RCceuZ0GwSmBXm24WlmoxvHvYTQIkAhjEg9x5pUJiT8q3Ck2HxRrnheiOWuDqcJZ1C_zt2wvrqp7zYxPolw=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "71f16bffc8416c1b22ad5e8d327a3af5c151a9bb506bfefcbb92bcd3298f28c5"
+              },
+              {
+                "image": "assets/images/39193688a89f0d5f7426.webp",
+                "url": "https://play-lh.googleusercontent.com/b2CjIRW5DwyiPo4RIm1CzxDCx1grPRlcsNbObsPlBigweLbwhsB5jL-G0k1yDjWjzg_H6MHOuBITTLyXmsn_gQ=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "39193688a89f0d5f7426f40054a11033e0348dbc43ad2337315e6a7aafcdbe51"
+              },
+              {
+                "image": "assets/images/2803f59ad67a11ce679e.webp",
+                "url": "https://play-lh.googleusercontent.com/519ApX1x1tAqyzufkFSx2yT2yWC26uPgDwieBzUdsDaWZyfpQQqSU8SA920JUTtNzQJOm0j3frrQw7r2Ais_QzU=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "2803f59ad67a11ce679e5ef7bc0495dba167d4e143c70f12b2a252021eaa3b0f"
+              }
+            ],
+            "candidates": [
+              "#39afe7",
+              "#e9b893",
+              "#e88e9a",
+              "#e1665c",
+              "#64e0f1"
+            ]
+          }
         },
         {
           "key": "a-53",
@@ -8762,7 +15113,70 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.fanduel.casino&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 53,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#5c1a8e",
+            "text": "#ffffff",
+            "contrast": 10.55,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/826d8bb12359b269a39b.webp",
+                "url": "https://play-lh.googleusercontent.com/Z2WNXGNQxgn-x14_IbUFX6nrxzSdfLBv2JMo947OrVSqnvbXxJbftV4pad7rmDLXn2_1kJheW_XCLKXksDzO3p4=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "826d8bb12359b269a39b39a232030e61259fedf449f6c87b9d80e5d1ad3c7a1c"
+              },
+              {
+                "image": "assets/images/530f91ba169ca8dc426f.webp",
+                "url": "https://play-lh.googleusercontent.com/qhi-EX7vYdiRFC1cpYCB0Ns_tWgo_UNbwtg1qMAryB5cidOMUA6Gi7TqzExSHZIpNmUzjL5fLoJi8K-glAzWIw=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "530f91ba169ca8dc426fa3ca480f127c626129b20a63cc0f66fb5c97e44611be"
+              },
+              {
+                "image": "assets/images/609549747b69543de00b.webp",
+                "url": "https://play-lh.googleusercontent.com/61q2HdtOYKpn8PJFkDK7ZOLt6xTQqf2g8slTZ8S5Rh9ksKZYJymufaUgXkcydf9gw-zEHIU1DbTIMOImG8H6=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "609549747b69543de00bd6dc6ca59c6cc6911116d8949d713b1dac45bc7caae2"
+              },
+              {
+                "image": "assets/images/5f64461de91145e6902a.webp",
+                "url": "https://play-lh.googleusercontent.com/qhi-EX7vYdiRFC1cpYCB0Ns_tWgo_UNbwtg1qMAryB5cidOMUA6Gi7TqzExSHZIpNmUzjL5fLoJi8K-glAzWIw=w2560-h1440-rw",
+                "crop": {
+                  "left": 81,
+                  "top": 317,
+                  "width": 648,
+                  "height": 950
+                },
+                "sha256": "5f64461de91145e6902aa743010684d09ec25330c2a26bdec350160136880a5c"
+              }
+            ],
+            "candidates": [
+              "#5c1a8e",
+              "#480f6f",
+              "#593195",
+              "#eac944",
+              "#3e1373"
+            ]
+          }
         },
         {
           "key": "a-54",
@@ -8814,7 +15228,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.brain.logic.joygame&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 54,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#e1b291",
+            "text": "#000000",
+            "contrast": 11.03,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/a2baa2055a254f6f5a85.webp",
+                "url": "https://play-lh.googleusercontent.com/vuqV3Dxgy41SGVjOmPM_NFyDfO9fcWqplBVoxA6qZAtFuEgAZiTEwSB-_I5WCfqQyzUWhXtXZhqTaXJsAw0D-os=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "a2baa2055a254f6f5a8515fdf5aa865acb990489416e239d4b86a7747bd4eb34"
+              },
+              {
+                "image": "assets/images/2657ab32591c7c4fb4af.webp",
+                "url": "https://play-lh.googleusercontent.com/IjnlCeeGJ8GX-Wn_1eiJ4O9uXj7P2r4hQj7P8cVAQGfJo5TV_NjvzO4-wvrsOPtm69PZyglSc5khbGi_UI0a1Q=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "2657ab32591c7c4fb4affb63e7fc1fd9d1d9ae1e53a765465cfa01b15f49cd30"
+              },
+              {
+                "image": "assets/images/bbea4b8c350e7dfe7686.webp",
+                "url": "https://play-lh.googleusercontent.com/REX56DF-_cL4jm_2Tc6zpVWf6rY6ogrPwwsIyPz3NvWxnfAlLSbB1Hq72LT2Lrhu5qU24ibm14bQrSugDHm2mA=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "bbea4b8c350e7dfe7686f5cc88a8e7089a57cbf1442c6b92659d307e8bd5fd36"
+              }
+            ],
+            "candidates": [
+              "#e1b291",
+              "#ec9c8e",
+              "#a57559",
+              "#e89a9f",
+              "#dfb87b"
+            ]
+          }
         },
         {
           "key": "a-55",
@@ -8866,7 +15332,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.puzzlegames.puzzlebrickslegend&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 55,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#4b58c9",
+            "text": "#ffffff",
+            "contrast": 5.91,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/a64246a67361f61c7e42.webp",
+                "url": "https://play-lh.googleusercontent.com/Yh9LcMVHcxBzZSYdUtZHzroy-EJ5qotfvyLYPYb6tj4PcIRtzkPxJJZ-Np09aSkU1BFWQeNs2UPZ2qI9j0bIxw=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "a64246a67361f61c7e42eb865e2c781c204bb4b0006577df6f520f47ab1dabd6"
+              },
+              {
+                "image": "assets/images/9136e4db9e25f1eda673.webp",
+                "url": "https://play-lh.googleusercontent.com/gwh-xZ0KAhCFkbduDpj2o_lmTp7RrB7s8g5zfNr_C7EdSzsgl5JgMrHLxYBvtqBh4H27poYk644KtkTUS8azs9g=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "9136e4db9e25f1eda673a5354437bbee8c2583b404f6118659f54c9b28ceb949"
+              },
+              {
+                "image": "assets/images/cd67d120aff59935f912.webp",
+                "url": "https://play-lh.googleusercontent.com/yiYfjbhIu56Ml1VxPUtHCDq3kfCEdWkJFWFz9DZMjkTZrIYHtTSP98K7WtmDVcKoI-T_B9eEs6i6gIJShV-e1Q=w526-h296-rw",
+                "crop": {
+                  "left": 53,
+                  "top": 65,
+                  "width": 421,
+                  "height": 195
+                },
+                "sha256": "cd67d120aff59935f912b03f2273e88c013c8c65e6231c315c0d32af3b17bf23"
+              }
+            ],
+            "candidates": [
+              "#4b58c9",
+              "#3e4bac",
+              "#487eda",
+              "#e2ae3c",
+              "#1c2759"
+            ]
+          }
         },
         {
           "key": "a-56",
@@ -8918,7 +15436,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=net.peakgames.toonblast&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 56,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#eb9e27",
+            "text": "#000000",
+            "contrast": 9.47,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/26df089a4551eb59af7f.webp",
+                "url": "https://play-lh.googleusercontent.com/MTquim-dT2HDAwxqzk7i2fqlzAt9QpwCgPZhhz2Rc8bc99AdIx7twtHSRWTvuNTo6htC6Xgdva3OU3-PJ4-WVQ=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "26df089a4551eb59af7f1d6e5cb96924e08110e870a3a57c98aa07c675180a46"
+              },
+              {
+                "image": "assets/images/93c9b9262c2eb23e091c.webp",
+                "url": "https://play-lh.googleusercontent.com/XUShi312Uva64M6TlmrgouAULKTCqaajr6cMzkQByUqqwNS0Apx8OiYEx7sIxSiFK_uTr4bisuUSSTfWvUGueNU=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "93c9b9262c2eb23e091cb299287e441534ee58fb3218aab5240b59ec45dacafc"
+              },
+              {
+                "image": "assets/images/414f3f19e3a14cd13ec8.webp",
+                "url": "https://play-lh.googleusercontent.com/-27S5k4d6GGZYSJudemCX1B5n8w6ZbKCCkYo2uCeMwGozggn9mcsAybu1zjsKgzgs1YXz2gXQzb8snYjuoqL1Lw=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "414f3f19e3a14cd13ec8ad42697d607817d6c853ab22865d813daf5c706fff54"
+              }
+            ],
+            "candidates": [
+              "#eb9e27",
+              "#495564",
+              "#4e3221",
+              "#d5660a",
+              "#581f15"
+            ]
+          }
         },
         {
           "key": "a-57",
@@ -8970,7 +15540,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=io.supercent.bulldozermasters&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 57,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#988464",
+            "text": "#000000",
+            "contrast": 5.84,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/fb7d7b29bea75003710a.webp",
+                "url": "https://play-lh.googleusercontent.com/DVh5WxJt9CZm99_VUircjnpuMCQmqBLAepG8ex3VGVfxVbTdoUWKpvAy6SHzFPr2DJy-XwJQCeb-G5CM_TqmEA=w526-h296-rw",
+                "crop": {
+                  "left": 14,
+                  "top": 65,
+                  "width": 110,
+                  "height": 195
+                },
+                "sha256": "fb7d7b29bea75003710af2509ecca5a83bcb564bf2497392b4a242d2d74a34f2"
+              },
+              {
+                "image": "assets/images/cd12ae04111a3bbc3eb4.webp",
+                "url": "https://play-lh.googleusercontent.com/OBdACbbbemayX0JnvIDXa4lSC9WtJwBoCokxknFt9J9kZ88Wj7-YPqxx0DOd7JIT1HHDIcQeEpNTRabOdPee=w526-h296-rw",
+                "crop": {
+                  "left": 14,
+                  "top": 65,
+                  "width": 110,
+                  "height": 195
+                },
+                "sha256": "cd12ae04111a3bbc3eb49078ac1f434b5530c1e1bf8cca92e4fbb3cde746b621"
+              },
+              {
+                "image": "assets/images/af3ee4fdff5371858d23.webp",
+                "url": "https://play-lh.googleusercontent.com/xCZeHKRnxZQKtOo5Gkl7u_ktYZiVsYZ6iZrqrhb1b03KSX8Bm2MfOlDuGqNn_WjxZzfjXOiDdHUzhd0wOe5AOg=w526-h296-rw",
+                "crop": {
+                  "left": 14,
+                  "top": 65,
+                  "width": 110,
+                  "height": 195
+                },
+                "sha256": "af3ee4fdff5371858d234bed2d166356af397ebb349409bf989ca4618833c56e"
+              }
+            ],
+            "candidates": [
+              "#988464",
+              "#645030",
+              "#574336",
+              "#a27f66",
+              "#e3c080"
+            ]
+          }
         },
         {
           "key": "a-58",
@@ -9022,7 +15644,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.farlightgames.pgame.gp&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 58,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#946ce1",
+            "text": "#000000",
+            "contrast": 5.51,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/86e1331721865c9228c8.webp",
+                "url": "https://play-lh.googleusercontent.com/sSISJdmoUAT5CinFeQJOR1TGJOI905OuEzDiJH_YljwACqIrI8Qx3XCGLnS2Hk9Jkzljn_lzZCjcoPa0aw87=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "86e1331721865c9228c867fa479f9a5b0f3b4eb6b3db080b7e94b291bd7bf5e6"
+              },
+              {
+                "image": "assets/images/ff6c9145f56f6b6943a0.webp",
+                "url": "https://play-lh.googleusercontent.com/XTUeb2SWoDd4wQ869k1WfmMqves_svKHMmyN2O5628mRpeVm6T2wxhev09nySoHXnj1yUYHX8uUhC92gt6pT=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "ff6c9145f56f6b6943a03c67df3e73f5950e340f94f5e85e7c8b10e543394dc0"
+              },
+              {
+                "image": "assets/images/b5b5339ac70bd8a89bdc.webp",
+                "url": "https://play-lh.googleusercontent.com/FNKII39HqVM_acYL8_dzuG_Y51MQ2mXG_NQBiC7jaZMmd7qL5wm0oVcJhtwLxInEGk9TA-7v6QJfKiW2mjaipw=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "b5b5339ac70bd8a89bdc24130956fe26c8af6015db3c57519a31ec105217043e"
+              }
+            ],
+            "candidates": [
+              "#946ce1",
+              "#f7c13e",
+              "#f0d14e",
+              "#7152a5",
+              "#7e63e0"
+            ]
+          }
         },
         {
           "key": "a-59",
@@ -9074,7 +15748,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.jackpot.android&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 59,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#e2a944",
+            "text": "#000000",
+            "contrast": 10.02,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/65a8e26e1e0cae99432f.webp",
+                "url": "https://play-lh.googleusercontent.com/OYFqJnsgqoHttu4sM1nEFHdkLvFWaVxo8j90hojyaMKgEvmE5fMU54ImJJl8x5sigmTFzGcsy-XD7oEv0C2rUqQ=w526-h296-rw",
+                "crop": {
+                  "left": 53,
+                  "top": 65,
+                  "width": 421,
+                  "height": 195
+                },
+                "sha256": "65a8e26e1e0cae99432fb8620bd65523c5ea4182dc508bf8691dc4b8be3fa95b"
+              },
+              {
+                "image": "assets/images/4fb19ee286e8194ffb97.webp",
+                "url": "https://play-lh.googleusercontent.com/bhy3-UnieGPteNXZZgaRPmj3oEdXVqN9AlRDRewREDbpw--BPcRvp--5IzLK9-C231zas4S-xFswDkFdQbH9=w526-h296-rw",
+                "crop": {
+                  "left": 53,
+                  "top": 65,
+                  "width": 421,
+                  "height": 195
+                },
+                "sha256": "4fb19ee286e8194ffb9760341e040548dcf323a9b9ccfb0b2efa76b72e928ef5"
+              },
+              {
+                "image": "assets/images/6f3aecf9ecd5cd72affa.webp",
+                "url": "https://play-lh.googleusercontent.com/LixKCHQQyABakuXiZ6-oKvNgFeFRpHzFZmXNx8y4p9WGXhkBzdToGxouxAOppNGx39etan5G7OII-OyYj7qu6w=w526-h296-rw",
+                "crop": {
+                  "left": 53,
+                  "top": 65,
+                  "width": 421,
+                  "height": 195
+                },
+                "sha256": "6f3aecf9ecd5cd72affac9087930d24796657c6ea5f991e6bd8732f224b240f9"
+              }
+            ],
+            "candidates": [
+              "#e2a944",
+              "#6d2598",
+              "#f0d552",
+              "#a25d32",
+              "#dc8952"
+            ]
+          }
         },
         {
           "key": "a-60",
@@ -9126,7 +15852,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.paradyme.solarsmash&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 60,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#ebb05a",
+            "text": "#000000",
+            "contrast": 10.92,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/6bce3296f9956e9a356c.webp",
+                "url": "https://play-lh.googleusercontent.com/oOXRBVwGGwUSpTGhUxUJZIVnKbHVLVU9qF49_xnS25n1NcJvXhh9d_DSH2ztTv2W0vqYk966iTZ5IWSl2SdjSA=w526-h296-rw",
+                "crop": {
+                  "left": 53,
+                  "top": 65,
+                  "width": 421,
+                  "height": 195
+                },
+                "sha256": "6bce3296f9956e9a356ce58839f78fe20f94596cbec7256b7e4597c1e989d827"
+              },
+              {
+                "image": "assets/images/3584a2a1e78eba64f257.webp",
+                "url": "https://play-lh.googleusercontent.com/GAGH-7F-EqAW4RW9br7yM2yarcafl-M-yrOpCehmH6mlProoce0VB_VAF8mnmWZCl86n3BT6U1K9IFh3p2mCgw=w526-h296-rw",
+                "crop": {
+                  "left": 53,
+                  "top": 65,
+                  "width": 421,
+                  "height": 195
+                },
+                "sha256": "3584a2a1e78eba64f2574d2f8c4e6ebc1e7fb48e838b975ce3c6f5433dbbea02"
+              },
+              {
+                "image": "assets/images/c5d84534403d53775ea8.webp",
+                "url": "https://play-lh.googleusercontent.com/4o03cydmg-Vth1JoU_PMuIxNUN9_WgsrHuA2l_MwkeASIzaYm-b2vzQTT5ID1b_XQzfJBZePe7dU3Zm88GXNFg=w526-h296-rw",
+                "crop": {
+                  "left": 53,
+                  "top": 65,
+                  "width": 421,
+                  "height": 195
+                },
+                "sha256": "c5d84534403d53775ea8d512beaf2830f1028735fb9c522a2d4fa2d097baffbb"
+              }
+            ],
+            "candidates": [
+              "#ebb05a",
+              "#5b3928",
+              "#9c7b50",
+              "#e17d39",
+              "#9d5e39"
+            ]
+          }
         },
         {
           "key": "a-61",
@@ -9178,7 +15956,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=bus.sand.fall.jam.loop.traffic.flow&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 61,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#59d2dd",
+            "text": "#000000",
+            "contrast": 11.73,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/dce8a693968155e54705.webp",
+                "url": "https://play-lh.googleusercontent.com/ySlhs5k7eGnLsQ7el-aNZbf813Q5JHAJnIGgclYfwE8xLuMjVrChpvvF34qKERQTSor1soxee80dwvhyTLeSeQ8=w526-h296-rw",
+                "crop": {
+                  "left": 13,
+                  "top": 65,
+                  "width": 104,
+                  "height": 195
+                },
+                "sha256": "dce8a693968155e547055c157f603361a69a848e6c89738ad6ca3e88db94181d"
+              },
+              {
+                "image": "assets/images/5a268d9511e6617fadbd.webp",
+                "url": "https://play-lh.googleusercontent.com/m9cYdb_iKFZQKb-5AWOEXXKwohrtcaEl7Z0nFC31bsyQdVBo2gGrbgNNb3uto_ftCp_qgIkyUrc1PChYwQ75DQ=w526-h296-rw",
+                "crop": {
+                  "left": 13,
+                  "top": 65,
+                  "width": 104,
+                  "height": 195
+                },
+                "sha256": "5a268d9511e6617fadbdc56407805ca2f669ae4a2729e9a347fdd95aeda76e30"
+              },
+              {
+                "image": "assets/images/29a4f83ac8525332c784.webp",
+                "url": "https://play-lh.googleusercontent.com/NGMrXO2-QgCuSw7yVM9zUWL0C2MYDOJsPnOZ4_7fHaZ5XqzpipxvoCyLfC8KM3_xLKyWk_ddxnWc7IxJLhixZQ=w526-h296-rw",
+                "crop": {
+                  "left": 13,
+                  "top": 65,
+                  "width": 104,
+                  "height": 195
+                },
+                "sha256": "29a4f83ac8525332c784bb139502550fabdb0157f4f86aa3d6de7f840caf5ccf"
+              }
+            ],
+            "candidates": [
+              "#59d2dd",
+              "#d7915e",
+              "#a96c45",
+              "#8451aa",
+              "#a5434b"
+            ]
+          }
         },
         {
           "key": "a-62",
@@ -9230,7 +16060,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.robtopx.geometryjumplite&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 62,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#085ce1",
+            "text": "#ffffff",
+            "contrast": 5.76,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/f75fc33a1d9808b27914.webp",
+                "url": "https://play-lh.googleusercontent.com/bX2Wz4jdga0sVrzi4Fil27DHqPl9mcyqtpvRnNkn0vDJbqF8P6sxNkduUXH0SzXm1TtwAaEiig7fBjZsWq1p=w526-h296-rw",
+                "crop": {
+                  "left": 44,
+                  "top": 65,
+                  "width": 355,
+                  "height": 195
+                },
+                "sha256": "f75fc33a1d9808b27914a84c0a757af694064f7fc63955709272c7433c647ea1"
+              },
+              {
+                "image": "assets/images/d85601d6376edfa7a0a2.webp",
+                "url": "https://play-lh.googleusercontent.com/NCZrWzgzwXib8qO-rH_75W3SBEgrQs2k8nLmL6-2qz3OaTUoyMavsFYKTxrv_10rb3k-9Beaam6pR-YcZ3YUlg=w526-h296-rw",
+                "crop": {
+                  "left": 44,
+                  "top": 65,
+                  "width": 355,
+                  "height": 195
+                },
+                "sha256": "d85601d6376edfa7a0a290f17fcc1499f19777f356e931e04a705f7710c94634"
+              },
+              {
+                "image": "assets/images/f5d922187b2c89bf1358.webp",
+                "url": "https://play-lh.googleusercontent.com/Obb-8opSdMNfCZdf8YANmePY_dq10s-NISkvDQJot1Mz69q_bd2f8BCsKdxE3NlnPhSf5vhYRb4pTDRTbwS6qQ=w526-h296-rw",
+                "crop": {
+                  "left": 44,
+                  "top": 65,
+                  "width": 355,
+                  "height": 195
+                },
+                "sha256": "f5d922187b2c89bf13580b89588c2158faaaaa7eb3a8102b1f0cb00f66cbc701"
+              }
+            ],
+            "candidates": [
+              "#085ce1",
+              "#081fa1",
+              "#c704ce",
+              "#a003a5",
+              "#023ea8"
+            ]
+          }
         },
         {
           "key": "a-63",
@@ -9282,7 +16164,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=jp.pokemon.pokemontcgp&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 63,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#a2f5b1",
+            "text": "#000000",
+            "contrast": 16.29,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/bb5239fa867153f5e8c0.webp",
+                "url": "https://play-lh.googleusercontent.com/8a96l9MXMhlMWlA3DWZc95r6OR4HQ72x0TfG-fvwuRIUllw7_PhqjaH2D7Gui0CE7iJW5f7f1LgBvVKbR-3V9g=w526-h296-rw",
+                "crop": {
+                  "left": 14,
+                  "top": 65,
+                  "width": 109,
+                  "height": 195
+                },
+                "sha256": "bb5239fa867153f5e8c04377f09ca07e229ea626e6e33d7dcb3af2352fc642c4"
+              },
+              {
+                "image": "assets/images/2fbd9011aebb5d0afd9e.webp",
+                "url": "https://play-lh.googleusercontent.com/3095dF_hgrFj9yNWv0dJFrq7YaH7QYhp4CG7_hl2l6UVyCiTfXw5TMGuXgvCK-3Hgmj86vt1OLgP8MxOMFs85Q=w526-h296-rw",
+                "crop": {
+                  "left": 14,
+                  "top": 65,
+                  "width": 109,
+                  "height": 195
+                },
+                "sha256": "2fbd9011aebb5d0afd9edf6dd5b4f9147093a0d6802c9faefddd8a7ffb56211c"
+              },
+              {
+                "image": "assets/images/0aa60348fcf59795a8e2.webp",
+                "url": "https://play-lh.googleusercontent.com/qu6rNAdHsxykb5QQfn-F9iaZCShG5gKn_iUHYwJP_Xp1jyNx0dWgrZGHjbOSey4bpe0Zfk8aPtHoKHNlLEVzkA=w526-h296-rw",
+                "crop": {
+                  "left": 14,
+                  "top": 65,
+                  "width": 109,
+                  "height": 195
+                },
+                "sha256": "0aa60348fcf59795a8e28fa4101a10a6cd03cdbb748d820acd279a4824f79bf1"
+              }
+            ],
+            "candidates": [
+              "#a2f5b1",
+              "#c6f8bd",
+              "#a66a9d",
+              "#7abde0",
+              "#9df4b7"
+            ]
+          }
         },
         {
           "key": "a-64",
@@ -9327,7 +16261,48 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.dongz.satisclean&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 64,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#664e2b",
+            "text": "#ffffff",
+            "contrast": 7.83,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/3068f32e2f4af56a9464.webp",
+                "url": "https://play-lh.googleusercontent.com/5Es7YVX_yWgVRA559EtoxY66ht9UIQ9QjdwCpfw4i1HZ-pm3tdlApzKBoJZSUkpw4H-xlCE7Qp47yg3w-HTaUp4=w526-h296-rw",
+                "crop": {
+                  "left": 14,
+                  "top": 65,
+                  "width": 110,
+                  "height": 195
+                },
+                "sha256": "3068f32e2f4af56a9464bbbbd9a59518f5748e2f239c34e11464fbec01e7ba7d"
+              },
+              {
+                "image": "assets/images/e5d55f391b789867e36a.webp",
+                "url": "https://play-lh.googleusercontent.com/9OGtdUeAiS8ah4SnugjRVwIpVHJzNthrqH6CPRqk8wl4UrWHFUTfXfyYdR8DRmAbaMf7Ff8K4CiMEX3k6NSxAw=w526-h296-rw",
+                "crop": {
+                  "left": 14,
+                  "top": 65,
+                  "width": 110,
+                  "height": 195
+                },
+                "sha256": "e5d55f391b789867e36ac06cad4e54117282c11dbbbac5300f0b8ce6cbd54fe5"
+              }
+            ],
+            "candidates": [
+              "#664e2b",
+              "#455b66",
+              "#5f3f2a",
+              "#a84b33",
+              "#9b733c"
+            ]
+          }
         },
         {
           "key": "a-65",
@@ -9386,7 +16361,70 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://foxdata.com/en/app-marketing-analytics/6762192889/as/US/arrow-jam-tap-puzzle/"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 65,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#28b6f3",
+            "text": "#000000",
+            "contrast": 9.06,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/9d5562eddaf7de723870.webp",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5f/52/d2/5f52d2fc-3293-1a19-1adf-4f7cd9d7648e/Market_1_2868x1320.png/460x0w.png",
+                "crop": {
+                  "left": 46,
+                  "top": 220,
+                  "width": 368,
+                  "height": 659
+                },
+                "sha256": "9d5562eddaf7de72387021db5312a961a26ee5023e7f0bfed25324a677d631e8"
+              },
+              {
+                "image": "assets/images/248bbc1086009838c609.webp",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/12/c3/77/12c37724-5ed7-22f7-02b4-cd796e963a58/Market_2_2868x1320.png/460x0w.png",
+                "crop": {
+                  "left": 46,
+                  "top": 220,
+                  "width": 368,
+                  "height": 659
+                },
+                "sha256": "248bbc1086009838c6098112f26348ee19773a425253c982e349295289902651"
+              },
+              {
+                "image": "assets/images/7fe2163963ab0b72e48a.webp",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/56/77/2c/56772c7e-546f-146d-d583-ba1ed80ca6de/Market_3_2868x1320.png/460x0w.png",
+                "crop": {
+                  "left": 46,
+                  "top": 220,
+                  "width": 368,
+                  "height": 659
+                },
+                "sha256": "7fe2163963ab0b72e48a9a67cc64054a22bea721b19914eb02fffdee45a0af07"
+              },
+              {
+                "image": "assets/images/d48a2d0b50134d7372d1.webp",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/08/3f/30/083f3073-18da-ce21-1c67-5b7eb5ea708e/Market_4_2868x1320.png/460x0w.png",
+                "crop": {
+                  "left": 46,
+                  "top": 220,
+                  "width": 368,
+                  "height": 659
+                },
+                "sha256": "d48a2d0b50134d7372d10cb9f1f64787c0bdeb06d0c1ca4fcff49719c30f5db8"
+              }
+            ],
+            "candidates": [
+              "#28b6f3",
+              "#5f9fe7",
+              "#e7a936",
+              "#79daf4",
+              "#c9a431"
+            ]
+          }
         },
         {
           "key": "a-66",
@@ -9431,7 +16469,48 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.awesome.puzzlehexasort&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 66,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#46d9ec",
+            "text": "#000000",
+            "contrast": 12.38,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/21b8932afb2e4a4d0a77.webp",
+                "url": "https://play-lh.googleusercontent.com/gksSt0fCPK4Xo0Y7juDJsiSJyqw7pvX1I0Iw5SoGrf5DuGbUkpIBks7K0zSxGyJzuMYxN_RVuhrVxRymM_16=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "21b8932afb2e4a4d0a77137d16d6bcf95c5ccc0e249fb3e0ed8d88c75dbb217d"
+              },
+              {
+                "image": "assets/images/9c2e51b82041c4cc40b2.webp",
+                "url": "https://play-lh.googleusercontent.com/27am-dpMtqgb9oLK-BZoKdeKkDczqGpNXx7lCsrF6edEUb--mpNX_I1sx2zL7hZnhK0XsJkGWhm4jW5bGct0Z74=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "9c2e51b82041c4cc40b2d70d380af4f140952d7bba5cd158f26e22f6d66d6dea"
+              }
+            ],
+            "candidates": [
+              "#46d9ec",
+              "#5ebbee",
+              "#ea51fa",
+              "#0ee128",
+              "#f83587"
+            ]
+          }
         },
         {
           "key": "a-67",
@@ -9483,7 +16562,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=busflow.traffic.puzzle&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 67,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#ecc988",
+            "text": "#000000",
+            "contrast": 13.3,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/0299e50dea618a7891c3.webp",
+                "url": "https://play-lh.googleusercontent.com/A29EcWKHB8CmVLvzt_BOeZdkTddSxu26QkS8F2sQoP1ZmnyJgjLheAgrp3sW2-P4vtMJmjYT6tPGU0CkHPm6qYQ=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "0299e50dea618a7891c34423417ffb0da7e70c4e256b902e261fe5d08e9c25f3"
+              },
+              {
+                "image": "assets/images/dc383eafa81d55b0e6d4.webp",
+                "url": "https://play-lh.googleusercontent.com/o8CoDTcrakz_oSk3S8DSLiIoey6aCG5GJudk3Ltp13mL1rnX_KIGhR6wMI9qQtDWrdIPr66J0cX9MAzecGxXQZQ=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "dc383eafa81d55b0e6d46d98cb711c2974a797b93533f550cb4d0cfcb92de8f8"
+              },
+              {
+                "image": "assets/images/1fc7a0eb97dc66d6444e.webp",
+                "url": "https://play-lh.googleusercontent.com/-eiwBb0D_-AlLCIsJH0JiTXLD2c_d8olaGYKe560uY9d_o9-C0l0ihIht2VW68uSpxjBnIX1kQXsjOP-r8Jmmw=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "1fc7a0eb97dc66d6444e609c5ea0280b58be9f86333b293e49d1faee378c09c0"
+              }
+            ],
+            "candidates": [
+              "#ecc988",
+              "#ebcf4d",
+              "#b2d65d",
+              "#a275df",
+              "#9e7c3a"
+            ]
+          }
         },
         {
           "key": "a-68",
@@ -9535,7 +16666,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.JindoBlu.OfflineGames&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 68,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#e4b766",
+            "text": "#000000",
+            "contrast": 11.3,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/b747b28b15e1975f693a.webp",
+                "url": "https://play-lh.googleusercontent.com/KX7qqcvONKSBX61oHf9f6seBq_tIqkDmzmRHdQb_WsZTk5AiBGFx5SwoSpcs4LbeZVVFWytUno08Cws6bLU-Pw=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "b747b28b15e1975f693a379b1934577f55286ca1ca54959df7ed598a82f50eca"
+              },
+              {
+                "image": "assets/images/c7bd9d24c5e296995c78.webp",
+                "url": "https://play-lh.googleusercontent.com/7wumX1DOvEFnqWxYIvohfsfFg05rlYeHigRw0gIz8qSkyFfnaDj9jUifvgZ_osyej1KmmWvqs6ttzYb_dSFb0B4=w526-h296-rw",
+                "crop": {
+                  "left": 53,
+                  "top": 65,
+                  "width": 421,
+                  "height": 195
+                },
+                "sha256": "c7bd9d24c5e296995c78e8a9cd1d6fa4a2e47da1892fa3b89b8304d3e3057f70"
+              },
+              {
+                "image": "assets/images/7239b155a87d6eef542b.webp",
+                "url": "https://play-lh.googleusercontent.com/Z64PiwOzqvVWWdAgMXH83uxGAb0MKpgo7K4aGN5zT15u6jZy2JllP2WFm1wwH-mRKJ5HpKCstsih9C0iLCt7=w526-h296-rw",
+                "crop": {
+                  "left": 53,
+                  "top": 65,
+                  "width": 421,
+                  "height": 195
+                },
+                "sha256": "7239b155a87d6eef542b6f7f776b704c29a1284cea7eb879a79a52b3a4eb0a4a"
+              }
+            ],
+            "candidates": [
+              "#e4b766",
+              "#08933c",
+              "#6084ad",
+              "#e09d73",
+              "#e8d25e"
+            ]
+          }
         },
         {
           "key": "a-69",
@@ -9594,7 +16777,70 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://foxdata.com/en/app-marketing-analytics/6796547048/as/US/cutie-sort-magic-color-fever/"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 69,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#f3c47d",
+            "text": "#000000",
+            "contrast": 12.96,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/d823aace5d782149b628.webp",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f5/05/72/f5057217-1726-76cd-aa40-f0ac0e562d5d/ab_18376_1793779237620.png/460x0w.png",
+                "crop": {
+                  "left": 46,
+                  "top": 219,
+                  "width": 368,
+                  "height": 658
+                },
+                "sha256": "d823aace5d782149b62804cd5a774241850c58cf73c73fe2835b8ebbb5b0a41d"
+              },
+              {
+                "image": "assets/images/44ac4a49b23ff7eb2875.webp",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ec/31/d4/ec31d438-04dd-c7d9-3fbc-3a69f6a1fd60/ab_18377_1793779244201.png/460x0w.png",
+                "crop": {
+                  "left": 46,
+                  "top": 219,
+                  "width": 368,
+                  "height": 658
+                },
+                "sha256": "44ac4a49b23ff7eb2875e63fc41d5291fad4b7654531eee965ad0271244539e1"
+              },
+              {
+                "image": "assets/images/57674967ae6bbfdc9ed4.webp",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c0/6a/4e/c06a4e16-8421-a28e-c50b-fe492d083631/ab_18378_1793779250618.png/460x0w.png",
+                "crop": {
+                  "left": 46,
+                  "top": 219,
+                  "width": 368,
+                  "height": 658
+                },
+                "sha256": "57674967ae6bbfdc9ed4a947e5c2660cc68492f0bc8152ff4b3c6b91ade531c2"
+              },
+              {
+                "image": "assets/images/d8d778d3c29a48b14458.webp",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/40/96/80/409680e9-0bf0-fff5-32a5-171af79d23f4/ab_18379_1793779256474.png/460x0w.png",
+                "crop": {
+                  "left": 46,
+                  "top": 219,
+                  "width": 368,
+                  "height": 658
+                },
+                "sha256": "d8d778d3c29a48b14458e0d7eb50b0ff3a0bc2eeffe671e9e1facc8a7a3ec9e7"
+              }
+            ],
+            "candidates": [
+              "#f3c47d",
+              "#e6aa7e",
+              "#6bd0dd",
+              "#e85a4c",
+              "#73bbef"
+            ]
+          }
         },
         {
           "key": "a-70",
@@ -9646,7 +16892,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=sorting.games.goods.sort.triple.match3d.puzzle.stuff&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 70,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#d7ab71",
+            "text": "#000000",
+            "contrast": 9.99,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/02a0c965128d5c54ee98.webp",
+                "url": "https://play-lh.googleusercontent.com/5-Y8dngKRYFkwA2iHKmaqNHEpyEPYFwS1Cpyvr_LmwYwddtHjNLEtxxPRSL8vSYR-6qBF_CjgnS7NS13ETxLtuQ=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "02a0c965128d5c54ee982da0302909cc464cdf8cbe1895899ad790810828b458"
+              },
+              {
+                "image": "assets/images/63e426906976bff51f99.webp",
+                "url": "https://play-lh.googleusercontent.com/ZOOv7OswcHnvKxOABqJ0y2ugsWvK9WZ4JZTegu8EbEU8t3xZPPwHT3rH7n0oElZqHBGoFDCdTgQKl0fPmJz84T0=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "63e426906976bff51f99be442041b70e11984dcac1d586f9fed1d78326ecf4f0"
+              },
+              {
+                "image": "assets/images/c3be9e88e1f19a7a7505.webp",
+                "url": "https://play-lh.googleusercontent.com/skChL0gyfcOsz_wJkRU4uLKqjOWIALP1fFFuTVuJ0Vgo7zp6h4GB_2QuZv_tO4t7me4MSiwv4NS80gvKQTyY=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "c3be9e88e1f19a7a750540515c5679a480351b8c89d4d02442ed778609b7a6c9"
+              }
+            ],
+            "candidates": [
+              "#d7ab71",
+              "#d59e77",
+              "#a6875b",
+              "#a57554",
+              "#643f28"
+            ]
+          }
         },
         {
           "key": "a-71",
@@ -9698,7 +16996,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.gimica.treasuremaster&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 71,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#1e314c",
+            "text": "#ffffff",
+            "contrast": 13.16,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/341dea36f83453d2ff2c.webp",
+                "url": "https://play-lh.googleusercontent.com/6DjBVPuBgLoAmZtNMGRt0qS9VA6D8wOwgonqZrKDA5YhOHHZNBCKq5UsvHVU-GzqE9bQD81BUXPdUJoO88E-VQY=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "341dea36f83453d2ff2c3014ad9e431b17a1fafedf74e21abc4f3037402862a9"
+              },
+              {
+                "image": "assets/images/628bda307d59b71053b5.webp",
+                "url": "https://play-lh.googleusercontent.com/1OxqMxGCkA9WRQLBRNMi8N2Ut4tqeE-42zeRfdVUSaylNQsFVtzJI-nkyqvmtzXNeH1XXRhfSi4JEeeJ5bPg=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "628bda307d59b71053b53d973cadda5aab1d011eed4196975b089ff2724ffa05"
+              },
+              {
+                "image": "assets/images/8b035ed350405b599019.webp",
+                "url": "https://play-lh.googleusercontent.com/BTm8sXjaiWiyEr2f2bEXtQ1yQ_oJSfXcS3sBWxvUkQT7xWSSlonyoUZ70LzBXw2YZJD0fRWf0-ReNprGGN8Ga20=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "8b035ed350405b599019281e99b4d808ccd673cd6599dea7d1d14da209a52a5d"
+              }
+            ],
+            "candidates": [
+              "#1e314c",
+              "#1c445d",
+              "#a26848",
+              "#312b58",
+              "#d98b55"
+            ]
+          }
         },
         {
           "key": "a-72",
@@ -9750,7 +17100,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=puzzle.yarn.fever.unravel.puzzle&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 72,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#dd9a6c",
+            "text": "#000000",
+            "contrast": 8.94,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/f77908ea16949a0b5799.webp",
+                "url": "https://play-lh.googleusercontent.com/GFLMkXLRi9pZAzFE1ZZlO5KfbJUA2yhTER-ZD6OJODVKSoJ_HQC3lNR6oSsMJHdTXQT98Hnc6WgA883b-Atee-s=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "f77908ea16949a0b579993cc5efc834dbbcf3e761f78326d8444a0ad0e5eeaa2"
+              },
+              {
+                "image": "assets/images/b8aff0f593952b8efd50.webp",
+                "url": "https://play-lh.googleusercontent.com/z6RCdHPBB7Ubsnsq2FGepfpLUu40KVCghbUiBn4sVU5efGzfwfS693V2qGNH0AMDph88-VWIJR7pHS2faF-aRQ=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "b8aff0f593952b8efd50398bc25d992822a61331d66fca0aea470e40585dd5b7"
+              },
+              {
+                "image": "assets/images/e6cc84ed802e3e8edbe5.webp",
+                "url": "https://play-lh.googleusercontent.com/TWzaepwWXASlc_htqWfj4AtJTxjrxjcQP1xF6fP5DOOHdbtbFiUKHSkTHsd-ygur9WNuYkSP4nSDCuOa0jN0oA=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "e6cc84ed802e3e8edbe579329f1192d63889d07fe21a8d30ec7c4ee57236ad7a"
+              }
+            ],
+            "candidates": [
+              "#dd9a6c",
+              "#ea9da8",
+              "#ecc689",
+              "#a7653c",
+              "#8a66a5"
+            ]
+          }
         },
         {
           "key": "a-73",
@@ -9788,7 +17190,37 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.cookingo.perfect.meal&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 73,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#f1c578",
+            "text": "#000000",
+            "contrast": 12.97,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/bfaef9536ed51a1c0fb4.webp",
+                "url": "https://play-lh.googleusercontent.com/mDqLEPF_yZOZmo-Falk0FROB1hNp7D-HEquE4BQAK3TJ6-Nb32hcpArmZwXMs7bGZS1VT1CWjMn9oLVOlVI6pw=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "bfaef9536ed51a1c0fb4337694697d0032d2b2b994c123267c792edb6e311b9e"
+              }
+            ],
+            "candidates": [
+              "#f1c578",
+              "#e9988c",
+              "#f785d0",
+              "#40505a",
+              "#dc8d5e"
+            ]
+          }
         },
         {
           "key": "a-74",
@@ -9840,7 +17272,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.moonactive.cmboard&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 74,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#e26959",
+            "text": "#000000",
+            "contrast": 6.4,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/ffcef5bd3ab2f7e5a478.webp",
+                "url": "https://play-lh.googleusercontent.com/TDkNO1QCOMsrFGxsv7Xffy7HRkRq_UIYnJS6YU8p1VCVhfiONr5-Ry4VFTGM6b2QGBMjRQ9kypqh4NfR8bZiAQ=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "ffcef5bd3ab2f7e5a4789dac1cf448e4cf7d1e4aba4647c16ced428cb75fe9ef"
+              },
+              {
+                "image": "assets/images/37b78770d58e585884a4.webp",
+                "url": "https://play-lh.googleusercontent.com/93DhO5eaSKbzj6kLwF-eYgjRkMOm1QW-ENe54nRSFHZ4AQlueKBJgt553MI-dwfKcqcztC1n2P9gc5PiMd93D0w=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "37b78770d58e585884a49b6f2467774111812b4cc5371399e68814b82b10960d"
+              },
+              {
+                "image": "assets/images/0675f089d459ca583ac2.webp",
+                "url": "https://play-lh.googleusercontent.com/c_N-nD4T1jTN1gUoQoQtq1AxcwnwVS8XRJY-AC73Ydwu1dsLHqDv-aFMALhcxmKH8z7_5n5HsW3rAMFgyGwTkw=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "0675f089d459ca583ac2d6f8c50b5e301a7ea6ea3f8e6a2bc1c910266928f0c3"
+              }
+            ],
+            "candidates": [
+              "#e26959",
+              "#e3915f",
+              "#2ca0f5",
+              "#f2bb5a",
+              "#87d062"
+            ]
+          }
         },
         {
           "key": "a-75",
@@ -9892,7 +17376,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=hidden.object.find.seek.search.mystery.puzzle.games.free&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 75,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#e4ba77",
+            "text": "#000000",
+            "contrast": 11.58,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/5c100ebbb02ddd0c8997.webp",
+                "url": "https://play-lh.googleusercontent.com/0UWF-Ahh_nGlHYGxk78hmGVnCKJr0I-xMMlvqhQC7eWKFOT2fBQinLZI6gRoo6FFMxXFtbTer7yuEilJwExV=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "5c100ebbb02ddd0c899768566bb2c150a90419a917e64a543994a2ce653beeeb"
+              },
+              {
+                "image": "assets/images/b8c3ad185f2cfd30663b.webp",
+                "url": "https://play-lh.googleusercontent.com/CQ6lHBmqw-5Iy6447XlGToGEavPRsla_ye4RTKHltuPFdGmALJ7xR_xi7oNkp9A27hwga2pZ4WRH0C2X8lnO=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "b8c3ad185f2cfd30663b52f566286957e1e88d8bcd04c8e9907da5d0e750e90b"
+              },
+              {
+                "image": "assets/images/d5144a6ada0a678594ae.webp",
+                "url": "https://play-lh.googleusercontent.com/WgWb98CiGCth-62VW2pb3xpMiAPgQ7ABsNjY01cBc1u91bB3oXansDFLGBQmFe8I7X-C57OhlbqVgqARLUUD2Q=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "d5144a6ada0a678594aeb6a1170bd88b2123a1f2416b2ad5b5cbbf5c82664eac"
+              }
+            ],
+            "candidates": [
+              "#e4ba77",
+              "#dc9b73",
+              "#a36c4c",
+              "#622e27",
+              "#9f5144"
+            ]
+          }
         },
         {
           "key": "a-76",
@@ -9951,7 +17487,70 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://foxdata.com/en/app-marketing-analytics/6749947089/as/TW/tidy-puzzle-perfect-satisfy/"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 76,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#f09081",
+            "text": "#000000",
+            "contrast": 9,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/f52824c476a8ce2c4bbe.webp",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4d/37/b0/4d37b09f-ae23-e290-e321-44fcf73c510d/A5.jpg/460x0w.png",
+                "crop": {
+                  "left": 46,
+                  "top": 219,
+                  "width": 368,
+                  "height": 658
+                },
+                "sha256": "f52824c476a8ce2c4bbea0f54c5567d26e75c00fb95475275b6cd608853b2bc6"
+              },
+              {
+                "image": "assets/images/e96009619c690a6ccc9f.webp",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8b/63/26/8b63261f-b997-99b3-d53c-08fb68558637/A3.jpg/460x0w.png",
+                "crop": {
+                  "left": 46,
+                  "top": 219,
+                  "width": 368,
+                  "height": 658
+                },
+                "sha256": "e96009619c690a6ccc9f541acee3a92148180f636a9442dca0fdc075cb07bcee"
+              },
+              {
+                "image": "assets/images/a2238823985bb78297bf.webp",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/83/b2/65/83b26519-1d48-1c7d-53b2-05ee880a6c16/A1.jpg/460x0w.png",
+                "crop": {
+                  "left": 46,
+                  "top": 219,
+                  "width": 368,
+                  "height": 658
+                },
+                "sha256": "a2238823985bb78297bfa7cd6258dde8df447ce847b4f99d11c642c8e29a76bc"
+              },
+              {
+                "image": "assets/images/88df3d48fe84dc22115c.webp",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f5/bf/d1/f5bfd11a-e7c0-9e06-3672-32245c5935b2/A6.jpg/460x0w.png",
+                "crop": {
+                  "left": 46,
+                  "top": 219,
+                  "width": 368,
+                  "height": 658
+                },
+                "sha256": "88df3d48fe84dc22115c710ee164fe3a9a0b940886b81ac1e637474bab4cdb4b"
+              }
+            ],
+            "candidates": [
+              "#f09081",
+              "#e49e6d",
+              "#e9b971",
+              "#d5dd85",
+              "#ebdb8a"
+            ]
+          }
         },
         {
           "key": "a-77",
@@ -10003,7 +17602,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.pd.vehiclemasters&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 77,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#f4bb59",
+            "text": "#000000",
+            "contrast": 12.1,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/c11342f8c061ae8ebb42.webp",
+                "url": "https://play-lh.googleusercontent.com/gurtkNDNnmWDL2EDcGBCjxravXLvy2CH5S1Dw46kEPgHGovX87dDk67zrxFvv4V5sKfIRXEwh8kmqPR3W0ioXw=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "c11342f8c061ae8ebb42ca4ac83316a64fde57d763b111ab97e3913866362666"
+              },
+              {
+                "image": "assets/images/29a19fdae824a2042b48.webp",
+                "url": "https://play-lh.googleusercontent.com/8ic67QQUV-vKrq4frsghWcrnx_XlmV85XMI7lf92eHeeYQv4OcBzEjyH3L8xHYMkK3MdsilcovGArbNVv9TMlw=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "29a19fdae824a2042b484512551286867fe81aa857da10ced2b176c592dd3afb"
+              },
+              {
+                "image": "assets/images/e3a20f3650b5717713b4.webp",
+                "url": "https://play-lh.googleusercontent.com/XeB3LokvXRlhgpuRK-DjugffKAHjERD1gq-7TuHEAzh-qi9hMsJTH-RzoylPk8-zuAStAK4oaJ0MZrtAvZqS8Q=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "e3a20f3650b5717713b41239d44060346f5c50d7f6efed79f91ad3e6ffbc1992"
+              }
+            ],
+            "candidates": [
+              "#f4bb59",
+              "#456c3f",
+              "#567036",
+              "#486334",
+              "#ace5e3"
+            ]
+          }
         },
         {
           "key": "a-78",
@@ -10055,7 +17706,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.melon.drop.fruit.merge.master&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 78,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#f5d797",
+            "text": "#000000",
+            "contrast": 15.05,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/97641436a3e5f3f63bb4.webp",
+                "url": "https://play-lh.googleusercontent.com/NOQ0XHz6SOxidbfgXmMrWD9RrxxScismtrXhEsOvYbHK2n7L8s6FYFR3AzgMK-jkHfQBZCCCkia92B5bD7SZW3Y=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "97641436a3e5f3f63bb44c67d318854c866cc28d09e1db5eb1b97f56fecec791"
+              },
+              {
+                "image": "assets/images/f2c50c54353fa0c3025e.webp",
+                "url": "https://play-lh.googleusercontent.com/L-kDWwIR6VFYD4nhmoolb32ynomYLIZGbwIVGYnpE1zE7C0aQ3SIw9vHzIWx475iXLVqabk9Tglrq11VIBSLcA=w526-h296-rw",
+                "crop": {
+                  "left": 53,
+                  "top": 65,
+                  "width": 421,
+                  "height": 195
+                },
+                "sha256": "f2c50c54353fa0c3025eced34aa004bdc16ae4dc8059e50399263a5c1631cdc7"
+              },
+              {
+                "image": "assets/images/723d5b6f985ed56a1d94.webp",
+                "url": "https://play-lh.googleusercontent.com/g7sxQPbNV0VwjmnfnpNQ08W-jrVfe1o38CcbZXJJ-uerq1LzWOZYqQzSqeRrvlMREmMIsozBBa88NoeYURrUoQ=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "723d5b6f985ed56a1d94f0ef84a46580bb5730801634694ac8c9f4d89c60b64f"
+              }
+            ],
+            "candidates": [
+              "#f5d797",
+              "#df275d",
+              "#dea071",
+              "#70492c",
+              "#f5df86"
+            ]
+          }
         },
         {
           "key": "a-79",
@@ -10114,7 +17817,70 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://foxdata.com/en/app-marketing-analytics/6743385713/as/NL/wool-crush-escape-traffic-jam/"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 79,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#72e6f7",
+            "text": "#000000",
+            "contrast": 14.41,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/c07b6884da468cc165fd.webp",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/67/67/8c/67678c9f-27ac-efd7-f1b1-0255ccc83997/ab_13439_1792424197617.png/460x0w.png",
+                "crop": {
+                  "left": 46,
+                  "top": 219,
+                  "width": 368,
+                  "height": 658
+                },
+                "sha256": "c07b6884da468cc165fddadabce5fe20434ce5c2b5c77353b8a1c264e717dc31"
+              },
+              {
+                "image": "assets/images/7de8015412867bd5128c.webp",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3d/3c/51/3d3c51d9-457e-348f-1f2f-ccfec9172913/ab_13440_1792424200981.png/460x0w.png",
+                "crop": {
+                  "left": 46,
+                  "top": 219,
+                  "width": 368,
+                  "height": 658
+                },
+                "sha256": "7de8015412867bd5128c107f5e16f7091485b13c32adf83688e05e7d69c7ca9b"
+              },
+              {
+                "image": "assets/images/11a0bbfb2e87d19a9273.webp",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9c/8a/07/9c8a07d9-361a-6b6e-0b23-4b2078e86c34/ab_13441_1792424204220.png/460x0w.png",
+                "crop": {
+                  "left": 46,
+                  "top": 219,
+                  "width": 368,
+                  "height": 658
+                },
+                "sha256": "11a0bbfb2e87d19a9273cee153f50aae56268f91dd85d2fa8b6d350111571b7e"
+              },
+              {
+                "image": "assets/images/c41f3827bc2acafbbdc5.webp",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/92/cf/5f/92cf5fca-a150-5cae-bbc9-85944b9eaaed/ab_13442_1792424207896.png/460x0w.png",
+                "crop": {
+                  "left": 46,
+                  "top": 219,
+                  "width": 368,
+                  "height": 658
+                },
+                "sha256": "c41f3827bc2acafbbdc59efc7270d642ad36f24f9ddb6f914b1f35266ca8f3da"
+              }
+            ],
+            "candidates": [
+              "#72e6f7",
+              "#eca643",
+              "#c7ef8f",
+              "#e57620",
+              "#e7d328"
+            ]
+          }
         },
         {
           "key": "a-80",
@@ -10166,7 +17932,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.gimica.hexmatch&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 80,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#0a514c",
+            "text": "#ffffff",
+            "contrast": 9.15,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/98551ecdfc6dbf617da8.webp",
+                "url": "https://play-lh.googleusercontent.com/5QdqyN9UTzyP_49QOISKZ6_Wi_HsPxV5jUtiDk9RYA3t824lRIzDDzTYCYq71QFJxVf-ENGBdpK6tb5kZky7Tg=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "98551ecdfc6dbf617da8580a111b0094387306a588449db101ed76793364e9e7"
+              },
+              {
+                "image": "assets/images/da317b3434c00b65a2fd.webp",
+                "url": "https://play-lh.googleusercontent.com/XnijJAyS1OTyvM0jPwln_93kI9zNponnJsOtPbGyWFBzhj1LdMcmbybSnV9kHdUAPqhCAa5Xegou_A6-qIK-=w526-h296-rw",
+                "crop": {
+                  "left": 53,
+                  "top": 65,
+                  "width": 421,
+                  "height": 195
+                },
+                "sha256": "da317b3434c00b65a2fdeb76ebf4d66a3c97a33040e3ee27607097a7fac49944"
+              },
+              {
+                "image": "assets/images/1f3dd59c313ab6d010c5.webp",
+                "url": "https://play-lh.googleusercontent.com/lGiU3F6ScORJShiazdf4F8c7LlLyKmvKLqSVJxLmhD3ITYSjTxcZRUFkJyaeOLvOm-sOOpqAYLsydmZPBnFGyg=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "1f3dd59c313ab6d010c59700427fe7a8998ef6748434b68e1a5e1bf3b49ec3e8"
+              }
+            ],
+            "candidates": [
+              "#0a514c",
+              "#53def6",
+              "#ec749d",
+              "#f5aa17",
+              "#0d4c4f"
+            ]
+          }
         },
         {
           "key": "a-81",
@@ -10225,7 +18043,70 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://foxdata.com/en/app-marketing-analytics/6751319735/as/US/bingo-rock/"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 81,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#202e94",
+            "text": "#ffffff",
+            "contrast": 11.13,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/60e26bfd6f1c248a7920.webp",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1a/ce/59/1ace59ea-5395-0c75-75e6-4b0c4ce1e187/1.jpg/460x0w.png",
+                "crop": {
+                  "left": 46,
+                  "top": 219,
+                  "width": 368,
+                  "height": 658
+                },
+                "sha256": "60e26bfd6f1c248a7920437483b3394fb7b1d8e5ae63746611b3f9e2bc5fdc1f"
+              },
+              {
+                "image": "assets/images/da3f9b24fa749325fdd4.webp",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f9/a9/21/f9a921b1-9660-2673-46f6-01f1ee19dc88/2.jpg/460x0w.png",
+                "crop": {
+                  "left": 46,
+                  "top": 219,
+                  "width": 368,
+                  "height": 658
+                },
+                "sha256": "da3f9b24fa749325fdd4121b56841039a84a619991bd03268127067af6d67301"
+              },
+              {
+                "image": "assets/images/1068c01d4ef3efc9e978.webp",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f8/a3/ea/f8a3eafd-5a3f-6e70-f2e6-d68d3a12f25b/4.jpg/460x0w.png",
+                "crop": {
+                  "left": 46,
+                  "top": 219,
+                  "width": 368,
+                  "height": 658
+                },
+                "sha256": "1068c01d4ef3efc9e9782e813ba14a44563ee2ef586bec2cab109ea97f15690a"
+              },
+              {
+                "image": "assets/images/9215a98b4d8ce8198fcf.webp",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c4/6e/46/c46e4607-8182-7f93-2055-6f90c82cf58f/3.jpg/460x0w.png",
+                "crop": {
+                  "left": 46,
+                  "top": 219,
+                  "width": 368,
+                  "height": 658
+                },
+                "sha256": "9215a98b4d8ce8198fcf2142c1af08ddfefc0b11e51a5995d517675e862efcb8"
+              }
+            ],
+            "candidates": [
+              "#202e94",
+              "#161f73",
+              "#5d31a5",
+              "#2c2766",
+              "#eed648"
+            ]
+          }
         },
         {
           "key": "a-82",
@@ -10277,7 +18158,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.easybrain.ludo.board.games&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 82,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#83a936",
+            "text": "#000000",
+            "contrast": 7.69,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/01e7abe06e4d59c29991.webp",
+                "url": "https://play-lh.googleusercontent.com/7jVXDD_rduv31XXfo8L_xNQCOYBwrqR7P8nwGLQf236jwphalbVxqXqE2UFcxIrosjg7_jQGAwVYsE7kI9h1Sw=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "01e7abe06e4d59c29991251ad72e14e5314b2770c887e94560a156ab22c9be17"
+              },
+              {
+                "image": "assets/images/1cee006514ff5adeea90.webp",
+                "url": "https://play-lh.googleusercontent.com/17NYURVfa-ZF82ZZnhvWtchu3lvG9c2WxWkwVvYWyJfTNB-D3zI_sGy7kWCpQEuA2UBgkB_h5nFMjMiqg43nkA=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "1cee006514ff5adeea9036dfe95b3d1a623e3b95beee2f1ba5b33161f00f6e0f"
+              },
+              {
+                "image": "assets/images/b5e39de62a1445a52126.webp",
+                "url": "https://play-lh.googleusercontent.com/7i1zUpBpYi4y5H2YuKIkhdSnbzBOiS1WJdKAX9dbgu8PrMWYqtMwYeWy8j-pPd0sPR9hpOUiW7WP77GPNym5=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "b5e39de62a1445a52126825ce29aea9e5f03418a2b2adedabea1e46cca214e8f"
+              }
+            ],
+            "candidates": [
+              "#83a936",
+              "#f3d9a7",
+              "#9dac47",
+              "#b3c64e",
+              "#e4d36d"
+            ]
+          }
         },
         {
           "key": "a-83",
@@ -10329,7 +18262,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.pocket.sort.coin.puzzle.game&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 83,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#9c361d",
+            "text": "#ffffff",
+            "contrast": 7.12,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/c811822855123de605b0.webp",
+                "url": "https://play-lh.googleusercontent.com/gpEGSQfYxzTvQb-t_dAurZWBYAjD0SWuAidDt02p_sED_NsYC6Wu0ZW6dL01m6turlSdmUQ9atBv_oigHKTz=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "c811822855123de605b015f2e0e1d28645f0aafc3f45dcc99d049f8df76adb05"
+              },
+              {
+                "image": "assets/images/5c130e04f722c8c0200e.webp",
+                "url": "https://play-lh.googleusercontent.com/NL5hFZOVCHKtMxbKCtI42zvCzVu57Q85hs-fOmBfxr9LQfgB8ZAWmyX7GoHjM4_f0N0QOQPSy8vFiOP7_Fzj=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "5c130e04f722c8c0200eb7ea7f63d9334de4d4230bb19598a5a7c4a360554dcb"
+              },
+              {
+                "image": "assets/images/b881e3a0e09296d95183.webp",
+                "url": "https://play-lh.googleusercontent.com/Kj0-HqUrLq4dGZ8I7JHdg_fQ8VB1Mu4_rO4XnKg1NMKv4XFEzdiZXQwefFCTDpvSca9y-sSXjhjk6UIpwTWp=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "b881e3a0e09296d95183b04775c1e35bb1d5e6653f5be5feb49367b1e8f61c2f"
+              }
+            ],
+            "candidates": [
+              "#9c361d",
+              "#702112",
+              "#a74419",
+              "#db722f",
+              "#ed4233"
+            ]
+          }
         },
         {
           "key": "a-84",
@@ -10381,7 +18366,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.moonactive.jellybusters&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 84,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#544238",
+            "text": "#ffffff",
+            "contrast": 9.45,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/ea6699e0f1edbea9eab1.webp",
+                "url": "https://play-lh.googleusercontent.com/IwvxVcUmLfASGecKUlrJ_nNAmF7vaLqdFpqLUdrqWhY81dXDJhT9yq6UZ3k_E35LsTtljDqHiD1ag-M_xAXQeg=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "ea6699e0f1edbea9eab174f5852f818359fb2d897c72a882608174ba9eb98a7a"
+              },
+              {
+                "image": "assets/images/b2316c5ab9d1a7c8a94b.webp",
+                "url": "https://play-lh.googleusercontent.com/J8dvr1RmlapV34EUJVyUIAA6rTgAmXRIVL3xOhB6D2p5CJOwIW172zi-fmjZRSvDxdBZwl1QQ32gNDqF3LIMO3I=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "b2316c5ab9d1a7c8a94bb84665e14db700100a85fe643ad41cac778f5549da11"
+              },
+              {
+                "image": "assets/images/e3f64137508a7f1ce083.webp",
+                "url": "https://play-lh.googleusercontent.com/RGek9tIJS06CdXM0palPkvQJU72lDuvgqbn30b_nbuvdy1rM-ivK25LGDd2iEBAozaaQ6E48A940yf399Mn6SQ=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 132,
+                  "height": 195
+                },
+                "sha256": "e3f64137508a7f1ce083bb23a1905a946a5713e62276f20337e49234c2daeaf7"
+              }
+            ],
+            "candidates": [
+              "#544238",
+              "#eec27e",
+              "#9a6c4e",
+              "#ed1ea3",
+              "#613a40"
+            ]
+          }
         },
         {
           "key": "a-85",
@@ -10426,7 +18463,48 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.agavegames.findthecat2&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 85,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#dece7f",
+            "text": "#000000",
+            "contrast": 13.28,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/12cbeba1dfa5644f9605.webp",
+                "url": "https://play-lh.googleusercontent.com/Awk8MoYXWqKm_zKhWXlFfy2S7p7TsNzaYHi2_JKJFRawHjR9eBgH_e58ABVI-5Ud62Z7QNaFbNkeZijWn_5_2w=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "12cbeba1dfa5644f9605bb7247fdbfdfc7b275da4e57c5c3a9b2cf5d5fb729b4"
+              },
+              {
+                "image": "assets/images/9afab1dda36fa925650d.webp",
+                "url": "https://play-lh.googleusercontent.com/WT_3KCpdnu6vQB0S_rOJfJRyJLRTRdQcf1YGEw7U4fMnIhueQIDDfZWTB8kR3aOWcvnlgNOBK9OpZoL1gRFOTg=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "9afab1dda36fa925650d30dabc288505d44dc81b51ed9e9a7f5864191fe3b456"
+              }
+            ],
+            "candidates": [
+              "#dece7f",
+              "#a47d41",
+              "#dcae62",
+              "#749641",
+              "#436b29"
+            ]
+          }
         },
         {
           "key": "a-86",
@@ -10471,7 +18549,48 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=to.krillion.app&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 86,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#2f3c51",
+            "text": "#ffffff",
+            "contrast": 11.15,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/334ab142975d96800199.webp",
+                "url": "https://play-lh.googleusercontent.com/YoauNdv8xqlB1ELfK6sGdXZirpI-OdUh_r-Lh5jY_I8un3mFoairepsxnUE0Ac1a06qm-YeHBzN2O3QUFOyD=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "334ab142975d968001999d73e7962f3d9a9919bbd2b5b8ef2147ca2794e24564"
+              },
+              {
+                "image": "assets/images/53187dce803bc8c37f7e.webp",
+                "url": "https://play-lh.googleusercontent.com/sr5d5KLxH1BbBs2nDHanxKeRpbRsqQr1bWMEjrXZQ9IrMbbHlxlWKmTeimmYUOyedXMM16IYkQAfMXvwG1C0Rg=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "53187dce803bc8c37f7e7b0f65a16e6f227c478175666e6f23c1c8aeb85faf59"
+              }
+            ],
+            "candidates": [
+              "#2f3c51",
+              "#50def5",
+              "#142d3b",
+              "#203e4e",
+              "#1d283c"
+            ]
+          }
         },
         {
           "key": "a-87",
@@ -10523,7 +18642,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=sniper.war.target.soldier.shooter.aldagames.com&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 87,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#604230",
+            "text": "#ffffff",
+            "contrast": 9.01,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/37482f3f039f61fd42b9.webp",
+                "url": "https://play-lh.googleusercontent.com/6gsA8YUGdWLf5lVWUhM1PRTqObBHFMSnbsChVWPHckMujfq7MMfb2TosoqaGEkW_WXGKxUPC1eNT_GO5EOowdA=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "37482f3f039f61fd42b941b5047886fba06bb59500242fbfa87a7a5bc4447dc0"
+              },
+              {
+                "image": "assets/images/543e126c6e3a546cbe0c.webp",
+                "url": "https://play-lh.googleusercontent.com/UHZDTLBeWj5AiZnP37ZoP9QtMXx24syQw6CoP22m_Kmof_SsHfcM6aRoAYBacPBu7EaDdiybha56VB85USYsdg=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "543e126c6e3a546cbe0cc19ff06f6719fbc31404ef2eb865495f70af8ecbff0a"
+              },
+              {
+                "image": "assets/images/dd56d3c6919e0c331eed.webp",
+                "url": "https://play-lh.googleusercontent.com/bql2NQjK2iISJOKNVPh3SnYcWW0XamlPbu-3p92GEWZN6l9nmCrXKBEJEI4551VioqKjc7pIR_AMKYjsjsy1Dw=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "dd56d3c6919e0c331eed64e15ce1de19a67c762702d298e4a419e1134b1955f9"
+              }
+            ],
+            "candidates": [
+              "#604230",
+              "#9b765d",
+              "#5b413b",
+              "#a0815c",
+              "#604a30"
+            ]
+          }
         },
         {
           "key": "a-88",
@@ -10575,7 +18746,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.matryoshka.royal.cooking.kitchen.madness&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 88,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#e18651",
+            "text": "#000000",
+            "contrast": 7.71,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/a71b73b1dbd5d49721d5.webp",
+                "url": "https://play-lh.googleusercontent.com/PY3vvsSB7jcWDOgAyvcuDeXoTBTY9Af_VSER10nUQvhwhvj6MOCIJYffvRbLRh9XUV5rV5fEad6VOJW8TU6n=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "a71b73b1dbd5d49721d5852626f7515f4d4f146ccac74dc0514f5ca3b6d31146"
+              },
+              {
+                "image": "assets/images/5e73ba89d00cbcb511b7.webp",
+                "url": "https://play-lh.googleusercontent.com/0Mx_ZRNJDEnXT0ZpA2EEY2UBLgy5EZzaPxCPEyxVH9NzOu3n4rmcdYVvVyeEkIc9wW2VPWQdJ2ZeEb03T8UVbA=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "5e73ba89d00cbcb511b72dfff7379fd67957083dc2ac1061b0a9565fcd88c85e"
+              },
+              {
+                "image": "assets/images/59e9374e4e0a06e56f3a.webp",
+                "url": "https://play-lh.googleusercontent.com/OGK71JXYuOgxoljOmspkaJkQKfCx8KxSt2_Md0UZ_XJi8Oe1-jW2yASkriolN8b9NxwYvUDd1sdraVNQ6LCv7Q=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "59e9374e4e0a06e56f3a73c30399f06c1f1009b87f6dd1b14e5f3e30621631e2"
+              }
+            ],
+            "candidates": [
+              "#e18651",
+              "#f0b558",
+              "#df503e",
+              "#99402f",
+              "#a75e36"
+            ]
+          }
         },
         {
           "key": "a-89",
@@ -10627,7 +18850,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.happyhour.water.sort&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 89,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#edc471",
+            "text": "#000000",
+            "contrast": 12.75,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/16cdef27921379cfa918.webp",
+                "url": "https://play-lh.googleusercontent.com/ugKJnYRQtchKbb0UGkekK5An_KD-52JM44Y5Qzr5RLsKLcXcinUl4LNsnXnUvAXlsIHxrMpB76YwW1t4ekfE=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "16cdef27921379cfa9184d1a03287f308c45c1b5210814fd5f8ecbef1442ad3e"
+              },
+              {
+                "image": "assets/images/d4c1e8985c75ff29a2f6.webp",
+                "url": "https://play-lh.googleusercontent.com/3hdH-Iwas-78osacJX2ExOD1vFAtv1Nj-XT__S80ukYqrPVJsT3JysWt_24ltXRnGtmTwecnAf7ipFVMz1HM7w=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "d4c1e8985c75ff29a2f6c3d6640b7c2eea5099ae96d2fe1eba6261e3196376a2"
+              },
+              {
+                "image": "assets/images/7a5f6feaf8b7112da0bd.webp",
+                "url": "https://play-lh.googleusercontent.com/LSjK_ii-b5mp-Uz3I-5oYLoiVLAQx0oXnDi3OIes_ihgTwMMFd8O6E8pLtHbT3kpKTAu2VCqQhkFlG8tgLfSpQ=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "7a5f6feaf8b7112da0bddb3ee4fa9a3d415b36953923cf839cda7bf2ccd2f757"
+              }
+            ],
+            "candidates": [
+              "#edc471",
+              "#ebd67d",
+              "#e1935d",
+              "#d43f33",
+              "#73aa20"
+            ]
+          }
         },
         {
           "key": "a-90",
@@ -10679,7 +18954,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.cola.game&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 90,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#e9b769",
+            "text": "#000000",
+            "contrast": 11.44,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/d38a80068f895180f598.webp",
+                "url": "https://play-lh.googleusercontent.com/-ezLOx5UO9pZVMBTFHcgLFEzYoiH0aRN9clIJxKrmqVpCpKg9UrYtWH0gFzBs-YDA8CVljubTOhvuHXNTCcHtg=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "d38a80068f895180f59887e7fa5229aa453f9d004e90a49bdb76cf8b8907fc26"
+              },
+              {
+                "image": "assets/images/bb01c5e5199433de4629.webp",
+                "url": "https://play-lh.googleusercontent.com/vVVX0uWJPM4JHKn06uy-VCPbwLih6M_THlDgPgTJy6iCPFtUQwooyIZrr5voATtd4vn2iueEojdSj63jLu34=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "bb01c5e5199433de4629e8cad397ba5beb2646d09008e372ecc24d9cbc9ef84e"
+              },
+              {
+                "image": "assets/images/4165dfe69c210d94e7e6.webp",
+                "url": "https://play-lh.googleusercontent.com/qu1c9214QpI675g0KXGyTvWXsMiWWkl6PZGpHf0PUjGNlENE57c9wZSTIRo8p4mFmRNEbTg5k4zwE9QIHO9hmg=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "4165dfe69c210d94e7e6615dbf901d963a0aee68da2c9dc58675d1f60c02376f"
+              }
+            ],
+            "candidates": [
+              "#e9b769",
+              "#df8a53",
+              "#eedd8b",
+              "#a85e33",
+              "#db654d"
+            ]
+          }
         },
         {
           "key": "a-91",
@@ -10731,7 +19058,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.fingersyoda.sanddrop&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 91,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#93aad6",
+            "text": "#000000",
+            "contrast": 8.93,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/cf3bc83ce327bd1ce3ad.webp",
+                "url": "https://play-lh.googleusercontent.com/bxs59cjQFy_DYm8Nrc1Rr0fecjolkBSs26UWWg5iiAjyf71c5yJyA_63feH41i1jCCL4nDQA4XFvKllODseL=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "cf3bc83ce327bd1ce3ad1088a09803f1a66f3dcc5c9553e690fcfde183037ac0"
+              },
+              {
+                "image": "assets/images/54276513bc2eb15f92d0.webp",
+                "url": "https://play-lh.googleusercontent.com/fshcXttdvhqQr_42ep8q64MN_lKoHYjHrKkRR7UyWh2E2V10orz9BBp7Bz6ltAnq6C6rivsCL9psAlF8ZrxdcQ=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "54276513bc2eb15f92d06748b76b8782012c9bcae11ccdfbfb4e70c44ca88d9b"
+              },
+              {
+                "image": "assets/images/e4bcda0d152689ed213a.webp",
+                "url": "https://play-lh.googleusercontent.com/O6phLwWLK9Td5DLT6sCgLGCeeCcA740i5YE5dNPDniDL-yjik45jfSLVznFXzurbOBouPvr7tUHALUMbnvMQ=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "e4bcda0d152689ed213a5f3fcf09639e38860fb28d8f5418349001ac08d7de63"
+              }
+            ],
+            "candidates": [
+              "#93aad6",
+              "#6584b1",
+              "#20e9f3",
+              "#256ca8",
+              "#c7ee65"
+            ]
+          }
         },
         {
           "key": "a-92",
@@ -10783,7 +19162,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.vottzapps.wordle&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 92,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#9bd235",
+            "text": "#000000",
+            "contrast": 11.64,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/034b00175feec3cf898b.webp",
+                "url": "https://play-lh.googleusercontent.com/GSC5zro-epDMOYxAKM1ZE7vbdNWS4CCTW_l_lkJ_2iS--h3uBQVdQoxzKuioDXOWWF8l7fMbwQSfNfO6IR49=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "034b00175feec3cf898b6ed3b239d42dbf4e89ec8b6db0c61c9dd187c00c4a0e"
+              },
+              {
+                "image": "assets/images/2fff34c6270308783d77.webp",
+                "url": "https://play-lh.googleusercontent.com/39JHPGDM2yi5ouhHdOFlHSpwb7zlWUBnpZN4VS3d3VzTNDut6jUs4LRSN-VMbDyIwxcA9d7_I19ox8XmRSpT-A=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "2fff34c6270308783d778d728471fe8be9b9baa48499cb51b828370f3b470a7a"
+              },
+              {
+                "image": "assets/images/0a70c8b3353e2a79c88c.webp",
+                "url": "https://play-lh.googleusercontent.com/IVYmf7QzHd_Bt_7DwSg4HPwzWDODGQxzQSkXn2fkJTzzaCJr1Kx-EwmARAkAiYvnsH3QT285HR8aKDw_p36QIw=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "0a70c8b3353e2a79c88ccebd8303e7129fbc7b23376ef16ec72a728df7da37ff"
+              }
+            ],
+            "candidates": [
+              "#9bd235",
+              "#f2c418",
+              "#cee646",
+              "#7ba23e",
+              "#51692c"
+            ]
+          }
         },
         {
           "key": "a-93",
@@ -10835,7 +19266,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.cassette.aquapark&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 93,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#1aadf5",
+            "text": "#000000",
+            "contrast": 8.37,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/8a4ff9a63d8469aef4dc.webp",
+                "url": "https://play-lh.googleusercontent.com/1dp0nJmXacbeXLuEYD3tKIxNxrvqp0E7ikk0P1cIU5l-oIRilOP5Wq1MwNmWO9jyVtdiYA5lx9KfymtOlKFn=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "8a4ff9a63d8469aef4dc2e0023f16ccbbd18ebac53cb7754e1034f5c833b8376"
+              },
+              {
+                "image": "assets/images/12ffabb45c8ab15268fc.webp",
+                "url": "https://play-lh.googleusercontent.com/XTdHQaHvJK20arqTGjwR1M7J_qLyZUJf3FXHmb_vGTCZhjMR0xUTzA1LXlUkDkHAPi2Ba-O3B03Mkq3I0X2e6gA=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "12ffabb45c8ab15268fcd136efc7042b18b426f63ed98331b102d9749747a0d4"
+              },
+              {
+                "image": "assets/images/bcc3d27085a953e85f12.webp",
+                "url": "https://play-lh.googleusercontent.com/vle5wlPRnFK5G70i0AY_OVrXx2_PT2UZZrnc5IYJUAqry0pKpAeQsvSo_BUJUwygsOF_hRt5sFHD9xzVhJo73w=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "bcc3d27085a953e85f12320c614e8b4a4a7a3e819c99fa1059a467d9812c0df3"
+              }
+            ],
+            "candidates": [
+              "#1aadf5",
+              "#edbf75",
+              "#f0b08c",
+              "#5cd2ee",
+              "#e63f8d"
+            ]
+          }
         },
         {
           "key": "a-94",
@@ -10887,7 +19370,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=gleamingslots.bestcashgame.downnow&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 94,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#481369",
+            "text": "#ffffff",
+            "contrast": 13.39,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/a4ba594a0a594a07a331.webp",
+                "url": "https://play-lh.googleusercontent.com/R_MNs851TO15NXOKNpjnaHCVv1VItA9lIoG5BineuES9muKO73TkK8cfJ83WCFdQt-qtPBli4KbfVon5c8xRRQ=w526-h296-rw",
+                "crop": {
+                  "left": 53,
+                  "top": 65,
+                  "width": 421,
+                  "height": 195
+                },
+                "sha256": "a4ba594a0a594a07a331b7fa5f74365b0e63a30a3d3bfc78b0cfd5e0e4fd40ec"
+              },
+              {
+                "image": "assets/images/b36cdad05adc1f0d2331.webp",
+                "url": "https://play-lh.googleusercontent.com/6Nh3Vq33_745Fi2psHsX8iaCUA7J98rMCLRUxnSvEyqdORTutWTRen39L1Pf7-WGtBekS3p6QdGhMtUTUjNJ6g=w526-h296-rw",
+                "crop": {
+                  "left": 53,
+                  "top": 65,
+                  "width": 421,
+                  "height": 195
+                },
+                "sha256": "b36cdad05adc1f0d2331c735100e263f73ade5bbf7d813f926a4041963d74ad0"
+              },
+              {
+                "image": "assets/images/8a0c153fb5d3f7f6844c.webp",
+                "url": "https://play-lh.googleusercontent.com/-7OFF8brfJ8L-ObEZti6Tn8F94wRxLLVopRHY-Wk8DwxV9Tfp0AiTbhfbgIVT5MogdaNfMJosHzIBaPIgsCo9g=w526-h296-rw",
+                "crop": {
+                  "left": 53,
+                  "top": 65,
+                  "width": 421,
+                  "height": 195
+                },
+                "sha256": "8a0c153fb5d3f7f6844c16ee69c196ab5606159b746b7d9dd15578d624bdca40"
+              }
+            ],
+            "candidates": [
+              "#481369",
+              "#5f1441",
+              "#7a1baa",
+              "#3d1f68",
+              "#e2a942"
+            ]
+          }
         },
         {
           "key": "a-95",
@@ -10939,7 +19474,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.JindoBlu.TwoPlayerGamesChallenge&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 95,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#f7be3c",
+            "text": "#000000",
+            "contrast": 12.4,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/fe53abc121cb45abb29d.webp",
+                "url": "https://play-lh.googleusercontent.com/chl7JHh2jDQWWElNnwqRo-UxpGYqjQteoExdzbYDGoEy4VdzGW6hpyq6CTjCee1c8ZVhnAvBiBtowPY4emRgBA=w526-h296-rw",
+                "crop": {
+                  "left": 17,
+                  "top": 65,
+                  "width": 133,
+                  "height": 195
+                },
+                "sha256": "fe53abc121cb45abb29d390a780bcce035a6707aa0ace6c591935e310f7e0f66"
+              },
+              {
+                "image": "assets/images/a1590e5caa201380d151.webp",
+                "url": "https://play-lh.googleusercontent.com/L6guwHVMaoteFmyEezbABUgCum9NdGKMygKKCW5i6ypR51c9rVXDGGvWGwbPtQw2ERwG7Sp773ZztDKmVnwrrQ=w526-h296-rw",
+                "crop": {
+                  "left": 53,
+                  "top": 65,
+                  "width": 421,
+                  "height": 195
+                },
+                "sha256": "a1590e5caa201380d151dedaa06a15f449581048f69157f89bc90b373e71b6f5"
+              },
+              {
+                "image": "assets/images/c48a3ca2a0b94a4f22b0.webp",
+                "url": "https://play-lh.googleusercontent.com/cuR_tQ-gS8swBMN-WfcVamfI42-GY5SJmVZrnWx09Hhs60X_3xW68etiwCeqqEn3yz0jGEfVwRjK86MFCxKyqg=w526-h296-rw",
+                "crop": {
+                  "left": 53,
+                  "top": 65,
+                  "width": 421,
+                  "height": 195
+                },
+                "sha256": "c48a3ca2a0b94a4f22b0f9c50722379eb47248d81ce543f40b75d3dff7ae845a"
+              }
+            ],
+            "candidates": [
+              "#f7be3c",
+              "#78cb41",
+              "#294e69",
+              "#6bb6f6",
+              "#2e415a"
+            ]
+          }
         },
         {
           "key": "a-96",
@@ -10991,7 +19578,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.imangi.templerun&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 96,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#624820",
+            "text": "#ffffff",
+            "contrast": 8.51,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/5938091ce85f6b8eea3f.webp",
+                "url": "https://play-lh.googleusercontent.com/lDxXvtbAuEV7wKODVTJJZkrKhoOc9LPDDT9Ab49YkJMBcrbqSdkpjRGn9H06pZK9dqWB6Ruv6aI5p1-QBgqk3w=w526-h296-rw",
+                "crop": {
+                  "left": 14,
+                  "top": 65,
+                  "width": 110,
+                  "height": 195
+                },
+                "sha256": "5938091ce85f6b8eea3fa98663f66e66a63c881f44a4618fdebe652b6ec4be10"
+              },
+              {
+                "image": "assets/images/f2c48ecc3676a85f7ccf.webp",
+                "url": "https://play-lh.googleusercontent.com/Uxq0m0XGoDWQC8dQbdA9rfWZOqvAORCxCFT3zczAdQiOepKAIlRGYYrqTW-fsFNlYY4upQm0u2V_2yJ9SakvXw=w526-h296-rw",
+                "crop": {
+                  "left": 14,
+                  "top": 65,
+                  "width": 110,
+                  "height": 195
+                },
+                "sha256": "f2c48ecc3676a85f7ccfe4745753c48aae76af994ccca46a9dd06744e1ab3fa7"
+              },
+              {
+                "image": "assets/images/d7f0eda379313bc5f1be.webp",
+                "url": "https://play-lh.googleusercontent.com/PAnLeyBdEPsIs6uptMc1Bo5EUgIypGU6BIcJMpi8u81Dr6JrT7QG62_A3VMM66_5KdO3OscUh76mcn5neVvMdQ=w526-h296-rw",
+                "crop": {
+                  "left": 14,
+                  "top": 65,
+                  "width": 110,
+                  "height": 195
+                },
+                "sha256": "d7f0eda379313bc5f1be684d6d3c4e82fff8fcee6e6eebb5513b17d5975b3f6a"
+              }
+            ],
+            "candidates": [
+              "#624820",
+              "#9a7739",
+              "#315256",
+              "#605831",
+              "#2e4c48"
+            ]
+          }
         },
         {
           "key": "a-97",
@@ -11043,7 +19682,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=io.supercent.pizzaidle&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 97,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#f2b85e",
+            "text": "#000000",
+            "contrast": 11.79,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/51b0a583c973a76afbd2.webp",
+                "url": "https://play-lh.googleusercontent.com/8iUIvujENByiloxIFjOeXiRq0kJnaEJC-eOPmUonD2PU5U565_dPlGzGAXM0DFcWgMbhZHKzy433L81RWtaA=w526-h296-rw",
+                "crop": {
+                  "left": 14,
+                  "top": 65,
+                  "width": 110,
+                  "height": 195
+                },
+                "sha256": "51b0a583c973a76afbd219c99ade785e8b976633bba738706bc4e7ec4f3039b4"
+              },
+              {
+                "image": "assets/images/cbb36ad88a4b8ba30421.webp",
+                "url": "https://play-lh.googleusercontent.com/N55BEsOP50eGZmuYS7bUIc3GMmLPShJFH6R-NBYgXfw6Kz6WM-nB4gaTmU1tOBmL-hRHFO8nc-ZUdO0_2k-5RA=w526-h296-rw",
+                "crop": {
+                  "left": 14,
+                  "top": 65,
+                  "width": 110,
+                  "height": 195
+                },
+                "sha256": "cbb36ad88a4b8ba304216967cafc25551d3f431492983144d9547fada74de9de"
+              },
+              {
+                "image": "assets/images/fbda347c290efc62f254.webp",
+                "url": "https://play-lh.googleusercontent.com/x0Vw8B3X1-jchKMyqzrXli0IStmmy5CPtMBaOLJppFtRfbeRceXiyFA7wx7lOu0jX16O-zLtgiOUxxJIMJx3mV8=w526-h296-rw",
+                "crop": {
+                  "left": 14,
+                  "top": 65,
+                  "width": 110,
+                  "height": 195
+                },
+                "sha256": "fbda347c290efc62f254803b269787fba3913253c8586783031fa9e0c6c94e06"
+              }
+            ],
+            "candidates": [
+              "#f2b85e",
+              "#e28c4c",
+              "#3f9ce4",
+              "#eeda7a",
+              "#2b6fa0"
+            ]
+          }
         },
         {
           "key": "a-98",
@@ -11095,7 +19786,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.playgendary.bowmasters&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 98,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#e57462",
+            "text": "#000000",
+            "contrast": 6.99,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/1f6c3fd6495e5de79e1d.webp",
+                "url": "https://play-lh.googleusercontent.com/T9KAhj8uh2p3whbupb81hk-EUS_3f27UPTIrdDoH-v0TEOF23xZMKbt1oN2WLBcTlP16d6Y0Sc1mGGLXUi9Btg=w526-h296-rw",
+                "crop": {
+                  "left": 53,
+                  "top": 65,
+                  "width": 421,
+                  "height": 195
+                },
+                "sha256": "1f6c3fd6495e5de79e1d98fbf10354172df86ce91a845d354870433e301f253e"
+              },
+              {
+                "image": "assets/images/9e052f504685df5c60cc.webp",
+                "url": "https://play-lh.googleusercontent.com/4k4INerJYv2C24_GWPCU9xrhbh2hp6WaGaTAKdCHgLDsDr-26TAyw5MnFFFYCGksqhx_RipG8zpYb5HPWSUYPA=w526-h296-rw",
+                "crop": {
+                  "left": 53,
+                  "top": 65,
+                  "width": 421,
+                  "height": 195
+                },
+                "sha256": "9e052f504685df5c60cc22f6bf6831e8ec94e4e647cca366db4590299c7acb84"
+              },
+              {
+                "image": "assets/images/9f731141ac671e98e797.webp",
+                "url": "https://play-lh.googleusercontent.com/Jc6YQ6HGr-LVyLDOCe9iP6CJgX4qmUKOoV0Im1jCRyz0k2zpVqu-rrkGZDbwCVEp4A8VFdMDZbhK-7bHOjqleA=w526-h296-rw",
+                "crop": {
+                  "left": 53,
+                  "top": 65,
+                  "width": 421,
+                  "height": 195
+                },
+                "sha256": "9f731141ac671e98e797d010eeeb0e7898507954e8149d0d6e22f655e7b2f51a"
+              }
+            ],
+            "candidates": [
+              "#e57462",
+              "#ee5258",
+              "#a566b2",
+              "#7160c5",
+              "#aa5143"
+            ]
+          }
         },
         {
           "key": "a-99",
@@ -11147,7 +19890,59 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.combo.knockout&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 99,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#ea8b45",
+            "text": "#000000",
+            "contrast": 8.27,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/01863e221f2cd511af03.webp",
+                "url": "https://play-lh.googleusercontent.com/O7RPPuE2853J1-BI0m36lLG8s_DmkZaGSJN1A-YVPOXRcwkvazdx0eDlFTl1iKpnOzdiV-KbpmatPXD7X6g2jV4=w526-h296-rw",
+                "crop": {
+                  "left": 14,
+                  "top": 65,
+                  "width": 109,
+                  "height": 195
+                },
+                "sha256": "01863e221f2cd511af0350ad257e66263eac78530234fd2f771808e156a28d40"
+              },
+              {
+                "image": "assets/images/059b45c422439b9b582a.webp",
+                "url": "https://play-lh.googleusercontent.com/2gKUdYS9qlW-2bneqTpzcrztoEhc6_IFFa5GgJqn7sweYFJvGD_VNBdv22RtcyEXkV8miMTJSwXMHvx-F6H6=w526-h296-rw",
+                "crop": {
+                  "left": 14,
+                  "top": 65,
+                  "width": 109,
+                  "height": 195
+                },
+                "sha256": "059b45c422439b9b582ab8ea01aa7b1609f55fe91337bf1a2416052156c02f05"
+              },
+              {
+                "image": "assets/images/ced69133c5cde6f18977.webp",
+                "url": "https://play-lh.googleusercontent.com/sM9cFxDw1v92AGgx8XtFapLlKD6LJjtaACYOsK6AOD2UGJJW7SNpwUt41vAvcY29NvMPLhT29-PjEqzhgFJ3OA=w526-h296-rw",
+                "crop": {
+                  "left": 14,
+                  "top": 65,
+                  "width": 109,
+                  "height": 195
+                },
+                "sha256": "ced69133c5cde6f18977f2084282e60050203aa17abe8f09b97255adc562312d"
+              }
+            ],
+            "candidates": [
+              "#ea8b45",
+              "#6fcaf6",
+              "#70a810",
+              "#e8a033",
+              "#ae6831"
+            ]
+          }
         },
         {
           "key": "a-100",
@@ -11199,10 +19994,62 @@ window.DATA = {
               "label": "参考图来源",
               "url": "https://play.google.com/store/apps/details?id=com.Chodun.CatGunner&hl=en&gl=us"
             }
-          ]
+          ],
+          "entryType": "ranking",
+          "originalRank": 100,
+          "labelPalette": {
+            "status": "sampled",
+            "hex": "#ced89a",
+            "text": "#000000",
+            "contrast": 13.89,
+            "method": "reference-central-dominant-hue-v1",
+            "note": "从下方参考图的中央画面提取主要色相簇，排除顶部宣传文案与四周边框；彩色面积不足20%时保留中性色。忽略近黑、近白与透明区域。代表该组参考图，不是游戏唯一色或品牌标准色。",
+            "sources": [
+              {
+                "image": "assets/images/acf30a1ab5d5f0fd09b5.webp",
+                "url": "https://play-lh.googleusercontent.com/mwyUGjmkVXdBzgrp4PVxKuRBMGQlUn-UDDeOjeEOn4-6tAXPkLHwWdjaoKegJfmwfQnCFOlVtZ8oX9Twrgol=w526-h296-rw",
+                "crop": {
+                  "left": 53,
+                  "top": 65,
+                  "width": 421,
+                  "height": 195
+                },
+                "sha256": "acf30a1ab5d5f0fd09b572d15f110329a857a58c5a41afed32e82cef7ea066b7"
+              },
+              {
+                "image": "assets/images/32c2bd0c2e7f7da5851f.webp",
+                "url": "https://play-lh.googleusercontent.com/Xp3eL8PfClRDR89YDmefDVO09HQe24q0cMB16JByxoLCGzfqj34qS3ZH2J2Yv21R5UINMKaeJrFjkh-0A8lR5w=w526-h296-rw",
+                "crop": {
+                  "left": 53,
+                  "top": 65,
+                  "width": 421,
+                  "height": 195
+                },
+                "sha256": "32c2bd0c2e7f7da5851f2eaeae0a8759705ffc04a50e0f64cd72fbd21ad2749f"
+              },
+              {
+                "image": "assets/images/3e2e037e998461e1bea1.webp",
+                "url": "https://play-lh.googleusercontent.com/Vt5AorfrBqbuCJYDyW13WOiy5cX6JIEZiH77yXRtscJzfevG2KokrEjmyr_fibY_fgpzb1d3qIeQUJpYN3FUY9E=w526-h296-rw",
+                "crop": {
+                  "left": 53,
+                  "top": 65,
+                  "width": 421,
+                  "height": 195
+                },
+                "sha256": "3e2e037e998461e1bea11dc963b980fe45ca9d551d0b08e95b4eb22e14d3cadd"
+              }
+            ],
+            "candidates": [
+              "#ced89a",
+              "#e2727b",
+              "#f5e060",
+              "#e8ba6a",
+              "#61432d"
+            ]
+          }
         }
       ],
-      "note": "美国iPhone免费休闲榜：MSY Games 2026-11-05快照，并非实时榜。90款用关联Google Play同款参考，10款用iOS商店图镜像；309张图随网站提供。年代与复杂度尚未评估。"
+      "note": "休闲榜为可扩展的参考集合：原100款来自MSY Games美国iPhone免费Casual榜2026-11-05快照，另补充MONOPOLY GO!。补充项排在前面方便查看，“补”编号不是榜单名次；原#001–#100名次保持不变。年代与复杂度尚未评估。"
     }
   },
   "sourceFiles": [
