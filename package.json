@@ -1,10 +1,10 @@
 {
   "name": "game-art-observatory",
-  "version": "1.0.0",
+  "version": "1.1.2",
   "private": true,
   "description": "游戏美术分析台：静态网页与可切换坐标图",
   "scripts": {
-    "test": "node tests/verify-site.cjs && node tests/verify-interactions.cjs"
+    "test": "node tests/verify-site.cjs && node tests/verify-interactions.cjs && node tests/verify-palettes.cjs"
   },
   "engines": {
     "node": ">=20"
