@@ -30,8 +30,29 @@ function syncLimit(){
  $('filter-summary').hidden=!state.query&&!state.group;
  $('filter-description').textContent=[state.query?`关键词：${state.query}`:'',state.group?`类别：${state.group}`:''].filter(Boolean).join(' · ');
 }
-function ensureAxes(){const valid=dataset().axes;if(!valid.includes(state.x))state.x=valid[0];if(!valid.includes(state.y)||state.y===state.x)state.y=valid.find(a=>a!==state.x);}
-function syncControls(){ensureAxes();for(const id of ['x','y']){$('axis-'+id).innerHTML=Object.entries(DATA.axes).map(([key,a])=>`<option value="${key}" ${dataset().axes.includes(key)?'':'disabled'}>${esc(a.name)}${dataset().axes.includes(key)?'':' · 未评估'}</option>`).join('');$('axis-'+id).value=state[id];}$('search').value=state.query;$('labels').value=state.labels;$('reverse-x').setAttribute('aria-pressed',String(state.reverseX));$('reverse-y').setAttribute('aria-pressed',String(state.reverseY));document.querySelectorAll('[data-dataset]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.dataset===state.dataset)));}
+function ensureAxes(){
+ const valid=dataset().axes.filter(k=>k!=='form');
+ // Migrate an old swapped view while keeping its non-form dimension where possible.
+ if(state.y==='form'&&valid.includes(state.x))state.y=state.x;
+ state.x='form';state.reverseX=false;state.reverseY=false;
+ if(!valid.includes(state.y))state.y=valid[0];
+}
+function syncControls(){
+ ensureAxes();
+ $('axis-y').innerHTML=Object.entries(DATA.axes).filter(([key])=>key!=='form').map(([key,a])=>`<option value="${key}" ${dataset().axes.includes(key)?'':'disabled'}>${esc(a.name)}${dataset().axes.includes(key)?'':' · 未评估'}</option>`).join('');
+ $('axis-y').value=state.y;$('search').value=state.query;$('labels').value=state.labels;
+ $('axis-help-button').setAttribute('aria-label','查看'+DATA.axes[state.y].name+'的指标详情');
+ if($('axis-help').open)renderAxisHelp();
+ document.querySelectorAll('[data-dataset]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.dataset===state.dataset)));
+}
+function renderAxisHelp(){
+ $('axis-help-title').textContent=DATA.axes[state.y].name;
+ for(const key of ['expression','complexity','era'])$('guide-'+key).hidden=key!==state.y;
+ const examples={expression:['最后生还者 Part II','双人成行','守望先锋','星露谷物语','极乐迪斯科'],complexity:['茶杯头','最后生还者 Part II','双人成行','守望先锋']};
+ for(const [key,names]of Object.entries(examples))$(key+'-examples').innerHTML=names.map(name=>DATA.datasets.games.items.find(g=>g.name===name)).filter(Boolean).map(g=>`<tr><td>${esc(g.name)}<small>${esc(g.scope)}</small></td><td>${g.values[key]??'待定'}</td><td>${esc(key==='expression'?g.formReason:g.complexityReason)}</td></tr>`).join('');
+}
+function openAxisHelp(){hidePreview();renderAxisHelp();if(!$('axis-help').open)$('axis-help').showModal();}
+function closeAxisHelp(){$('axis-help').close();$('axis-help-button').focus?.({preventScroll:true});}
 function renderLegend(){const colors=dataset().colors;$('legend').innerHTML=`<button data-family="" aria-pressed="${!state.group}">全部类别</button>`+Object.entries(colors).map(([name,color])=>`<button data-family="${esc(name)}" aria-pressed="${state.group===name}"><i style="background:${color}"></i>${esc(name)}</button>`).join('');$('legend').querySelectorAll('[data-family]').forEach(b=>b.addEventListener('click',()=>{state.group=state.group===b.dataset.family?'':b.dataset.family;state.zoom=1;render();}));}
 function svgOnly(){
  hidePreview();
@@ -62,7 +83,7 @@ function showPreview(node){
  tip.style.left=left+'px';tip.style.top=Math.max(8,Math.min(top,vh-t.height-8))+'px';
 }
 function schedule(){if(frame)cancelAnimationFrame(frame);frame=requestAnimationFrame(()=>{frame=0;svgOnly();});}
-function setAxis(axis,value){const other=axis==='x'?'y':'x';if(state[other]===value)state[other]=state[axis];state[axis]=value;state.zoom=1;render();}
+function setYAxis(value){if(value==='form'||!dataset().axes.includes(value))return;state.y=value;state.zoom=1;render();}
 function select(key){state.selected=key;render();if(state.fullscreen){stage.classList.add('detail-open');$('toggle-detail').setAttribute('aria-pressed','true');}}
 function paletteDetail(g){const p=g.labelPalette;if(!p)return'';if(p.status!=='sampled')return'<p class="subtle">底板颜色：参考图待核验，暂用中性色。</p>';return`<details><summary>参考色与取色依据 <span style="display:inline-block;width:12px;height:12px;border:1px solid #789;background:${esc(p.hex)}"></span> ${esc(p.hex)}</summary><p>${esc(p.note)}</p><p class="subtle">采用 ${p.sources.length} 张参考图；文字对比度 ${C.labelColors(g).contrast.toFixed(1)}:1。</p><div class="links">${p.sources.map((s,i)=>`<a href="${esc(s.image)}" target="_blank" rel="noopener">取色图 ${i+1} ↗</a><a href="${esc(s.page||s.url)}" target="_blank" rel="noopener">来源页 ↗</a>`).join('')}</div></details>`;}
 function detail(){const g=get(state.selected);if(!g){$('detail').innerHTML='<div class="detail-kicker"><b>样本观察</b></div><p class="empty">没有匹配样本。清除筛选或扩大浏览范围后，点击图中标注查看分析。</p>';return;}
@@ -83,8 +104,11 @@ async function fullscreen(){if(state.fullscreen){if(document.fullscreenElement){
 function download(name,body,type){const blob=new Blob([body],{type}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}
 document.querySelectorAll('[data-dataset]').forEach(b=>b.addEventListener('click',()=>{state.dataset=b.dataset.dataset;state.group='';state.query='';state.zoom=1;state.selected=state.dataset==='games'?'g-89':state.dataset==='styles'?'s-25':allItems()[0]?.key;render();}));
 document.querySelectorAll('[data-preset]').forEach(b=>b.addEventListener('click',()=>{const [x,y]=b.dataset.preset.split(',');if(!dataset().axes.includes(x)||!dataset().axes.includes(y))return;Object.assign(state,{x,y,reverseX:false,reverseY:false,zoom:1});render();}));
-for(const axis of ['x','y']){$('axis-'+axis).addEventListener('change',()=>setAxis(axis,$('axis-'+axis).value));$('reverse-'+axis).addEventListener('click',()=>{const k=axis==='x'?'reverseX':'reverseY';state[k]=!state[k];render();});}
- $('swap').addEventListener('click',()=>{[state.x,state.y]=[state.y,state.x];[state.reverseX,state.reverseY]=[state.reverseY,state.reverseX];render();});
+$('axis-y').addEventListener('change',()=>setYAxis($('axis-y').value));
+ $('axis-help-button').addEventListener('click',openAxisHelp);
+ $('close-axis-help').addEventListener('click',closeAxisHelp);
+ $('axis-help').addEventListener('cancel',e=>{e.preventDefault();closeAxisHelp();});
+ $('axis-help').addEventListener('click',e=>{if(e.target===$('axis-help'))closeAxisHelp();});
  $('search').addEventListener('input',()=>{state.query=$('search').value.trim().toLowerCase();state.zoom=1;render();});
  function clearFilters(){state.query='';state.group='';state.zoom=1;render();}
  $('clear-filters').addEventListener('click',clearFilters);$('empty-clear').addEventListener('click',clearFilters);
@@ -98,7 +122,7 @@ for(const axis of ['x','y']){$('axis-'+axis).addEventListener('change',()=>setAx
  $('zoom-in').addEventListener('click',()=>{state.zoom=Math.min(4,state.zoom*2);svgOnly();});$('zoom-out').addEventListener('click',()=>{state.zoom=Math.max(1,state.zoom/2);svgOnly();});$('fit').addEventListener('click',()=>{state.zoom=1;svgOnly();});
  $('fullscreen').addEventListener('click',fullscreen);$('toggle-detail').addEventListener('click',()=>{stage.classList.toggle('detail-open');$('toggle-detail').setAttribute('aria-pressed',String(stage.classList.contains('detail-open')));});
  document.addEventListener('fullscreenchange',()=>{if(!document.fullscreenElement&&state.fullscreen)fullLayout(false);else if(document.fullscreenElement===stage){state.fullscreen=true;stage.classList.remove('focus-view');schedule();}});
- document.addEventListener('keydown',e=>{if(e.key==='Escape'){if(!$('game-preview').hidden){hidePreview();return;}if(state.fullscreen&&!document.fullscreenElement){e.preventDefault();fullLayout(false);}}});
+ document.addEventListener('keydown',e=>{if(e.key==='Escape'){if($('axis-help').open){e.preventDefault();closeAxisHelp();return;}if(!$('game-preview').hidden){hidePreview();return;}if(state.fullscreen&&!document.fullscreenElement){e.preventDefault();fullLayout(false);}}});
  $('export-svg').addEventListener('click',()=>download('game-art-'+state.dataset+'-'+state.x+'-'+state.y+'.svg',C.renderSvg(scene),'image/svg+xml;charset=utf-8'));
  $('export-data').addEventListener('click',()=>download('game-art-coordinates.json',JSON.stringify({axes:DATA.axes,state:{...state,fullscreen:false},samples:filtered().map(({images,...g})=>g)},null,2),'application/json;charset=utf-8'));
  $('close-viewer').addEventListener('click',()=>$('image-viewer').close());$('image-viewer').addEventListener('click',e=>{if(e.target===$('image-viewer'))$('image-viewer').close();});
